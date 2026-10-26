@@ -5,7 +5,8 @@ import GymSection from './components/GymSection.jsx';
 import Hero from './components/Hero.jsx';
 import { useSmoothScroll } from './hooks/useSmoothScroll.js';
 import Champions from './components/Champions.jsx';
-import { Footer, Manifesto, Partners, Store, Ticker } from './components/BrandSections.jsx';
+import StoreSection from './components/StoreSection.jsx';
+import { Footer, Manifesto, Partners, Ticker } from './components/BrandSections.jsx';
 
 export default function App() {
   useSmoothScroll();
@@ -18,10 +19,10 @@ export default function App() {
         <Manifesto />
         <Champions />
         <MediaSection />
+        <StoreSection />
+        <GymSection />
         <Ticker />
         <FightCard />
-        <Store />
-        <GymSection />
         <Partners />
       </main>
       <Footer />

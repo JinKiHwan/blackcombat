@@ -11,22 +11,6 @@ export default function Hero({ slides = heroSlides }) {
   return (
     <section className="main-visual" aria-labelledby="hero-title">
       <h1 id="hero-title" className="sr-only">블랙컴뱃 메인 비주얼</h1>
-      <svg className="pagination-filters" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          {/* Figma 텍스처의 세부 수치가 없어 고정 시드 노이즈로 질감을 근사합니다. */}
-          <filter id="pagination-texture" x="0" y="0" width="100%" height="100%" colorInterpolationFilters="sRGB">
-            <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="7" stitchTiles="stitch" result="grain" />
-            <feColorMatrix in="grain" type="saturate" values="0" result="mono-grain" />
-            <feComponentTransfer in="mono-grain" result="soft-grain">
-              <feFuncR type="linear" slope=".6" intercept=".2" />
-              <feFuncG type="linear" slope=".6" intercept=".2" />
-              <feFuncB type="linear" slope=".6" intercept=".2" />
-            </feComponentTransfer>
-            <feBlend in="SourceGraphic" in2="soft-grain" mode="soft-light" result="textured-icon" />
-            <feComposite in="textured-icon" in2="SourceGraphic" operator="in" />
-          </filter>
-        </defs>
-      </svg>
       <Swiper
         className="visual-swiper"
         modules={[Navigation, Pagination, Keyboard, A11y]}

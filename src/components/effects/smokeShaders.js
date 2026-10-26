@@ -88,14 +88,28 @@ export const fragmentSource = `
         float ty = u_flowTime.y * 0.18;
         float t = u_time * 0.15;
 
-        // 좌측에서 우측으로 흐르면서 자연스럽게 위아래로 물결치는 기류 왜곡(Stream Wave)
+        // 서로 다른 주기의 바람과 국소 회전 기류를 섞어 덩어리마다 다르게 일렁이게 합니다.
+        // 저주파 노이즈의 수직 기울기를 회전시킨 curl 방향으로 좌표를 휘게 합니다.
+        vec2 windP = p * 1.45 + vec2(-t * 0.09, t * 0.065);
+        float epsilon = 0.12;
+        vec2 curl = vec2(
+          noise(windP + vec2(0.0, epsilon)) - noise(windP - vec2(0.0, epsilon)),
+          noise(windP - vec2(epsilon, 0.0)) - noise(windP + vec2(epsilon, 0.0))
+        ) / (2.0 * epsilon);
+        float eddyStrength = 0.09 + 0.025 * sin(t * 0.47 + p.x * 1.8);
         vec2 streamP = p;
-        streamP.y -= sin(p.x * 2.2 - tx * 1.4) * 0.08 * u_turbulence;
+        streamP += curl * eddyStrength * u_turbulence;
+        streamP.x += sin(p.y * 3.4 + t * 0.31) * 0.025 * u_turbulence;
+        streamP.y -= (
+          sin(p.x * 2.2 - tx * 1.4 + t * 0.13) * 0.055 +
+          sin(p.x * 4.7 + p.y * 1.9 - t * 0.39) * 0.025
+        ) * u_turbulence;
 
         // 1단계 Domain Warping: 좌에서 우로 흐르는 큰 줄기의 기류
         vec2 q = vec2(0.0);
         q.x = fbm(streamP * 1.65 - vec2(tx * 1.35, ty * 0.65));
         q.y = fbm(streamP * 1.65 + vec2(4.2 - tx * 1.15, 1.7 - ty * 0.85));
+        q += vec2(sin(t * 0.37 + q.y * 4.0), cos(t * 0.29 + q.x * 4.0)) * 0.06;
 
         // 2단계 Domain Warping: 오른쪽으로 밀려가며 회전하는 소용돌이(Curl) 디테일
         vec2 r = vec2(0.0);
@@ -115,7 +129,7 @@ export const fragmentSource = `
         combinedSmoke = smoothstep(0.16, 0.88, combinedSmoke);
 
         // 전경(Foreground)에 좌에서 우로 빠르게 스쳐 지나가는 굵은 안개 레이어 추가 (깊이감 부여)
-        float fgSmoke = fbm(p * vec2(1.05, 1.3) + q * 1.15 - vec2(tx * 2.75, ty * 0.7));
+        float fgSmoke = fbm((p - curl * 0.045) * vec2(1.05, 1.3) + q * 1.15 - vec2(tx * 2.75, ty * 0.7 + sin(t * 0.23) * 0.06));
         fgSmoke = smoothstep(0.25, 0.85, fgSmoke);
 
         // 공간별 마스크 계산: 왼쪽 및 좌하단에서 풍부하게 유입되어 오른쪽으로 흐르며 퍼지는 구도

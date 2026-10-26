@@ -89,8 +89,10 @@ export default function CinematicSmoke() {
       const dt = lastTime ? Math.min((now - lastTime) / 1000, 0.1) : 0;
       lastTime = now;
       time += dt;
-      flowX += dt * smokeOptions.speed;
-      flowY += dt * smokeOptions.verticalDrift;
+      // 기본 속도는 유지하면서 서서히 강해지고 잦아드는 비주기적인 바람을 만듭니다.
+      const breeze = 1 + 0.16 * Math.sin(time * 0.23) + 0.08 * Math.sin(time * 0.61 + 1.7);
+      flowX += dt * smokeOptions.speed * breeze;
+      flowY += dt * smokeOptions.verticalDrift * (1 + 0.25 * Math.sin(time * 0.19 + 0.8));
       draw();
     }
 

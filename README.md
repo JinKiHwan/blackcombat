@@ -20,7 +20,8 @@ npm run dev
 - `src/components/effects/CinematicSmoke.jsx`, `smokeShaders.js`: 사용자 제공 WebGL 스모그 효과
 - `src/hooks/useSmoothScroll.js`: Lenis 스크롤 및 정리
 - `src/components/FightCard.jsx`: 대진·선수·응원 비율·댓글
-- `src/components/BrandSections.jsx`: 브랜드 소개·챔피언·스토어·푸터
+- `src/components/BrandSections.jsx`: 브랜드 소개·파트너·푸터
+- `src/components/StoreSection.jsx`, `store.css`: 배경 영상 스토어 배너
 - `src/components/MediaSection.jsx`: 유튜브 조회 및 로딩·빈 결과·오류 처리, 언마운트 시 요청 취소
 - `src/components/GymSection.jsx`: 체육관 탭
 - `src/components/shared.jsx`: 공통 이미지 영역·섹션 제목·워드마크
@@ -31,7 +32,7 @@ npm run dev
 
 ## 현재 구현
 
-- 히어로 → 브랜드 소개 → CHAMP → MEDIA & LEGACY → 티커 → 파이트 카드 → 스토어 → 체육관 → 파트너/푸터
+- 히어로 → 브랜드 소개 → CHAMP → MEDIA & LEGACY → 스토어 → GYM → 티커 → 파이트 카드 → 파트너/푸터
 - 모바일 메뉴, 대진 선택, 체육관 탭
 - 대진별 응원 선택 및 변경, 응원 비율 표시, 익명 댓글 등록
 - localStorage 데모: 새로고침 후 유지, 대진별 분리, 최근 댓글 5개 표시 / 최대 50개 저장
@@ -46,7 +47,22 @@ npm run dev
 2. `src/data.js`의 `heroSlides`에 메인 비주얼을 추가하고, `site.assets`에 브랜드 소개·스토어·체육관 이미지 경로를 지정합니다.
 3. 선수는 `matches[].fighters[].image`, 챔피언은 `champions[].image`에 경로를 지정합니다. 미디어 썸네일은 공식 채널 영상에서 자동으로 연결합니다.
 4. 동일 파일에서 대진·선수명·전적·챔피언 이름을 교체합니다. 실제 서비스 전 `demo-` ID와 예시 응원 수도 교체해야 합니다.
-5. 스토어 링크, 파트너 및 사업자 정보는 `src/components/BrandSections.jsx`, 체육관 주소는 `src/components/GymSection.jsx`에서 교체합니다.
+5. 스토어 링크·영상은 `src/components/StoreSection.jsx`, 파트너·사업자 정보는 `BrandSections.jsx`, 체육관 주소는 `GymSection.jsx`에서 교체합니다.
+
+## 스토어
+
+- 미디어 다음에 전체 너비 배경 영상 배너를 표시합니다. 원본 영상은 `https://player-api.charlla.io/mp4/lx8mgdfzm83`를 직접 스트리밍합니다.
+- 음소거·자동재생·반복·모바일 인라인 재생. 화면 밖/비활성 탭/모션 감소 설정에서는 정지합니다. 자동재생이 차단되면 수동 재생 버튼을 표시합니다.
+- 중앙 공통 타이틀과 골드 버튼을 배치하며 `https://blackcombatstore.com/`으로 새 탭에서 즉시 이동합니다. 버튼은 초기 크기의 80%(데스크톱 최소 224×64px)입니다.
+- 실제 원격 영상의 재생 시간 증가, muted/loop/playsInline, 버튼 이동, 데스크톱·모바일 화면과 빌드를 확인했습니다.
+
+## GYM
+
+- `src/gym-data.js`: Official Gym은 `official_01.webp`~`official_14.webp`, Daejeon Gym은 `daejeon.webp`를 연결합니다.
+- `GymSection.jsx`, `gym.css`: 탭 전환, 중앙 사진과 어두운 다음 사진 미리보기, 수동 Swiper·화살표·사진 개수만큼 페이지네이션(간격 2px). 자동재생·루프·되감기 없음. 다음 사진이 활성 사진 뒤에 겹칩니다.
+- 탭 전환 시 첫 사진으로 초기화하고, 대전처럼 1장만 있으면 화살표를 표시하지 않습니다. 키보드 좌우/Home/End로 탭을 전환할 수 있습니다.
+- 탭 글꼴은 Noto Serif Regular 20px입니다. 사진 우하단의 카카오맵·인스타그램은 탭별 설정을 새 탭으로 엽니다. 카카오맵은 사용자가 제공한 동일 URL을 두 지점에 적용했습니다.
+- 오피셜 14장/대전 1장, 슬라이드·페이지네이션·탭 초기화·키보드 전환·모바일 가로 넘침 없음과 빌드를 검증했습니다.
 
 권장 이미지: 히어로 가로형 1920px 이상, 선수·챔피언 투명 배경 세로형 PNG/WebP, 미디어 16:9, 체육관 가로형. 이미지를 비워두면 CSS 자리 표시자가 표시됩니다.
 
@@ -81,7 +97,7 @@ npm run dev
 - 화살표는 `swiper-arrow.webp`를 사용하고 왼쪽만 180도 회전합니다.
 - 스모그는 이미지 위의 독립 캔버스이며 `pointer-events: none`입니다. 마우스·터치 반응 로직과 좌표 리스너를 제거하여 슬라이드 링크·드래그를 방해하지 않습니다.
 - 메인 섹션은 overflow visible, Swiper 내부는 overflow hidden으로 분리합니다. 연기 캔버스를 아래로 100~220px 확장하고 마스크로 페이드아웃하여 다음 섹션 위까지 자연스럽게 이어집니다.
-- 기본 배경은 검정입니다. `body::before`를 문서 전체 높이에 배치하고 `grunge.webp`를 1440px 폭으로 `background-repeat: repeat`하여 적용합니다. `invert(1)` + `screen` 합성, 농도 16%로 불투명 섹션·이미지·헤더 위에서도 질감이 이어지며 `pointer-events: none`으로 클릭을 통과시킵니다.
+- 기본 배경은 검정입니다. `body::before`를 문서 전체 높이에 배치하고 `grunge.webp`를 1440px 폭으로 `background-repeat: repeat`하여 적용합니다. `invert(1)` + `screen` 합성, 농도 16%로 콘텐츠 아래 배경에 질감을 표시하며 `pointer-events: none`으로 클릭을 통과시킵니다.
 - 옵션: 수평 속도 0.15, 수직 기류 -0.05, 농도 0.58, 소용돌이 1.30, 결 0.10, 하단 마스크 1.00. 색은 첨부 코드 기본값을 사용합니다.
 - 셰이더는 첨부 FBM/Domain Warping 코드를 사용합니다. 역순 `smoothstep`은 같은 방향의 마스크를 만드는 `1 - smoothstep`으로 보정했습니다.
 - 최대 960px 렌더 폭·30fps 제한, 화면 밖/비활성 탭 일시 정지, 모션 감소 설정 시 정지 프레임. WebGL 미지원 시 원본 비주얼을 표시합니다.

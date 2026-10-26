@@ -22,15 +22,6 @@ export function Manifesto() {
   );
 }
 
-export function Store() {
-  return (
-    <section className="store">
-      <Asset image={site.assets.store} aria-hidden="true" />
-      <div className="container store-inner"><div><p className="eyebrow">WEAR YOUR SPIRIT</p><h2 className="section-title">BLACK COMBAT<br /><em>STORE.</em></h2><p>케이지 밖에서도, 블랙컴뱃.</p></div><span className="button outline">스토어 링크 준비 중 ↗</span></div>
-    </section>
-  );
-}
-
 export function Partners() {
   return <div className="partners container"><span>OUR PARTNERS</span><p>파트너 로고 영역</p><p>PARTNER 01</p><p>PARTNER 02</p><p>PARTNER 03</p></div>;
 }

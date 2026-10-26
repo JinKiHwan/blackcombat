@@ -1,4 +1,12 @@
 @font-face {
+  font-family: 'Noto Serif';
+  src: url('/fonts/NotoSerif-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Song Myung';
   src: url('/fonts/SongMyung-Regular.ttf') format('truetype');
   font-style: normal;

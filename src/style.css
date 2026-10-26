@@ -13,12 +13,12 @@ body {
   isolation: isolate;
   background-color: #000;
 }
-/* 전체 문서 높이를 따라 반복합니다. 불투명 섹션 위에서도 질감이 이어집니다. */
+/* 전체 문서에 반복하되, 콘텐츠 아래에 두어 글자·이미지·영상을 덮지 않습니다. */
 body::before {
   content: '';
   position: absolute;
   inset: 0;
-  z-index: 2;
+  z-index: -1;
   pointer-events: none;
   user-select: none;
   background-image: url('/images/common/grunge.webp');
