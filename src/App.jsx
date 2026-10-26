@@ -1,12 +1,12 @@
+import RisingEmbers from './components/effects/RisingEmbers.jsx';
 import Header from './components/Header.jsx';
-import FightCard from './components/FightCard.jsx';
 import MediaSection from './components/MediaSection.jsx';
 import GymSection from './components/GymSection.jsx';
 import Hero from './components/Hero.jsx';
 import { useSmoothScroll } from './hooks/useSmoothScroll.js';
 import Champions from './components/Champions.jsx';
 import StoreSection from './components/StoreSection.jsx';
-import { Footer, Manifesto, Partners, Ticker } from './components/BrandSections.jsx';
+import { Footer, Manifesto, Partners } from './components/BrandSections.jsx';
 
 export default function App() {
   useSmoothScroll();
@@ -21,11 +21,10 @@ export default function App() {
         <MediaSection />
         <StoreSection />
         <GymSection />
-        <Ticker />
-        <FightCard />
         <Partners />
       </main>
       <Footer />
+      {['/', '/index.html'].includes(window.location.pathname) && <RisingEmbers />}
     </>
   );
 }

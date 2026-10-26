@@ -14,7 +14,6 @@ export const site = {
     }
 };
 
-// 두 번째·세 번째 슬라이드는 전환 확인용 목업입니다. 실제 콘텐츠 준비 후 교체하세요.
 export const heroSlides = [
     {
         id: 'vantablack',
@@ -22,26 +21,19 @@ export const heroSlides = [
         alt: 'BLACK COMBAT XVII: VANTABLACK. 2026년 11월 21일, 고척 스카이돔.'
     },
     {
-        id: 'mock-fight-night',
-        mock: true,
-        eyebrow: 'BLACK COMBAT · FIGHT NIGHT',
-        title: ['THE NEXT', 'KING.'],
-        description: '다음 왕좌의 주인공은 누구인가.',
-        detail: '당신이 응원하는 선수에게 한 표를 보내세요.',
-        href: '#fight-card',
-        cta: '파이트 카드 보기',
-        theme: 'gold'
+        id: 'black-cup-semifinal',
+        image: '/images/visual/33623.png',
+        alt: 'BnD BLACK CUP 4강, KOREA OMEGA 대 MONGOLIA. 2026년 7월 26일, 잠실학생체육관.'
     },
     {
-        id: 'mock-inside',
-        mock: true,
-        eyebrow: 'BLACK COMBAT · INSIDE THE CAGE',
-        title: ['BEYOND', 'THE FIGHT.'],
-        description: '승부 뒤에 남겨진, 진짜 이야기.',
-        detail: '케이지 안팎의 순간을 만나보세요.',
-        href: '#media',
-        cta: '미디어 살펴보기',
-        theme: 'silver'
+        id: 'breaking-down',
+        image: '/images/visual/75017.png',
+        alt: 'BREAKING DOWN 대 BLACK COMBAT. 2026년 6월 14일.'
+    },
+    {
+        id: 'black-cup-quarterfinal',
+        image: '/images/visual/81565.png',
+        alt: 'BnD BLACK CUP 8강, EURASIA 대 KOREA OMEGA. 2026년 5월 2일, 부천체육관.'
     }
 ];
 

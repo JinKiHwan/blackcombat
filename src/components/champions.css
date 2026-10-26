@@ -31,7 +31,7 @@
 .champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-weight { color: #eab00b; }
 .champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-portrait { filter: drop-shadow(0 0 2px #eab00b99); }
 
-/* 금박·황동·샴페인 계열만 합성합니다. 카드와 인물은 회전하거나 기울이지 않습니다. */
+/* 처음의 금박 무늬를 유지하며 반사광만 불규칙하게 일렁입니다. */
 .champ-holo {
   position: absolute;
   inset: calc(-1 * var(--holo-headroom, 64px)) 0 0;
@@ -57,6 +57,8 @@
   background-position: center, var(--foil-x, 50%) var(--foil-y, 50%), center;
   background-blend-mode: multiply, soft-light, normal;
   mask-image: radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #000 3%, #000a 35%, transparent 72%);
+  opacity: var(--holo-edge, .8);
+  animation: champ-foil-ripple 5.7s ease-in-out infinite paused;
 }
 .champ-holo::after {
   content: '';
@@ -72,8 +74,27 @@
   mask-image: radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #000, transparent 66%);
   opacity: var(--holo-glare, .5);
   box-shadow: inset 0 0 12px #eab00b66;
+  animation: champ-foil-glimmer 4.3s ease-in-out infinite paused;
 }
-.champ-holo::before { opacity: var(--holo-edge, .8); }
+.champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-holo::before,
+.champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-holo::after { animation-play-state: running; }
+@keyframes champ-foil-ripple {
+  0%, 100% { background-size: 300px auto, 250% 250%, 100% 100%; filter: brightness(1); }
+  13% { background-size: 300px auto, 263% 242%, 104% 98%; filter: brightness(1.14); }
+  31% { background-size: 300px auto, 246% 259%, 98% 105%; filter: brightness(.92); }
+  47% { background-size: 300px auto, 258% 247%, 103% 101%; filter: brightness(1.2); }
+  56% { background-size: 300px auto, 251% 255%, 100% 103%; filter: brightness(1.03); }
+  79% { background-size: 300px auto, 240% 246%, 105% 97%; filter: brightness(1.12); }
+  91% { background-size: 300px auto, 255% 253%, 99% 102%; filter: brightness(.96); }
+}
+@keyframes champ-foil-glimmer {
+  0%, 100% { filter: brightness(1); }
+  19% { filter: brightness(.78); }
+  37% { filter: brightness(1.16); }
+  52% { filter: brightness(.94); }
+  73% { filter: brightness(1.24); }
+  86% { filter: brightness(.87); }
+}
 .champ-tile:not(.is-vacant):focus-visible .champ-holo { opacity: var(--holo-intensity, .35); transition-delay: 60ms; }
 @media (hover: hover) and (pointer: fine) {
   .champ-tile:not(.is-vacant):hover .champ-holo { opacity: var(--holo-intensity, .35); transition-delay: 60ms; }

@@ -1,5 +1,9 @@
 import { site } from '../data.js';
-import { Asset, SectionHeading, Wordmark } from './shared.jsx';
+import { Asset } from './shared.jsx';
+import { Autoplay, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import './footer.css';
 
 export function Ticker() {
   return <div className="ticker" aria-hidden="true"><span>WHO IS THE KING?</span><i>✦</i><span>BLACK COMBAT</span><i>✦</i><span>BEYOND THE FIGHT</span><i>✦</i><span>WHO IS THE KING?</span><i>✦</i></div>;
@@ -22,12 +26,58 @@ export function Manifesto() {
   );
 }
 
+const sponsors = [
+  ['sponsors_lg.png', 'LG'],
+  ['sponsor_doctorzon.png', '닥터존'],
+  ['sponsor_pg.png', 'Pocket Games Soft'],
+  ['sponsors_bysec.png', 'BYSEC'],
+  ['sponsor_img_3.png', 'ZEBRA'],
+  ['sponsor_downton.png', 'DOWNTON THE BLACK'],
+  ['sponsor_musinsa.png', 'MUSINSA'],
+  ['sponsors_iyagi.png', 'IYAGI'],
+  ['sponsor_borntowin.png', 'BORN TO WIN'],
+  ['sponsor_bf.png', 'BF'],
+  ['sponsors_inbody.png', 'InBody'],
+  ['sponsor_ojida.png', '오지다'],
+  ['sponsor_daeati.png', '대아티아이'],
+];
+
 export function Partners() {
-  return <div className="partners container"><span>OUR PARTNERS</span><p>파트너 로고 영역</p><p>PARTNER 01</p><p>PARTNER 02</p><p>PARTNER 03</p></div>;
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  return (
+    <section className="sponsor-strip" aria-label="블랙컴뱃 스폰서">
+      <Swiper
+        modules={[Autoplay, A11y]}
+        slidesPerView="auto"
+        slidesPerGroup={1}
+        speed={1400}
+        loop
+        autoplay={reducedMotion ? false : { delay: 2800, disableOnInteraction: false, pauseOnMouseEnter: true }}
+        a11y={{ containerMessage: '블랙컴뱃 스폰서', slideLabelMessage: '{{slidesLength}}개 중 {{index}}번째 스폰서' }}
+      >
+        {sponsors.map(([file, name]) => (
+          <SwiperSlide key={file} className={`sponsor-logo${file === 'sponsor_downton.png' ? ' sponsor-logo--wide' : ''}`}>
+            <img src={`/images/sponsor/${file}`} alt={name} loading="lazy" draggable="false" />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </section>
+  );
 }
 
 export function Footer() {
   return (
-    <footer className="container footer"><Wordmark /><p>블랙컴뱃 브랜딩 페이지 · 프로토타입<br />이미지 및 공식 정보는 추후 업데이트됩니다.</p><span>© 2026 BLACK COMBAT CONCEPT</span><a href="#">BACK TO TOP ↑</a></footer>
+    <footer className="footer site-footer">
+      <p>
+        회사명 : 주식회사 이데아 파라곤<br />
+        주소 : 서울시 성동구 서울숲2길 35<br />
+        사업자 등록번호 : 682-81-02925<br />
+        대표 : 박평화<br />
+        전화 : <a href="tel:07052229146">070-5222-9146</a><br />
+        통신판매업신고번호 : 2025-서울성동-1110<br />
+        개인정보 보호책임자 : 박영광 (<a href="mailto:ideaparagon.official@gmail.com">ideaparagon.official@gmail.com</a>)<br />
+        Blackcombat © 2026. All Rights Reserved.
+      </p>
+    </footer>
   );
 }

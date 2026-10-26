@@ -1,11 +1,15 @@
-import { A11y, Keyboard, Navigation, Pagination } from 'swiper/modules';
+import { useRef } from 'react';
+import PixelTransition from './effects/PixelTransition.jsx';
+import { A11y, EffectFade, Keyboard, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { heroSlides } from '../data.js';
 import CinematicSmoke from './effects/CinematicSmoke.jsx';
 import 'swiper/css';
+import 'swiper/css/effect-fade';
 import './hero.css';
 
 export default function Hero({ slides = heroSlides }) {
+  const pixelRef = useRef(null);
   if (!slides.length) return null;
 
   return (
@@ -13,9 +17,15 @@ export default function Hero({ slides = heroSlides }) {
       <h1 id="hero-title" className="sr-only">블랙컴뱃 메인 비주얼</h1>
       <Swiper
         className="visual-swiper"
-        modules={[Navigation, Pagination, Keyboard, A11y]}
+        modules={[Navigation, Pagination, Keyboard, A11y, EffectFade]}
+        effect="fade"
+        fadeEffect={{ crossFade: true }}
+        onSlideChange={swiper => {
+          const previous = swiper.slides[swiper.previousIndex]?.querySelector('.visual-image');
+          pixelRef.current?.play(previous, swiper.activeIndex >= swiper.previousIndex ? 1 : -1);
+        }}
         slidesPerView={1}
-        speed={650}
+        speed={1000}
         autoplay={false}
         rewind={slides.length > 1}
         watchOverflow={false}
@@ -58,6 +68,7 @@ export default function Hero({ slides = heroSlides }) {
             </SwiperSlide>
           );
         })}
+        <div slot="container-end" className="visual-pixel-layer"><PixelTransition ref={pixelRef} /></div>
         <button className="visual-arrow visual-prev" slot="container-end" type="button" aria-label="이전 비주얼"><img src="/images/common/swiper-arrow.webp" alt="" /></button>
         <button className="visual-arrow visual-next" slot="container-end" type="button" aria-label="다음 비주얼"><img src="/images/common/swiper-arrow.webp" alt="" /></button>
         <div className="visual-pagination" slot="container-end" />

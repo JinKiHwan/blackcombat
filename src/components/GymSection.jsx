@@ -14,6 +14,10 @@ function GymGallery({ gym }) {
 
   return (
     <div id={`gym-panel-${gym.id}`} className="gym-gallery" role="tabpanel" aria-labelledby={`gym-tab-${gym.id}`}>
+      <div className="gym-social" aria-label={`${gym.label} 외부 링크`}>
+        <a href={gym.map} target="_blank" rel="noopener noreferrer" aria-label={`${gym.label} 카카오맵 열기 · 새 탭`}><img src="/images/common/kakaomap.webp" alt="" width="48" height="48" draggable="false" /></a>
+        <a href={gym.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${gym.label} 인스타그램 · 새 탭`}><img src="/images/common/instagram.webp" alt="" width="48" height="48" draggable="false" /></a>
+      </div>
       <div className="gym-stage">
         <Swiper
           className="gym-swiper"
@@ -43,10 +47,6 @@ function GymGallery({ gym }) {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="gym-social" aria-label={`${gym.label} 외부 링크`}>
-          <a href={gym.map} target="_blank" rel="noopener noreferrer" aria-label={`${gym.label} 카카오맵 열기 · 새 탭`}><img src="/images/common/kakaomap.webp" alt="" width="48" height="48" draggable="false" /></a>
-          <a href={gym.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${gym.label} 인스타그램 · 새 탭`}><img src="/images/common/instagram.webp" alt="" width="48" height="48" draggable="false" /></a>
-        </div>
         {count > 1 && <>
           <button className="gym-nav gym-prev" type="button" aria-label="이전 체육관 사진" disabled={active === 0} onClick={() => swiperRef.current?.slidePrev()}><img src="/images/common/swiper-arrow.webp" alt="" /></button>
           <button className="gym-nav gym-next" type="button" aria-label="다음 체육관 사진" disabled={active === count - 1} onClick={() => swiperRef.current?.slideNext()}><img src="/images/common/swiper-arrow.webp" alt="" /></button>

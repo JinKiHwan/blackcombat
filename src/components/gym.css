@@ -1,6 +1,6 @@
 .gym-section { padding-block: 90px 110px; overflow: hidden; }
 .gym-heading { text-align: center; margin-bottom: 45px; }
-.gym-location-tabs { display: flex; justify-content: center; gap: 70px; margin-bottom: 40px; }
+.gym-location-tabs { display: flex; justify-content: center; gap: 70px; margin-bottom: 16px; }
 .gym-location-tabs button { border: 0; background: transparent; padding: 12px 4px; font-family: 'Noto Serif', serif; font-size: 20px; font-weight: 400; color: #ffffff66; transition: color 200ms ease; }
 .gym-location-tabs button[aria-selected='true'], .gym-location-tabs button:hover { color: #fff; }
 .gym-stage { position: relative; width: min(1100px, calc(100% - 80px)); margin-inline: auto; }
@@ -16,21 +16,21 @@
 .gym-prev { left: 0; }
 .gym-prev img { transform: rotate(180deg); }
 .gym-next { right: 0; }
-.gym-social { position: absolute; right: 16px; bottom: 14px; z-index: 3; display: flex; align-items: center; gap: 14px; padding: 8px 10px; background: #0008; border-radius: 5px; }
-.gym-social a { display: grid; place-items: center; width: 48px; height: 48px; transition: opacity 200ms ease; }
+.gym-social { display: flex; align-items: center; justify-content: center; gap: 13px; margin: 0 auto 28px; }
+.gym-social a { display: grid; place-items: center; width: 35px; height: 35px; transition: opacity 200ms ease; }
 .gym-social a:hover { opacity: .8; }
-.gym-social img { display: block; width: 48px; height: 48px; object-fit: contain; }
+.gym-social img { display: block; width: 35px; height: 35px; object-fit: contain; }
 .gym-section .gym-pagination { position: static; transform: none; width: min(1100px, calc(100% - 40px)); margin: 8px auto 0; gap: 2px; flex-wrap: wrap; }
 .gym-section .gym-pagination .swiper-pagination-bullet { width: 42px; flex: 0 0 42px; }
 .gym-section .gym-pagination .swiper-pagination-bullet::before { width: 20px; }
 @media (max-width: 680px) {
-  .gym-social { right: 6px; bottom: 6px; gap: 4px; padding: 2px; }
+  .gym-social { gap: 8px; margin-bottom: 20px; }
   .gym-social a { width: 44px; height: 44px; }
   .gym-social img { width: 34px; height: 34px; }
   .gym-section .gym-pagination .swiper-pagination-bullet::before { width: 12px; }
   .gym-section { padding-block: 55px 70px; }
   .gym-heading { margin-bottom: 25px; }
-  .gym-location-tabs { gap: 35px; margin-bottom: 25px; }
+  .gym-location-tabs { gap: 35px; margin-bottom: 12px; }
   .gym-location-tabs button { font-size: 20px; }
   .gym-stage { width: calc(100% - 40px); }
   .gym-nav { width: 36px; height: 54px; }
