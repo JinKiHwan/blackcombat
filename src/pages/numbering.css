@@ -1,0 +1,98 @@
+.numbering-page { background: linear-gradient(#000, #0000 40%, #0009); padding-bottom: 150px; }
+.numbering-hero { max-width: 1920px; margin: 0 auto; }
+.numbering-hero img { display: block; width: 100%; height: min(45.833333vw, 450px); max-height: 450px; object-fit: contain; mask-image: linear-gradient(#000 80%, transparent); }
+.numbering-card { max-width: 1720px; margin: 125px auto 0; padding: 0 32px; }
+.numbering-page h2 { text-align: center; color: #c99f18; font: 400 clamp(25px, 2.7vw, 48px)/1.3 var(--display); margin: 0; }
+.numbering-demo { margin: 16px 0 65px; text-align: center; font-size: 11px; color: #858078; }
+.numbering-match { position: relative; display: grid; grid-template-columns: 1fr 1.15fr 1fr; align-items: end; min-height: 570px; }
+.numbering-fighter { display: block; width: 100%; height: 570px; object-fit: contain; object-position: bottom; mask-image: linear-gradient(#000 86%, transparent); }
+.numbering-info { align-self: end; padding: 0 10px 30px; position: relative; z-index: 1; animation: numbering-reveal .35s ease; }
+.numbering-names { display: flex; justify-content: space-between; }
+.numbering-names > div:last-child { text-align: right; }
+.numbering-names h3 { margin: 0; font: 400 24px/1.2 'Song Myung', serif; }
+.numbering-names span { font-size: 13px; color: #999; }
+.numbering-prediction { margin-top: 8px; height: 14px; background: #bbb; overflow: hidden; border-radius: 3px; }
+.numbering-prediction > span { height: 100%; display: block; background: #eab800; clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 100%, 0 100%); transition: width .3s; }
+.numbering-percent { display: flex; justify-content: space-between; color: #aaa; font-size: 13px; margin: 4px 0 30px; }
+.numbering-stats { margin: 0; }
+.numbering-stats > div { display: grid; grid-template-columns: 1fr 78px 1fr; align-items: center; margin: 12px 0; font-size: 14px; }
+.numbering-stats dt { grid-column: 2; grid-row: 1; text-align: center; color: #777; font-size: 10px; }
+.numbering-stats dd { grid-row: 1; margin: 0; }
+.numbering-stats dd:nth-child(2) { grid-column: 1; }
+.numbering-stats dd:last-child { grid-column: 3; text-align: right; }
+.numbering-stats > div:first-child dd:first-of-type { color: #eab800; }
+.numbering-stats > div:last-child dd { font-size: 11px; }
+.numbering-community { margin-top: 38px; }
+.numbering-community ul { list-style: none; padding: 0; margin: 0 0 8px; font-size: 11px; color: #b1afa8; min-height: 32px; }
+.numbering-community li span { color: #777; }
+.numbering-community form { display: flex; gap: 5px; }
+.numbering-community input { width: 0; flex: 1; min-width: 0; background: #333; border: 1px solid #aa891e; color: #fff; padding: 7px; font-size: 11px; }
+.numbering-community button { border: 0; padding: 6px 15px; background: #444; color: #fff; font-size: 11px; }
+.numbering-community .numbering-bet { background: #eab800; color: #000; }
+.numbering-votes { display: flex; justify-content: space-between; margin-top: 8px; gap: 8px; }
+.numbering-votes button { background: transparent; color: #a7a296; padding: 5px 0; }
+.numbering-votes button[aria-pressed='true'] { color: #eab800; }
+.numbering-status { font-size: 10px; color: #b4a26c; min-height: 14px; margin: 4px 0 0; }
+.numbering-arrow { position: absolute; top: 45%; z-index: 2; background: none; border: 0; padding: 10px; }
+.numbering-arrow img { width: 35px; height: 65px; object-fit: contain; }
+.numbering-arrow--prev { left: -30px; }
+.numbering-arrow--prev img { transform: rotate(180deg); }
+.numbering-arrow--next { right: -30px; }
+.numbering-match-list { display: flex; overflow-x: auto; gap: 20px; padding: 15px 0 25px; scrollbar-color: #5b4b20 transparent; }
+.numbering-match-list > button { flex: 0 0 210px; border: 0; padding: 0; background: transparent; color: #999; font-size: 13px; }
+.numbering-match-thumb { display: flex; height: 135px; background: linear-gradient(120deg, #151515, #444); border: 1px solid transparent; border-radius: 8px; overflow: hidden; margin-bottom: 10px; }
+.numbering-match-thumb img, .numbering-match-thumb > div { width: 50%; height: 100%; object-fit: contain; object-position: bottom; }
+.numbering-match-list button[aria-pressed='true'] { color: #e0bc55; }
+.numbering-match-list button[aria-pressed='true'] .numbering-match-thumb { border-color: #ad8a25; }
+.numbering-silhouette { position: relative; overflow: hidden; }
+.numbering-silhouette::before { content: ''; position: absolute; width: 28%; height: 24%; top: 12%; left: 36%; border-radius: 50%; background: #050505; }
+.numbering-silhouette span { position: absolute; width: 78%; height: 68%; bottom: 0; left: 11%; background: #050505; border-radius: 45% 45% 0 0; }
+.numbering-venue { max-width: 1600px; margin: 140px auto 0; padding: 0 32px; }
+.numbering-venue h2 { margin-bottom: 25px; }
+.numbering-venue-placeholder { aspect-ratio: 16/9; border: 1px solid #ac871b; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: radial-gradient(ellipse at 50% 90%, #73501f44, transparent 65%), linear-gradient(#0007, #000b), url('/images/bg/branding.webp') center/cover; color: #d2b76c; }
+.numbering-venue-placeholder strong { font: 400 clamp(30px, 6vw, 100px)/1.05 var(--display); margin: 20px 0; }
+.numbering-venue-placeholder span { font-size: 12px; letter-spacing: 4px; }
+.numbering-venue-placeholder p { font-size: 14px; }
+.numbering-venue-placeholder small { color: #888; font-size: 11px; }
+.numbering-not-found { min-height: 70vh; display: grid; place-content: center; gap: 25px; text-align: center; }
+.numbering-not-found h1 { font-size: 28px; letter-spacing: 0; }
+@keyframes numbering-reveal { from { opacity: .3; } to { opacity: 1; } }
+@media (max-width: 900px) {
+  .numbering-card { margin-top: 65px; padding-inline: 24px; }
+  .numbering-match { grid-template-columns: 1fr 1fr; min-height: 0; }
+  .numbering-fighter { height: 340px; }
+  .numbering-info { grid-column: 1 / -1; grid-row: 2; width: min(560px, 100%); margin: 25px auto 0; }
+  .numbering-arrow--prev { left: -20px; }
+  .numbering-arrow--next { right: -20px; }
+  .numbering-arrow { top: 140px; }
+  .numbering-demo { margin-bottom: 30px; }
+  .numbering-match-list > button { flex-basis: 160px; }
+  .numbering-match-thumb { height: 110px; }
+  .numbering-venue { margin-top: 75px; padding-inline: 24px; }
+  .numbering-page { padding-bottom: 80px; }
+}
+@media (max-width: 480px) {
+  .numbering-fighter { height: 260px; }
+  .numbering-arrow { top: 100px; }
+  .numbering-arrow img { width: 22px; height: 42px; }
+  .numbering-names h3 { font-size: 22px; }
+  .numbering-venue-placeholder span { letter-spacing: 2px; font-size: 9px; }
+  .numbering-venue-placeholder strong { margin: 12px 0; }
+  .numbering-venue-placeholder p { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { .numbering-info { animation: none; } }
+
+.numbering-title-id { position: relative; isolation: isolate; display: inline-block; }
+.numbering-title-id::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 2.8em;
+  height: 2.8em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url('/images/common/blood.png') center / contain no-repeat;
+  opacity: .22;
+  pointer-events: none;
+}

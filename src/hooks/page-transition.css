@@ -1,0 +1,17 @@
+#root {
+  animation: page-arrive 420ms ease-out both;
+}
+#root.page-leaving {
+  animation: page-depart 280ms ease-in both;
+}
+@keyframes page-arrive {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes page-depart {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #root, #root.page-leaving { animation: none; }
+}

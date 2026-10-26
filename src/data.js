@@ -17,6 +17,7 @@ export const site = {
 export const heroSlides = [
     {
         id: 'vantablack',
+        href: '/numbering/17',
         image: '/images/visual/vantablack.webp',
         alt: 'BLACK COMBAT XVII: VANTABLACK. 2026년 11월 21일, 고척 스카이돔.'
     },
