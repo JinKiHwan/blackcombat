@@ -1,0 +1,143 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.main-visual {
+  --smoke-bleed: clamp(100px, 14vw, 220px);
+  position: relative;
+  isolation: isolate;
+  z-index: 1;
+  background: #000;
+  overflow: visible;
+}
+
+.visual-swiper {
+  width: 100%;
+  overflow: hidden;
+  z-index: auto;
+  --swiper-wrapper-transition-timing-function: cubic-bezier(.22, .61, .36, 1);
+}
+
+.visual-swiper .swiper-wrapper { z-index: 0; }
+.visual-slide { display: block; width: 100%; }
+.visual-image { display: block; width: 100%; height: auto; aspect-ratio: 24 / 11; object-fit: contain; user-select: none; }
+
+.cinematic-smoke {
+  position: absolute;
+  inset: 0 0 auto;
+  width: 100%;
+  height: calc(100% + var(--smoke-bleed));
+  z-index: 1;
+  pointer-events: none;
+  user-select: none;
+  mask-image: linear-gradient(to bottom, transparent, #000 12%, #000 68%, transparent 100%);
+}
+
+.visual-mock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  aspect-ratio: 24 / 11;
+  overflow: hidden;
+  padding: 4% 12%;
+  background: radial-gradient(ellipse at 80% 65%, #92733226, transparent 60%), linear-gradient(#000d, #000d), url('/images/common/grunge.webp') center / cover;
+}
+.visual-mock--silver { background-image: radial-gradient(ellipse at 80% 65%, #9aa4ab26, transparent 60%), linear-gradient(#000d, #000d), url('/images/common/grunge.webp'); }
+.mock-content { position: relative; z-index: 2; }
+.mock-badge { display: inline-block; padding: 5px 9px; border: 1px solid #ffffff30; font-size: 9px; letter-spacing: 1px; color: #a8a89d; margin-bottom: 20px; }
+.visual-mock .eyebrow { font-size: clamp(8px, .8vw, 13px); margin-bottom: 15px; }
+.visual-mock h2 { font-size: clamp(40px, 7.6vw, 146px); line-height: .88; }
+.visual-mock--silver h2 em { color: #b8c1c5; }
+.mock-description { font-size: clamp(11px, 1.2vw, 20px); margin: 22px 0 8px; }
+.mock-detail { font-size: clamp(9px, .8vw, 14px); color: var(--muted); margin: 0; }
+.mock-cta { display: inline-flex; align-items: center; gap: 40px; padding-bottom: 8px; margin-top: 24px; border-bottom: 1px solid #d9ae4a66; color: var(--gold); font-size: 12px; }
+.mock-watermark { position: absolute; right: 9%; bottom: -12%; color: transparent; -webkit-text-stroke: 1px #d9ae4a30; font: 900 clamp(200px, 41vw, 780px)/1 var(--display); transform: skew(-8deg); pointer-events: none; }
+
+.visual-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 100px;
+  padding: 10px 0;
+  border: 0;
+  background: transparent;
+  transition: opacity 200ms linear;
+}
+
+.visual-arrow img { display: block; width: 64px; height: 80px; object-fit: contain; pointer-events: none; }
+.visual-prev { left: clamp(8px, 2.5vw, 48px); }
+.visual-prev img { transform: rotate(180deg); }
+.visual-next { right: clamp(8px, 2.5vw, 48px); }
+.visual-arrow:hover { opacity: .7; }
+.visual-arrow:disabled { opacity: .3; cursor: default; }
+
+.visual-pagination {
+  position: absolute;
+  bottom: clamp(16px, 2.5vw, 48px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.visual-pagination .swiper-pagination-bullet {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.visual-pagination .swiper-pagination-bullet::before {
+  content: '';
+  width: 22px;
+  height: 26px;
+  background: url('/images/common/swiper-pagination.webp') center / contain no-repeat;
+  opacity: .3;
+  filter: grayscale(1) url('#pagination-texture');
+  mix-blend-mode: luminosity;
+  transition: opacity 250ms linear, filter 250ms linear;
+}
+
+.visual-pagination .swiper-pagination-bullet-active::before { opacity: 1; filter: none; mix-blend-mode: normal; }
+.visual-pagination .swiper-pagination-bullet-active { cursor: default; }
+.pagination-filters { position: absolute; width: 0; height: 0; pointer-events: none; }
+
+@media (max-width: 680px) {
+  .visual-mock { padding: 5% 14%; }
+  .mock-badge { font-size: 6px; padding: 3px 5px; margin-bottom: 8px; }
+  .visual-mock .eyebrow { font-size: 6px; letter-spacing: .7px; margin-bottom: 6px; }
+  .visual-mock h2 { font-size: clamp(28px, 8vw, 54px); }
+  .mock-description { font-size: 9px; margin: 9px 0 4px; }
+  .mock-detail { display: none; }
+  .mock-cta { font-size: 8px; gap: 15px; padding-bottom: 3px; margin-top: 8px; }
+  .visual-arrow { width: 44px; height: 60px; padding: 0; }
+  .visual-arrow img { width: 32px; height: 40px; }
+  .visual-prev { left: 0; }
+  .visual-next { right: 0; }
+  .visual-pagination { bottom: 0; gap: 0; }
+  .visual-pagination .swiper-pagination-bullet::before { width: 14px; height: 17px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .visual-swiper .swiper-wrapper { transition-duration: 0ms !important; }
+}

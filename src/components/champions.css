@@ -1,0 +1,99 @@
+/* 위치 값 자체를 보간해 포인터보다 반사광이 약간 늦게 따라오도록 합니다. */
+@property --holo-x { syntax: '<percentage>'; inherits: true; initial-value: 50%; }
+@property --holo-y { syntax: '<percentage>'; inherits: true; initial-value: 40%; }
+@property --foil-x { syntax: '<percentage>'; inherits: true; initial-value: 50%; }
+@property --foil-y { syntax: '<percentage>'; inherits: true; initial-value: 50%; }
+
+.champ-section { padding-block: 70px 55px; }
+.champ-heading { text-align: center; margin-bottom: 95px; }
+.champ-roster { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 70px 32px; }
+/* 카드 바탕은 전역 그런지 레이어 위에 두어 하단의 검정 면이 묻히지 않게 합니다. */
+.champ-tile { position: relative; z-index: 3; aspect-ratio: 220 / 260; isolation: isolate; outline-offset: 5px; }
+.champ-tile:not(.is-vacant) {
+  --holo-headroom: 64px;
+  transition: --holo-x 300ms ease-out, --holo-y 300ms ease-out, --foil-x 300ms ease-out, --foil-y 300ms ease-out;
+}
+/* 시각적 카드 크기는 유지하고, 체급명 위 여백까지 포인터 감지 영역을 확장합니다. */
+.champ-tile:not(.is-vacant)::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  height: var(--holo-headroom);
+}
+.champ-tile-base { position: absolute; inset: 0; border-radius: 0 0 20px 20px; background: linear-gradient(to top, #000 0%, #000 10%, #000000e6 24%, #0008 45%, #0000 75%); z-index: 1; pointer-events: none; }
+.champ-weight { position: absolute; top: -12px; left: 0; right: 0; margin: 0; text-align: center; font: 400 clamp(25px, 3vw, 44px)/1.02 'Abril Fatface', Georgia, serif; color: #737373; letter-spacing: 0; transition: color 250ms linear; z-index: -1; }
+.champ-portrait { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); display: block; width: auto; height: 96%; max-width: 100%; object-fit: contain; object-position: bottom; mask-image: linear-gradient(#000 65%, transparent 100%); transition: filter 250ms linear, transform 250ms ease; }
+.champ-identity { position: absolute; left: 8px; right: 8px; bottom: 12%; z-index: 3; text-align: center; font-family: 'Song Myung', serif; color: #fff; pointer-events: none; }
+.champ-identity p { font-size: 32px; font-weight: 400; line-height: 1.25; margin: 0 0 4px; }
+.champ-identity span { font-size: 18px; font-weight: 400; }
+.champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-weight { color: #eab00b; }
+.champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-portrait { filter: drop-shadow(0 0 2px #eab00b99); }
+
+/* 금박·황동·샴페인 계열만 합성합니다. 카드와 인물은 회전하거나 기울이지 않습니다. */
+.champ-holo {
+  position: absolute;
+  inset: calc(-1 * var(--holo-headroom, 64px)) 0 0;
+  z-index: 2;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: screen;
+  mask-image: linear-gradient(transparent, #000 7%, #000 64%, transparent 95%);
+  transition: opacity 400ms ease;
+  box-shadow: inset 0 0 0 var(--holo-frame, 4px) #eab00b12;
+}
+.champ-holo::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    url('/images/common/grunge.webp'),
+    repeating-linear-gradient(112deg, #33240a 0%, #b18122 9%, #f4d58a 13%, #6d4c13 18%, #e6bc5b 24%, #33240a 32%),
+    radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #fce6a9, #967027 40%, #000 74%);
+  background-size: 300px auto, 250% 250%, 100% 100%;
+  background-position: center, var(--foil-x, 50%) var(--foil-y, 50%), center;
+  background-blend-mode: multiply, soft-light, normal;
+  mask-image: radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #000 3%, #000a 35%, transparent 72%);
+}
+.champ-holo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, #fff1c4 0 .7px, transparent 1.2px),
+    radial-gradient(circle, #e5bf68 0 .8px, transparent 1.4px),
+    radial-gradient(circle, #fff8db 0 .5px, transparent 1.3px),
+    radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #ffe7ac99, #eab00b28 28%, transparent 60%);
+  background-size: 31px 37px, 47px 29px, 19px 53px, 100% 100%;
+  background-position: var(--foil-x, 50%) var(--foil-y, 50%), 8px 16px, 13px 5px, center;
+  mask-image: radial-gradient(ellipse at var(--holo-x, 50%) var(--holo-y, 40%), #000, transparent 66%);
+  opacity: var(--holo-glare, .5);
+  box-shadow: inset 0 0 12px #eab00b66;
+}
+.champ-holo::before { opacity: var(--holo-edge, .8); }
+.champ-tile:not(.is-vacant):focus-visible .champ-holo { opacity: var(--holo-intensity, .35); transition-delay: 60ms; }
+@media (hover: hover) and (pointer: fine) {
+  .champ-tile:not(.is-vacant):hover .champ-holo { opacity: var(--holo-intensity, .35); transition-delay: 60ms; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .champ-tile .champ-holo { display: none; }
+}
+.champ-rankings { text-align: center; margin-top: 45px; color: #92928b; font-size: 13px; }
+.champ-rankings summary { display: inline-block; cursor: pointer; padding: 10px 20px; list-style: none; font-family: 'Song Myung', serif; font-size: 24px; font-weight: 400; color: #fff; opacity: .4; }
+.champ-rankings summary::-webkit-details-marker { display: none; }
+.champ-rankings summary:hover { color: #eab00b; }
+.champ-rankings p { font-size: 12px; }
+@media (max-width: 1000px) {
+  .champ-roster { gap: 65px 24px; }
+}
+@media (max-width: 680px) {
+  .champ-tile:not(.is-vacant) { --holo-headroom: 36px; }
+  .champ-section { padding-block: 50px 40px; }
+  .champ-heading { margin-bottom: 65px; }
+  .champ-roster { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 55px 18px; }
+  .champ-weight { font-size: clamp(23px, 6vw, 36px); }
+  .champ-rankings { margin-top: 25px; }
+}

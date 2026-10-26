@@ -1,0 +1,25 @@
+.section-title {
+  display: inline-block;
+  margin: 0;
+  /* 텍스트 배경 클리핑 영역에 g 등 디센더가 들어갈 공간을 확보합니다. */
+  padding-bottom: .2em;
+  margin-bottom: -.2em;
+  font-family: 'Abril Fatface', Georgia, serif;
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  color: #eab00b;
+  background-color: #eab00b;
+  /* Figma: 이미지 채우기 40% 위에 골드 단색 채우기. */
+  background-image: linear-gradient(#eab00b8a, #eab00b8a), url('/images/common/grunge.webp');
+  background-size: auto, 420px auto;
+  background-position: center;
+  background-blend-mode: normal, multiply;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 680px) {
+  .section-title { font-size: clamp(34px, 8.8vw, 48px); }
+}
