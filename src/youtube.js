@@ -17,7 +17,7 @@ export async function getLatestVideos({ apiKey, uploadsPlaylistId }, signal) {
 }
 
 export async function getOfficialVideos(signal) {
-  const response = await fetch(import.meta.env.DEV ? '/api/youtube' : '/data/youtube.json', {
+  const response = await fetch('/api/youtube', {
     signal: AbortSignal.any([signal, AbortSignal.timeout(12000)]),
     cache: 'no-cache',
   });

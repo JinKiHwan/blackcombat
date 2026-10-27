@@ -132,9 +132,10 @@ npm run dev
 블랙컴뱃 공식 채널 `UC_IYjiKaQBPq-K1Iq4sM-UQ`을 연결했습니다. 게시일 내림차순 최신 5개를 큰 영상 1개 + 작은 영상 4개로 표시하고, 클릭하면 YouTube 영상이 새 탭에서 열립니다. 영상 제목과 업로드 날짜도 함께 표시합니다.
 
 - 기본 경로는 API 키가 필요 없는 YouTube 공개 Atom 피드입니다. 브라우저에서 외부 피드를 직접 호출하거나 공개 CORS 프록시를 사용하지 않습니다.
-- 개발 서버: Vite `/api/youtube`에서 피드 조회, 10분 캐시. 실패하면 마지막 저장된 목록을 표시합니다.
-- 정적 배포: `npm run build` 전에 자동으로 `npm run sync:youtube`를 실행하여 `public/data/youtube.json`을 갱신합니다. 갱신 실패 시 기존 스냅샷을 보존합니다. 최초 갱신도 실패하고 스냅샷도 없으면 빌드를 중단합니다.
-- 페이지에서는 10분마다 데이터 경로를 다시 확인합니다. **정적 배포의 데이터는 재빌드·재배포 전까지 바뀌지 않습니다.** 운영 자동 갱신은 정기 빌드 또는 별도 서버/함수 엔드포인트를 연결해야 합니다.
+- 로컬 `npm run dev` / `npm run preview`와 Vercel 모두 `/api/youtube`를 호출합니다. `api/youtube.js` 핸들러를 Vite 미들웨어와 Vercel Functions에서 공통으로 사용합니다.
+- 방문 시 및 열린 화면에서 10분마다 조회합니다. 서버 메모리 캐시는 10분이며, Vercel CDN에는 남은 캐시 유효 시간만 전달해 중복 캐시로 갱신이 지연되지 않게 합니다. 서버리스 메모리 캐시는 인스턴스별이므로 전체 요청 공유는 CDN이 담당합니다.
+- Vercel에는 저장소 전체를 배포해야 합니다. `dist/`만 다른 정적 호스팅에 올리면 `/api/youtube` 함수는 실행되지 않습니다. Vercel 운영에서는 영상 갱신을 위해 재빌드·재배포할 필요가 없습니다.
+- `npm run build` 전 `npm run sync:youtube`로 갱신하는 `public/data/youtube.json`은 피드 장애 시 예비 목록입니다. 장애 시에는 이 목록을 캐시하지 않고 반환하며, 사용자 화면에는 지연 안내 문구 없이 영상을 표시합니다. 저장본이 항상 최신이라는 의미는 아닙니다.
 - 피드와 저장본 모두 실패하면 공식 채널 링크를 표시합니다. 임의 예시 영상을 최신 영상처럼 표시하지 않습니다.
 - 선택적으로 `site.youtube.apiKey`를 입력하면 기존 업로드 재생목록 API 경로를 사용합니다. 이 경우 방문 시 조회 및 10분마다 재조회합니다.
 
@@ -143,7 +144,7 @@ npm run dev
 3. API 키를 웹사이트 HTTP referrer 및 YouTube API로 제한.
 4. 일일 할당량을 확인하고 트래픽 증가 시 캐시·서버 동기화를 검토.
 
-현재 서버 예약 작업은 설정하지 않았습니다. API 경로로 전환할 경우 브라우저 키는 사용자에게 노출되므로 서버 비밀 키를 입력하면 안 됩니다.
+서버 예약 작업 없이 방문 요청으로 동작합니다. 선택적 YouTube Data API 경로를 사용할 경우 브라우저 키는 사용자에게 노출되므로 서버 비밀 키를 입력하면 안 됩니다.
 
 공식 문서: [업로드 영상 조회](https://developers.google.com/youtube/v3/guides/implementation/videos), [playlistItems.list](https://developers.google.com/youtube/v3/docs/playlistItems/list).
 

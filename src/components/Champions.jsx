@@ -33,7 +33,7 @@ export default function Champions() {
           </article>
         ))}
       </div>
-      <details className="champ-rankings"><summary>랭킹보기</summary><p>체급별 랭킹은 준비 중입니다.</p></details>
+      <div className="champ-rankings"><a href="/ranking">랭킹보기</a></div>
     </section>
   );
 }

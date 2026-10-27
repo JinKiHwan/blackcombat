@@ -30,7 +30,7 @@ export default function MediaSection() {
       }
     }
     load();
-    // 열린 화면도 주기적으로 확인합니다. 정적 배포에서는 배포된 스냅샷을 읽습니다.
+    // 로컬·운영 모두 동일한 API를 방문 시와 10분 간격으로 확인합니다.
     const timer = window.setInterval(load, 10 * 60 * 1000);
     return () => { controller.abort(); window.clearInterval(timer); };
   }, []);
@@ -41,7 +41,7 @@ export default function MediaSection() {
       {state.loading ? <div className="legacy-grid" aria-hidden="true">{Array.from({ length: 5 }, (_, index) => <div className="legacy-card" key={index}><div className="legacy-skeleton" /></div>)}</div> :
         state.videos.length ? <div className="legacy-grid">{state.videos.map((video, index) => <MediaCard key={video.id} video={video} featured={index === 0} />)}</div> :
           <div className="legacy-empty"><p>영상을 불러오지 못했습니다. 공식 채널에서 최신 영상을 확인해주세요.</p><a className="legacy-channel" href={site.youtube.channelUrl} target="_blank" rel="noopener noreferrer">블랙컴뱃 공식 채널 ↗</a></div>}
-      <p className="legacy-notice" role="status">{state.loading ? '최신 영상을 불러오는 중입니다.' : state.stale ? '업데이트가 지연되어 최근 저장된 영상을 표시합니다.' : ''}</p>
+      {state.loading && <p className="legacy-notice" role="status">최신 영상을 불러오는 중입니다.</p>}
     </section>
   );
 }

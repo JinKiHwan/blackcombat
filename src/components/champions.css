@@ -27,7 +27,7 @@
 .champ-portrait { position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); display: block; width: auto; height: 96%; max-width: 100%; object-fit: contain; object-position: bottom; mask-image: linear-gradient(#000 65%, transparent 100%); transition: filter 250ms linear, transform 250ms ease; }
 .champ-identity { position: absolute; left: 8px; right: 8px; bottom: 12%; z-index: 3; text-align: center; font-family: 'Song Myung', serif; color: #fff; pointer-events: none; }
 .champ-identity p { font-size: 32px; font-weight: 400; line-height: 1.25; margin: 0 0 4px; }
-.champ-identity span { font-size: 18px; font-weight: 400; }
+.champ-identity span { font-family: 'Pretendard', Arial, sans-serif; font-size: 18px; font-weight: 400; }
 .champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-weight { color: #eab00b; }
 .champ-tile:not(.is-vacant):is(:hover, :focus-visible) .champ-portrait { filter: drop-shadow(0 0 2px #eab00b99); }
 
@@ -103,9 +103,9 @@
   .champ-tile .champ-holo { display: none; }
 }
 .champ-rankings { text-align: center; margin-top: 45px; color: #92928b; font-size: 13px; }
-.champ-rankings summary { display: inline-block; cursor: pointer; padding: 10px 20px; list-style: none; font-family: 'Song Myung', serif; font-size: 24px; font-weight: 400; color: #fff; opacity: .4; }
+.champ-rankings a { display: inline-block; cursor: pointer; padding: 10px 20px; font-family: 'Song Myung', serif; font-size: 24px; font-weight: 400; color: #fff; opacity: .4; }
 .champ-rankings summary::-webkit-details-marker { display: none; }
-.champ-rankings summary:hover { color: #eab00b; }
+.champ-rankings a:hover { color: #eab00b; }
 .champ-rankings p { font-size: 12px; }
 @media (max-width: 1000px) {
   .champ-roster { gap: 65px 24px; }

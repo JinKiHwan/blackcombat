@@ -1,0 +1,12 @@
+import{readFile,writeFile}from'node:fs/promises';import{setTimeout as delay}from'node:timers/promises';
+const catalog=JSON.parse(await readFile('data/imports/blackcombat-events.json','utf8'));const roster=JSON.parse(await readFile('data/imports/blackcombat-fighters.json','utf8'));const ids=[...new Set(catalog.events.flatMap(e=>e.matches.flatMap(m=>m.fighterIds)))];const file='data/imports/blackcombat-event-portraits.json';let profiles={};try{profiles=JSON.parse(await readFile(file,'utf8')).profiles;}catch{}
+async function fetchSource(url){const u=new URL(url);if(u.origin!=='https://www.blackcombat-official.com')throw Error('Unexpected origin');const r=await fetch(url,{signal:AbortSignal.timeout(20000)});if(!r.ok)throw Error('HTTP '+r.status);return r;}
+for(const[index,id]of ids.entries()){
+ if(profiles[id]?.status==='downloaded')continue;
+ const known=roster.fighters.find(f=>f.fighterId===id)?.profileImage;
+ if(known?.localPath&&/_detail\./.test(known.sourceUrl)){profiles[id]={...known,status:'downloaded'};continue;}
+ const row={profileUrl:'https://www.blackcombat-official.com/fighter/'+id,checkedAt:new Date().toISOString()};
+ try{const html=await(await fetchSource(row.profileUrl)).text();const block=html.match(/<div\b[^>]*class=["'][^"']*\bfighter_img\b[^"']*["'][^>]*>([\s\S]*?)<\/div>/i)?.[1];const src=block?.match(/<img\b[^>]*?\ssrc\s*=\s*["']([^"']+)["']/i)?.[1];if(!src){row.status='unavailable';}else{row.sourceUrl=new URL(src.replaceAll('&amp;','&'),row.profileUrl).href;if(/blank|placeholder/.test(row.sourceUrl)){row.status='placeholder';}else{await delay(200);const r=await fetchSource(row.sourceUrl);const bytes=Buffer.from(await r.arrayBuffer());let ext;if(bytes[0]===137&&bytes[1]===80)ext='png';else if(bytes[0]===255&&bytes[1]===216)ext='jpg';else if(bytes.toString('ascii',0,4)==='RIFF'&&bytes.toString('ascii',8,12)==='WEBP')ext='webp';else throw Error('Invalid image');row.localPath='/images/fighters/'+id+'.'+ext;await writeFile('public'+row.localPath,bytes);row.status='downloaded';}}}catch(e){row.status='failed';row.error=e.message;}
+ profiles[id]=row;await writeFile(file,JSON.stringify({profiles},null,2)+'\n');if(index%15===0||['57877349','80831730'].includes(id))console.log(`${index+1}/${ids.length} ${id} ${row.status}`);await delay(250);
+}
+await writeFile(file,JSON.stringify({profiles},null,2)+'\n');console.log(JSON.stringify(Object.values(profiles).reduce((a,p)=>(a[p.status]=(a[p.status]||0)+1,a),{})));

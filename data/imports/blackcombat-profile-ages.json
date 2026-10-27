@@ -1,0 +1,2152 @@
+{
+  "profiles": {
+    "10113748": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/10113748",
+      "collectedAt": "2026-10-27T09:47:04.162Z"
+    },
+    "10976032": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/10976032",
+      "collectedAt": "2026-10-27T09:46:52.210Z"
+    },
+    "11076208": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11076208",
+      "error": "Age selector missing"
+    },
+    "11198227": {
+      "age": 42,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11198227",
+      "collectedAt": "2026-10-27T09:46:30.134Z"
+    },
+    "11257516": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11257516",
+      "error": "Age selector missing"
+    },
+    "11539850": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11539850",
+      "collectedAt": "2026-10-27T09:46:38.102Z"
+    },
+    "11711666": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11711666",
+      "error": "Age selector missing"
+    },
+    "11943234": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11943234",
+      "collectedAt": "2026-10-27T09:46:28.455Z"
+    },
+    "11958177": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/11958177",
+      "collectedAt": "2026-10-27T09:46:37.366Z"
+    },
+    "12138256": {
+      "age": 18,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/12138256",
+      "collectedAt": "2026-10-27T09:46:08.838Z"
+    },
+    "12143883": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/12143883",
+      "error": "Age selector missing"
+    },
+    "13041629": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/13041629",
+      "collectedAt": "2026-10-27T09:46:55.572Z"
+    },
+    "13333784": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/13333784",
+      "collectedAt": "2026-10-27T09:47:10.745Z"
+    },
+    "13739920": {
+      "age": 2027,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/13739920",
+      "collectedAt": "2026-10-27T09:47:28.331Z"
+    },
+    "14307481": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/14307481",
+      "collectedAt": "2026-10-27T09:46:23.390Z"
+    },
+    "14674653": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/14674653",
+      "collectedAt": "2026-10-27T09:46:22.649Z"
+    },
+    "14900338": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/14900338",
+      "error": "Age selector missing"
+    },
+    "15036209": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/15036209",
+      "collectedAt": "2026-10-27T09:46:59.167Z"
+    },
+    "15303256": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/15303256",
+      "collectedAt": "2026-10-27T09:46:37.611Z"
+    },
+    "15335910": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/15335910",
+      "collectedAt": "2026-10-27T09:46:36.167Z"
+    },
+    "15664333": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/15664333",
+      "collectedAt": "2026-10-27T09:46:41.324Z"
+    },
+    "15757658": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/15757658",
+      "collectedAt": "2026-10-27T09:46:53.160Z"
+    },
+    "16094004": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16094004",
+      "error": "Age selector missing"
+    },
+    "16153896": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16153896",
+      "error": "Age selector missing"
+    },
+    "16455011": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16455011",
+      "collectedAt": "2026-10-27T09:47:08.788Z"
+    },
+    "16507100": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16507100",
+      "error": "Age selector missing"
+    },
+    "16538110": {
+      "age": 39,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16538110",
+      "collectedAt": "2026-10-27T09:46:10.034Z"
+    },
+    "16541723": {
+      "age": 41,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/16541723",
+      "collectedAt": "2026-10-27T09:47:11.726Z"
+    },
+    "17052584": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/17052584",
+      "error": "Age selector missing"
+    },
+    "17117825": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/17117825",
+      "error": "Age selector missing"
+    },
+    "17549618": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/17549618",
+      "error": "Age selector missing"
+    },
+    "17761590": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/17761590",
+      "error": "Age selector missing"
+    },
+    "18063338": {
+      "age": 20,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18063338",
+      "collectedAt": "2026-10-27T09:46:05.716Z"
+    },
+    "18102405": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18102405",
+      "error": "Age selector missing"
+    },
+    "18336025": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18336025",
+      "collectedAt": "2026-10-27T09:46:32.295Z"
+    },
+    "18786897": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18786897",
+      "error": "Age selector missing"
+    },
+    "18839413": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18839413",
+      "error": "Age selector missing"
+    },
+    "18942108": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18942108",
+      "error": "Age selector missing"
+    },
+    "18943379": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/18943379",
+      "collectedAt": "2026-10-27T09:47:02.036Z"
+    },
+    "19443685": {
+      "age": 19,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/19443685",
+      "collectedAt": "2026-10-27T09:46:39.600Z"
+    },
+    "19848079": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/19848079",
+      "collectedAt": "2026-10-27T09:46:07.863Z"
+    },
+    "19976683": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/19976683",
+      "error": "Age selector missing"
+    },
+    "20131693": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/20131693",
+      "error": "Age selector missing"
+    },
+    "20347305": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/20347305",
+      "collectedAt": "2026-10-27T09:46:53.411Z"
+    },
+    "20726353": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/20726353",
+      "collectedAt": "2026-10-27T09:46:58.934Z"
+    },
+    "21053815": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/21053815",
+      "collectedAt": "2026-10-27T09:47:09.032Z"
+    },
+    "21131458": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/21131458",
+      "collectedAt": "2026-10-27T09:46:06.905Z"
+    },
+    "21461249": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/21461249",
+      "collectedAt": "2026-10-27T09:46:03.758Z"
+    },
+    "22163633": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/22163633",
+      "collectedAt": "2026-10-27T09:47:02.514Z"
+    },
+    "22363165": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/22363165",
+      "collectedAt": "2026-10-27T09:46:20.481Z"
+    },
+    "22872163": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/22872163",
+      "collectedAt": "2026-10-27T09:47:12.226Z"
+    },
+    "22943074": {
+      "age": 19,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/22943074",
+      "collectedAt": "2026-10-27T09:46:41.073Z"
+    },
+    "23473458": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/23473458",
+      "collectedAt": "2026-10-27T09:46:46.887Z"
+    },
+    "23743038": {
+      "age": 42,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/23743038",
+      "collectedAt": "2026-10-27T09:46:33.506Z"
+    },
+    "23832692": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/23832692",
+      "collectedAt": "2026-10-27T09:47:12.712Z"
+    },
+    "24364052": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/24364052",
+      "error": "Age selector missing"
+    },
+    "24567406": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/24567406",
+      "error": "Age selector missing"
+    },
+    "24613882": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/24613882",
+      "collectedAt": "2026-10-27T09:47:03.682Z"
+    },
+    "24816563": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/24816563",
+      "collectedAt": "2026-10-27T09:47:01.803Z"
+    },
+    "25058160": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/25058160",
+      "collectedAt": "2026-10-27T09:46:23.623Z"
+    },
+    "25840185": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/25840185",
+      "collectedAt": "2026-10-27T09:47:11.476Z"
+    },
+    "26386495": {
+      "age": 18,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/26386495",
+      "collectedAt": "2026-10-27T09:47:03.450Z"
+    },
+    "26730770": {
+      "age": 23,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/26730770",
+      "collectedAt": "2026-10-27T09:46:59.635Z"
+    },
+    "27274064": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/27274064",
+      "collectedAt": "2026-10-27T09:46:35.210Z"
+    },
+    "27550232": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/27550232",
+      "collectedAt": "2026-10-27T09:46:12.199Z"
+    },
+    "27588721": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/27588721",
+      "collectedAt": "2026-10-27T09:46:41.567Z"
+    },
+    "27796067": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/27796067",
+      "collectedAt": "2026-10-27T09:46:27.987Z"
+    },
+    "27904723": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/27904723",
+      "collectedAt": "2026-10-27T09:46:02.770Z"
+    },
+    "28308426": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28308426",
+      "collectedAt": "2026-10-27T09:46:15.996Z"
+    },
+    "28597056": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28597056",
+      "error": "Age selector missing"
+    },
+    "28766523": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28766523",
+      "collectedAt": "2026-10-27T09:46:45.227Z"
+    },
+    "28865824": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28865824",
+      "collectedAt": "2026-10-27T09:46:33.274Z"
+    },
+    "28938131": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28938131",
+      "error": "Age selector missing"
+    },
+    "29363216": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/29363216",
+      "collectedAt": "2026-10-27T09:46:21.711Z"
+    },
+    "30038332": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/30038332",
+      "collectedAt": "2026-10-27T09:46:04.492Z"
+    },
+    "30158915": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/30158915",
+      "collectedAt": "2026-10-27T09:46:41.814Z"
+    },
+    "30493281": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/30493281",
+      "error": "Age selector missing"
+    },
+    "30544910": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/30544910",
+      "collectedAt": "2026-10-27T09:46:57.000Z"
+    },
+    "30625901": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/30625901",
+      "collectedAt": "2026-10-27T09:47:11.979Z"
+    },
+    "31068270": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31068270",
+      "collectedAt": "2026-10-27T09:47:06.571Z"
+    },
+    "31209937": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31209937",
+      "collectedAt": "2026-10-27T09:46:54.141Z"
+    },
+    "31367195": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31367195",
+      "collectedAt": "2026-10-27T09:46:02.039Z"
+    },
+    "31507933": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31507933",
+      "error": "Age selector missing"
+    },
+    "31606646": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31606646",
+      "collectedAt": "2026-10-27T09:46:19.317Z"
+    },
+    "31668871": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31668871",
+      "error": "Age selector missing"
+    },
+    "31720294": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31720294",
+      "collectedAt": "2026-10-27T09:46:02.532Z"
+    },
+    "31732390": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31732390",
+      "collectedAt": "2026-10-27T09:46:43.292Z"
+    },
+    "31777288": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31777288",
+      "collectedAt": "2026-10-27T09:46:26.070Z"
+    },
+    "31824293": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31824293",
+      "collectedAt": "2026-10-27T09:47:02.267Z"
+    },
+    "31975443": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31975443",
+      "collectedAt": "2026-10-27T09:46:44.512Z"
+    },
+    "32056354": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/32056354",
+      "collectedAt": "2026-10-27T09:46:21.465Z"
+    },
+    "32699714": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/32699714",
+      "collectedAt": "2026-10-27T09:46:24.091Z"
+    },
+    "32870908": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/32870908",
+      "collectedAt": "2026-10-27T09:46:45.705Z"
+    },
+    "33169982": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/33169982",
+      "collectedAt": "2026-10-27T09:46:01.067Z"
+    },
+    "33689597": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/33689597",
+      "error": "Age selector missing"
+    },
+    "34145632": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/34145632",
+      "collectedAt": "2026-10-27T09:46:14.799Z"
+    },
+    "34176555": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/34176555",
+      "collectedAt": "2026-10-27T09:46:25.825Z"
+    },
+    "34473780": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/34473780",
+      "collectedAt": "2026-10-27T09:46:28.687Z"
+    },
+    "34629044": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/34629044",
+      "error": "Age selector missing"
+    },
+    "35369017": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/35369017",
+      "collectedAt": "2026-10-27T09:46:57.741Z"
+    },
+    "35516338": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/35516338",
+      "collectedAt": "2026-10-27T09:46:16.465Z"
+    },
+    "35833598": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/35833598",
+      "error": "Age selector missing"
+    },
+    "36284437": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/36284437",
+      "collectedAt": "2026-10-27T09:46:50.001Z"
+    },
+    "36638590": {
+      "age": 46,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/36638590",
+      "collectedAt": "2026-10-27T09:46:48.066Z"
+    },
+    "36723415": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/36723415",
+      "error": "Age selector missing"
+    },
+    "36870670": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/36870670",
+      "collectedAt": "2026-10-27T09:46:53.908Z"
+    },
+    "36972922": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/36972922",
+      "collectedAt": "2026-10-27T09:46:43.026Z"
+    },
+    "37050120": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37050120",
+      "collectedAt": "2026-10-27T09:46:14.331Z"
+    },
+    "37054476": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37054476",
+      "collectedAt": "2026-10-27T09:46:22.158Z"
+    },
+    "37133939": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37133939",
+      "error": "Age selector missing"
+    },
+    "37418531": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37418531",
+      "collectedAt": "2026-10-27T09:46:23.858Z"
+    },
+    "37450877": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37450877",
+      "error": "Age selector missing"
+    },
+    "37647152": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37647152",
+      "collectedAt": "2026-10-27T09:46:54.610Z"
+    },
+    "37864698": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/37864698",
+      "collectedAt": "2026-10-27T09:46:06.672Z"
+    },
+    "38008098": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38008098",
+      "collectedAt": "2026-10-27T09:46:55.107Z"
+    },
+    "38211207": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38211207",
+      "error": "Age selector missing"
+    },
+    "38215319": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38215319",
+      "collectedAt": "2026-10-27T09:46:27.007Z"
+    },
+    "38266375": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38266375",
+      "collectedAt": "2026-10-27T09:46:25.347Z"
+    },
+    "38495798": {
+      "age": 23,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38495798",
+      "collectedAt": "2026-10-27T09:46:54.376Z"
+    },
+    "38860186": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38860186",
+      "error": "Age selector missing"
+    },
+    "38873104": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/38873104",
+      "error": "Age selector missing"
+    },
+    "39066167": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/39066167",
+      "collectedAt": "2026-10-27T09:47:10.481Z"
+    },
+    "39306363": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/39306363",
+      "collectedAt": "2026-10-27T09:46:34.963Z"
+    },
+    "39588679": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/39588679",
+      "collectedAt": "2026-10-27T09:46:06.192Z"
+    },
+    "39721789": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/39721789",
+      "collectedAt": "2026-10-27T09:47:10.985Z"
+    },
+    "39928334": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/39928334",
+      "collectedAt": "2026-10-27T09:46:44.746Z"
+    },
+    "40061487": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/40061487",
+      "collectedAt": "2026-10-27T09:46:48.301Z"
+    },
+    "40528956": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/40528956",
+      "error": "Age selector missing"
+    },
+    "40677542": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/40677542",
+      "collectedAt": "2026-10-27T09:46:30.366Z"
+    },
+    "40717069": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/40717069",
+      "collectedAt": "2026-10-27T09:46:32.778Z"
+    },
+    "40931937": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/40931937",
+      "error": "Age selector missing"
+    },
+    "41036734": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41036734",
+      "collectedAt": "2026-10-27T09:46:55.819Z"
+    },
+    "41137884": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41137884",
+      "collectedAt": "2026-10-27T09:46:31.088Z"
+    },
+    "41326305": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41326305",
+      "collectedAt": "2026-10-27T09:46:21.206Z"
+    },
+    "41530074": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41530074",
+      "error": "Age selector missing"
+    },
+    "41530580": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41530580",
+      "collectedAt": "2026-10-27T09:46:07.148Z"
+    },
+    "41995059": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41995059",
+      "error": "Age selector missing"
+    },
+    "42018311": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42018311",
+      "error": "Age selector missing"
+    },
+    "42162303": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42162303",
+      "collectedAt": "2026-10-27T09:46:29.642Z"
+    },
+    "42401461": {
+      "age": 39,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42401461",
+      "collectedAt": "2026-10-27T09:46:35.920Z"
+    },
+    "42447555": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42447555",
+      "collectedAt": "2026-10-27T09:46:26.306Z"
+    },
+    "42533973": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42533973",
+      "collectedAt": "2026-10-27T09:47:04.627Z"
+    },
+    "42536332": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/42536332",
+      "collectedAt": "2026-10-27T09:46:40.578Z"
+    },
+    "43145922": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/43145922",
+      "collectedAt": "2026-10-27T09:46:32.047Z"
+    },
+    "43483071": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/43483071",
+      "collectedAt": "2026-10-27T09:46:04.981Z"
+    },
+    "43687237": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/43687237",
+      "error": "Age selector missing"
+    },
+    "43792974": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/43792974",
+      "collectedAt": "2026-10-27T09:46:04.736Z"
+    },
+    "43971954": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/43971954",
+      "error": "Age selector missing"
+    },
+    "44845474": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/44845474",
+      "error": "Age selector missing"
+    },
+    "45557928": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/45557928",
+      "collectedAt": "2026-10-27T09:46:13.162Z"
+    },
+    "45606965": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/45606965",
+      "error": "Age selector missing"
+    },
+    "45717830": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/45717830",
+      "collectedAt": "2026-10-27T09:47:01.070Z"
+    },
+    "46058792": {
+      "age": 22,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46058792",
+      "collectedAt": "2026-10-27T09:46:47.367Z"
+    },
+    "46322582": {
+      "age": 23,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46322582",
+      "collectedAt": "2026-10-27T09:47:07.067Z"
+    },
+    "46333839": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46333839",
+      "collectedAt": "2026-10-27T09:46:33.742Z"
+    },
+    "46758754": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46758754",
+      "collectedAt": "2026-10-27T09:46:52.908Z"
+    },
+    "46833732": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46833732",
+      "error": "Age selector missing"
+    },
+    "46953719": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/46953719",
+      "collectedAt": "2026-10-27T09:46:47.132Z"
+    },
+    "47788448": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/47788448",
+      "error": "Age selector missing"
+    },
+    "47905869": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/47905869",
+      "error": "Age selector missing"
+    },
+    "48217777": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/48217777",
+      "collectedAt": "2026-10-27T09:46:29.892Z"
+    },
+    "48634737": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/48634737",
+      "collectedAt": "2026-10-27T09:46:08.109Z"
+    },
+    "49111259": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/49111259",
+      "error": "Age selector missing"
+    },
+    "49327976": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/49327976",
+      "error": "Age selector missing"
+    },
+    "49506352": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/49506352",
+      "error": "Age selector missing"
+    },
+    "49763819": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/49763819",
+      "collectedAt": "2026-10-27T09:47:06.048Z"
+    },
+    "50036536": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/50036536",
+      "collectedAt": "2026-10-27T09:47:11.230Z"
+    },
+    "50151784": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/50151784",
+      "collectedAt": "2026-10-27T09:46:24.808Z"
+    },
+    "50893031": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/50893031",
+      "collectedAt": "2026-10-27T09:46:14.563Z"
+    },
+    "50941536": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/50941536",
+      "collectedAt": "2026-10-27T09:46:58.699Z"
+    },
+    "51243766": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51243766",
+      "collectedAt": "2026-10-27T09:46:19.550Z"
+    },
+    "51253531": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51253531",
+      "collectedAt": "2026-10-27T09:46:27.742Z"
+    },
+    "51489455": {
+      "age": 40,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51489455",
+      "collectedAt": "2026-10-27T09:47:08.057Z"
+    },
+    "51495836": {
+      "age": 40,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51495836",
+      "collectedAt": "2026-10-27T09:46:10.269Z"
+    },
+    "51523231": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51523231",
+      "collectedAt": "2026-10-27T09:46:29.166Z"
+    },
+    "51533588": {
+      "age": 17,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51533588",
+      "collectedAt": "2026-10-27T09:46:04.249Z"
+    },
+    "51611046": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51611046",
+      "collectedAt": "2026-10-27T09:46:37.122Z"
+    },
+    "51712256": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51712256",
+      "collectedAt": "2026-10-27T09:46:15.033Z"
+    },
+    "51837721": {
+      "age": 20,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51837721",
+      "collectedAt": "2026-10-27T09:46:05.472Z"
+    },
+    "51940035": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51940035",
+      "collectedAt": "2026-10-27T09:46:23.142Z"
+    },
+    "52027495": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/52027495",
+      "error": "Age selector missing"
+    },
+    "52216349": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/52216349",
+      "collectedAt": "2026-10-27T09:46:44.272Z"
+    },
+    "53287506": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53287506",
+      "collectedAt": "2026-10-27T09:46:34.714Z"
+    },
+    "53339805": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53339805",
+      "collectedAt": "2026-10-27T09:46:17.420Z"
+    },
+    "53375538": {
+      "age": 51,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53375538",
+      "collectedAt": "2026-10-27T09:46:42.297Z"
+    },
+    "53545077": {
+      "age": 19,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53545077",
+      "collectedAt": "2026-10-27T09:46:44.033Z"
+    },
+    "53628585": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53628585",
+      "error": "Age selector missing"
+    },
+    "54665791": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/54665791",
+      "collectedAt": "2026-10-27T09:47:06.818Z"
+    },
+    "54898276": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/54898276",
+      "error": "Age selector missing"
+    },
+    "55032720": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/55032720",
+      "collectedAt": "2026-10-27T09:46:20.016Z"
+    },
+    "56124513": {
+      "age": 19,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/56124513",
+      "collectedAt": "2026-10-27T09:46:36.650Z"
+    },
+    "56183939": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/56183939",
+      "collectedAt": "2026-10-27T09:46:45.938Z"
+    },
+    "56308598": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/56308598",
+      "error": "Age selector missing"
+    },
+    "56648088": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/56648088",
+      "collectedAt": "2026-10-27T09:47:01.316Z"
+    },
+    "56845224": {
+      "age": 23,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/56845224",
+      "collectedAt": "2026-10-27T09:46:56.285Z"
+    },
+    "57104443": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/57104443",
+      "collectedAt": "2026-10-27T09:46:31.566Z"
+    },
+    "57877349": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/57877349",
+      "collectedAt": "2026-10-27T09:46:42.532Z"
+    },
+    "58067584": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/58067584",
+      "collectedAt": "2026-10-27T09:46:45.472Z"
+    },
+    "58099999": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/58099999",
+      "error": "Age selector missing"
+    },
+    "58100688": {
+      "age": 39,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/58100688",
+      "collectedAt": "2026-10-27T09:46:28.934Z"
+    },
+    "58305359": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/58305359",
+      "collectedAt": "2026-10-27T09:46:24.336Z"
+    },
+    "59067866": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/59067866",
+      "collectedAt": "2026-10-27T09:46:53.672Z"
+    },
+    "59174431": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/59174431",
+      "collectedAt": "2026-10-27T09:46:08.359Z"
+    },
+    "59397931": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/59397931",
+      "collectedAt": "2026-10-27T09:46:20.247Z"
+    },
+    "59939562": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/59939562",
+      "collectedAt": "2026-10-27T09:47:12.948Z"
+    },
+    "60298370": {
+      "age": 41,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/60298370",
+      "collectedAt": "2026-10-27T09:46:30.602Z"
+    },
+    "60344952": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/60344952",
+      "error": "Age selector missing"
+    },
+    "60636602": {
+      "age": 39,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/60636602",
+      "collectedAt": "2026-10-27T09:47:09.762Z"
+    },
+    "60922090": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/60922090",
+      "collectedAt": "2026-10-27T09:46:35.684Z"
+    },
+    "61428140": {
+      "age": 2027,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/61428140",
+      "collectedAt": "2026-10-27T09:47:28.086Z"
+    },
+    "61477977": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/61477977",
+      "error": "Age selector missing"
+    },
+    "61891168": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/61891168",
+      "collectedAt": "2026-10-27T09:46:16.232Z"
+    },
+    "62002201": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/62002201",
+      "collectedAt": "2026-10-27T09:46:12.441Z"
+    },
+    "62550126": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/62550126",
+      "collectedAt": "2026-10-27T09:46:15.515Z"
+    },
+    "63267425": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/63267425",
+      "collectedAt": "2026-10-27T09:46:16.695Z"
+    },
+    "63918145": {
+      "age": 45,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/63918145",
+      "collectedAt": "2026-10-27T09:46:18.616Z"
+    },
+    "64088040": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/64088040",
+      "error": "Age selector missing"
+    },
+    "64163471": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/64163471",
+      "collectedAt": "2026-10-27T09:47:05.593Z"
+    },
+    "64326511": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/64326511",
+      "collectedAt": "2026-10-27T09:46:19.085Z"
+    },
+    "64788066": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/64788066",
+      "collectedAt": "2026-10-27T09:46:32.530Z"
+    },
+    "64797565": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/64797565",
+      "collectedAt": "2026-10-27T09:46:06.427Z"
+    },
+    "65052150": {
+      "age": 46,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/65052150",
+      "collectedAt": "2026-10-27T09:46:42.050Z"
+    },
+    "65081168": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/65081168",
+      "collectedAt": "2026-10-27T09:46:22.405Z"
+    },
+    "66437818": {
+      "age": 2027,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/66437818",
+      "collectedAt": "2026-10-27T09:47:27.380Z"
+    },
+    "66652566": {
+      "age": 2027,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/66652566",
+      "collectedAt": "2026-10-27T09:47:27.146Z"
+    },
+    "66669714": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/66669714",
+      "collectedAt": "2026-10-27T09:46:38.612Z"
+    },
+    "66714345": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/66714345",
+      "collectedAt": "2026-10-27T09:46:10.982Z"
+    },
+    "68103858": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/68103858",
+      "collectedAt": "2026-10-27T09:46:27.256Z"
+    },
+    "68543407": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/68543407",
+      "error": "Age selector missing"
+    },
+    "68841419": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/68841419",
+      "collectedAt": "2026-10-27T09:46:50.741Z"
+    },
+    "69014676": {
+      "age": 43,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69014676",
+      "collectedAt": "2026-10-27T09:46:56.756Z"
+    },
+    "69112783": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69112783",
+      "collectedAt": "2026-10-27T09:46:38.867Z"
+    },
+    "69153225": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69153225",
+      "collectedAt": "2026-10-27T09:46:10.502Z"
+    },
+    "69457329": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69457329",
+      "collectedAt": "2026-10-27T09:46:19.783Z"
+    },
+    "69534617": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69534617",
+      "collectedAt": "2026-10-27T09:46:03.269Z"
+    },
+    "69610658": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69610658",
+      "collectedAt": "2026-10-27T09:46:16.942Z"
+    },
+    "69615953": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69615953",
+      "error": "Age selector missing"
+    },
+    "69836118": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/69836118",
+      "collectedAt": "2026-10-27T09:47:02.979Z"
+    },
+    "70330029": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/70330029",
+      "collectedAt": "2026-10-27T09:47:07.810Z"
+    },
+    "70398446": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/70398446",
+      "collectedAt": "2026-10-27T09:46:01.308Z"
+    },
+    "70806645": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/70806645",
+      "collectedAt": "2026-10-27T09:46:25.106Z"
+    },
+    "70863485": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/70863485",
+      "collectedAt": "2026-10-27T09:47:03.929Z"
+    },
+    "70881966": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/70881966",
+      "collectedAt": "2026-10-27T09:46:57.247Z"
+    },
+    "71392066": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71392066",
+      "collectedAt": "2026-10-27T09:46:15.268Z"
+    },
+    "71657127": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71657127",
+      "collectedAt": "2026-10-27T09:46:00.566Z"
+    },
+    "71670566": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71670566",
+      "collectedAt": "2026-10-27T09:46:55.339Z"
+    },
+    "71736058": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71736058",
+      "collectedAt": "2026-10-27T09:46:03.017Z"
+    },
+    "71953510": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71953510",
+      "collectedAt": "2026-10-27T09:46:35.451Z"
+    },
+    "72706256": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/72706256",
+      "collectedAt": "2026-10-27T09:46:30.849Z"
+    },
+    "72867298": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/72867298",
+      "error": "Age selector missing"
+    },
+    "73185034": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73185034",
+      "collectedAt": "2026-10-27T09:46:17.886Z"
+    },
+    "73392262": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73392262",
+      "error": "Age selector missing"
+    },
+    "73489614": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73489614",
+      "collectedAt": "2026-10-27T09:47:13.193Z"
+    },
+    "73557323": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73557323",
+      "collectedAt": "2026-10-27T09:46:26.772Z"
+    },
+    "73707126": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73707126",
+      "collectedAt": "2026-10-27T09:46:59.399Z"
+    },
+    "73762798": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73762798",
+      "collectedAt": "2026-10-27T09:46:34.240Z"
+    },
+    "73873103": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73873103",
+      "collectedAt": "2026-10-27T09:46:00.319Z"
+    },
+    "73920708": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73920708",
+      "error": "Age selector missing"
+    },
+    "74943577": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/74943577",
+      "collectedAt": "2026-10-27T09:46:17.173Z"
+    },
+    "75006829": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/75006829",
+      "collectedAt": "2026-10-27T09:46:09.317Z"
+    },
+    "75223559": {
+      "age": 20,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/75223559",
+      "collectedAt": "2026-10-27T09:47:05.351Z"
+    },
+    "75799226": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/75799226",
+      "error": "Age selector missing"
+    },
+    "75956747": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/75956747",
+      "collectedAt": "2026-10-27T09:47:02.746Z"
+    },
+    "76220784": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/76220784",
+      "collectedAt": "2026-10-27T09:46:20.950Z"
+    },
+    "76342229": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/76342229",
+      "collectedAt": "2026-10-27T09:46:51.727Z"
+    },
+    "76669759": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/76669759",
+      "error": "Age selector missing"
+    },
+    "76745089": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/76745089",
+      "collectedAt": "2026-10-27T09:46:11.945Z"
+    },
+    "77067697": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77067697",
+      "collectedAt": "2026-10-27T09:47:04.394Z"
+    },
+    "77158788": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77158788",
+      "collectedAt": "2026-10-27T09:47:03.214Z"
+    },
+    "77415723": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77415723",
+      "error": "Age selector missing"
+    },
+    "77552285": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77552285",
+      "collectedAt": "2026-10-27T09:46:01.789Z"
+    },
+    "77662615": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77662615",
+      "error": "Age selector missing"
+    },
+    "77842475": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77842475",
+      "collectedAt": "2026-10-27T09:46:14.100Z"
+    },
+    "77881844": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77881844",
+      "collectedAt": "2026-10-27T09:46:11.702Z"
+    },
+    "77920653": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77920653",
+      "collectedAt": "2026-10-27T09:47:04.861Z"
+    },
+    "78010648": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/78010648",
+      "error": "Age selector missing"
+    },
+    "78210064": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/78210064",
+      "collectedAt": "2026-10-27T09:46:46.405Z"
+    },
+    "78377160": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/78377160",
+      "collectedAt": "2026-10-27T09:46:11.449Z"
+    },
+    "78727207": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/78727207",
+      "collectedAt": "2026-10-27T09:46:08.603Z"
+    },
+    "79012557": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79012557",
+      "error": "Age selector missing"
+    },
+    "79279699": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79279699",
+      "collectedAt": "2026-10-27T09:46:31.806Z"
+    },
+    "79434480": {
+      "age": 40,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79434480",
+      "collectedAt": "2026-10-27T09:46:43.790Z"
+    },
+    "79444088": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79444088",
+      "collectedAt": "2026-10-27T09:47:00.582Z"
+    },
+    "79546723": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79546723",
+      "collectedAt": "2026-10-27T09:46:56.053Z"
+    },
+    "79683172": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79683172",
+      "collectedAt": "2026-10-27T09:46:13.631Z"
+    },
+    "79853443": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79853443",
+      "error": "Age selector missing"
+    },
+    "79883673": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79883673",
+      "collectedAt": "2026-10-27T09:46:58.233Z"
+    },
+    "80166879": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/80166879",
+      "collectedAt": "2026-10-27T09:46:12.928Z"
+    },
+    "80347858": {
+      "age": 41,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/80347858",
+      "collectedAt": "2026-10-27T09:46:52.674Z"
+    },
+    "80831730": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/80831730",
+      "collectedAt": "2026-10-27T09:46:43.539Z"
+    },
+    "81252890": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/81252890",
+      "collectedAt": "2026-10-27T09:46:04.003Z"
+    },
+    "82056770": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82056770",
+      "collectedAt": "2026-10-27T09:46:57.990Z"
+    },
+    "82116599": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82116599",
+      "collectedAt": "2026-10-27T09:46:42.779Z"
+    },
+    "82156223": {
+      "age": 38,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82156223",
+      "collectedAt": "2026-10-27T09:46:05.229Z"
+    },
+    "82197006": {
+      "age": 23,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82197006",
+      "collectedAt": "2026-10-27T09:46:27.503Z"
+    },
+    "82332509": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82332509",
+      "collectedAt": "2026-10-27T09:47:08.304Z"
+    },
+    "82549141": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82549141",
+      "collectedAt": "2026-10-27T09:47:09.995Z"
+    },
+    "82685239": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82685239",
+      "collectedAt": "2026-10-27T09:46:13.867Z"
+    },
+    "82741341": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82741341",
+      "error": "Age selector missing"
+    },
+    "83543030": {
+      "age": 34,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/83543030",
+      "collectedAt": "2026-10-27T09:46:07.618Z"
+    },
+    "83678058": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/83678058",
+      "error": "Age selector missing"
+    },
+    "84327640": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/84327640",
+      "collectedAt": "2026-10-27T09:46:50.245Z"
+    },
+    "84407642": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/84407642",
+      "collectedAt": "2026-10-27T09:46:37.857Z"
+    },
+    "84540347": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/84540347",
+      "collectedAt": "2026-10-27T09:46:38.372Z"
+    },
+    "84586763": {
+      "age": 30,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/84586763",
+      "collectedAt": "2026-10-27T09:46:18.374Z"
+    },
+    "85040982": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85040982",
+      "collectedAt": "2026-10-27T09:46:57.495Z"
+    },
+    "85172995": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85172995",
+      "collectedAt": "2026-10-27T09:46:18.850Z"
+    },
+    "85284906": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85284906",
+      "collectedAt": "2026-10-27T09:46:47.600Z"
+    },
+    "85636641": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85636641",
+      "collectedAt": "2026-10-27T09:46:46.172Z"
+    },
+    "85898673": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85898673",
+      "collectedAt": "2026-10-27T09:47:05.095Z"
+    },
+    "85983753": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/85983753",
+      "error": "Age selector missing"
+    },
+    "86410382": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/86410382",
+      "error": "Age selector missing"
+    },
+    "86478580": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/86478580",
+      "collectedAt": "2026-10-27T09:46:00.814Z"
+    },
+    "86595545": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/86595545",
+      "collectedAt": "2026-10-27T09:46:46.639Z"
+    },
+    "87240414": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/87240414",
+      "error": "Age selector missing"
+    },
+    "87530803": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/87530803",
+      "collectedAt": "2026-10-27T09:47:09.267Z"
+    },
+    "87821569": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/87821569",
+      "error": "Age selector missing"
+    },
+    "88392103": {
+      "age": 37,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/88392103",
+      "collectedAt": "2026-10-27T09:46:58.466Z"
+    },
+    "88590651": {
+      "age": 35,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/88590651",
+      "collectedAt": "2026-10-27T09:46:18.126Z"
+    },
+    "88660666": {
+      "age": 18,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/88660666",
+      "collectedAt": "2026-10-27T09:47:00.826Z"
+    },
+    "88941727": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/88941727",
+      "collectedAt": "2026-10-27T09:46:01.554Z"
+    },
+    "89258075": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/89258075",
+      "error": "Age selector missing"
+    },
+    "89602277": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/89602277",
+      "collectedAt": "2026-10-27T09:46:07.379Z"
+    },
+    "89691737": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/89691737",
+      "error": "Age selector missing"
+    },
+    "89975978": {
+      "age": 32,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/89975978",
+      "collectedAt": "2026-10-27T09:46:22.895Z"
+    },
+    "90043072": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/90043072",
+      "collectedAt": "2026-10-27T09:46:15.749Z"
+    },
+    "90258375": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/90258375",
+      "error": "Age selector missing"
+    },
+    "90316608": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/90316608",
+      "collectedAt": "2026-10-27T09:46:12.685Z"
+    },
+    "90567955": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/90567955",
+      "error": "Age selector missing"
+    },
+    "91010996": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/91010996",
+      "collectedAt": "2026-10-27T09:46:28.220Z"
+    },
+    "91192457": {
+      "age": 24,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/91192457",
+      "collectedAt": "2026-10-27T09:46:36.883Z"
+    },
+    "91989744": {
+      "age": 2027,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/91989744",
+      "collectedAt": "2026-10-27T09:47:27.835Z"
+    },
+    "92285987": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92285987",
+      "error": "Age selector missing"
+    },
+    "92310799": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92310799",
+      "collectedAt": "2026-10-27T09:47:07.561Z"
+    },
+    "92353789": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92353789",
+      "error": "Age selector missing"
+    },
+    "92748764": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92748764",
+      "collectedAt": "2026-10-27T09:46:03.514Z"
+    },
+    "92865695": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92865695",
+      "collectedAt": "2026-10-27T09:46:02.285Z"
+    },
+    "92989925": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/92989925",
+      "collectedAt": "2026-10-27T09:46:17.653Z"
+    },
+    "93142856": {
+      "age": 21,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/93142856",
+      "collectedAt": "2026-10-27T09:46:44.992Z"
+    },
+    "93566249": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/93566249",
+      "collectedAt": "2026-10-27T09:46:25.591Z"
+    },
+    "93859694": {
+      "age": 31,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/93859694",
+      "collectedAt": "2026-10-27T09:46:24.569Z"
+    },
+    "94299435": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/94299435",
+      "collectedAt": "2026-10-27T09:46:09.071Z"
+    },
+    "95151908": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/95151908",
+      "error": "Age selector missing"
+    },
+    "95230129": {
+      "age": 40,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/95230129",
+      "collectedAt": "2026-10-27T09:46:31.332Z"
+    },
+    "95796168": {
+      "age": 27,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/95796168",
+      "collectedAt": "2026-10-27T09:46:26.538Z"
+    },
+    "95863943": {
+      "age": 39,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/95863943",
+      "collectedAt": "2026-10-27T09:46:20.716Z"
+    },
+    "96703712": {
+      "age": 36,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/96703712",
+      "collectedAt": "2026-10-27T09:46:56.517Z"
+    },
+    "97430032": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/97430032",
+      "error": "Age selector missing"
+    },
+    "97530768": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/97530768",
+      "error": "Age selector missing"
+    },
+    "97887584": {
+      "age": 19,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/97887584",
+      "collectedAt": "2026-10-27T09:47:06.320Z"
+    },
+    "98413196": {
+      "age": 29,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98413196",
+      "collectedAt": "2026-10-27T09:46:09.565Z"
+    },
+    "98498348": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98498348",
+      "error": "Age selector missing"
+    },
+    "98611245": {
+      "age": 26,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98611245",
+      "collectedAt": "2026-10-27T09:46:54.865Z"
+    },
+    "98660587": {
+      "age": 33,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98660587",
+      "collectedAt": "2026-10-27T09:46:05.959Z"
+    },
+    "98881148": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98881148",
+      "error": "Age selector missing"
+    },
+    "99123036": {
+      "age": 28,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/99123036",
+      "collectedAt": "2026-10-27T09:46:33.990Z"
+    },
+    "99424846": {
+      "age": 25,
+      "status": "collected",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/99424846",
+      "collectedAt": "2026-10-27T09:46:09.800Z"
+    },
+    "99555600": {
+      "age": null,
+      "status": "failed",
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/99555600",
+      "error": "Age selector missing"
+    }
+  }
+}

@@ -3,7 +3,7 @@ import './page-transition.css';
 
 export function usePageTransition() {
   useEffect(() => {
-    const root = document.getElementById('root');
+    const main = document.getElementById('main');
     const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let timer;
     let navigating = false;
@@ -11,7 +11,7 @@ export function usePageTransition() {
     function reset() {
       clearTimeout(timer);
       navigating = false;
-      root.classList.remove('page-leaving');
+      main.classList.remove('page-leaving');
     }
 
     function onClick(event) {
@@ -26,7 +26,7 @@ export function usePageTransition() {
       event.preventDefault();
       if (navigating) return;
       navigating = true;
-      root.classList.add('page-leaving');
+      main.classList.add('page-leaving');
       timer = window.setTimeout(() => window.location.assign(next.href), 280);
     }
 
@@ -34,7 +34,7 @@ export function usePageTransition() {
     window.addEventListener('pageshow', reset);
     return () => {
       clearTimeout(timer);
-      root.classList.remove('page-leaving');
+      main.classList.remove('page-leaving');
       document.removeEventListener('click', onClick);
       window.removeEventListener('pageshow', reset);
     };

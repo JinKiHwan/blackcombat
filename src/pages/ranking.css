@@ -1,0 +1,66 @@
+.ranking-page { padding: 100px 0; }
+.ranking-container { width: min(1440px, calc((100% - 112px) * .9)); margin: auto; }
+.ranking-kicker { margin: 0 0 22px; color: #ad9252; font-size: 11px; letter-spacing: 2.4px; }
+.ranking-heading h1 { font-size: clamp(64px,7vw,112px); letter-spacing: 0; line-height: 1.2; }
+.ranking-intro { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 25px 0 45px; }
+.ranking-intro p { font-size: 16px; font-weight: 300; color: #c8c4bc; margin: 0; }
+.ranking-intro > span { display: flex; align-items: center; gap: 18px; font-size: 10px; letter-spacing: 2px; color: #858077; }
+.ranking-intro i { width: 3px; height: 3px; background: #c49e39; }
+.ranking-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 15px 0; border-block: 1px solid #b69a4938; margin-bottom: 35px; }
+.ranking-toolbar > p { color: #b5aa8c; font-size: 13px; }
+.ranking-search { display: flex; align-items: center; gap: 12px; width: 260px; border-bottom: 1px solid #ffffff30; color: #c6a657; }
+.ranking-search > span[aria-hidden] { font-size: 25px; }
+.ranking-search input { width: 100%; min-width: 0; padding: 12px 3px; border: 0; background: transparent; color: #eee; font-size: 13px; }
+.ranking-sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.ranking-divisions { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); align-items: start; gap: 36px 24px; }
+.ranking-division { min-width: 0; border: 1px solid #b69a492e; background: #0c0c0bd9; }
+.ranking-division-heading { padding: 22px 24px 18px; border-bottom: 1px solid #b69a492e; }
+.ranking-division-heading p { font: 400 11px 'Noto Serif',serif; letter-spacing: 2px; color: #a9925b; margin: 0 0 8px; }
+.ranking-division-heading h2 { font: 400 29px/1.3 'Song Myung',serif; margin: 0; }
+.ranking-champion { position: relative; display: block; height: 205px; overflow: hidden; isolation: isolate; background: radial-gradient(ellipse at 75% 70%,#a584293b,transparent 75%); }
+.ranking-champion::after { content: ''; position: absolute; inset: 0; z-index: -1; background: url('/images/common/grunge.webp') center/500px; opacity: .1; pointer-events: none; }
+.ranking-champion > img { position: absolute; top: 8px; right: -4%; width: 64%; height: 135%; object-fit: contain; object-position: top; mask-image: linear-gradient(#000 48%,transparent 76%); }
+.ranking-champion-copy { position: relative; z-index: 1; padding: 25px 24px; width: 66%; }
+.ranking-champion-copy > span { display: inline-block; color: #d4ae4d; font: 400 10px 'Noto Serif',serif; letter-spacing: 1.5px; }
+.ranking-champion-copy h3 { font: 400 32px/1.25 'Song Myung',serif; margin: 15px 0 7px; overflow-wrap: anywhere; }
+.ranking-champion-copy p { color: #a5a092; font-size: 12px; margin: 0 0 14px; }
+.ranking-champion-copy small { color: #cbbb91; font-size: 12px; }
+.ranking-champion.is-vacant .ranking-champion-copy { width: 100%; }
+.ranking-champion.is-vacant h3 { color: #8d887a; font-size: 27px; }
+.ranking-list-labels { display: grid; grid-template-columns: 40px 1fr auto; gap: 12px; padding: 12px 20px; border-block: 1px solid #ffffff12; color: #797569; font-size: 9px; letter-spacing: 1px; }
+.ranking-list { list-style: none; margin: 0; padding: 0; }
+.ranking-list li + li { border-top: 1px solid #ffffff0c; }
+.ranking-list li > a { display: grid; grid-template-columns: 25px 44px minmax(0,1fr) auto; align-items: center; gap: 12px; min-height: 77px; padding: 8px 20px; transition: background .2s; }
+.ranking-list li > a:hover,.ranking-list li > a:focus-visible { background: #b69a4914; }
+.ranking-position { color: #a99a73; font: 400 18px var(--display); }
+.ranking-row-photo { position: relative; overflow: hidden; width: 44px; height: 58px; background: linear-gradient(135deg,#ffffff0d,transparent); }
+.ranking-row-photo img { width: 100%; height: 160%; object-fit: cover; object-position: top; }
+.ranking-row-name h3 { margin: 0 0 5px; font: 400 19px/1.2 'Song Myung',serif; overflow-wrap: anywhere; }
+.ranking-row-name p { margin: 0; font-size: 10px; color: #8e8b82; overflow-wrap: anywhere; }
+.ranking-row-record { text-align: right; }
+.ranking-row-record > span { color: #c4bda9; font-size: 11px; white-space: nowrap; }
+.ranking-row-record small { display: block; width: fit-content; margin: 7px 0 0 auto; font-size: 11px; font-weight: 700; line-height: 1.4; color: #9c978b; }
+.ranking-row-record small.up, .ranking-row-record small.down { letter-spacing: .5px; }
+.ranking-row-record small.up { color: #71e0a0; }
+.ranking-row-record small.down { color: #ff9090; }
+.ranking-silhouette { display: block; width: 100%; height: 100%; background: radial-gradient(ellipse 22% 20% at 50% 25%,#34332d 98%,transparent),radial-gradient(ellipse 45% 50% at 50% 90%,#2b2a25 98%,transparent); }
+.ranking-champion > .ranking-silhouette { position: absolute; width: 45%; right: 0; top: 0; }
+.ranking-more { display: flex; justify-content: center; align-items: center; gap: 12px; width: 100%; border: 0; border-top: 1px solid #b69a4933; padding: 15px; background: #b69a490b; color: #bdb08e; font-size: 12px; }
+.ranking-more:hover { background: #b69a4925; color: #e6bf5a; }
+.ranking-more > span { font-size: 18px; }
+.ranking-source { margin-top: 45px; padding-top: 24px; border-top: 1px solid #ffffff16; color: #78756d; font-size: 11px; line-height: 1.8; }
+.ranking-source p { margin: 5px 0; }
+.ranking-source a { display: inline-block; margin-top: 10px; color: #b8a67b; }
+.ranking-no-results { padding: 70px 20px; text-align: center; }
+.ranking-no-results button { padding: 12px 20px; border: 1px solid #a68a43; background: transparent; color: #d5b765; }
+@media (max-width: 1200px) { .ranking-divisions { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 760px) {
+ .ranking-page { padding: 60px 0; }
+ .ranking-container { width: calc((100% - 40px) * .9); }
+ .ranking-intro { align-items: start; flex-direction: column; }
+ .ranking-intro p { font-size: 14px; }
+ .ranking-divisions { grid-template-columns: 1fr; gap: 24px; }
+ .ranking-toolbar { flex-wrap: wrap; gap: 4px; }
+ .ranking-search { width: 100%; }
+ .ranking-list li > a { gap: 10px; padding-inline: 16px; }
+}

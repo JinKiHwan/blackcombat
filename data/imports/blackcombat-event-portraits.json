@@ -1,0 +1,2066 @@
+{
+  "profiles": {
+    "10113748": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/10113748",
+      "checkedAt": "2026-10-27T09:52:26.291Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "10976032": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/10976032",
+      "checkedAt": "2026-10-27T09:52:00.816Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/10976032/10976032_detail.webp?v=250716095326",
+      "localPath": "/images/fighters/10976032.webp",
+      "status": "downloaded"
+    },
+    "11076208": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11076208",
+      "checkedAt": "2026-10-27T09:52:46.344Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "11198227": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11198227/11198227_detail.webp?v=260617191518",
+      "localPath": "/images/fighters/11198227.webp"
+    },
+    "11257516": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11257516",
+      "checkedAt": "2026-10-27T09:52:20.491Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "11539850": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11539850/11539850_detail.webp?v=260727175958",
+      "localPath": "/images/fighters/11539850.webp"
+    },
+    "11711666": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11711666/11711666_detail.webp?v=251215235710",
+      "localPath": "/images/fighters/11711666.webp"
+    },
+    "11943234": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11943234/11943234_detail.webp?v=260727175739",
+      "localPath": "/images/fighters/11943234.webp"
+    },
+    "11958177": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11958177/11958177_detail.webp?v=260901190033",
+      "localPath": "/images/fighters/11958177.webp"
+    },
+    "12138256": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/12138256/12138256_detail.webp?v=260830220357",
+      "localPath": "/images/fighters/12138256.webp"
+    },
+    "12143883": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/12143883",
+      "checkedAt": "2026-10-27T09:52:35.901Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "13041629": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/13041629",
+      "checkedAt": "2026-10-27T09:52:08.821Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/13041629/13041629_detail.webp?v=260605172507",
+      "localPath": "/images/fighters/13041629.webp",
+      "status": "downloaded"
+    },
+    "13333784": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/13333784",
+      "checkedAt": "2026-10-27T09:52:36.487Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "13739920": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/13739920",
+      "checkedAt": "2026-10-27T09:52:59.906Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "14307481": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/14307481/14307481_detail.webp?v=260830220855",
+      "localPath": "/images/fighters/14307481.webp"
+    },
+    "14674653": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/14674653/14674653_detail.webp?v=260201192834",
+      "localPath": "/images/fighters/14674653.webp"
+    },
+    "14900338": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/14900338",
+      "checkedAt": "2026-10-27T09:52:57.251Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "15036209": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/15036209",
+      "checkedAt": "2026-10-27T09:52:19.422Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15036209/15036209_detail.webp?v=240529164518",
+      "localPath": "/images/fighters/15036209.webp",
+      "status": "downloaded"
+    },
+    "15303256": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15303256/15303256_detail.webp?v=260901190026",
+      "localPath": "/images/fighters/15303256.webp"
+    },
+    "15335910": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15335910/15335910_detail.webp?v=260606210218",
+      "localPath": "/images/fighters/15335910.webp"
+    },
+    "15664333": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15664333/15664333_detail.webp?v=251206220456",
+      "localPath": "/images/fighters/15664333.webp"
+    },
+    "15757658": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/15757658",
+      "checkedAt": "2026-10-27T09:52:02.846Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15757658/15757658_detail.webp?v=260412172301",
+      "localPath": "/images/fighters/15757658.webp",
+      "status": "downloaded"
+    },
+    "16094004": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16094004",
+      "checkedAt": "2026-10-27T09:52:00.332Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/16094004/16094004_detail.webp?v=231208005648",
+      "localPath": "/images/fighters/16094004.webp",
+      "status": "downloaded"
+    },
+    "16153896": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16153896",
+      "checkedAt": "2026-10-27T09:51:52.334Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/16153896/16153896_detail.webp?v=240129174118",
+      "localPath": "/images/fighters/16153896.webp",
+      "status": "downloaded"
+    },
+    "16455011": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16455011",
+      "checkedAt": "2026-10-27T09:52:33.906Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "16507100": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16507100",
+      "checkedAt": "2026-10-27T09:52:52.164Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "16538110": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/16538110/16538110_detail.webp?v=260503173846",
+      "localPath": "/images/fighters/16538110.webp"
+    },
+    "16541723": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16541723",
+      "checkedAt": "2026-10-27T09:52:38.103Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/16541723/16541723_detail.webp?v=240415173130",
+      "localPath": "/images/fighters/16541723.webp",
+      "status": "downloaded"
+    },
+    "17052584": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/17052584",
+      "checkedAt": "2026-10-27T09:52:55.886Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "17117825": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/17117825/17117825_detail.webp?v=251114184835",
+      "localPath": "/images/fighters/17117825.webp"
+    },
+    "17549618": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/17549618",
+      "checkedAt": "2026-10-27T09:52:55.050Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "17761590": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/17761590",
+      "checkedAt": "2026-10-27T09:52:43.399Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "18063338": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/18063338/18063338_detail.webp?v=260830221832",
+      "localPath": "/images/fighters/18063338.webp"
+    },
+    "18102405": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18102405",
+      "checkedAt": "2026-10-27T09:52:39.420Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "18336025": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/18336025/18336025_detail.webp?v=260830220655",
+      "localPath": "/images/fighters/18336025.webp"
+    },
+    "18786897": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18786897",
+      "checkedAt": "2026-10-27T09:52:51.885Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "18839413": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18839413",
+      "checkedAt": "2026-10-27T09:53:00.217Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "18942108": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18942108",
+      "checkedAt": "2026-10-27T09:52:56.487Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "18943379": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18943379",
+      "checkedAt": "2026-10-27T09:52:23.197Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "19443685": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/19443685/19443685_detail.webp?v=260328212013",
+      "localPath": "/images/fighters/19443685.webp"
+    },
+    "19848079": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/19848079/19848079_detail.webp?v=260201192820",
+      "localPath": "/images/fighters/19848079.webp"
+    },
+    "19976683": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/19976683",
+      "checkedAt": "2026-10-27T09:52:46.610Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/19976683/19976683_detail.webp?v=231208004723",
+      "localPath": "/images/fighters/19976683.webp",
+      "status": "downloaded"
+    },
+    "20131693": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/20131693",
+      "checkedAt": "2026-10-27T09:51:59.568Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "20347305": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/20347305",
+      "checkedAt": "2026-10-27T09:52:03.341Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/20347305/20347305_detail.webp?v=260412172244",
+      "localPath": "/images/fighters/20347305.webp",
+      "status": "downloaded"
+    },
+    "20726353": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/20726353",
+      "checkedAt": "2026-10-27T09:52:18.668Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/20726353/20726353_detail.webp?v=250904165519",
+      "localPath": "/images/fighters/20726353.webp",
+      "status": "downloaded"
+    },
+    "21053815": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/21053815",
+      "checkedAt": "2026-10-27T09:52:34.187Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "21131458": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_detail.webp?v=260901183631",
+      "localPath": "/images/fighters/21131458.webp"
+    },
+    "21461249": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21461249/21461249_detail.webp?v=260503173445",
+      "localPath": "/images/fighters/21461249.webp"
+    },
+    "22163633": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/22163633",
+      "checkedAt": "2026-10-27T09:52:23.984Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "22363165": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_detail.webp?v=260201193010",
+      "localPath": "/images/fighters/22363165.webp"
+    },
+    "22872163": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/22872163",
+      "checkedAt": "2026-10-27T09:52:38.910Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "22943074": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22943074/22943074_detail.webp?v=251114182417",
+      "localPath": "/images/fighters/22943074.webp"
+    },
+    "23473458": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/23473458",
+      "checkedAt": "2026-10-27T09:51:50.306Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/23473458/23473458_detail.webp?v=250928162255",
+      "localPath": "/images/fighters/23473458.webp",
+      "status": "downloaded"
+    },
+    "23743038": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/23743038/23743038_detail.webp?v=260902230718",
+      "localPath": "/images/fighters/23743038.webp"
+    },
+    "23832692": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/23832692",
+      "checkedAt": "2026-10-27T09:52:39.699Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "24364052": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/24364052",
+      "checkedAt": "2026-10-27T09:52:45.760Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "24567406": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/24567406",
+      "checkedAt": "2026-10-27T09:52:51.620Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "24613882": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/24613882",
+      "checkedAt": "2026-10-27T09:52:25.711Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "24816563": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/24816563",
+      "checkedAt": "2026-10-27T09:52:22.644Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "25058160": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/25058160/25058160_detail.webp?v=251114183803",
+      "localPath": "/images/fighters/25058160.webp"
+    },
+    "25840185": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/25840185",
+      "checkedAt": "2026-10-27T09:52:37.824Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "26386495": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/26386495",
+      "checkedAt": "2026-10-27T09:52:25.422Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "26730770": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/26730770",
+      "checkedAt": "2026-10-27T09:52:20.212Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "27274064": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27274064/27274064_detail.webp?v=260727180224",
+      "localPath": "/images/fighters/27274064.webp"
+    },
+    "27550232": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27550232/27550232_detail.webp?v=260317192717",
+      "localPath": "/images/fighters/27550232.webp"
+    },
+    "27588721": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27588721/27588721_detail.webp?v=260618011248",
+      "localPath": "/images/fighters/27588721.webp"
+    },
+    "27796067": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_detail.webp?v=260727180218",
+      "localPath": "/images/fighters/27796067.webp"
+    },
+    "27904723": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27904723/27904723_detail.webp?v=260606210245",
+      "localPath": "/images/fighters/27904723.webp"
+    },
+    "28308426": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_detail.webp?v=260901183545",
+      "localPath": "/images/fighters/28308426.webp"
+    },
+    "28597056": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/28597056",
+      "checkedAt": "2026-10-27T09:52:48.448Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "28766523": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/28766523",
+      "checkedAt": "2026-10-27T09:51:46.889Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28766523/28766523_detail.webp?v=250904162233",
+      "localPath": "/images/fighters/28766523.webp",
+      "status": "downloaded"
+    },
+    "28865824": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_detail.webp?v=260731182601",
+      "localPath": "/images/fighters/28865824.webp"
+    },
+    "28938131": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/28938131",
+      "checkedAt": "2026-10-27T09:51:55.272Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "29363216": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/29363216/29363216_detail.webp?v=260830220848",
+      "localPath": "/images/fighters/29363216.webp"
+    },
+    "30038332": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/30038332/30038332_detail.webp?v=260328211723",
+      "localPath": "/images/fighters/30038332.webp"
+    },
+    "30158915": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/30158915/30158915_detail.webp?v=250322203406",
+      "localPath": "/images/fighters/30158915.webp"
+    },
+    "30493281": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/30493281",
+      "checkedAt": "2026-10-27T09:52:45.484Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "30544910": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/30544910",
+      "checkedAt": "2026-10-27T09:52:14.074Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/30544910/30544910_detail.webp?v=241026203729",
+      "localPath": "/images/fighters/30544910.webp",
+      "status": "downloaded"
+    },
+    "30625901": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/30625901",
+      "checkedAt": "2026-10-27T09:52:38.643Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "31068270": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31068270",
+      "checkedAt": "2026-10-27T09:52:29.536Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "31209937": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31209937",
+      "checkedAt": "2026-10-27T09:52:04.799Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31209937/31209937_detail.webp?v=260412172202",
+      "localPath": "/images/fighters/31209937.webp",
+      "status": "downloaded"
+    },
+    "31367195": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_detail.webp?v=260924030157",
+      "localPath": "/images/fighters/31367195.webp"
+    },
+    "31507933": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31507933",
+      "checkedAt": "2026-10-27T09:51:53.856Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31507933/31507933_detail.webp?v=250905115619",
+      "localPath": "/images/fighters/31507933.webp",
+      "status": "downloaded"
+    },
+    "31606646": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31606646/31606646_detail.webp?v=260315171717",
+      "localPath": "/images/fighters/31606646.webp"
+    },
+    "31668871": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31668871",
+      "checkedAt": "2026-10-27T09:51:54.338Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "31720294": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_detail.webp?v=260925214009",
+      "localPath": "/images/fighters/31720294.webp"
+    },
+    "31732390": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31732390",
+      "checkedAt": "2026-10-27T09:51:42.912Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31732390/31732390_detail.png?v=251114183708",
+      "localPath": "/images/fighters/31732390.png",
+      "status": "downloaded"
+    },
+    "31777288": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31777288/31777288_detail.webp?v=251114184420",
+      "localPath": "/images/fighters/31777288.webp"
+    },
+    "31824293": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31824293",
+      "checkedAt": "2026-10-27T09:52:23.705Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "31975443": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31975443",
+      "checkedAt": "2026-10-27T09:51:45.400Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31975443/31975443_detail.webp?v=250904110915",
+      "localPath": "/images/fighters/31975443.webp",
+      "status": "downloaded"
+    },
+    "32056354": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/32056354/32056354_detail.webp?v=260727180313",
+      "localPath": "/images/fighters/32056354.webp"
+    },
+    "32699714": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/32699714/32699714_detail.webp?v=260830215150",
+      "localPath": "/images/fighters/32699714.webp"
+    },
+    "32870908": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/32870908",
+      "checkedAt": "2026-10-27T09:51:47.880Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/32870908/32870908_detail.webp?v=250905115635",
+      "localPath": "/images/fighters/32870908.webp",
+      "status": "downloaded"
+    },
+    "33169982": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/33169982/33169982_detail.webp?v=260727175824",
+      "localPath": "/images/fighters/33169982.webp"
+    },
+    "33689597": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/33689597",
+      "checkedAt": "2026-10-27T09:52:50.565Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "34145632": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34145632/34145632_detail.webp?v=260901183445",
+      "localPath": "/images/fighters/34145632.webp"
+    },
+    "34176555": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34176555/34176555_detail.webp?v=260317193245",
+      "localPath": "/images/fighters/34176555.webp"
+    },
+    "34473780": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34473780/34473780_detail.webp?v=260901183621",
+      "localPath": "/images/fighters/34473780.webp"
+    },
+    "34629044": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34629044/34629044_detail.webp?v=260618011157",
+      "localPath": "/images/fighters/34629044.webp"
+    },
+    "35369017": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/35369017",
+      "checkedAt": "2026-10-27T09:52:15.988Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/35369017/35369017_detail.webp?v=240629003556",
+      "localPath": "/images/fighters/35369017.webp",
+      "status": "downloaded"
+    },
+    "35516338": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/35516338/35516338_detail.webp?v=260727181040",
+      "localPath": "/images/fighters/35516338.webp"
+    },
+    "35833598": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/35833598",
+      "checkedAt": "2026-10-27T09:52:46.036Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "36284437": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/36284437",
+      "checkedAt": "2026-10-27T09:51:56.853Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/36284437/36284437_detail.webp?v=250802204832",
+      "localPath": "/images/fighters/36284437.webp",
+      "status": "downloaded"
+    },
+    "36638590": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/36638590",
+      "checkedAt": "2026-10-27T09:51:52.857Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/36638590/36638590_detail.webp?v=250905115652",
+      "localPath": "/images/fighters/36638590.webp",
+      "status": "downloaded"
+    },
+    "36723415": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/36723415",
+      "checkedAt": "2026-10-27T09:52:51.065Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "36870670": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/36870670",
+      "checkedAt": "2026-10-27T09:52:04.319Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/36870670/36870670_detail.webp?v=260412172214",
+      "localPath": "/images/fighters/36870670.webp",
+      "status": "downloaded"
+    },
+    "36972922": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/36972922",
+      "checkedAt": "2026-10-27T09:51:42.428Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/36972922/36972922_detail.webp?v=251114174440",
+      "localPath": "/images/fighters/36972922.webp",
+      "status": "downloaded"
+    },
+    "37050120": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37050120/37050120_detail.webp?v=260503180634",
+      "localPath": "/images/fighters/37050120.webp"
+    },
+    "37054476": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37054476/37054476_detail.webp?v=260901183603",
+      "localPath": "/images/fighters/37054476.webp"
+    },
+    "37133939": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37133939",
+      "checkedAt": "2026-10-27T09:52:51.341Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "37418531": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37418531/37418531_detail.webp?v=260617190716",
+      "localPath": "/images/fighters/37418531.webp"
+    },
+    "37450877": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37450877",
+      "checkedAt": "2026-10-27T09:52:50.302Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "37647152": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37647152",
+      "checkedAt": "2026-10-27T09:52:06.516Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37647152/37647152_detail.webp?v=260412172058",
+      "localPath": "/images/fighters/37647152.webp",
+      "status": "downloaded"
+    },
+    "37864698": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37864698/37864698_detail.webp?v=260830221342",
+      "localPath": "/images/fighters/37864698.webp"
+    },
+    "38008098": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38008098",
+      "checkedAt": "2026-10-27T09:52:07.515Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38008098/38008098_detail.webp?v=260606210213",
+      "localPath": "/images/fighters/38008098.webp",
+      "status": "downloaded"
+    },
+    "38211207": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38211207",
+      "checkedAt": "2026-10-27T09:51:58.793Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "38215319": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38215319",
+      "checkedAt": "2026-10-27T09:52:02.085Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "38266375": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38266375/38266375_detail.webp?v=260814010542",
+      "localPath": "/images/fighters/38266375.webp"
+    },
+    "38495798": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38495798",
+      "checkedAt": "2026-10-27T09:52:05.290Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38495798/38495798_detail.webp?v=260412172151",
+      "localPath": "/images/fighters/38495798.webp",
+      "status": "downloaded"
+    },
+    "38860186": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38860186/38860186_detail.webp?v=240225201541",
+      "localPath": "/images/fighters/38860186.webp"
+    },
+    "38873104": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38873104",
+      "checkedAt": "2026-10-27T09:51:57.813Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38873104/38873104_detail.webp?v=231208004658",
+      "localPath": "/images/fighters/38873104.webp",
+      "status": "downloaded"
+    },
+    "39066167": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39066167",
+      "checkedAt": "2026-10-27T09:52:36.209Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "39306363": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39306363/39306363_detail.webp?v=260814010724",
+      "localPath": "/images/fighters/39306363.webp"
+    },
+    "39588679": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39588679/39588679_detail.webp?v=260729104337",
+      "localPath": "/images/fighters/39588679.webp"
+    },
+    "39721789": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39721789",
+      "checkedAt": "2026-10-27T09:52:36.986Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "39928334": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39928334",
+      "checkedAt": "2026-10-27T09:51:45.899Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39928334/39928334_detail.webp?v=250904162241",
+      "localPath": "/images/fighters/39928334.webp",
+      "status": "downloaded"
+    },
+    "40061487": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/40061487",
+      "checkedAt": "2026-10-27T09:51:53.353Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40061487/40061487_detail.webp?v=240812130711",
+      "localPath": "/images/fighters/40061487.webp",
+      "status": "downloaded"
+    },
+    "40528956": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/40528956",
+      "checkedAt": "2026-10-27T09:52:31.442Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "40677542": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40677542/40677542_detail.webp?v=260412172115",
+      "localPath": "/images/fighters/40677542.webp"
+    },
+    "40717069": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40717069/40717069_detail.webp?v=260606210100",
+      "localPath": "/images/fighters/40717069.webp"
+    },
+    "40931937": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/40931937",
+      "checkedAt": "2026-10-27T09:52:22.145Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40931937/40931937_detail.webp?v=251106133341",
+      "localPath": "/images/fighters/40931937.webp",
+      "status": "downloaded"
+    },
+    "41036734": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41036734",
+      "checkedAt": "2026-10-27T09:52:09.593Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41036734/41036734_detail.webp?v=251206220429",
+      "localPath": "/images/fighters/41036734.webp",
+      "status": "downloaded"
+    },
+    "41137884": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41137884/41137884_detail.webp?v=251114184335",
+      "localPath": "/images/fighters/41137884.webp"
+    },
+    "41326305": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_detail.webp?v=260901184110",
+      "localPath": "/images/fighters/41326305.webp"
+    },
+    "41530074": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41530074",
+      "checkedAt": "2026-10-27T09:52:44.946Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "41530580": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_detail.webp?v=260503173129",
+      "localPath": "/images/fighters/41530580.webp"
+    },
+    "41995059": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41995059",
+      "checkedAt": "2026-10-27T09:52:49.243Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "42018311": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42018311",
+      "checkedAt": "2026-10-27T09:52:41.588Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "42162303": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42162303/42162303_detail.webp?v=260606210226",
+      "localPath": "/images/fighters/42162303.webp"
+    },
+    "42401461": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42401461/42401461_detail.webp?v=251114184613",
+      "localPath": "/images/fighters/42401461.webp"
+    },
+    "42447555": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42447555/42447555_detail.webp?v=251114184259",
+      "localPath": "/images/fighters/42447555.webp"
+    },
+    "42533973": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42533973",
+      "checkedAt": "2026-10-27T09:52:27.141Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "42536332": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42536332/42536332_detail.webp?v=241230125826",
+      "localPath": "/images/fighters/42536332.webp"
+    },
+    "43145922": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43145922/43145922_detail.webp?v=260830220700",
+      "localPath": "/images/fighters/43145922.webp"
+    },
+    "43483071": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43483071/43483071_detail.webp?v=260814010353",
+      "localPath": "/images/fighters/43483071.webp"
+    },
+    "43687237": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/43687237",
+      "checkedAt": "2026-10-27T09:52:57.529Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "43792974": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43792974/43792974_detail.webp?v=260617231108",
+      "localPath": "/images/fighters/43792974.webp"
+    },
+    "43971954": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/43971954",
+      "checkedAt": "2026-10-27T09:52:54.518Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "44845474": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/44845474",
+      "checkedAt": "2026-10-27T09:52:45.222Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "45557928": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/45557928/45557928_detail.webp?v=251114181331",
+      "localPath": "/images/fighters/45557928.webp"
+    },
+    "45606965": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/45606965/45606965_detail.webp?v=240225201607",
+      "localPath": "/images/fighters/45606965.webp"
+    },
+    "45717830": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/45717830",
+      "checkedAt": "2026-10-27T09:52:21.603Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "46058792": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46058792",
+      "checkedAt": "2026-10-27T09:51:51.288Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46058792/46058792_detail.webp?v=250905115728",
+      "localPath": "/images/fighters/46058792.webp",
+      "status": "downloaded"
+    },
+    "46322582": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46322582",
+      "checkedAt": "2026-10-27T09:52:30.368Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "46333839": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46333839/46333839_detail.webp?v=251114183434",
+      "localPath": "/images/fighters/46333839.webp"
+    },
+    "46758754": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46758754",
+      "checkedAt": "2026-10-27T09:52:02.351Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46758754/46758754_detail.webp?v=260429181926",
+      "localPath": "/images/fighters/46758754.webp",
+      "status": "downloaded"
+    },
+    "46833732": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46833732",
+      "checkedAt": "2026-10-27T09:52:49.772Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "46953719": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46953719",
+      "checkedAt": "2026-10-27T09:51:50.799Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46953719/46953719_detail.webp?v=250527042745",
+      "localPath": "/images/fighters/46953719.webp",
+      "status": "downloaded"
+    },
+    "47788448": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/47788448",
+      "checkedAt": "2026-10-27T09:52:48.713Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "47905869": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/47905869",
+      "checkedAt": "2026-10-27T09:52:55.608Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "48217777": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48217777/48217777_detail.webp?v=260617191001",
+      "localPath": "/images/fighters/48217777.webp"
+    },
+    "48634737": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48634737/48634737_detail.webp?v=260727180135",
+      "localPath": "/images/fighters/48634737.webp"
+    },
+    "49111259": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/49111259",
+      "checkedAt": "2026-10-27T09:52:54.787Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "49327976": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/49327976",
+      "checkedAt": "2026-10-27T09:52:49.508Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "49506352": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/49506352",
+      "checkedAt": "2026-10-27T09:52:52.694Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "49763819": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/49763819",
+      "checkedAt": "2026-10-27T09:52:28.759Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/49763819/49763819_detail.webp?v=250413165352",
+      "localPath": "/images/fighters/49763819.webp",
+      "status": "downloaded"
+    },
+    "50036536": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/50036536",
+      "checkedAt": "2026-10-27T09:52:37.263Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50036536/50036536_detail.webp?v=240515021638",
+      "localPath": "/images/fighters/50036536.webp",
+      "status": "downloaded"
+    },
+    "50151784": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50151784/50151784_detail.webp?v=260603193425",
+      "localPath": "/images/fighters/50151784.webp"
+    },
+    "50893031": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50893031/50893031_detail.webp?v=260830221733",
+      "localPath": "/images/fighters/50893031.webp"
+    },
+    "50941536": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/50941536",
+      "checkedAt": "2026-10-27T09:52:18.141Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50941536/50941536_detail.webp?v=240422193538",
+      "localPath": "/images/fighters/50941536.webp",
+      "status": "downloaded"
+    },
+    "51243766": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51243766/51243766_detail.webp?v=260606210201",
+      "localPath": "/images/fighters/51243766.webp"
+    },
+    "51253531": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_detail.webp?v=260814010637",
+      "localPath": "/images/fighters/51253531.webp"
+    },
+    "51489455": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51489455",
+      "checkedAt": "2026-10-27T09:52:32.513Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51489455/51489455_detail.webp?v=241117012337",
+      "localPath": "/images/fighters/51489455.webp",
+      "status": "downloaded"
+    },
+    "51495836": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51495836/51495836_detail.webp?v=260201192816",
+      "localPath": "/images/fighters/51495836.webp"
+    },
+    "51523231": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51523231/51523231_detail.webp?v=260326022321",
+      "localPath": "/images/fighters/51523231.webp"
+    },
+    "51533588": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51533588/51533588_detail.webp?v=260617192307",
+      "localPath": "/images/fighters/51533588.webp"
+    },
+    "51611046": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51611046/51611046_detail.webp?v=260903223557",
+      "localPath": "/images/fighters/51611046.webp"
+    },
+    "51712256": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_detail.webp?v=260606210155",
+      "localPath": "/images/fighters/51712256.webp"
+    },
+    "51837721": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51837721/51837721_detail.webp?v=250316152851",
+      "localPath": "/images/fighters/51837721.webp"
+    },
+    "51940035": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51940035/51940035_detail.webp?v=251201195841",
+      "localPath": "/images/fighters/51940035.webp"
+    },
+    "52027495": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/52027495",
+      "checkedAt": "2026-10-27T09:52:47.653Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "52216349": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/52216349",
+      "checkedAt": "2026-10-27T09:51:44.917Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/52216349/52216349_detail.webp?v=250905115741",
+      "localPath": "/images/fighters/52216349.webp",
+      "status": "downloaded"
+    },
+    "53287506": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53287506/53287506_detail.webp?v=260830220959",
+      "localPath": "/images/fighters/53287506.webp"
+    },
+    "53339805": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_detail.webp?v=260727180846",
+      "localPath": "/images/fighters/53339805.webp"
+    },
+    "53375538": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/53375538",
+      "checkedAt": "2026-10-27T09:51:41.173Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "53545077": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/53545077",
+      "checkedAt": "2026-10-27T09:51:44.403Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53545077/53545077_detail.webp?v=250905120114",
+      "localPath": "/images/fighters/53545077.webp",
+      "status": "downloaded"
+    },
+    "53628585": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/53628585",
+      "checkedAt": "2026-10-27T09:52:53.504Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "54665791": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/54665791",
+      "checkedAt": "2026-10-27T09:52:29.814Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "54898276": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_detail.webp?v=260809210153",
+      "localPath": "/images/fighters/54898276.webp"
+    },
+    "55032720": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/55032720/55032720_detail.webp?v=250322203435",
+      "localPath": "/images/fighters/55032720.webp"
+    },
+    "56124513": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/56124513/56124513_detail.png?v=260412172121",
+      "localPath": "/images/fighters/56124513.png"
+    },
+    "56183939": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/56183939",
+      "checkedAt": "2026-10-27T09:51:48.363Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/56183939/56183939_detail.webp?v=250904162147",
+      "localPath": "/images/fighters/56183939.webp",
+      "status": "downloaded"
+    },
+    "56308598": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/56308598",
+      "checkedAt": "2026-10-27T09:52:44.169Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "56648088": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/56648088",
+      "checkedAt": "2026-10-27T09:52:21.882Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "56845224": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/56845224",
+      "checkedAt": "2026-10-27T09:52:11.190Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/56845224/56845224_detail.webp?v=250904132210",
+      "localPath": "/images/fighters/56845224.webp",
+      "status": "downloaded"
+    },
+    "57104443": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/57104443/57104443_detail.webp?v=260412172111",
+      "localPath": "/images/fighters/57104443.webp"
+    },
+    "57877349": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/57877349",
+      "checkedAt": "2026-10-27T09:51:41.450Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/57877349/57877349_detail.webp?v=251104012551",
+      "localPath": "/images/fighters/57877349.webp",
+      "status": "downloaded"
+    },
+    "58067584": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/58067584",
+      "checkedAt": "2026-10-27T09:51:47.385Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/58067584/58067584_detail.webp?v=250904161954",
+      "localPath": "/images/fighters/58067584.webp",
+      "status": "downloaded"
+    },
+    "58099999": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/58099999",
+      "checkedAt": "2026-10-27T09:52:47.919Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "58100688": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/58100688/58100688_detail.webp?v=250626020151",
+      "localPath": "/images/fighters/58100688.webp"
+    },
+    "58305359": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/58305359/58305359_detail.webp?v=260328211635",
+      "localPath": "/images/fighters/58305359.webp"
+    },
+    "59067866": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/59067866",
+      "checkedAt": "2026-10-27T09:52:03.838Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/59067866/59067866_detail.webp?v=260412172224",
+      "localPath": "/images/fighters/59067866.webp",
+      "status": "downloaded"
+    },
+    "59174431": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/59174431/59174431_detail.webp?v=260727180141",
+      "localPath": "/images/fighters/59174431.webp"
+    },
+    "59397931": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/59397931",
+      "checkedAt": "2026-10-27T09:52:30.092Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "59939562": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/59939562",
+      "checkedAt": "2026-10-27T09:52:39.962Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/59939562/59939562_detail.webp?v=240515021344",
+      "localPath": "/images/fighters/59939562.webp",
+      "status": "downloaded"
+    },
+    "60298370": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/60298370/60298370_detail.webp?v=260727175732",
+      "localPath": "/images/fighters/60298370.webp"
+    },
+    "60344952": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/60344952",
+      "checkedAt": "2026-10-27T09:52:55.329Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "60636602": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/60636602",
+      "checkedAt": "2026-10-27T09:52:35.293Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "60922090": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/60922090/60922090_detail.webp?v=260503172711",
+      "localPath": "/images/fighters/60922090.webp"
+    },
+    "61428140": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/61428140",
+      "checkedAt": "2026-10-27T09:52:59.628Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "61477977": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/61477977",
+      "checkedAt": "2026-10-27T09:52:20.769Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "61891168": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/61891168/61891168_detail.webp?v=260901183525",
+      "localPath": "/images/fighters/61891168.webp"
+    },
+    "62002201": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/62002201/62002201_detail.webp?v=260814010454",
+      "localPath": "/images/fighters/62002201.webp"
+    },
+    "62550126": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/62550126/62550126_detail.webp?v=260901183513",
+      "localPath": "/images/fighters/62550126.webp"
+    },
+    "63267425": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_detail.webp?v=260727181045",
+      "localPath": "/images/fighters/63267425.webp"
+    },
+    "63918145": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63918145/63918145_detail.webp?v=260201192745",
+      "localPath": "/images/fighters/63918145.webp"
+    },
+    "64088040": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64088040",
+      "checkedAt": "2026-10-27T09:52:47.388Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "64163471": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64163471",
+      "checkedAt": "2026-10-27T09:52:28.479Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "64326511": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64326511/64326511_detail.webp?v=250904132837",
+      "localPath": "/images/fighters/64326511.webp"
+    },
+    "64788066": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64788066/64788066_detail.webp?v=251114182732",
+      "localPath": "/images/fighters/64788066.webp"
+    },
+    "64797565": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_detail.webp?v=260901183615",
+      "localPath": "/images/fighters/64797565.webp"
+    },
+    "65052150": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/65052150",
+      "checkedAt": "2026-10-27T09:51:40.822Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "65081168": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_detail.webp?v=260617230502",
+      "localPath": "/images/fighters/65081168.webp"
+    },
+    "66437818": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/66437818",
+      "checkedAt": "2026-10-27T09:52:59.039Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "66652566": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/66652566",
+      "checkedAt": "2026-10-27T09:52:58.153Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "66669714": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/66669714/66669714_detail.webp?v=260603195152",
+      "localPath": "/images/fighters/66669714.webp"
+    },
+    "66714345": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/66714345/66714345_detail.webp?v=260606210112",
+      "localPath": "/images/fighters/66714345.webp"
+    },
+    "68103858": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/68103858/68103858_detail.webp?v=251114184450",
+      "localPath": "/images/fighters/68103858.webp"
+    },
+    "68543407": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/68543407",
+      "checkedAt": "2026-10-27T09:51:59.057Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/68543407/68543407_detail.webp?v=231208004723",
+      "localPath": "/images/fighters/68543407.webp",
+      "status": "downloaded"
+    },
+    "68841419": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/68841419",
+      "checkedAt": "2026-10-27T09:51:58.296Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/68841419/68841419_detail.webp?v=241025182031",
+      "localPath": "/images/fighters/68841419.webp",
+      "status": "downloaded"
+    },
+    "69014676": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69014676",
+      "checkedAt": "2026-10-27T09:52:13.339Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69014676/69014676_detail.webp?v=241026201313",
+      "localPath": "/images/fighters/69014676.webp",
+      "status": "downloaded"
+    },
+    "69112783": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69112783",
+      "checkedAt": "2026-10-27T09:52:24.542Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "69153225": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69153225/69153225_detail.webp?v=260606210107",
+      "localPath": "/images/fighters/69153225.webp"
+    },
+    "69457329": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69457329/69457329_detail.webp?v=251107224048",
+      "localPath": "/images/fighters/69457329.webp"
+    },
+    "69534617": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69534617/69534617_detail.webp?v=260909151010",
+      "localPath": "/images/fighters/69534617.webp"
+    },
+    "69610658": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69610658/69610658_detail.webp?v=260727175903",
+      "localPath": "/images/fighters/69610658.webp"
+    },
+    "69615953": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69615953",
+      "checkedAt": "2026-10-27T09:52:41.310Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "69836118": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69836118",
+      "checkedAt": "2026-10-27T09:52:24.820Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "70330029": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/70330029",
+      "checkedAt": "2026-10-27T09:52:32.233Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "70398446": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/70398446/70398446_detail.webp?v=260727175817",
+      "localPath": "/images/fighters/70398446.webp"
+    },
+    "70806645": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/70806645/70806645_detail.webp?v=260727175923",
+      "localPath": "/images/fighters/70806645.webp"
+    },
+    "70863485": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/70863485",
+      "checkedAt": "2026-10-27T09:52:26.002Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "70881966": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/70881966",
+      "checkedAt": "2026-10-27T09:52:14.675Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/70881966/70881966_detail.webp?v=250904162649",
+      "localPath": "/images/fighters/70881966.webp",
+      "status": "downloaded"
+    },
+    "71392066": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_detail.webp?v=260830221631",
+      "localPath": "/images/fighters/71392066.webp"
+    },
+    "71657127": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71657127/71657127_detail.png?v=260727201950",
+      "localPath": "/images/fighters/71657127.png"
+    },
+    "71670566": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71670566",
+      "checkedAt": "2026-10-27T09:52:08.310Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71670566/71670566_detail.webp?v=260314022759",
+      "localPath": "/images/fighters/71670566.webp",
+      "status": "downloaded"
+    },
+    "71736058": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71736058/71736058_detail.webp?v=251206220410",
+      "localPath": "/images/fighters/71736058.webp"
+    },
+    "71953510": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71953510/71953510_detail.webp?v=260328213313",
+      "localPath": "/images/fighters/71953510.webp"
+    },
+    "72706256": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/72706256/72706256_detail.webp?v=251114182614",
+      "localPath": "/images/fighters/72706256.webp"
+    },
+    "72867298": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/72867298",
+      "checkedAt": "2026-10-27T09:52:44.435Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/72867298/72867298_detail.webp?v=231208004658",
+      "localPath": "/images/fighters/72867298.webp",
+      "status": "downloaded"
+    },
+    "73185034": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73185034/73185034_detail.webp?v=260830220432",
+      "localPath": "/images/fighters/73185034.webp"
+    },
+    "73392262": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73392262",
+      "checkedAt": "2026-10-27T09:51:56.371Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73392262/73392262_detail.webp?v=250904162351",
+      "localPath": "/images/fighters/73392262.webp",
+      "status": "downloaded"
+    },
+    "73489614": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73489614",
+      "checkedAt": "2026-10-27T09:52:40.476Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "73557323": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73557323/73557323_detail.webp?v=260606210054",
+      "localPath": "/images/fighters/73557323.webp"
+    },
+    "73707126": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73707126",
+      "checkedAt": "2026-10-27T09:52:19.933Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "73762798": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73762798/73762798_detail.webp?v=260830221006",
+      "localPath": "/images/fighters/73762798.webp"
+    },
+    "73873103": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_detail.png?v=260727202026",
+      "localPath": "/images/fighters/73873103.png"
+    },
+    "73920708": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73920708",
+      "checkedAt": "2026-10-27T09:52:50.039Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "74943577": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/74943577/74943577_detail.webp?v=260727180840",
+      "localPath": "/images/fighters/74943577.webp"
+    },
+    "75006829": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/75006829/75006829_detail.webp?v=260901183643",
+      "localPath": "/images/fighters/75006829.webp"
+    },
+    "75223559": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/75223559",
+      "checkedAt": "2026-10-27T09:52:28.198Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "75799226": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/75799226",
+      "checkedAt": "2026-10-27T09:52:57.841Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "75956747": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/75956747",
+      "checkedAt": "2026-10-27T09:52:24.262Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "76220784": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=260901183555",
+      "localPath": "/images/fighters/76220784.webp"
+    },
+    "76342229": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/76342229",
+      "checkedAt": "2026-10-27T09:51:59.835Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76342229/76342229_detail.webp?v=250826142714",
+      "localPath": "/images/fighters/76342229.webp",
+      "status": "downloaded"
+    },
+    "76669759": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/76669759",
+      "checkedAt": "2026-10-27T09:52:41.867Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "76745089": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76745089/76745089_detail.webp?v=260412172045",
+      "localPath": "/images/fighters/76745089.webp"
+    },
+    "77067697": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77067697",
+      "checkedAt": "2026-10-27T09:52:26.862Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "77158788": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77158788",
+      "checkedAt": "2026-10-27T09:52:25.128Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "77415723": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77415723",
+      "checkedAt": "2026-10-27T09:52:48.979Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "77552285": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77552285/77552285_detail.webp?v=251206220342",
+      "localPath": "/images/fighters/77552285.webp"
+    },
+    "77662615": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77662615",
+      "checkedAt": "2026-10-27T09:52:43.133Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "77842475": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_detail.webp?v=260727181120",
+      "localPath": "/images/fighters/77842475.webp"
+    },
+    "77881844": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77881844",
+      "checkedAt": "2026-10-27T09:52:34.467Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "77920653": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77920653",
+      "checkedAt": "2026-10-27T09:52:27.406Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77920653/77920653_detail.webp?v=250607011035",
+      "localPath": "/images/fighters/77920653.webp",
+      "status": "downloaded"
+    },
+    "78010648": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/78010648",
+      "checkedAt": "2026-10-27T09:52:35.024Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "78210064": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/78210064",
+      "checkedAt": "2026-10-27T09:51:49.326Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/78210064/78210064_detail.webp?v=250904162030",
+      "localPath": "/images/fighters/78210064.webp",
+      "status": "downloaded"
+    },
+    "78377160": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/78377160/78377160_detail.webp?v=251114181107",
+      "localPath": "/images/fighters/78377160.webp"
+    },
+    "78727207": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/78727207/78727207_detail.webp?v=260830220352",
+      "localPath": "/images/fighters/78727207.webp"
+    },
+    "79012557": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79012557",
+      "checkedAt": "2026-10-27T09:52:33.362Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79012557/79012557_detail.webp?v=240825040208",
+      "localPath": "/images/fighters/79012557.webp",
+      "status": "downloaded"
+    },
+    "79279699": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79279699/79279699_detail.webp?v=260603193737",
+      "localPath": "/images/fighters/79279699.webp"
+    },
+    "79434480": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79434480",
+      "checkedAt": "2026-10-27T09:51:43.906Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79434480/79434480_detail.webp?v=250904162416",
+      "localPath": "/images/fighters/79434480.webp",
+      "status": "downloaded"
+    },
+    "79444088": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79444088",
+      "checkedAt": "2026-10-27T09:52:21.046Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "79546723": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79546723",
+      "checkedAt": "2026-10-27T09:52:10.164Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79546723/79546723_detail.webp?v=251206220505",
+      "localPath": "/images/fighters/79546723.webp",
+      "status": "downloaded"
+    },
+    "79683172": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=260831144957",
+      "localPath": "/images/fighters/79683172.webp"
+    },
+    "79853443": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79853443",
+      "checkedAt": "2026-10-27T09:52:41.033Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "79883673": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79883673",
+      "checkedAt": "2026-10-27T09:52:17.348Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79883673/79883673_detail.webp?v=250102174100",
+      "localPath": "/images/fighters/79883673.webp",
+      "status": "downloaded"
+    },
+    "80166879": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/80166879/80166879_detail.webp?v=260713211621",
+      "localPath": "/images/fighters/80166879.webp"
+    },
+    "80347858": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/80347858",
+      "checkedAt": "2026-10-27T09:52:01.590Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/80347858/80347858_detail.webp?v=260830221128",
+      "localPath": "/images/fighters/80347858.webp",
+      "status": "downloaded"
+    },
+    "80831730": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/80831730",
+      "checkedAt": "2026-10-27T09:51:43.422Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/80831730/80831730_detail.webp?v=250626015451",
+      "localPath": "/images/fighters/80831730.webp",
+      "status": "downloaded"
+    },
+    "81252890": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/81252890/81252890_detail.webp?v=260317192629",
+      "localPath": "/images/fighters/81252890.webp"
+    },
+    "82056770": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82056770",
+      "checkedAt": "2026-10-27T09:52:16.730Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82056770/82056770_detail.webp?v=240628010937",
+      "localPath": "/images/fighters/82056770.webp",
+      "status": "downloaded"
+    },
+    "82116599": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82116599",
+      "checkedAt": "2026-10-27T09:51:41.947Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82116599/82116599_detail.webp?v=250824191835",
+      "localPath": "/images/fighters/82116599.webp",
+      "status": "downloaded"
+    },
+    "82156223": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82156223/82156223_detail.webp?v=260703181510",
+      "localPath": "/images/fighters/82156223.webp"
+    },
+    "82197006": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82197006",
+      "checkedAt": "2026-10-27T09:52:30.945Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "82332509": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82332509",
+      "checkedAt": "2026-10-27T09:52:33.082Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "82549141": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82549141",
+      "checkedAt": "2026-10-27T09:52:35.623Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "82685239": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=260727181111",
+      "localPath": "/images/fighters/82685239.webp"
+    },
+    "82741341": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82741341",
+      "checkedAt": "2026-10-27T09:52:54.032Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "83543030": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/83543030/83543030_detail.webp?v=260907154937",
+      "localPath": "/images/fighters/83543030.webp"
+    },
+    "83678058": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/83678058",
+      "checkedAt": "2026-10-27T09:51:56.107Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "84327640": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/84327640",
+      "checkedAt": "2026-10-27T09:51:57.332Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84327640/84327640_detail.webp?v=240515021558",
+      "localPath": "/images/fighters/84327640.webp",
+      "status": "downloaded"
+    },
+    "84407642": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84407642/84407642_detail.webp?v=260830221109",
+      "localPath": "/images/fighters/84407642.webp"
+    },
+    "84540347": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84540347/84540347_detail.webp?v=260727180003",
+      "localPath": "/images/fighters/84540347.webp"
+    },
+    "84586763": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84586763/84586763_detail.webp?v=260317192747",
+      "localPath": "/images/fighters/84586763.webp"
+    },
+    "85040982": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85040982",
+      "checkedAt": "2026-10-27T09:52:15.231Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/85040982/85040982_detail.webp?v=250905120020",
+      "localPath": "/images/fighters/85040982.webp",
+      "status": "downloaded"
+    },
+    "85172995": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/85172995/85172995_detail.webp?v=260503173537",
+      "localPath": "/images/fighters/85172995.webp"
+    },
+    "85284906": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85284906",
+      "checkedAt": "2026-10-27T09:51:51.778Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/85284906/85284906_detail.webp?v=240416194929",
+      "localPath": "/images/fighters/85284906.webp",
+      "status": "downloaded"
+    },
+    "85636641": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85636641",
+      "checkedAt": "2026-10-27T09:51:48.846Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/85636641/85636641_detail.webp?v=250904162041",
+      "localPath": "/images/fighters/85636641.webp",
+      "status": "downloaded"
+    },
+    "85898673": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85898673",
+      "checkedAt": "2026-10-27T09:52:27.921Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "85983753": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85983753",
+      "checkedAt": "2026-10-27T09:52:01.312Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "86410382": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/86410382",
+      "checkedAt": "2026-10-27T09:52:43.664Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86410382/86410382_detail.webp?v=231208005906",
+      "localPath": "/images/fighters/86410382.webp",
+      "status": "downloaded"
+    },
+    "86478580": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_detail.webp?v=260603193028",
+      "localPath": "/images/fighters/86478580.webp"
+    },
+    "86595545": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/86595545",
+      "checkedAt": "2026-10-27T09:51:49.822Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86595545/86595545_detail.webp?v=250904162012",
+      "localPath": "/images/fighters/86595545.webp",
+      "status": "downloaded"
+    },
+    "87240414": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/87240414/87240414_detail.webp?v=231208004658",
+      "localPath": "/images/fighters/87240414.webp"
+    },
+    "87530803": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/87530803",
+      "checkedAt": "2026-10-27T09:52:34.746Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "87821569": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/87821569",
+      "checkedAt": "2026-10-27T09:52:42.855Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "88392103": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/88392103",
+      "checkedAt": "2026-10-27T09:52:17.861Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "88590651": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/88590651/88590651_detail.webp?v=260830220440",
+      "localPath": "/images/fighters/88590651.webp"
+    },
+    "88660666": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/88660666",
+      "checkedAt": "2026-10-27T09:52:21.324Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "88941727": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/88941727/88941727_detail.webp?v=251211215530",
+      "localPath": "/images/fighters/88941727.webp"
+    },
+    "89258075": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89258075",
+      "checkedAt": "2026-10-27T09:52:42.142Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89258075/89258075_detail.webp?v=231208005432",
+      "localPath": "/images/fighters/89258075.webp",
+      "status": "downloaded"
+    },
+    "89602277": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89602277/89602277_detail.webp?v=260901183638",
+      "localPath": "/images/fighters/89602277.webp"
+    },
+    "89691737": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89691737",
+      "checkedAt": "2026-10-27T09:52:53.239Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "89975978": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_detail.webp?v=260908180247",
+      "localPath": "/images/fighters/89975978.webp"
+    },
+    "90043072": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/90043072/90043072_detail.webp?v=260727175857",
+      "localPath": "/images/fighters/90043072.webp"
+    },
+    "90258375": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/90258375",
+      "checkedAt": "2026-10-27T09:52:30.664Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "90316608": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/90316608/90316608_detail.webp?v=260814010516",
+      "localPath": "/images/fighters/90316608.webp"
+    },
+    "90567955": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/90567955",
+      "checkedAt": "2026-10-27T09:52:52.430Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "91010996": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_detail.webp?v=260830223136",
+      "localPath": "/images/fighters/91010996.webp"
+    },
+    "91192457": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91192457/91192457_detail.webp?v=260727180054",
+      "localPath": "/images/fighters/91192457.webp"
+    },
+    "91989744": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/91989744",
+      "checkedAt": "2026-10-27T09:52:59.350Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "92285987": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92285987",
+      "checkedAt": "2026-10-27T09:52:53.768Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "92310799": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92310799",
+      "checkedAt": "2026-10-27T09:52:31.722Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92310799/92310799_detail.webp?v=251103235715",
+      "localPath": "/images/fighters/92310799.webp",
+      "status": "downloaded"
+    },
+    "92353789": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92353789",
+      "checkedAt": "2026-10-27T09:52:47.109Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "92748764": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92748764/92748764_detail.webp?v=260830220345",
+      "localPath": "/images/fighters/92748764.webp"
+    },
+    "92865695": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92865695/92865695_detail.webp?v=260503180806",
+      "localPath": "/images/fighters/92865695.webp"
+    },
+    "92989925": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92989925/92989925_detail.webp?v=260503174116",
+      "localPath": "/images/fighters/92989925.webp"
+    },
+    "93142856": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/93142856",
+      "checkedAt": "2026-10-27T09:51:46.406Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/93142856/93142856_detail.webp?v=260903223411",
+      "localPath": "/images/fighters/93142856.webp",
+      "status": "downloaded"
+    },
+    "93566249": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/93566249/93566249_detail.webp?v=260412172315",
+      "localPath": "/images/fighters/93566249.webp"
+    },
+    "93859694": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/93859694/93859694_detail.webp?v=260412172309",
+      "localPath": "/images/fighters/93859694.webp"
+    },
+    "94299435": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/94299435/94299435_detail.webp?v=260328213433",
+      "localPath": "/images/fighters/94299435.webp"
+    },
+    "95151908": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/95151908",
+      "checkedAt": "2026-10-27T09:52:56.179Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "95230129": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95230129/95230129_detail.webp?v=260617204735",
+      "localPath": "/images/fighters/95230129.webp"
+    },
+    "95796168": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/95796168",
+      "checkedAt": "2026-10-27T09:52:22.921Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "95863943": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_detail.webp?v=260503180830",
+      "localPath": "/images/fighters/95863943.webp"
+    },
+    "96703712": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/96703712",
+      "checkedAt": "2026-10-27T09:52:12.770Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/96703712/96703712_detail.webp?v=241026203619",
+      "localPath": "/images/fighters/96703712.webp",
+      "status": "downloaded"
+    },
+    "97430032": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/97430032",
+      "checkedAt": "2026-10-27T09:52:40.754Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "97530768": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/97530768",
+      "checkedAt": "2026-10-27T09:52:48.183Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "97887584": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/97887584",
+      "checkedAt": "2026-10-27T09:52:29.256Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "98413196": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98413196/98413196_detail.webp?v=260907200828",
+      "localPath": "/images/fighters/98413196.webp"
+    },
+    "98498348": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98498348/98498348_detail.webp?v=260412172140",
+      "localPath": "/images/fighters/98498348.webp"
+    },
+    "98611245": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/98611245",
+      "checkedAt": "2026-10-27T09:52:07.239Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "98660587": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=260617234616",
+      "localPath": "/images/fighters/98660587.webp"
+    },
+    "98881148": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/98881148",
+      "checkedAt": "2026-10-27T09:52:52.960Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    "99123036": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/99123036/99123036_detail.webp?v=260831002834",
+      "localPath": "/images/fighters/99123036.webp"
+    },
+    "99424846": {
+      "status": "downloaded",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/99424846/99424846_detail.webp?v=260503173839",
+      "localPath": "/images/fighters/99424846.webp"
+    },
+    "99555600": {
+      "profileUrl": "https://www.blackcombat-official.com/fighter/99555600",
+      "checkedAt": "2026-10-27T09:51:55.549Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/99555600/99555600_detail.webp?v=250905120035",
+      "localPath": "/images/fighters/99555600.webp",
+      "status": "downloaded"
+    }
+  }
+}

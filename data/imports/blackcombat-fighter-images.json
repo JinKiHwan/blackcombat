@@ -1,0 +1,1672 @@
+{
+  "collectedAt": "2026-10-27T03:24:46.258Z",
+  "selector": ".fighter_img img",
+  "images": [
+    {
+      "fighterId": "73873103",
+      "ringName": "우마왕",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73873103",
+      "checkedAt": "2026-10-27T03:23:08.204Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_detail.png?v=260727202026",
+      "localPath": "/images/fighters/73873103.png",
+      "bytes": 549720,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "71657127",
+      "ringName": "탱크",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71657127",
+      "checkedAt": "2026-10-27T03:23:08.897Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71657127/71657127_detail.png?v=260727201950",
+      "localPath": "/images/fighters/71657127.png",
+      "bytes": 438713,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "86478580",
+      "ringName": "인디언킹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/86478580",
+      "checkedAt": "2026-10-27T03:23:09.521Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_detail.webp?v=260603193028",
+      "localPath": "/images/fighters/86478580.webp",
+      "bytes": 24808,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "33169982",
+      "ringName": "보로클",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/33169982",
+      "checkedAt": "2026-10-27T03:23:10.102Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/33169982/33169982_detail.webp?v=260727175824",
+      "localPath": "/images/fighters/33169982.webp",
+      "bytes": 27368,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "70398446",
+      "ringName": "윤방관",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/70398446",
+      "checkedAt": "2026-10-27T03:23:10.692Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/70398446/70398446_detail.webp?v=260727175817",
+      "localPath": "/images/fighters/70398446.webp",
+      "bytes": 28720,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "88941727",
+      "ringName": "크로커다일",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/88941727",
+      "checkedAt": "2026-10-27T03:23:11.270Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/88941727/88941727_detail.webp?v=251211215530",
+      "localPath": "/images/fighters/88941727.webp",
+      "bytes": 37840,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "77552285",
+      "ringName": "김관장",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77552285",
+      "checkedAt": "2026-10-27T03:23:11.859Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77552285/77552285_detail.webp?v=251206220342",
+      "localPath": "/images/fighters/77552285.webp",
+      "bytes": 25798,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "31367195",
+      "ringName": "바이퍼",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31367195",
+      "checkedAt": "2026-10-27T03:23:12.445Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_detail.webp?v=260924030157",
+      "localPath": "/images/fighters/31367195.webp",
+      "bytes": 25930,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "92865695",
+      "ringName": "앤쵸비",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92865695",
+      "checkedAt": "2026-10-27T03:23:13.023Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92865695/92865695_detail.webp?v=260503180806",
+      "localPath": "/images/fighters/92865695.webp",
+      "bytes": 25556,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "31720294",
+      "ringName": "아마존 키드",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31720294",
+      "checkedAt": "2026-10-27T03:23:13.615Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_detail.webp?v=260925214009",
+      "localPath": "/images/fighters/31720294.webp",
+      "bytes": 29658,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "27904723",
+      "ringName": "투견",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/27904723",
+      "checkedAt": "2026-10-27T03:23:14.210Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27904723/27904723_detail.webp?v=260606210245",
+      "localPath": "/images/fighters/27904723.webp",
+      "bytes": 25358,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "71736058",
+      "ringName": "부기맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71736058",
+      "checkedAt": "2026-10-27T03:23:14.807Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71736058/71736058_detail.webp?v=251206220410",
+      "localPath": "/images/fighters/71736058.webp",
+      "bytes": 30904,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "69534617",
+      "ringName": "닌자",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69534617",
+      "checkedAt": "2026-10-27T03:23:15.388Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69534617/69534617_detail.webp?v=260909151010",
+      "localPath": "/images/fighters/69534617.webp",
+      "bytes": 28320,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "92748764",
+      "ringName": "스나이퍼",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92748764",
+      "checkedAt": "2026-10-27T03:23:16.003Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92748764/92748764_detail.webp?v=260830220345",
+      "localPath": "/images/fighters/92748764.webp",
+      "bytes": 30456,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "21461249",
+      "ringName": "스탄 바키",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/21461249",
+      "checkedAt": "2026-10-27T03:23:16.597Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21461249/21461249_detail.webp?v=260503173445",
+      "localPath": "/images/fighters/21461249.webp",
+      "bytes": 28144,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "81252890",
+      "ringName": "미스터 초크",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/81252890",
+      "checkedAt": "2026-10-27T03:23:17.191Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/81252890/81252890_detail.webp?v=260317192629",
+      "localPath": "/images/fighters/81252890.webp",
+      "bytes": 24308,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51533588",
+      "ringName": "캡틴 히어로",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51533588",
+      "checkedAt": "2026-10-27T03:23:17.782Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51533588/51533588_detail.webp?v=260617192307",
+      "localPath": "/images/fighters/51533588.webp",
+      "bytes": 25428,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "30038332",
+      "ringName": "핏불",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/30038332",
+      "checkedAt": "2026-10-27T03:23:18.373Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/30038332/30038332_detail.webp?v=260328211723",
+      "localPath": "/images/fighters/30038332.webp",
+      "bytes": 34874,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "43792974",
+      "ringName": "메탈 리",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/43792974",
+      "checkedAt": "2026-10-27T03:23:18.969Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43792974/43792974_detail.webp?v=260617231108",
+      "localPath": "/images/fighters/43792974.webp",
+      "bytes": 27240,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "43483071",
+      "ringName": "매드독",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/43483071",
+      "checkedAt": "2026-10-27T03:23:19.547Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43483071/43483071_detail.webp?v=260814010353",
+      "localPath": "/images/fighters/43483071.webp",
+      "bytes": 25530,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "82156223",
+      "ringName": "조커",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82156223",
+      "checkedAt": "2026-10-27T03:23:20.127Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82156223/82156223_detail.webp?v=260703181510",
+      "localPath": "/images/fighters/82156223.webp",
+      "bytes": 27038,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51837721",
+      "ringName": "도깨비발",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51837721",
+      "checkedAt": "2026-10-27T03:23:20.725Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51837721/51837721_detail.webp?v=250316152851",
+      "localPath": "/images/fighters/51837721.webp",
+      "bytes": 22986,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "18063338",
+      "ringName": "백구",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18063338",
+      "checkedAt": "2026-10-27T03:23:21.343Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/18063338/18063338_detail.webp?v=260830221832",
+      "localPath": "/images/fighters/18063338.webp",
+      "bytes": 30230,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "98660587",
+      "ringName": "투신",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/98660587",
+      "checkedAt": "2026-10-27T03:23:21.934Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=260617234616",
+      "localPath": "/images/fighters/98660587.webp",
+      "bytes": 40514,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "39588679",
+      "ringName": "펜리르",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39588679",
+      "checkedAt": "2026-10-27T03:23:22.533Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39588679/39588679_detail.webp?v=260729104337",
+      "localPath": "/images/fighters/39588679.webp",
+      "bytes": 25612,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "64797565",
+      "ringName": "무사",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64797565",
+      "checkedAt": "2026-10-27T03:23:23.134Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_detail.webp?v=260901183615",
+      "localPath": "/images/fighters/64797565.webp",
+      "bytes": 36674,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "37864698",
+      "ringName": "빡세",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37864698",
+      "checkedAt": "2026-10-27T03:23:23.729Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37864698/37864698_detail.webp?v=260830221342",
+      "localPath": "/images/fighters/37864698.webp",
+      "bytes": 37486,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "21131458",
+      "ringName": "백사자",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/21131458",
+      "checkedAt": "2026-10-27T03:23:24.318Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_detail.webp?v=260901183631",
+      "localPath": "/images/fighters/21131458.webp",
+      "bytes": 36192,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "41530580",
+      "ringName": "언더독",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41530580",
+      "checkedAt": "2026-10-27T03:23:24.913Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_detail.webp?v=260503173129",
+      "localPath": "/images/fighters/41530580.webp",
+      "bytes": 26380,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "89602277",
+      "ringName": "쿠르드 이글",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89602277",
+      "checkedAt": "2026-10-27T03:23:25.517Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89602277/89602277_detail.webp?v=260901183638",
+      "localPath": "/images/fighters/89602277.webp",
+      "bytes": 36694,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "83543030",
+      "ringName": "불도저",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/83543030",
+      "checkedAt": "2026-10-27T03:23:26.109Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/83543030/83543030_detail.webp?v=260907154937",
+      "localPath": "/images/fighters/83543030.webp",
+      "bytes": 25328,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "19848079",
+      "ringName": "골든보이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/19848079",
+      "checkedAt": "2026-10-27T03:23:26.702Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/19848079/19848079_detail.webp?v=260201192820",
+      "localPath": "/images/fighters/19848079.webp",
+      "bytes": 30010,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "48634737",
+      "ringName": "보오르추",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/48634737",
+      "checkedAt": "2026-10-27T03:23:27.282Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48634737/48634737_detail.webp?v=260727180135",
+      "localPath": "/images/fighters/48634737.webp",
+      "bytes": 33118,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "59174431",
+      "ringName": "빅마우스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/59174431",
+      "checkedAt": "2026-10-27T03:23:27.890Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/59174431/59174431_detail.webp?v=260727180141",
+      "localPath": "/images/fighters/59174431.webp",
+      "bytes": 23756,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "78727207",
+      "ringName": "LG",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/78727207",
+      "checkedAt": "2026-10-27T03:23:28.487Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/78727207/78727207_detail.webp?v=260830220352",
+      "localPath": "/images/fighters/78727207.webp",
+      "bytes": 49632,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "12138256",
+      "ringName": "피카츄",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/12138256",
+      "checkedAt": "2026-10-27T03:23:29.086Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/12138256/12138256_detail.webp?v=260830220357",
+      "localPath": "/images/fighters/12138256.webp",
+      "bytes": 34258,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "94299435",
+      "ringName": "아이언 홀스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/94299435",
+      "checkedAt": "2026-10-27T03:23:29.693Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/94299435/94299435_detail.webp?v=260328213433",
+      "localPath": "/images/fighters/94299435.webp",
+      "bytes": 38304,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "75006829",
+      "ringName": "구아라",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/75006829",
+      "checkedAt": "2026-10-27T03:23:30.306Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/75006829/75006829_detail.webp?v=260901183643",
+      "localPath": "/images/fighters/75006829.webp",
+      "bytes": 43178,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "98413196",
+      "ringName": "스컬",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/98413196",
+      "checkedAt": "2026-10-27T03:23:30.899Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98413196/98413196_detail.webp?v=260907200828",
+      "localPath": "/images/fighters/98413196.webp",
+      "bytes": 32638,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "99424846",
+      "ringName": "잉카",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/99424846",
+      "checkedAt": "2026-10-27T03:23:31.494Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/99424846/99424846_detail.webp?v=260503173839",
+      "localPath": "/images/fighters/99424846.webp",
+      "bytes": 29180,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "16538110",
+      "ringName": "홀리 비스트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/16538110",
+      "checkedAt": "2026-10-27T03:23:32.103Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/16538110/16538110_detail.webp?v=260503173846",
+      "localPath": "/images/fighters/16538110.webp",
+      "bytes": 28546,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51495836",
+      "ringName": "찐홍이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51495836",
+      "checkedAt": "2026-10-27T03:23:32.677Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51495836/51495836_detail.webp?v=260201192816",
+      "localPath": "/images/fighters/51495836.webp",
+      "bytes": 24870,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "69153225",
+      "ringName": "해적왕",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69153225",
+      "checkedAt": "2026-10-27T03:23:33.258Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69153225/69153225_detail.webp?v=260606210107",
+      "localPath": "/images/fighters/69153225.webp",
+      "bytes": 29538,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "54898276",
+      "ringName": "티그로",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/54898276",
+      "checkedAt": "2026-10-27T03:23:33.849Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_detail.webp?v=260809210153",
+      "localPath": "/images/fighters/54898276.webp",
+      "bytes": 32098,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "66714345",
+      "ringName": "몽크",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/66714345",
+      "checkedAt": "2026-10-27T03:23:34.445Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/66714345/66714345_detail.webp?v=260606210112",
+      "localPath": "/images/fighters/66714345.webp",
+      "bytes": 28818,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "78377160",
+      "ringName": "엘로우 몽키",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/78377160",
+      "checkedAt": "2026-10-27T03:23:35.040Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/78377160/78377160_detail.webp?v=251114181107",
+      "localPath": "/images/fighters/78377160.webp",
+      "bytes": 35576,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "77881844",
+      "ringName": "도미네이터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77881844",
+      "checkedAt": "2026-10-27T03:23:35.617Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "76745089",
+      "ringName": "프리즌",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/76745089",
+      "checkedAt": "2026-10-27T03:23:35.945Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76745089/76745089_detail.webp?v=260412172045",
+      "localPath": "/images/fighters/76745089.webp",
+      "bytes": 39364,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "27550232",
+      "ringName": "리바이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/27550232",
+      "checkedAt": "2026-10-27T03:23:36.535Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27550232/27550232_detail.webp?v=260317192717",
+      "localPath": "/images/fighters/27550232.webp",
+      "bytes": 26094,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "62002201",
+      "ringName": "스패로우",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/62002201",
+      "checkedAt": "2026-10-27T03:23:37.113Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/62002201/62002201_detail.webp?v=260814010454",
+      "localPath": "/images/fighters/62002201.webp",
+      "bytes": 28974,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "90316608",
+      "ringName": "카우보이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/90316608",
+      "checkedAt": "2026-10-27T03:23:37.703Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/90316608/90316608_detail.webp?v=260814010516",
+      "localPath": "/images/fighters/90316608.webp",
+      "bytes": 32226,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "80166879",
+      "ringName": "체크메이트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/80166879",
+      "checkedAt": "2026-10-27T03:23:38.425Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/80166879/80166879_detail.webp?v=260713211621",
+      "localPath": "/images/fighters/80166879.webp",
+      "bytes": 30366,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "45557928",
+      "ringName": "매드카우",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/45557928",
+      "checkedAt": "2026-10-27T03:23:39.018Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/45557928/45557928_detail.webp?v=251114181331",
+      "localPath": "/images/fighters/45557928.webp",
+      "bytes": 33914,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "79683172",
+      "ringName": "시라소니",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79683172",
+      "checkedAt": "2026-10-27T03:23:39.627Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=260831144957",
+      "localPath": "/images/fighters/79683172.webp",
+      "bytes": 35488,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "82685239",
+      "ringName": "아레스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82685239",
+      "checkedAt": "2026-10-27T03:23:40.221Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=260727181111",
+      "localPath": "/images/fighters/82685239.webp",
+      "bytes": 22752,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "77842475",
+      "ringName": "싸이코",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/77842475",
+      "checkedAt": "2026-10-27T03:23:40.816Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_detail.webp?v=260727181120",
+      "localPath": "/images/fighters/77842475.webp",
+      "bytes": 27956,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "37050120",
+      "ringName": "울프킹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37050120",
+      "checkedAt": "2026-10-27T03:23:41.405Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37050120/37050120_detail.webp?v=260503180634",
+      "localPath": "/images/fighters/37050120.webp",
+      "bytes": 23814,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "50893031",
+      "ringName": "코리안 모아이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/50893031",
+      "checkedAt": "2026-10-27T03:23:41.991Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50893031/50893031_detail.webp?v=260830221733",
+      "localPath": "/images/fighters/50893031.webp",
+      "bytes": 24148,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "34145632",
+      "ringName": "락스톤",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/34145632",
+      "checkedAt": "2026-10-27T03:23:42.583Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34145632/34145632_detail.webp?v=260901183445",
+      "localPath": "/images/fighters/34145632.webp",
+      "bytes": 40900,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51712256",
+      "ringName": "데드샷",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51712256",
+      "checkedAt": "2026-10-27T03:23:43.189Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_detail.webp?v=260606210155",
+      "localPath": "/images/fighters/51712256.webp",
+      "bytes": 27442,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "71392066",
+      "ringName": "붉은매",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71392066",
+      "checkedAt": "2026-10-27T03:23:43.766Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_detail.webp?v=260830221631",
+      "localPath": "/images/fighters/71392066.webp",
+      "bytes": 24344,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "62550126",
+      "ringName": "불곰",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/62550126",
+      "checkedAt": "2026-10-27T03:23:44.359Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/62550126/62550126_detail.webp?v=260901183513",
+      "localPath": "/images/fighters/62550126.webp",
+      "bytes": 39892,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "90043072",
+      "ringName": "젤메",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/90043072",
+      "checkedAt": "2026-10-27T03:23:44.935Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/90043072/90043072_detail.webp?v=260727175857",
+      "localPath": "/images/fighters/90043072.webp",
+      "bytes": 32944,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "28308426",
+      "ringName": "불주먹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/28308426",
+      "checkedAt": "2026-10-27T03:23:45.528Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_detail.webp?v=260901183545",
+      "localPath": "/images/fighters/28308426.webp",
+      "bytes": 39268,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "61891168",
+      "ringName": "TRG",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/61891168",
+      "checkedAt": "2026-10-27T03:23:46.107Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/61891168/61891168_detail.webp?v=260901183525",
+      "localPath": "/images/fighters/61891168.webp",
+      "bytes": 41352,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "35516338",
+      "ringName": "모카",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/35516338",
+      "checkedAt": "2026-10-27T03:23:46.701Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/35516338/35516338_detail.webp?v=260727181040",
+      "localPath": "/images/fighters/35516338.webp",
+      "bytes": 39886,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "63267425",
+      "ringName": "야인",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/63267425",
+      "checkedAt": "2026-10-27T03:23:47.292Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_detail.webp?v=260727181045",
+      "localPath": "/images/fighters/63267425.webp",
+      "bytes": 29100,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "69610658",
+      "ringName": "손오찬",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69610658",
+      "checkedAt": "2026-10-27T03:23:47.886Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69610658/69610658_detail.webp?v=260727175903",
+      "localPath": "/images/fighters/69610658.webp",
+      "bytes": 24720,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "74943577",
+      "ringName": "광남",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/74943577",
+      "checkedAt": "2026-10-27T03:23:48.469Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/74943577/74943577_detail.webp?v=260727180840",
+      "localPath": "/images/fighters/74943577.webp",
+      "bytes": 25382,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "53339805",
+      "ringName": "머큐리",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/53339805",
+      "checkedAt": "2026-10-27T03:23:49.095Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_detail.webp?v=260727180846",
+      "localPath": "/images/fighters/53339805.webp",
+      "bytes": 28844,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "92989925",
+      "ringName": "릴슈타",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/92989925",
+      "checkedAt": "2026-10-27T03:23:49.680Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/92989925/92989925_detail.webp?v=260503174116",
+      "localPath": "/images/fighters/92989925.webp",
+      "bytes": 29844,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "73185034",
+      "ringName": "토르",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73185034",
+      "checkedAt": "2026-10-27T03:23:50.277Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73185034/73185034_detail.webp?v=260830220432",
+      "localPath": "/images/fighters/73185034.webp",
+      "bytes": 30468,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "88590651",
+      "ringName": "The Man",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/88590651",
+      "checkedAt": "2026-10-27T03:23:50.882Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/88590651/88590651_detail.webp?v=260830220440",
+      "localPath": "/images/fighters/88590651.webp",
+      "bytes": 46320,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "84586763",
+      "ringName": "빡상",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/84586763",
+      "checkedAt": "2026-10-27T03:23:51.477Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84586763/84586763_detail.webp?v=260317192747",
+      "localPath": "/images/fighters/84586763.webp",
+      "bytes": 34150,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "63918145",
+      "ringName": "코리안 불도저",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/63918145",
+      "checkedAt": "2026-10-27T03:23:52.073Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63918145/63918145_detail.webp?v=260201192745",
+      "localPath": "/images/fighters/63918145.webp",
+      "bytes": 25416,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "85172995",
+      "ringName": "타우르스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/85172995",
+      "checkedAt": "2026-10-27T03:23:52.679Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/85172995/85172995_detail.webp?v=260503173537",
+      "localPath": "/images/fighters/85172995.webp",
+      "bytes": 25346,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "64326511",
+      "ringName": "아이언 힙",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64326511",
+      "checkedAt": "2026-10-27T03:23:53.272Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64326511/64326511_detail.webp?v=250904132837",
+      "localPath": "/images/fighters/64326511.webp",
+      "bytes": 29810,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "31606646",
+      "ringName": "피니셔",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31606646",
+      "checkedAt": "2026-10-27T03:23:53.863Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31606646/31606646_detail.webp?v=260315171717",
+      "localPath": "/images/fighters/31606646.webp",
+      "bytes": 30226,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51243766",
+      "ringName": "사이보그",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51243766",
+      "checkedAt": "2026-10-27T03:23:54.457Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51243766/51243766_detail.webp?v=260606210201",
+      "localPath": "/images/fighters/51243766.webp",
+      "bytes": 23818,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "69457329",
+      "ringName": "히트맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69457329",
+      "checkedAt": "2026-10-27T03:23:55.037Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69457329/69457329_detail.webp?v=251107224048",
+      "localPath": "/images/fighters/69457329.webp",
+      "bytes": 29526,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "55032720",
+      "ringName": "레버넌트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/55032720",
+      "checkedAt": "2026-10-27T03:23:55.629Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/55032720/55032720_detail.webp?v=250322203435",
+      "localPath": "/images/fighters/55032720.webp",
+      "bytes": 28076,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "59397931",
+      "ringName": "프론트맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/59397931",
+      "checkedAt": "2026-10-27T03:23:56.230Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "22363165",
+      "ringName": "캡틴 코리아",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/22363165",
+      "checkedAt": "2026-10-27T03:23:56.563Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_detail.webp?v=260201193010",
+      "localPath": "/images/fighters/22363165.webp",
+      "bytes": 41764,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "95863943",
+      "ringName": "수부타이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/95863943",
+      "checkedAt": "2026-10-27T03:23:57.145Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_detail.webp?v=260503180830",
+      "localPath": "/images/fighters/95863943.webp",
+      "bytes": 36226,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "76220784",
+      "ringName": "영보스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/76220784",
+      "checkedAt": "2026-10-27T03:23:57.736Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=260901183555",
+      "localPath": "/images/fighters/76220784.webp",
+      "bytes": 41136,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "41326305",
+      "ringName": "다게르",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41326305",
+      "checkedAt": "2026-10-27T03:23:58.327Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_detail.webp?v=260901184110",
+      "localPath": "/images/fighters/41326305.webp",
+      "bytes": 33476,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "32056354",
+      "ringName": "직쏘",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/32056354",
+      "checkedAt": "2026-10-27T03:23:58.918Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/32056354/32056354_detail.webp?v=260727180313",
+      "localPath": "/images/fighters/32056354.webp",
+      "bytes": 24758,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "29363216",
+      "ringName": "라이언킹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/29363216",
+      "checkedAt": "2026-10-27T03:23:59.524Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/29363216/29363216_detail.webp?v=260830220848",
+      "localPath": "/images/fighters/29363216.webp",
+      "bytes": 35420,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "37054476",
+      "ringName": "피에로",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37054476",
+      "checkedAt": "2026-10-27T03:24:00.101Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37054476/37054476_detail.webp?v=260901183603",
+      "localPath": "/images/fighters/37054476.webp",
+      "bytes": 35460,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "65081168",
+      "ringName": "사쿠라",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/65081168",
+      "checkedAt": "2026-10-27T03:24:00.692Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_detail.webp?v=260617230502",
+      "localPath": "/images/fighters/65081168.webp",
+      "bytes": 36686,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "14674653",
+      "ringName": "헌터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/14674653",
+      "checkedAt": "2026-10-27T03:24:01.284Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/14674653/14674653_detail.webp?v=260201192834",
+      "localPath": "/images/fighters/14674653.webp",
+      "bytes": 36914,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "89975978",
+      "ringName": "곰주먹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89975978",
+      "checkedAt": "2026-10-27T03:24:01.873Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_detail.webp?v=260908180247",
+      "localPath": "/images/fighters/89975978.webp",
+      "bytes": 24194,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51940035",
+      "ringName": "영타이거",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51940035",
+      "checkedAt": "2026-10-27T03:24:02.455Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51940035/51940035_detail.webp?v=251201195841",
+      "localPath": "/images/fighters/51940035.webp",
+      "bytes": 34336,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "14307481",
+      "ringName": "그리즐리",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/14307481",
+      "checkedAt": "2026-10-27T03:24:03.049Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/14307481/14307481_detail.webp?v=260830220855",
+      "localPath": "/images/fighters/14307481.webp",
+      "bytes": 28930,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "25058160",
+      "ringName": "그루트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/25058160",
+      "checkedAt": "2026-10-27T03:24:03.645Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/25058160/25058160_detail.webp?v=251114183803",
+      "localPath": "/images/fighters/25058160.webp",
+      "bytes": 33946,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "37418531",
+      "ringName": "글래디에이터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37418531",
+      "checkedAt": "2026-10-27T03:24:04.235Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37418531/37418531_detail.webp?v=260617190716",
+      "localPath": "/images/fighters/37418531.webp",
+      "bytes": 31544,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "32699714",
+      "ringName": "워리어",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/32699714",
+      "checkedAt": "2026-10-27T03:24:04.829Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/32699714/32699714_detail.webp?v=260830215150",
+      "localPath": "/images/fighters/32699714.webp",
+      "bytes": 26622,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "58305359",
+      "ringName": "파라오",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/58305359",
+      "checkedAt": "2026-10-27T03:24:05.422Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/58305359/58305359_detail.webp?v=260328211635",
+      "localPath": "/images/fighters/58305359.webp",
+      "bytes": 29516,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "93859694",
+      "ringName": "몬스터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/93859694",
+      "checkedAt": "2026-10-27T03:24:06.017Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/93859694/93859694_detail.webp?v=260412172309",
+      "localPath": "/images/fighters/93859694.webp",
+      "bytes": 23128,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "50151784",
+      "ringName": "빅프린스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/50151784",
+      "checkedAt": "2026-10-27T03:24:06.610Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50151784/50151784_detail.webp?v=260603193425",
+      "localPath": "/images/fighters/50151784.webp",
+      "bytes": 39068,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "70806645",
+      "ringName": "칠라운",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/70806645",
+      "checkedAt": "2026-10-27T03:24:07.219Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/70806645/70806645_detail.webp?v=260727175923",
+      "localPath": "/images/fighters/70806645.webp",
+      "bytes": 26230,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "38266375",
+      "ringName": "슬로스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38266375",
+      "checkedAt": "2026-10-27T03:24:07.824Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38266375/38266375_detail.webp?v=260814010542",
+      "localPath": "/images/fighters/38266375.webp",
+      "bytes": 32620,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "93566249",
+      "ringName": "맨티스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/93566249",
+      "checkedAt": "2026-10-27T03:24:08.433Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/93566249/93566249_detail.webp?v=260412172315",
+      "localPath": "/images/fighters/93566249.webp",
+      "bytes": 26772,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "34176555",
+      "ringName": "더 마스터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/34176555",
+      "checkedAt": "2026-10-27T03:24:09.023Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34176555/34176555_detail.webp?v=260317193245",
+      "localPath": "/images/fighters/34176555.webp",
+      "bytes": 31448,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "31777288",
+      "ringName": "마카최프",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/31777288",
+      "checkedAt": "2026-10-27T03:24:09.624Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31777288/31777288_detail.webp?v=251114184420",
+      "localPath": "/images/fighters/31777288.webp",
+      "bytes": 31394,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "42447555",
+      "ringName": "레오파파",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42447555",
+      "checkedAt": "2026-10-27T03:24:10.214Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42447555/42447555_detail.webp?v=251114184259",
+      "localPath": "/images/fighters/42447555.webp",
+      "bytes": 31068,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "95796168",
+      "ringName": "킹스터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/95796168",
+      "checkedAt": "2026-10-27T03:24:10.805Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "73557323",
+      "ringName": "스톤골렘",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73557323",
+      "checkedAt": "2026-10-27T03:24:11.129Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73557323/73557323_detail.webp?v=260606210054",
+      "localPath": "/images/fighters/73557323.webp",
+      "bytes": 27914,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "38215319",
+      "ringName": "코만도",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38215319",
+      "checkedAt": "2026-10-27T03:24:11.721Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "68103858",
+      "ringName": "위버맨쉬",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/68103858",
+      "checkedAt": "2026-10-27T03:24:12.034Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/68103858/68103858_detail.webp?v=251114184450",
+      "localPath": "/images/fighters/68103858.webp",
+      "bytes": 30466,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "82197006",
+      "ringName": "블레스드",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/82197006",
+      "checkedAt": "2026-10-27T03:24:12.642Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "51253531",
+      "ringName": "헌츠맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51253531",
+      "checkedAt": "2026-10-27T03:24:12.955Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_detail.webp?v=260814010637",
+      "localPath": "/images/fighters/51253531.webp",
+      "bytes": 30552,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "27796067",
+      "ringName": "레오파드",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/27796067",
+      "checkedAt": "2026-10-27T03:24:13.549Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_detail.webp?v=260727180218",
+      "localPath": "/images/fighters/27796067.webp",
+      "bytes": 40726,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "91010996",
+      "ringName": "킹콩",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/91010996",
+      "checkedAt": "2026-10-27T03:24:14.156Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_detail.webp?v=260830223136",
+      "localPath": "/images/fighters/91010996.webp",
+      "bytes": 40700,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "11943234",
+      "ringName": "동백",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11943234",
+      "checkedAt": "2026-10-27T03:24:14.747Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11943234/11943234_detail.webp?v=260727175739",
+      "localPath": "/images/fighters/11943234.webp",
+      "bytes": 22500,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "34473780",
+      "ringName": "사무라이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/34473780",
+      "checkedAt": "2026-10-27T03:24:15.402Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34473780/34473780_detail.webp?v=260901183621",
+      "localPath": "/images/fighters/34473780.webp",
+      "bytes": 47328,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "58100688",
+      "ringName": "코리안 갱스터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/58100688",
+      "checkedAt": "2026-10-27T03:24:16.008Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/58100688/58100688_detail.webp?v=250626020151",
+      "localPath": "/images/fighters/58100688.webp",
+      "bytes": 44958,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51523231",
+      "ringName": "바이킹",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51523231",
+      "checkedAt": "2026-10-27T03:24:16.605Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51523231/51523231_detail.webp?v=260326022321",
+      "localPath": "/images/fighters/51523231.webp",
+      "bytes": 44374,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "42162303",
+      "ringName": "엄지장군",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42162303",
+      "checkedAt": "2026-10-27T03:24:17.198Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42162303/42162303_detail.webp?v=260606210226",
+      "localPath": "/images/fighters/42162303.webp",
+      "bytes": 25938,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "48217777",
+      "ringName": "젠틀맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/48217777",
+      "checkedAt": "2026-10-27T03:24:17.801Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48217777/48217777_detail.webp?v=260617191001",
+      "localPath": "/images/fighters/48217777.webp",
+      "bytes": 33184,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "11198227",
+      "ringName": "블랙맘바",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11198227",
+      "checkedAt": "2026-10-27T03:24:18.398Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11198227/11198227_detail.webp?v=260617191518",
+      "localPath": "/images/fighters/11198227.webp",
+      "bytes": 27556,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "40677542",
+      "ringName": "너드",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/40677542",
+      "checkedAt": "2026-10-27T03:24:18.990Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40677542/40677542_detail.webp?v=260412172115",
+      "localPath": "/images/fighters/40677542.webp",
+      "bytes": 31114,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "60298370",
+      "ringName": "쿠빌라이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/60298370",
+      "checkedAt": "2026-10-27T03:24:19.584Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/60298370/60298370_detail.webp?v=260727175732",
+      "localPath": "/images/fighters/60298370.webp",
+      "bytes": 31066,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "72706256",
+      "ringName": "블랙리스트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/72706256",
+      "checkedAt": "2026-10-27T03:24:20.179Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/72706256/72706256_detail.webp?v=251114182614",
+      "localPath": "/images/fighters/72706256.webp",
+      "bytes": 25822,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "41137884",
+      "ringName": "박조교",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41137884",
+      "checkedAt": "2026-10-27T03:24:20.783Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41137884/41137884_detail.webp?v=251114184335",
+      "localPath": "/images/fighters/41137884.webp",
+      "bytes": 37066,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "95230129",
+      "ringName": "방탄",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/95230129",
+      "checkedAt": "2026-10-27T03:24:21.380Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95230129/95230129_detail.webp?v=260617204735",
+      "localPath": "/images/fighters/95230129.webp",
+      "bytes": 30174,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "57104443",
+      "ringName": "갓균",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/57104443",
+      "checkedAt": "2026-10-27T03:24:21.989Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/57104443/57104443_detail.webp?v=260412172111",
+      "localPath": "/images/fighters/57104443.webp",
+      "bytes": 27992,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "79279699",
+      "ringName": "니카",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/79279699",
+      "checkedAt": "2026-10-27T03:24:22.594Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79279699/79279699_detail.webp?v=260603193737",
+      "localPath": "/images/fighters/79279699.webp",
+      "bytes": 29724,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "43145922",
+      "ringName": "오니",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/43145922",
+      "checkedAt": "2026-10-27T03:24:23.206Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/43145922/43145922_detail.webp?v=260830220700",
+      "localPath": "/images/fighters/43145922.webp",
+      "bytes": 35062,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "18336025",
+      "ringName": "건슬링거",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/18336025",
+      "checkedAt": "2026-10-27T03:24:23.800Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/18336025/18336025_detail.webp?v=260830220655",
+      "localPath": "/images/fighters/18336025.webp",
+      "bytes": 42726,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "64788066",
+      "ringName": "로꼬",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64788066",
+      "checkedAt": "2026-10-27T03:24:24.393Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64788066/64788066_detail.webp?v=251114182732",
+      "localPath": "/images/fighters/64788066.webp",
+      "bytes": 37514,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "40717069",
+      "ringName": "그레네이드",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/40717069",
+      "checkedAt": "2026-10-27T03:24:24.989Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/40717069/40717069_detail.webp?v=260606210100",
+      "localPath": "/images/fighters/40717069.webp",
+      "bytes": 32488,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "17117825",
+      "ringName": "청드래곤",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/17117825",
+      "checkedAt": "2026-10-27T03:24:25.629Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/17117825/17117825_detail.webp?v=251114184835",
+      "localPath": "/images/fighters/17117825.webp",
+      "bytes": 16082,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "28865824",
+      "ringName": "플라밍고",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/28865824",
+      "checkedAt": "2026-10-27T03:24:26.219Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_detail.webp?v=260731182601",
+      "localPath": "/images/fighters/28865824.webp",
+      "bytes": 27766,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "23743038",
+      "ringName": "짱돌",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/23743038",
+      "checkedAt": "2026-10-27T03:24:26.811Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/23743038/23743038_detail.webp?v=260902230718",
+      "localPath": "/images/fighters/23743038.webp",
+      "bytes": 29626,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "46333839",
+      "ringName": "타노스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/46333839",
+      "checkedAt": "2026-10-27T03:24:27.403Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46333839/46333839_detail.webp?v=251114183434",
+      "localPath": "/images/fighters/46333839.webp",
+      "bytes": 32844,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "99123036",
+      "ringName": "람로",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/99123036",
+      "checkedAt": "2026-10-27T03:24:28.005Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/99123036/99123036_detail.webp?v=260831002834",
+      "localPath": "/images/fighters/99123036.webp",
+      "bytes": 27232,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "73762798",
+      "ringName": "디멘터",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/73762798",
+      "checkedAt": "2026-10-27T03:24:28.610Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73762798/73762798_detail.webp?v=260830221006",
+      "localPath": "/images/fighters/73762798.webp",
+      "bytes": 36488,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "53287506",
+      "ringName": "모모",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/53287506",
+      "checkedAt": "2026-10-27T03:24:29.205Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53287506/53287506_detail.webp?v=260830220959",
+      "localPath": "/images/fighters/53287506.webp",
+      "bytes": 30138,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "39306363",
+      "ringName": "예티",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39306363",
+      "checkedAt": "2026-10-27T03:24:29.829Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39306363/39306363_detail.webp?v=260814010724",
+      "localPath": "/images/fighters/39306363.webp",
+      "bytes": 42606,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "27274064",
+      "ringName": "선봉장",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/27274064",
+      "checkedAt": "2026-10-27T03:24:30.426Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27274064/27274064_detail.webp?v=260727180224",
+      "localPath": "/images/fighters/27274064.webp",
+      "bytes": 27588,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "71953510",
+      "ringName": "피닉스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71953510",
+      "checkedAt": "2026-10-27T03:24:31.019Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71953510/71953510_detail.webp?v=260328213313",
+      "localPath": "/images/fighters/71953510.webp",
+      "bytes": 35950,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "60922090",
+      "ringName": "알라딘",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/60922090",
+      "checkedAt": "2026-10-27T03:24:31.610Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/60922090/60922090_detail.webp?v=260503172711",
+      "localPath": "/images/fighters/60922090.webp",
+      "bytes": 27398,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "42401461",
+      "ringName": "캡틴 하남",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42401461",
+      "checkedAt": "2026-10-27T03:24:32.215Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42401461/42401461_detail.webp?v=251114184613",
+      "localPath": "/images/fighters/42401461.webp",
+      "bytes": 30842,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "15335910",
+      "ringName": "세비지",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/15335910",
+      "checkedAt": "2026-10-27T03:24:32.807Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15335910/15335910_detail.webp?v=260606210218",
+      "localPath": "/images/fighters/15335910.webp",
+      "bytes": 45502,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "98498348",
+      "ringName": "팩맨",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/98498348",
+      "checkedAt": "2026-10-27T03:24:33.404Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98498348/98498348_detail.webp?v=260412172140",
+      "localPath": "/images/fighters/98498348.webp",
+      "bytes": 26828,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "56124513",
+      "ringName": "퉁순이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/56124513",
+      "checkedAt": "2026-10-27T03:24:34.000Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/56124513/56124513_detail.png?v=260412172121",
+      "localPath": "/images/fighters/56124513.png",
+      "bytes": 433519,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "91192457",
+      "ringName": "제베",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/91192457",
+      "checkedAt": "2026-10-27T03:24:34.634Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91192457/91192457_detail.webp?v=260727180054",
+      "localPath": "/images/fighters/91192457.webp",
+      "bytes": 29704,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "51611046",
+      "ringName": "빅가이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51611046",
+      "checkedAt": "2026-10-27T03:24:35.214Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51611046/51611046_detail.webp?v=260903223557",
+      "localPath": "/images/fighters/51611046.webp",
+      "bytes": 29998,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "11958177",
+      "ringName": "맘모스",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11958177",
+      "checkedAt": "2026-10-27T03:24:35.801Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11958177/11958177_detail.webp?v=260901190033",
+      "localPath": "/images/fighters/11958177.webp",
+      "bytes": 31858,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "15303256",
+      "ringName": "보스베이비",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/15303256",
+      "checkedAt": "2026-10-27T03:24:36.399Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15303256/15303256_detail.webp?v=260901190026",
+      "localPath": "/images/fighters/15303256.webp",
+      "bytes": 37608,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "84407642",
+      "ringName": "잭팟",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/84407642",
+      "checkedAt": "2026-10-27T03:24:37.001Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84407642/84407642_detail.webp?v=260830221109",
+      "localPath": "/images/fighters/84407642.webp",
+      "bytes": 44844,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "11539850",
+      "ringName": "무칼리",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11539850",
+      "checkedAt": "2026-10-27T03:24:37.593Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11539850/11539850_detail.webp?v=260727175958",
+      "localPath": "/images/fighters/11539850.webp",
+      "bytes": 28092,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "84540347",
+      "ringName": "나이트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/84540347",
+      "checkedAt": "2026-10-27T03:24:38.230Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/84540347/84540347_detail.webp?v=260727180003",
+      "localPath": "/images/fighters/84540347.webp",
+      "bytes": 28050,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "66669714",
+      "ringName": "슬라임",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/66669714",
+      "checkedAt": "2026-10-27T03:24:38.819Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/66669714/66669714_detail.webp?v=260603195152",
+      "localPath": "/images/fighters/66669714.webp",
+      "bytes": 41222,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "69112783",
+      "ringName": "스콜피온",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/69112783",
+      "checkedAt": "2026-10-27T03:24:39.408Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "11711666",
+      "ringName": "마우이",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/11711666",
+      "checkedAt": "2026-10-27T03:24:39.732Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/11711666/11711666_detail.webp?v=251215235710",
+      "localPath": "/images/fighters/11711666.webp",
+      "bytes": 27358,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "90258375",
+      "ringName": "아수라",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/90258375",
+      "checkedAt": "2026-10-27T03:24:40.327Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "status": "placeholder"
+    },
+    {
+      "fighterId": "19443685",
+      "ringName": "흑곰",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/19443685",
+      "checkedAt": "2026-10-27T03:24:40.654Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/19443685/19443685_detail.webp?v=260328212013",
+      "localPath": "/images/fighters/19443685.webp",
+      "bytes": 26156,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "34629044",
+      "ringName": "Godfather",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/34629044",
+      "checkedAt": "2026-10-27T03:24:41.243Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/34629044/34629044_detail.webp?v=260618011157",
+      "localPath": "/images/fighters/34629044.webp",
+      "bytes": 31948,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "38860186",
+      "ringName": "KOKO",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/38860186",
+      "checkedAt": "2026-10-27T03:24:41.844Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/38860186/38860186_detail.webp?v=240225201541",
+      "localPath": "/images/fighters/38860186.webp",
+      "bytes": 29846,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "87240414",
+      "ringName": "The Lion",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/87240414",
+      "checkedAt": "2026-10-27T03:24:42.441Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/87240414/87240414_detail.webp?v=231208004658",
+      "localPath": "/images/fighters/87240414.webp",
+      "bytes": 34806,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "42536332",
+      "ringName": "사신",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42536332",
+      "checkedAt": "2026-10-27T03:24:43.032Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42536332/42536332_detail.webp?v=241230125826",
+      "localPath": "/images/fighters/42536332.webp",
+      "bytes": 30586,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "45606965",
+      "ringName": "뚝배기사범",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/45606965",
+      "checkedAt": "2026-10-27T03:24:43.623Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/45606965/45606965_detail.webp?v=240225201607",
+      "localPath": "/images/fighters/45606965.webp",
+      "bytes": 34360,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "22943074",
+      "ringName": "짱구",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/22943074",
+      "checkedAt": "2026-10-27T03:24:44.216Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22943074/22943074_detail.webp?v=251114182417",
+      "localPath": "/images/fighters/22943074.webp",
+      "bytes": 26274,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "15664333",
+      "ringName": "고스트",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/15664333",
+      "checkedAt": "2026-10-27T03:24:44.794Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/15664333/15664333_detail.webp?v=251206220456",
+      "localPath": "/images/fighters/15664333.webp",
+      "bytes": 24732,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "27588721",
+      "ringName": "바비",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/27588721",
+      "checkedAt": "2026-10-27T03:24:45.388Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27588721/27588721_detail.webp?v=260618011248",
+      "localPath": "/images/fighters/27588721.webp",
+      "bytes": 27658,
+      "status": "downloaded"
+    },
+    {
+      "fighterId": "30158915",
+      "ringName": "Libby",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/30158915",
+      "checkedAt": "2026-10-27T03:24:45.978Z",
+      "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/30158915/30158915_detail.webp?v=250322203406",
+      "localPath": "/images/fighters/30158915.webp",
+      "bytes": 27970,
+      "status": "downloaded"
+    }
+  ]
+}
