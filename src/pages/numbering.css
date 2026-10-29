@@ -48,13 +48,13 @@
 .numbering-stats > div:first-child dd:first-of-type { color: #eab800; }
 .numbering-stats > div:last-child dd { font-size: 11px; }
 .numbering-community { margin-top: 38px; }
-.numbering-community ul { list-style: none; padding: 0; margin: 0 0 8px; font-size: 11px; color: #b1afa8; min-height: 32px; }
+.numbering-community ul { list-style: none; padding: 0; margin: 0 0 8px; font-size: 12px; color: #b1afa8; min-height: 32px; }
 .numbering-community li span { color: #777; }
 .numbering-community form { display: flex; gap: 5px; }
-.numbering-community input { width: 0; flex: 1; min-width: 0; background: #333; border: 1px solid #aa891e; color: #fff; padding: 7px; font-size: 11px; }
+.numbering-community input { width: 0; flex: 1; min-width: 0; background: #333; border: 1px solid #aa891e; color: #fff; padding: 7px; font-size: 12px; }
 .numbering-community input { transition: border-color .2s, box-shadow .2s; }
 .numbering-community input:focus { outline: none; border-color: #eab00b; box-shadow: 0 0 0 1px #eab00b33, 0 0 12px #eab00b66; }
-.numbering-community button { border: 0; padding: 6px 15px; background: #444; color: #fff; font-size: 11px; }
+.numbering-community button { border: 0; padding: 6px 15px; background: #444; color: #fff; font-size: 12px; }
 .numbering-community .numbering-bet { background: #eab800; color: #000; }
 .numbering-votes { display: flex; justify-content: space-between; margin-top: 8px; gap: 8px; }
 .numbering-votes button { background: transparent; color: #a7a296; padding: 5px 0; }

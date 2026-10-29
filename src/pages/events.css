@@ -10,8 +10,11 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(22px) brightness(.35);
-  transform: scale(1.12);
+  /* 블러·밝기 효과는 목록용 이미지에 미리 적용합니다. */
+  transition: none;
   pointer-events: none;
 }
 .event-poster .event-series { z-index: 2; }
+.events-heading { margin-bottom: 45px; }
+.event-card { content-visibility: auto; contain-intrinsic-block-size: auto 520px; }
+.event-card:hover img.event-poster-backdrop { transform: none; }

@@ -23,7 +23,7 @@ export default function Rules() {
   }
   return <section className="rules-page" aria-labelledby="rules-title">
     <div className="rules-container">
-      <header className="rules-heading"><p>BLACK COMBAT · THE RULEBOOK</p><h1 id="rules-title" className="section-title">RULES</h1><div><span>{english ? 'Know the rules. Respect the fight.' : '승부의 기준. 모두가 지켜야 할 약속.'}</span><span className="rules-edition">OFFICIAL RULES GUIDE</span></div></header>
+      <header className="rules-heading"><p>BLACK COMBAT · THE RULEBOOK</p><h1 id="rules-title" className="section-title">RULES</h1><div><span className="rules-edition">OFFICIAL RULES GUIDE</span></div></header>
       <div className="rules-controls">
         <div className="rules-format" role="group" aria-label="규정 종류"><button type="button" aria-pressed={type === 'pro'} onClick={() => setType('pro')}>PRO RULES</button><button type="button" aria-pressed={type === 'amateur'} onClick={() => setType('amateur')}>AMATEUR RULES</button></div>
         <div className="rules-languages" role="tablist" aria-label="규정 언어">{[['ko', '한국어'], ['en', 'ENGLISH']].map(([key, label], index) => <button key={key} ref={node => { tabs.current[index] = node; }} type="button" role="tab" id={`rules-tab-${key}`} aria-controls={`rules-panel-${key}`} aria-selected={language === key} tabIndex={language === key ? 0 : -1} onClick={() => setLanguage(key)} onKeyDown={event => changeTab(event, index)}>{label}</button>)}</div>
