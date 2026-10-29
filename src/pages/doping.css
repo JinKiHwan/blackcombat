@@ -1,0 +1,13 @@
+.doping-records-panel { grid-template-columns: minmax(0, 1fr); }
+.doping-records { margin-top: 32px; }
+.doping-records table { min-width: 700px; }
+.doping-records th, .doping-records td { line-height: 1.7; }
+.doping-records tbody td { text-align: left; white-space: normal; color: #46321e; font-size: 13px; font-weight: 400; }
+.doping-records tbody th { min-width: 160px; }
+.doping-records tbody td:last-child { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.doping-records:focus-visible { outline: 2px solid #702d1b; outline-offset: 5px; }
+@media (max-width: 760px) {
+ .doping-records table { min-width: 680px; }
+ .doping-records tbody td { font-size: 12px; }
+ .doping-page .rules-format { gap: 20px; }
+}

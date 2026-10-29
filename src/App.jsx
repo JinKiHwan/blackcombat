@@ -1,3 +1,5 @@
+import Rules from './pages/Rules.jsx';
+import Doping from './pages/Doping.jsx';
 import { usePageTransition } from './hooks/usePageTransition.js';
 import Numbering from './pages/Numbering.jsx';
 import Ranking from './pages/Ranking.jsx';
@@ -25,7 +27,7 @@ export default function App() {
       <a className="skip-link" href="#main">본문으로 이동</a>
       <Header />
       <main id="main">
-        {/^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering id={Number(numbering[1])} /> : home ? <>
+        {/^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering id={Number(numbering[1])} /> : home ? <>
         <Hero />
         <Manifesto />
         <Champions />

@@ -79,6 +79,7 @@
 .header .menu-panel a {
   flex: 1;
   text-align: center;
+  font-size: clamp(18px, 1.8vw, 32px);
   opacity: 0;
   transform: translateY(-7px);
   transition: opacity 160ms ease, transform 160ms ease;
@@ -97,4 +98,14 @@
 @media (prefers-reduced-motion: reduce) {
   .header .menu-button span { transition: none; }
   .header .menu-panel, .header .menu-panel.open, .header .menu-panel a, .header .menu-panel.open a { transition: none; animation: none; }
+}
+
+@media (max-width: 680px) {
+  .header .menu-panel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: center;
+    gap: 28px 20px;
+    padding: 35px 24px 90px;
+  }
 }

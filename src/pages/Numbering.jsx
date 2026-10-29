@@ -1,3 +1,6 @@
+import HoloFoil from '../components/HoloFoil.jsx';
+import '../components/champions.css';
+import EventVenue from '../components/EventVenue.jsx';
 import { useRef, useState } from 'react';
 import { A11y, EffectFade, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -43,7 +46,8 @@ const events = {
   },
 };
 
-function Portrait({ src, className = '' }) {
+function Portrait({ src, className = '', winner = false }) {
+  if (winner) return <div className={`${className} numbering-winner-portrait`}><HoloFoil frame={0} /><img src={src || '/images/champ/noname.webp'} alt="" draggable="false" /></div>;
   return src ? <img className={className} src={src} alt="" draggable="false" /> : <div className={`numbering-silhouette ${className}`} aria-hidden="true"><span /></div>;
 }
 
@@ -92,7 +96,7 @@ export default function Numbering({ id, eventData }) {
   return (
     <article className={`numbering-page${event.phase === 'archive' ? ' is-archive' : ''}`} data-event-phase={event.phase}>
       <a className="event-back" href="/events">← EVENTS · 이벤트 목록</a><header className={`numbering-hero${event.phase === 'archive' ? ' is-archive' : ''}`}><h1 className="sr-only">{eventTitle(event.title)}</h1><img src={event.image} alt={`${event.title} · ${event.date} · ${event.venue}`} width="1920" height="880" fetchPriority="high" /></header>
-      <div className="numbering-event-body" style={{ '--event-background': `url("${event.background}")` }}>
+      <div className="numbering-event-body" style={{ '--event-background': `url("${event.background || event.image || ''}")` }}>
       <section id="fight-card" className="numbering-card" aria-labelledby="numbering-fight-title">
         <h2 id="numbering-fight-title"><EventTitle title={event.title} /><br />FIGHT CARD</h2>
         <div className="numbering-match">
@@ -102,9 +106,9 @@ export default function Numbering({ id, eventData }) {
             const stats = match.stats ?? [['RANKING', '—', '—'], ['RECORD', '—', '—'], ['HEIGHT', '—', '—'], ['AGE', '—', '—'], ['TEAM', '—', '—']];
             const left = vote[index] === 0 ? 53 : vote[index] === 1 ? 51 : 52;
             return <SwiperSlide key={index}><div className="numbering-match-content" data-match={index}>
-          <Portrait src={match.images[0]} className="numbering-fighter numbering-fighter--left" />
+          <Portrait winner={event.phase === 'archive' && match.winner === 0} src={match.images[0]} className="numbering-fighter numbering-fighter--left" />
           <div className="numbering-info">
-            <div className="numbering-names">{match.names.map((name, i) => <div key={i}>{event.phase === 'archive' && match.winner >= 0 && <strong className={`numbering-outcome ${match.winner === i ? 'is-win' : 'is-loss'}`}>{match.winner === i ? 'WIN · 승자' : 'LOSS · 패자'}</strong>}<h3>{name}</h3><span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span></div>)}</div>
+            <div className="numbering-names">{match.names.map((name, i) => <div key={i}>{event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}<h3>{name}</h3><span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span></div>)}</div>
             {active === index && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[index]} onVote={event.phase === 'archive' ? undefined : side => requestVote(index, side)} />}
             <dl className="numbering-stats">{stats.map(([label, a, b]) => <div key={label}><dt title={label === 'AGE' ? '공식 프로필 수집 시점 기준 나이' : undefined}>{label}</dt><dd>{a}</dd><dd>{b}</dd></div>)}</dl>
             {event.phase === 'archive' && <p className="numbering-archive-result">{match.result}</p>}
@@ -114,7 +118,7 @@ export default function Numbering({ id, eventData }) {
               <p className="numbering-status" role="status">{status}</p>
             </div>
           </div>
-          <Portrait src={match.images[1]} className="numbering-fighter numbering-fighter--right" />
+          <Portrait winner={event.phase === 'archive' && match.winner === 1} src={match.images[1]} className="numbering-fighter numbering-fighter--right" />
           </div></SwiperSlide>; })}
           </Swiper>
           <button className="numbering-arrow numbering-arrow--next" disabled={active === event.matches.length - 1} onClick={() => stageRef.current?.slideNext()} aria-label="다음 대진"><img src="/images/common/swiper-arrow.webp" alt="" /></button>
@@ -134,13 +138,13 @@ export default function Numbering({ id, eventData }) {
         >
           {event.matches.map((item, i) => <SwiperSlide key={i}>
             <button type="button" aria-current={i === active ? 'true' : undefined} data-match-index={i} onClick={() => select(i)}>
-              <span className="numbering-match-thumb"><Portrait src={item.images[0] ?? '/images/champ/noname.webp'} /><Portrait src={item.images[1] ?? '/images/champ/noname.webp'} />{event.phase === 'archive' && item.winner >= 0 && <span className="numbering-thumb-outcomes">{[0, 1].map(side => <span key={side} className={`numbering-outcome ${item.winner === side ? 'is-win' : 'is-loss'}`}>{item.winner === side ? 'WIN' : 'LOSS'}</span>)}</span>}</span>
+              <span className="numbering-match-thumb"><Portrait winner={event.phase === 'archive' && item.winner === 0} src={item.images[0] ?? '/images/champ/noname.webp'} /><Portrait winner={event.phase === 'archive' && item.winner === 1} src={item.images[1] ?? '/images/champ/noname.webp'} />{event.phase === 'archive' && item.winner >= 0 && <span className="numbering-thumb-outcomes">{[0, 1].map(side => <span key={side}>{item.winner === side && <span className="numbering-outcome is-win">WIN</span>}</span>)}</span>}</span>
               <span>{item.images.length ? `${item.names[0]} vs ${item.names[1]}` : '미공개'}</span>
             </button>
           </SwiperSlide>)}
         </Swiper>
       </section>
-      {event.venueImage && <section className="numbering-venue" aria-labelledby="venue-title"><h2 id="venue-title">{event.venue}</h2><img className="numbering-venue-image" src={event.venueImage} alt="고척 스카이돔 전경" width="1600" height="890" loading="lazy" /></section>}
+      <EventVenue venue={event.venue} image={event.venueImage} poster={event.image} />
       </div>
       <dialog ref={voteDialog} className="numbering-dialog" aria-labelledby="vote-dialog-title" onClose={() => setPending(null)}>
         <h2 id="vote-dialog-title">선수 응원</h2><p>한 경기에서 한 명에게만 투표할 수 있습니다.</p><p className="numbering-dialog-question">“{pending ? event.matches[pending.index].names[pending.side] : ''}” 선수를 응원하시겠습니까?</p>

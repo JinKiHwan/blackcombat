@@ -1,0 +1,79 @@
+{
+  "tool": "built-in image_gen",
+  "styleReference": "public/images/numbering/gocheck.png",
+  "note": "Stylized promotional reconstructions of public venue reference photographs; source links are in venue-images.md.",
+  "images": [
+    {
+      "slug": "kintex",
+      "title": "KINTEX",
+      "file": "public/images/venues/kintex.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for KINTEX. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"KINTEX\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "namdong",
+      "title": "NAMDONG GYMNASIUM",
+      "file": "public/images/venues/namdong.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for NAMDONG GYMNASIUM. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"NAMDONG GYMNASIUM\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "korakuen",
+      "title": "KORAKUEN HALL",
+      "file": "public/images/venues/korakuen.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for KORAKUEN HALL. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"KORAKUEN HALL\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "paradise-city",
+      "title": "PARADISE CITY",
+      "file": "public/images/venues/paradise-city.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for PARADISE CITY. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"PARADISE CITY\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "suwon-convention-center",
+      "title": "SUWON CONVENTION CENTER",
+      "file": "public/images/venues/suwon-convention-center.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for SUWON CONVENTION CENTER. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"SUWON CONVENTION CENTER\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "chroma",
+      "title": "CHROMA",
+      "file": "public/images/venues/chroma.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for CHROMA. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"CHROMA\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "coex",
+      "title": "COEX",
+      "file": "public/images/venues/coex.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for COEX. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"COEX\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "bucheon",
+      "title": "BUCHEON GYMNASIUM",
+      "file": "public/images/venues/bucheon.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for BUCHEON GYMNASIUM. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"BUCHEON GYMNASIUM\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "jamsil-student",
+      "title": "JAMSIL STUDENTS GYMNASIUM",
+      "file": "public/images/venues/jamsil-student.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for JAMSIL STUDENTS GYMNASIUM. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"JAMSIL STUDENTS GYMNASIUM\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "marine-messe",
+      "title": "MARINE MESSE FUKUOKA",
+      "file": "public/images/venues/marine-messe.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for MARINE MESSE FUKUOKA. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"MARINE MESSE FUKUOKA\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "black-agora",
+      "title": "BLACK AGORA",
+      "file": "public/images/venues/black-agora.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for BLACK AGORA. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep this intimate small brick-walled former church interior with the central MMA cage, upper viewpoint, vaulted ceiling and amber lights. Do not replace it with a large arena. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"BLACK AGORA\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    },
+    {
+      "slug": "official-gym",
+      "title": "BLACK COMBAT OFFICIAL GYM",
+      "file": "public/images/venues/official-gym.jpg",
+      "prompt": "Create a single high-quality 16:9 landscape promotional architectural image for BLACK COMBAT OFFICIAL GYM. First reference is the real venue architecture/space; preserve its distinct building shape, roof, facade, proportions, spatial layout and identity. Second reference is STYLE ONLY, the existing Black Combat Gocheok website art: charcoal blacks, desaturated cool storm atmosphere, warm antique-gold lighting, dramatic photographic detail. Keep the actual venue recognizable. Reconstruct the referenced exterior in a cinematic dusk/night setting, stormy clouds where sky is visible, restrained gold-lit windows and wet pavement reflections. Do not invent a dome or change architecture. Keep entire subject visible. No crowds, no event advertising, no overlaid captions or border. Do not reproduce source credits or watermark; create an original composition informed by the real venue. Existing building signage may read \"BLACK COMBAT OFFICIAL GYM\" only if accurate. This is a stylized architectural reconstruction, not documentary photography."
+    }
+  ]
+}
