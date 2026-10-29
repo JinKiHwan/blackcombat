@@ -54,7 +54,8 @@
 .branding-description span { display: block; }
 
 @media (max-width: 680px) {
+  .branding-content { padding-block: 230px 100px; }
   .branding-subtitle { font-size: 18px; margin-top: 88px; }
-  .branding-description { font-size: 14px; margin-top: 47px; max-width: 350px; }
+  .branding-description { font-size: 13px; margin-top: 47px; max-width: 350px; }
   .branding-description span + span { margin-top: 4px; }
 }

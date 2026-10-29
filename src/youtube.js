@@ -18,7 +18,7 @@ export async function getLatestVideos({ apiKey, uploadsPlaylistId }, signal) {
 
 export async function getOfficialVideos(signal) {
   const response = await fetch('/api/youtube', {
-    signal: AbortSignal.any([signal, AbortSignal.timeout(12000)]),
+    signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(20000)]) : AbortSignal.timeout(20000),
     cache: 'no-cache',
   });
   if (!response.ok) throw new Error('영상 목록을 불러오지 못했습니다.');

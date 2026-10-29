@@ -1,5 +1,6 @@
 import Rules from './pages/Rules.jsx';
 import Doping from './pages/Doping.jsx';
+import Awards from './pages/Awards.jsx';
 import { usePageTransition } from './hooks/usePageTransition.js';
 import Numbering from './pages/Numbering.jsx';
 import Ranking from './pages/Ranking.jsx';
@@ -11,6 +12,7 @@ import MediaSection from './components/MediaSection.jsx';
 import GymSection from './components/GymSection.jsx';
 import Hero from './components/Hero.jsx';
 import { useSmoothScroll } from './hooks/useSmoothScroll.js';
+import { useHomeScrollReveal } from './hooks/useHomeScrollReveal.js';
 import Champions from './components/Champions.jsx';
 import StoreSection from './components/StoreSection.jsx';
 import { Footer, Manifesto, Partners } from './components/BrandSections.jsx';
@@ -22,12 +24,13 @@ export default function App() {
   const numbering = path.match(/^\/numbering\/(\d+)\/?$/);
   const eventDetail = path.match(/^\/events\/(\d+)\/?$/);
   const home = path === '/' || path === '/index' || path === '/index.html';
+  useHomeScrollReveal(home);
   return (
     <>
       <a className="skip-link" href="#main">본문으로 이동</a>
       <Header />
       <main id="main">
-        {/^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering id={Number(numbering[1])} /> : home ? <>
+        {/^\/awards\/?$/.test(path) ? <Awards /> : /^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering id={Number(numbering[1])} /> : home ? <>
         <Hero />
         <Manifesto />
         <Champions />

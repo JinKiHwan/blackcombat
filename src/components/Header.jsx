@@ -38,6 +38,7 @@ export default function Header() {
         {[
           ['/events', 'EVENTS'], ['/ranking', 'RANKING'],
           ['/rules', 'RULES'], ['/doping', 'DOPING'],
+          ['/awards', 'AWARDS'],
         ].map(([id, label], index) => <a key={id} style={{ '--menu-order': index }} href={id.startsWith('/') ? id : `/#${id}`} onClick={() => setOpen(false)}>{label}</a>)}
         <div className="menu-social" role="group" aria-label="블랙컴뱃 공식 소셜 채널">
           <a href="https://www.youtube.com/@blackcombat" target="_blank" rel="noopener noreferrer" aria-label="블랙컴뱃 공식 YouTube · 새 탭에서 열기" style={{ '--menu-order': 5 }}><img src="/images/common/social-youtube.svg" alt="" width="28" height="28" /></a>

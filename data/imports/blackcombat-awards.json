@@ -1,0 +1,506 @@
+{
+  "collectedAt": "2026-10-29T03:28:31.837Z",
+  "editions": [
+    {
+      "label": "2024-2026 BLACK GLORIA AWARD 02",
+      "awards": [
+        {
+          "id": 1,
+          "title": "MVP",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "김재웅",
+              "details": [
+                "투신",
+                "EXTREAM COMBAT"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/98660587",
+              "fighterId": "98660587",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/98660587.webp"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "BEST STRIKER",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "방성혁",
+              "details": [
+                "시라소니",
+                "TEAM MAD CHUNCHEON"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/79683172",
+              "fighterId": "79683172",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/79683172.webp"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "BEST GRAPPLER",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "코마키네 타카히로",
+              "details": [
+                "탱크",
+                "FIGHT BASE TORITSUDAI"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/71657127",
+              "fighterId": "71657127",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/71657127.png"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "SUPERSTAR AWARD",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "김재웅",
+              "details": [
+                "투신",
+                "EXTREAM COMBAT"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/98660587",
+              "fighterId": "98660587",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/98660587.webp"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "SUBMISSION OF THE YEAR",
+          "note": "VS Flavio Santos",
+          "videoUrl": "https://youtu.be/3RaSM3KqC_M&t=1533",
+          "recipients": [
+            {
+              "name": "정한국",
+              "details": [
+                "캡틴 코리아",
+                "TEAM MAD"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/22363165",
+              "fighterId": "22363165",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/22363165.webp"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "KNOCKOUT OF THE YEAR",
+          "note": "VS 황도윤",
+          "videoUrl": "https://youtu.be/KuTzaKv9ev8?t=740",
+          "recipients": [
+            {
+              "name": "이도겸",
+              "details": [
+                "야인",
+                "HAVAS MMA"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/63267425",
+              "fighterId": "63267425",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/63267425.webp"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "FIGHT OF THE YEAR",
+          "note": "블랙컴뱃 14",
+          "videoUrl": "https://youtu.be/Ns8L-2yLdLU",
+          "recipients": [
+            {
+              "name": "이도겸",
+              "details": [
+                "야인",
+                "HAVAS MMA"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/63267425",
+              "fighterId": "63267425",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/63267425.webp"
+            },
+            {
+              "name": "신승민",
+              "details": [
+                "광남",
+                "SEONGSEO SSENGYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/74943577",
+              "fighterId": "74943577",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/74943577.webp"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "ROOKIE OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "이영웅",
+              "details": [
+                "캡틴 히어로",
+                "CRAZY GWANG GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/51533588",
+              "fighterId": "51533588",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+              "image": "/images/fighters/51533588.webp"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "REFEREE OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "권세윤",
+              "details": [
+                "검은수염 / 심판"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "COACH OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "최효준",
+              "details": [
+                "블랙컴뱃 본관"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "ACHIEVEMENT AWARD",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "김형주",
+              "details": [
+                "브라질 에이전트/통역"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            },
+            {
+              "name": "김송, 이재혁",
+              "details": [
+                "블랙컴뱃 드론 촬영 감독"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        }
+      ],
+      "id": "2",
+      "sourceUrl": "https://www.blackcombat-official.com/awards.php?awardsNum=2"
+    },
+    {
+      "label": "2022-2024 BLACK GLORIA AWARD 01",
+      "awards": [
+        {
+          "id": 1,
+          "title": "MVP",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "유수영",
+              "details": [
+                "유짓수",
+                "BLACK COMBAT OFFICIAL GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/46953719",
+              "fighterId": "46953719",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46953719/46953719_ranking.webp?v=250527042745",
+              "image": "/images/fighters/46953719.webp"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "BEST STRIKER",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "박성준",
+              "details": [
+                "언더독",
+                "SSABI MMA"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/41530580",
+              "fighterId": "41530580",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_ranking.webp?v=260503173129",
+              "image": "/images/fighters/41530580.webp"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "BEST GRAPPLER",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "유수영",
+              "details": [
+                "유짓수",
+                "BLACK COMBAT OFFICIAL GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/46953719",
+              "fighterId": "46953719",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/46953719/46953719_ranking.webp?v=250527042745",
+              "image": "/images/fighters/46953719.webp"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "SUPERSTAR AWARD",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "김민우",
+              "details": [
+                "코리안 모아이",
+                "MOAI GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/50893031",
+              "fighterId": "50893031",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/50893031/50893031_ranking.webp?v=260830221733",
+              "image": "/images/fighters/50893031.webp"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "SUBMISSION OF THE YEAR",
+          "note": "VS 오하라주리",
+          "videoUrl": "https://youtu.be/EdHsQ_5Z-ws?t=911",
+          "recipients": [
+            {
+              "name": "이송하",
+              "details": [
+                "피에로",
+                "SSABI MMA"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/37054476",
+              "fighterId": "37054476",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37054476/37054476_ranking.webp?v=260901183603",
+              "image": "/images/fighters/37054476.webp"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "KNOCKOUT OF THE YEAR",
+          "note": "VS 임병희",
+          "videoUrl": "https://youtu.be/fl2TrA0l-Xg?t=562",
+          "recipients": [
+            {
+              "name": "김정균",
+              "details": [
+                "곰주먹",
+                "BLACK COMBAT GYM DAEJEON"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/89975978",
+              "fighterId": "89975978",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_ranking.webp?v=260908180247",
+              "image": "/images/fighters/89975978.webp"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "FIGHT OF THE YEAR",
+          "note": "블랙컴뱃 3",
+          "videoUrl": "https://youtu.be/LAis9MRwQOE",
+          "recipients": [
+            {
+              "name": "김성재",
+              "details": [
+                "김관장",
+                "대구 모스짐"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/77552285",
+              "fighterId": "77552285",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77552285/77552285_ranking.webp?v=251206220342",
+              "image": "/images/fighters/77552285.webp"
+            },
+            {
+              "name": "김동규",
+              "details": [
+                "빅마우스",
+                "EXTREAM COMBAT"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/59174431",
+              "fighterId": "59174431",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/59174431/59174431_ranking.webp?v=260727180141",
+              "image": "/images/fighters/59174431.webp"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "FIGHT OF THE YEAR",
+          "note": "블랙컴뱃 7",
+          "videoUrl": "https://youtu.be/88qhYWBBcP0",
+          "recipients": [
+            {
+              "name": "최준서",
+              "details": [
+                "야차",
+                "TEAM YAKSHA"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/80831730",
+              "fighterId": "80831730",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/80831730/80831730_ranking.webp?v=250626015451",
+              "image": "/images/fighters/80831730.webp"
+            },
+            {
+              "name": "최원준",
+              "details": [
+                "화이트 베어",
+                "MMA STORY"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/82116599",
+              "fighterId": "82116599",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82116599/82116599_ranking.webp?v=250824191835",
+              "image": "/images/fighters/82116599.webp"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "ROOKIE OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "손유찬",
+              "details": [
+                "손오찬",
+                "CRAZY GWANG GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/69610658",
+              "fighterId": "69610658",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/69610658/69610658_ranking.webp?v=260727175903",
+              "image": "/images/fighters/69610658.webp"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "REFEREE OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "이환욱",
+              "details": [
+                "할리 / 심판"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "COACH OF THE YEAR",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "이길우",
+              "details": [
+                "싸비 MMA"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "ACHIEVEMENT AWARD",
+          "note": "",
+          "videoUrl": null,
+          "recipients": [
+            {
+              "name": "김성웅",
+              "details": [
+                "바이퍼",
+                "BLACK COMBAT OFFICIAL GYM"
+              ],
+              "profileUrl": "https://www.blackcombat-official.com/fighter/31367195",
+              "fighterId": "31367195",
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_ranking.webp?v=260924030157",
+              "image": "/images/fighters/31367195.webp"
+            },
+            {
+              "name": "정보승",
+              "details": [
+                "블랙컴뱃 일본 에이전트"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            },
+            {
+              "name": "최효준",
+              "details": [
+                "유저씨 / 블랙컴뱃 본관 관장"
+              ],
+              "profileUrl": null,
+              "fighterId": null,
+              "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            }
+          ]
+        }
+      ],
+      "id": "1",
+      "sourceUrl": "https://www.blackcombat-official.com/awards.php?awardsNum=1"
+    }
+  ]
+}

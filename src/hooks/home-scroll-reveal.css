@@ -1,0 +1,6 @@
+/* 메인 섹션만 관찰하며, 화면에 들어온 뒤 한 번만 재생합니다. */
+.home-reveal { opacity: 0; translate: 0 30px; transition: opacity 700ms cubic-bezier(.22,.61,.36,1), translate 700ms cubic-bezier(.22,.61,.36,1); transition-delay: var(--reveal-delay, 0ms); }
+.home-reveal.is-revealed { opacity: 1; translate: 0 0; }
+.home-reveal:focus-within { opacity: 1; translate: 0 0; transition-delay: 0ms; }
+@media (max-width: 680px) { .home-reveal { translate: 0 20px; } .home-reveal.is-revealed, .home-reveal:focus-within { translate: 0 0; } }
+@media (prefers-reduced-motion: reduce) { .home-reveal { opacity: 1; translate: none; transition: none; } }

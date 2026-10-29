@@ -24,6 +24,7 @@
 .gym-section .gym-pagination .swiper-pagination-bullet { width: 42px; flex: 0 0 42px; }
 .gym-section .gym-pagination .swiper-pagination-bullet::before { width: 20px; }
 @media (max-width: 680px) {
+  .gym-section .gym-pagination .swiper-pagination-bullet { width: 12px; flex: 0 0 18px; height: 12px; }
   .gym-social { gap: 8px; margin-bottom: 20px; }
   .gym-social a { width: 44px; height: 44px; }
   .gym-social img { width: 34px; height: 34px; }

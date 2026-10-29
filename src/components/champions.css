@@ -111,6 +111,9 @@
   .champ-roster { gap: 65px 24px; }
 }
 @media (max-width: 680px) {
+  .champ-identity p { font-size: 24px; }
+  .champ-identity span { font-size: 14px; }
+  .champ-rankings a { font-size: 16px; }
   .champ-tile:not(.is-vacant) { --holo-headroom: 36px; }
   .champ-section { padding-block: 50px 40px; }
   .champ-heading { margin-bottom: 65px; }

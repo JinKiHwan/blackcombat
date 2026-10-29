@@ -42,27 +42,17 @@ const sponsors = [
   ['sponsor_daeati.png', '대아티아이'],
 ];
 
+const primaryFiles = ['sponsor_pg.png', 'sponsor_musinsa.png', 'sponsors_lg.png'];
+const primarySponsors = primaryFiles.map(file => sponsors.find(sponsor => sponsor[0] === file));
+const rollingSponsors = sponsors.filter(([file]) => !primaryFiles.includes(file));
+
 export function Partners() {
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  return (
-    <section className="sponsor-strip" aria-label="블랙컴뱃 스폰서">
-      <Swiper
-        modules={[Autoplay, A11y]}
-        slidesPerView="auto"
-        slidesPerGroup={1}
-        speed={1400}
-        loop
-        autoplay={reducedMotion ? false : { delay: 2800, disableOnInteraction: false, pauseOnMouseEnter: true }}
-        a11y={{ containerMessage: '블랙컴뱃 스폰서', slideLabelMessage: '{{slidesLength}}개 중 {{index}}번째 스폰서' }}
-      >
-        {sponsors.map(([file, name]) => (
-          <SwiperSlide key={file} className={`sponsor-logo${file === 'sponsor_downton.png' ? ' sponsor-logo--wide' : ''}`}>
-            <img src={`/images/sponsor/${file}`} alt={name} loading="lazy" draggable="false" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </section>
-  );
+  return <section className="sponsor-strip" aria-label="블랙컴뱃 스폰서">
+    <div className="sponsor-primary">{primarySponsors.map(([file,name]) => <div key={file} className="sponsor-primary-logo"><img src={'/images/sponsor/' + file} alt={name} loading="lazy" /></div>)}</div>
+    <div className="sponsor-marquee" tabIndex={0} aria-label="파트너 스폰서 · 마우스를 올리거나 포커스하면 롤링 일시정지">
+      <div className="sponsor-track">{[0,1].map(copy => <div className="sponsor-group" key={copy} aria-hidden={copy === 1 ? true : undefined}>{rollingSponsors.map(([file,name]) => <div className="sponsor-logo" key={file}><img src={'/images/sponsor/' + file} alt={copy === 0 ? name : ''} loading="lazy" draggable="false" /></div>)}</div>)}</div>
+    </div>
+  </section>;
 }
 
 export function Footer() {

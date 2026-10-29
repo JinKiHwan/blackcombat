@@ -18,3 +18,4 @@
 .events-heading { margin-bottom: 45px; }
 .event-card { content-visibility: auto; contain-intrinsic-block-size: auto 520px; }
 .event-card:hover img.event-poster-backdrop { transform: none; }
+@media (max-width: 680px) { .events-heading h1 { font-size: 44px; } }
