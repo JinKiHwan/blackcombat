@@ -1,5 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    { "source": "/events/:path*", "destination": "/index.html" },
+    { "source": "/numbering/:path*", "destination": "/index.html" },
+    { "source": "/ranking", "destination": "/index.html" },
+    { "source": "/ranking/", "destination": "/index.html" },
+    { "source": "/rules", "destination": "/index.html" },
+    { "source": "/rules/", "destination": "/index.html" },
+    { "source": "/doping", "destination": "/index.html" },
+    { "source": "/doping/", "destination": "/index.html" },
+    { "source": "/awards", "destination": "/index.html" },
+    { "source": "/awards/", "destination": "/index.html" },
+    { "source": "/index", "destination": "/index.html" }
+  ],
   "git": {
     "deploymentEnabled": {
       "codex/youtube-feed": false
