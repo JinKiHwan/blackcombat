@@ -1,13 +1,30 @@
 .header-music-button { display: inline-grid; place-items: center; flex: 0 0 40px; width: 40px; height: 40px; padding: 0; line-height: 1; color: #cba63c; background: transparent; border: 1px solid #cba63c66; border-radius: 50%; }
 .header-music-button svg { display: block; width: 20px; height: 20px; fill: currentColor; }
-.header-music-button:hover, .header-music-button[aria-pressed='true'] { color: #edc352; border-color: #edc352; background: #cba63c14; }
-.header-music-panel { position: fixed; right: 24px; bottom: 24px; width: min(356px, calc(100vw - 32px)); background: #10100f; border: 1px solid #b69a4955; box-shadow: 0 12px 35px #000b; }
-.header-music-top { display: flex; justify-content: space-between; align-items: center; padding: 4px 8px 4px 14px; }
-.header-music-top > span { font-size: 9px; letter-spacing: 1.2px; color: #b9a366; }
-.header-music-top button { width: 36px; height: 36px; border: 0; background: transparent; color: #ccc; font-size: 25px; }
-.header-music-video { height: 200px; }
-.header-music-video iframe { display: block; width: 100%; height: 200px; border: 0; }
-.header-music-caption { padding: 10px 14px; display: flex; gap: 12px; align-items: center; }
-.header-music-caption p { margin: 0; flex: 1; font-size: 11px; line-height: 1.5; color: #9e9684; }
-.header-music-caption a { color: #c6aa62; font-size: 10px; white-space: nowrap; }
-@media (max-width: 680px) { .header-music-button { width: 34px; height: 34px; flex-basis: 34px; } .header-music-button svg { width: 18px; height: 18px; } .header-music-panel { bottom: 16px; right: 16px; } }
+.header-music-button:hover,.header-music-button[aria-pressed='true'] { color:#edc352; border-color:#edc352; background:#cba63c14; }
+.header-music-panel { position:fixed; right:24px; bottom:24px; width:min(356px,calc(100vw - 32px)); background:#141413; border:1px solid #9b824344; border-radius:12px; overflow:hidden; box-shadow:0 10px 35px #0008; }
+.music-deck { display:flex; align-items:center; gap:12px; padding:14px 14px 12px; }
+.music-cover { width:34px; height:42px; object-fit:contain; flex:none; }
+.music-track-info { min-width:0; flex:1; }
+.music-track-info>span { display:block; color:#9a875a; font-size:8px; letter-spacing:1.2px; margin-bottom:5px; }
+.music-track-info strong { display:block; color:#e6dfcf; font:400 18px/1.2 'Noto Serif',serif; }
+.music-track-info small { color:#817b70; font-size:10px; }
+.music-window-controls { display:flex; align-self:flex-start; }
+.music-window-controls button { width:30px; height:30px; background:none; border:0; color:#a49b84; font-size:23px; padding:0; }
+.header-music-video { height:200px; }
+.header-music-video[hidden] { display:none; }
+.header-music-video iframe { display:block; width:100%; height:200px; border:0; }
+.music-controls { display:flex; align-items:center; gap:12px; padding:10px 14px 6px; }
+.music-controls button { display:grid; place-items:center; border:0; background:none; color:#d6b159; padding:0; width:30px; height:30px; }
+.music-restart { font-size:24px; }
+.music-toggle svg { width:21px; height:21px; fill:currentColor; }
+.music-time { font-size:10px; color:#a59a80; font-variant-numeric:tabular-nums; }
+.music-volume { display:flex; align-items:center; gap:7px; margin-left:auto; }
+.music-volume>span { font-size:9px; color:#8c826c; }
+.music-volume input { width:55px; height:3px; accent-color:#be9b43; }
+.music-progress { display:block; width:calc(100% - 28px); height:3px; margin:8px 14px; accent-color:#c5a34e; }
+.header-music-caption { padding:3px 14px 12px; display:flex; align-items:center; gap:12px; }
+.header-music-caption p { margin:0; flex:1; font-size:10px; line-height:1.5; color:#8d826b; }
+.header-music-caption a { color:#b59b60; font-size:9px; white-space:nowrap; }
+.header-music-panel.is-minimized { width:min(300px,calc(100vw - 32px)); }
+.is-minimized .music-controls { padding-top:0; padding-bottom:10px; justify-content:center; }
+@media(max-width:680px) { .header-music-button { width:34px; height:34px; flex-basis:34px; } .header-music-button svg { width:18px; height:18px; } .header-music-panel { bottom:16px; right:16px; } .music-controls { gap:8px; } }

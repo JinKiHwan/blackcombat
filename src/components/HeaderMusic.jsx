@@ -6,6 +6,10 @@ export default function HeaderMusic() {
   const [opened, setOpened] = useState(false);
   const [playing, setPlaying] = useState(false);
   const [message, setMessage] = useState('');
+  const [minimized, setMinimized] = useState(false);
+  const minimizedRef = useRef(false);
+  const [volume, setVolume] = useState(35);
+  const [progress, setProgress] = useState({ current: 0, duration: 0 });
   const mount = useRef(null);
   const player = useRef(null);
   const wanted = useRef(false);
@@ -33,7 +37,7 @@ export default function HeaderMusic() {
           onStateChange: event => {
             if (cancelled) return;
             setPlaying(event.data === 1);
-            if (event.data === 1) { wanted.current = true; setMessage('VantaBlack official trailer'); }
+            if (event.data === 1) { if (minimizedRef.current || document.hidden) { event.target?.pauseVideo?.(); player.current?.pauseVideo(); return; } wanted.current = true; setMessage('VantaBlack official trailer'); }
             if (event.data === 2 || event.data === 0) wanted.current = false;
           },
           onAutoplayBlocked: () => { if (!cancelled) { wanted.current = false; setPlaying(false); setMessage('영상의 재생 버튼을 눌러 시작해주세요.'); } },
@@ -52,22 +56,43 @@ export default function HeaderMusic() {
     };
   }, [opened]);
 
+  useEffect(() => {
+    if (!opened || minimized) return;
+    const timer = setInterval(() => {
+      if (ready.current) setProgress({ current: player.current?.getCurrentTime?.() || 0, duration: player.current?.getDuration?.() || 0 });
+    }, 500);
+    return () => clearInterval(timer);
+  }, [opened, minimized]);
+  function expand() { minimizedRef.current = false; setMinimized(false); }
+  function minimize() {
+    wanted.current = false;
+    if (ready.current) player.current?.pauseVideo();
+    setPlaying(false); minimizedRef.current = true; setMinimized(true);
+    setMessage('최소화 · 일시정지');
+  }
+  const time = seconds => Math.floor(seconds / 60) + ':' + String(Math.floor(seconds % 60)).padStart(2, '0');
   function toggle() {
+    if (minimizedRef.current) expand();
     if (!opened) { wanted.current = true; setOpened(true); return; }
     wanted.current = !wanted.current;
     if (ready.current) {
       if (wanted.current) player.current.playVideo(); else player.current.pauseVideo();
     }
   }
-  function close() { wanted.current = false; setOpened(false); setPlaying(false); }
+  function close() { wanted.current = false; setOpened(false); setPlaying(false); expand(); setProgress({ current: 0, duration: 0 }); }
   return <>
     <button type="button" className="header-music-button" onClick={toggle} aria-label={playing ? '배경음악 일시정지' : '배경음악 재생'} aria-pressed={playing} aria-controls={opened ? 'header-music-player' : undefined} title={playing ? '배경음악 일시정지' : '배경음악 재생'}>
       <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">{playing ? <path d="M7 5h4v14H7zm6 0h4v14h-4z" /> : <path d="M8 4.5v15l12-7.5z" />}</svg>
     </button>
-    {opened && <aside id="header-music-player" className="header-music-panel" aria-label="배경음악 YouTube 플레이어">
-      <div className="header-music-top"><span>BLACK COMBAT · SOUND</span><button type="button" onClick={close} aria-label="배경음악 끄고 플레이어 닫기">×</button></div>
-      <div className="header-music-video" ref={mount} />
-      <div className="header-music-caption"><p role="status">{message}</p><a href="https://www.youtube.com/watch?v=eqESjvnkgJQ" target="_blank" rel="noopener noreferrer">YouTube ↗</a></div>
+    {opened && <aside id="header-music-player" className={'header-music-panel' + (minimized ? ' is-minimized' : '')} aria-label="BLACK COMBAT 음악 플레이어">
+      <div className="music-deck">
+        <img className="music-cover" src="/images/common/swiper-pagination.webp" alt="" />
+        <div className="music-track-info"><span>BLACK COMBAT · SOUND</span><strong>VantaBlack</strong><small>Official trailer</small></div>
+        <div className="music-window-controls"><button type="button" onClick={minimized ? expand : minimize} aria-label={minimized ? '플레이어 펼치기' : '플레이어 최소화'} title={minimized ? '펼치기' : '최소화'}>{minimized ? '⌃' : '−'}</button><button type="button" onClick={close} aria-label="배경음악 끄고 플레이어 닫기">×</button></div>
+      </div>
+      <div className="header-music-video" ref={mount} hidden={minimized} />
+      <div className="music-controls"><button className="music-restart" type="button" aria-label="처음부터 재생" onClick={() => { if (ready.current) player.current.seekTo(0, true); }}>↤</button><button type="button" className="music-toggle" onClick={toggle} aria-label={playing ? '음악 일시정지' : '음악 재생'}><svg viewBox="0 0 24 24" aria-hidden="true">{playing ? <path d="M7 5h4v14H7zm6 0h4v14h-4z" /> : <path d="M8 4.5v15l12-7.5z" />}</svg></button><span className="music-time">{time(progress.current)} / {time(progress.duration)}</span>{!minimized && <label className="music-volume"><span>볼륨</span><input type="range" min="0" max="100" value={volume} aria-label="음악 볼륨" onChange={event => { const value = Number(event.target.value); setVolume(value); if (ready.current) player.current.setVolume(value); }} /></label>}</div>
+      {!minimized && <><input className="music-progress" type="range" aria-label="재생 위치" min="0" max={progress.duration || 1} step="0.1" value={Math.min(progress.current, progress.duration || 1)} disabled={!progress.duration} onChange={event => { const value = Number(event.target.value); player.current?.seekTo(value, true); setProgress(current => ({ ...current, current: value })); }} /><div className="header-music-caption"><p role="status">{message}</p><a href="https://www.youtube.com/watch?v=eqESjvnkgJQ" target="_blank" rel="noopener noreferrer">YouTube ↗</a></div></>}
     </aside>}
   </>;
 }

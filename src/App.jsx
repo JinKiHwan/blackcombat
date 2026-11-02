@@ -22,8 +22,7 @@ import { Footer, Manifesto, Partners } from './components/BrandSections.jsx';
 export default function App() {
   const fanmadeNotice = useRef(null);
   useSmoothScroll();
-  usePageTransition();
-  const path = window.location.pathname;
+  const path = usePageTransition();
   const numbering = path.match(/^\/numbering\/(\d+)\/?$/);
   const eventDetail = path.match(/^\/events\/(\d+)\/?$/);
   const home = path === '/' || path === '/index' || path === '/index.html';
@@ -33,7 +32,7 @@ export default function App() {
       <a className="skip-link" href="#main">본문으로 이동</a>
       <Header />
       <main id="main">
-        {/^\/awards\/?$/.test(path) ? <Awards /> : /^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering id={Number(numbering[1])} /> : home ? <>
+        {/^\/awards\/?$/.test(path) ? <Awards /> : /^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail key={eventDetail[1]} id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering key={numbering[1]} id={Number(numbering[1])} /> : home ? <>
         <Hero />
         <Manifesto />
         <Champions />
@@ -44,7 +43,7 @@ export default function App() {
         <Partners />
       </main>
       <Footer onShowNotice={() => fanmadeNotice.current?.open()} />
-      {['/', '/index.html'].includes(window.location.pathname) && <RisingEmbers />}
+      {home && <RisingEmbers />}
       <FanmadeNotice ref={fanmadeNotice} />
     </>
   );

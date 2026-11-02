@@ -22,8 +22,17 @@ export function useSmoothScroll() {
     }
 
     setup();
+    function onNavigate(event) {
+      let target = 0;
+      try { target = event.detail.hash ? document.getElementById(decodeURIComponent(event.detail.hash.slice(1))) || 0 : 0; } catch { /* Invalid hash falls back to the top. */ }
+      if (lenis) { lenis.resize(); lenis.scrollTo(target, { immediate: true, force: true, offset: target ? -100 : 0 }); }
+      else if (target) target.scrollIntoView({ behavior: 'instant' });
+      else window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+    document.addEventListener('bc:navigate', onNavigate);
     motion.addEventListener('change', setup);
     return () => {
+      document.removeEventListener('bc:navigate', onNavigate);
       motion.removeEventListener('change', setup);
       lenis?.destroy();
     };
