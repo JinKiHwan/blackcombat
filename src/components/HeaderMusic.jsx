@@ -16,6 +16,16 @@ export default function HeaderMusic() {
   const ready = useRef(false);
 
   useEffect(() => {
+    function startMusic() {
+      wanted.current = true;
+      setOpened(true);
+      if (ready.current && !document.hidden) player.current?.playVideo();
+    }
+    document.addEventListener('bc:music-play', startMusic);
+    return () => document.removeEventListener('bc:music-play', startMusic);
+  }, []);
+
+  useEffect(() => {
     if (!opened) return;
     let cancelled = false;
     const holder = document.createElement('div');
