@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import './header.css';
+import HeaderMusic from './HeaderMusic.jsx';
 
 export default function Header() {
   const menuRef = useRef(null);
@@ -33,6 +34,7 @@ export default function Header() {
 
   return (
     <header className={`header${scrolled ? ' is-scrolled' : ''}`}>
+      <HeaderMusic />
       <a className="header-logo" href="/" aria-label="블랙컴뱃 홈"><img src="/images/common/logo.png" alt="BLACK COMBAT" width="178" height="44" /></a>
       <nav ref={menuRef} id="navigation" className={`menu-panel${open ? ' open' : ''}`} aria-label="주 메뉴" aria-hidden={!open} inert={!open}>
         {[
