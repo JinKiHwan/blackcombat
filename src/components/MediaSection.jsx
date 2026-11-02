@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { site } from '../data.js';
-import { getLatestVideos, getOfficialVideos } from '../youtube.js';
+import { getOfficialVideos } from '../youtube.js';
 import './media.css';
 
 function MediaCard({ video, featured }) {
@@ -20,9 +20,7 @@ export default function MediaSection() {
     const controller = new AbortController();
     async function load() {
       try {
-        const data = site.youtube.apiKey
-          ? { videos: await getLatestVideos(site.youtube, controller.signal) }
-          : await getOfficialVideos(controller.signal);
+        const data = await getOfficialVideos(controller.signal);
         if (controller.signal.aborted) return;
         setState({ ...data, loading: false, error: false });
       } catch {
@@ -42,6 +40,7 @@ export default function MediaSection() {
         state.videos.length ? <div className="legacy-grid">{state.videos.map((video, index) => <MediaCard key={video.id} video={video} featured={index === 0} />)}</div> :
           <div className="legacy-empty"><p>영상을 불러오지 못했습니다. 공식 채널에서 최신 영상을 확인해주세요.</p><a className="legacy-channel" href={site.youtube.channelUrl} target="_blank" rel="noopener noreferrer">블랙컴뱃 공식 채널 ↗</a></div>}
       {state.loading && <p className="legacy-notice" role="status">최신 영상을 불러오는 중입니다.</p>}
+      {state.stale && <p className="legacy-notice" role="status">최신 목록을 갱신하지 못해 이전에 확인한 영상을 표시합니다. <a href={site.youtube.channelUrl} target="_blank" rel="noopener noreferrer">공식 채널에서 최신 영상 보기 ↗</a></p>}
     </section>
   );
 }

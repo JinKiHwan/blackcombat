@@ -4,6 +4,31 @@ const TTL = 10 * 60 * 1000;
 let cache;
 let pending;
 
+export function parsePlaylistItems(data) {
+  const seen = new Set();
+  const videos = (data.items ?? []).flatMap(item => {
+    const snippet = item.snippet;
+    const id = item.contentDetails?.videoId ?? snippet?.resourceId?.videoId;
+    const publishedAt = item.contentDetails?.videoPublishedAt ?? snippet?.publishedAt;
+    const owner = snippet?.videoOwnerChannelId ?? snippet?.channelId;
+    if (!/^[\w-]{11}$/.test(id) || !snippet?.title || owner !== site.youtube.channelId ||
+        !Number.isFinite(Date.parse(publishedAt)) || Date.parse(publishedAt) > Date.now() || seen.has(id)) return [];
+    seen.add(id);
+    return [{ id, title: snippet.title, publishedAt, image: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }];
+  });
+  videos.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
+  if (!videos.length) throw new Error('Data API: 공식 채널의 공개 영상이 없습니다.');
+  return videos.slice(0, 5);
+}
+
+async function fetchDataApiVideos() {
+  // The key is read only by Node/Vercel; never include it in the browser bundle.
+  const params = new URLSearchParams({ part: 'snippet,contentDetails', playlistId: site.youtube.uploadsPlaylistId, maxResults: '15', key: process.env.YOUTUBE_API_KEY });
+  const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?${params}`, { signal: AbortSignal.timeout(5000) });
+  if (!response.ok) throw new Error(`Data API: HTTP ${response.status}`);
+  return parsePlaylistItems(await response.json());
+}
+
 function decodeText(value) {
   const entities = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'" };
   return value.replace(/^<!\[CDATA\[([\s\S]*)\]\]>$/, '$1').replace(/&(#x[\da-f]+|#\d+|amp|lt|gt|quot|apos);/gi, (match, entity) => {
@@ -74,19 +99,30 @@ export function fetchVideoFeed() {
   if (cache && Date.now() - cache.time < TTL) return Promise.resolve(cache.data);
   if (pending) return pending;
   pending = (async () => {
-    let videos;
-    let source = 'rss';
-    try {
+    const failures = [];
+    const sources = [
+      ...(process.env.YOUTUBE_API_KEY ? [['data-api', fetchDataApiVideos]] : []),
+      ['rss', async () => {
       const response = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${site.youtube.channelId}`, { signal: AbortSignal.timeout(4000) });
       if (!response.ok) throw new Error(`YouTube 피드 응답 오류: ${response.status}`);
-      videos = parseVideoFeed(await response.text());
-    } catch {
-      videos = await fetchChannelVideos();
-      source = 'channel';
+      return parseVideoFeed(await response.text());
+      }],
+      ['channel', fetchChannelVideos],
+    ];
+    for (const [source, fetchVideos] of sources) {
+      try {
+        const videos = await fetchVideos();
+        const data = { channelId: site.youtube.channelId, fetchedAt: new Date().toISOString(), source, videos };
+        cache = { time: Date.now(), data };
+        return data;
+      } catch (error) {
+        // Do not log request URLs or upstream bodies: they may contain a key.
+        failures.push(`${source}:${error.name === 'TimeoutError' ? 'timeout' : 'failed'}`);
+      }
     }
-    const data = { channelId: site.youtube.channelId, fetchedAt: new Date().toISOString(), source, videos };
-    cache = { time: Date.now(), data };
-    return data;
+    console.warn(`[YouTube] refresh failed (${failures.join(', ')}); Data API key ${process.env.YOUTUBE_API_KEY ? 'configured' : 'missing'}`);
+    if (cache) return { ...cache.data, stale: true };
+    throw new Error('공식 영상 목록 갱신 실패');
   })().finally(() => { pending = undefined; });
   return pending;
 }

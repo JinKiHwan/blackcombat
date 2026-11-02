@@ -13,6 +13,12 @@ export default async function youtube(request, response) {
 
   try {
     const data = await fetchVideoFeed();
+    if (data.stale) {
+      response.setHeader('Cache-Control', 'no-store');
+      response.setHeader('Vercel-CDN-Cache-Control', 'no-store');
+      response.end(JSON.stringify(data));
+      return;
+    }
     // 메모리 캐시를 CDN에서 다시 10분 캐시하지 않도록 남은 유효 시간만 사용합니다.
     const age = Math.max(0, (Date.now() - Date.parse(data.fetchedAt)) / 1000);
     const remaining = Math.max(0, Math.floor(600 - age));
