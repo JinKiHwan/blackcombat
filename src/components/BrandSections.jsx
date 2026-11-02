@@ -55,9 +55,11 @@ export function Partners() {
   </section>;
 }
 
-export function Footer() {
+export function Footer({ onShowNotice }) {
   return (
     <footer className="footer site-footer">
+      <div className="footer-fanmade"><strong>이 사이트는 블랙컴뱃 공식 홈페이지가 아닌 팬메이드 사이트입니다.</strong><p>블랙컴뱃 팬이 제작한 비공식 리뉴얼 프로젝트입니다.</p><div><a href="https://www.blackcombat-official.com/" target="_blank" rel="noopener noreferrer">블랙컴뱃 공식 홈페이지 ↗</a>{onShowNotice && <button type="button" onClick={onShowNotice}>팬메이드 안내 다시보기</button>}</div></div>
+      <p className="footer-official-label">아래는 블랙컴뱃 공식 홈페이지에 기재된 정보이며, 본 팬메이드 사이트의 운영자 정보가 아닙니다.</p>
       <p>
         회사명 : 주식회사 이데아 파라곤<br />
         주소 : 서울시 성동구 서울숲2길 35<br />

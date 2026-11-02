@@ -1,3 +1,5 @@
+import { useRef } from 'react';
+import FanmadeNotice from './components/FanmadeNotice.jsx';
 import Rules from './pages/Rules.jsx';
 import Doping from './pages/Doping.jsx';
 import Awards from './pages/Awards.jsx';
@@ -18,6 +20,7 @@ import StoreSection from './components/StoreSection.jsx';
 import { Footer, Manifesto, Partners } from './components/BrandSections.jsx';
 
 export default function App() {
+  const fanmadeNotice = useRef(null);
   useSmoothScroll();
   usePageTransition();
   const path = window.location.pathname;
@@ -40,8 +43,9 @@ export default function App() {
         </> : <section className="numbering-not-found"><h1>페이지를 찾을 수 없습니다.</h1><a href="/">홈으로</a></section>}
         <Partners />
       </main>
-      <Footer />
+      <Footer onShowNotice={() => fanmadeNotice.current?.open()} />
       {['/', '/index.html'].includes(window.location.pathname) && <RisingEmbers />}
+      <FanmadeNotice ref={fanmadeNotice} />
     </>
   );
 }

@@ -32,3 +32,11 @@
  .sponsor-group { flex-wrap: wrap; justify-content: center; width: 100%; min-width: 0; }
  .sponsor-group[aria-hidden='true'] { display: none; }
 }
+
+.footer-fanmade { max-width: 760px; margin: 0 auto 32px; padding-bottom: 28px; border-bottom: 1px solid #b69a4933; }
+.footer-fanmade > strong { display: block; color: #dcc176; font-size: 15px; line-height: 1.8; word-break: keep-all; }
+.footer.site-footer .footer-fanmade > p { margin-top: 8px; font-size: 12px; }
+.footer-fanmade > div { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 16px; color: #b9a36a; font-size: 12px; }
+.footer-fanmade button { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-decoration: underline; text-underline-offset: 4px; }
+.footer.site-footer .footer-official-label { margin: 0 auto 14px; max-width: 680px; font-size: 10px; line-height: 1.8; color: #8f8c80; }
+@media (max-width: 680px) { .footer-fanmade > strong { font-size: 13px; } }
