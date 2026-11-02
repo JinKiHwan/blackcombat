@@ -23,3 +23,11 @@ Google Cloud에서 YouTube Data API v3를 활성화한 프로젝트의 키를 �
 키 자체는 응답이나 진단 로그에 포함되지 않습니다.
 
 검증: `node --test tests/youtube-feed.test.mjs`
+
+## API 키 없는 운영
+
+GitHub Actions `Refresh YouTube feed`가 매시 17분(UTC)에 실행되어 공식 채널 목록을 수집합니다.
+성공한 결과만 `codex/youtube-feed` 브랜치에 기록하며, 이 브랜치는 Vercel 자동 배포에서 제외합니다.
+키가 없을 때 Vercel은 이 공개 JSON을 우선 읽습니다. 서버에서 5분까지 캐시하고, 수집 시각이 2시간 이상 지나면 예전 목록 안내를 표시합니다.
+GitHub 예약 실행은 지연될 수 있으며 공개 저장소의 비활성 기간이 길면 예약 실행이 중지될 수 있습니다. Actions 실행 상태를 확인하세요.
+예약 수집 실패는 워크플로 실패로 남기고 기존 파일은 덮어쓰지 않습니다.

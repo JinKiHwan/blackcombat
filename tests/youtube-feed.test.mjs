@@ -72,3 +72,14 @@ test('API handler marks the build snapshot stale and uncacheable on upstream fai
     assert.ok(body.videos.length);
   });
 });
+
+test('scheduled feed verifies channel, rejects future timestamps and marks overdue refreshes stale', async () => {
+  const { validatePublishedFeed } = await import('../scripts/published-youtube-feed.mjs');
+  const now = Date.now();
+  const feed = { channelId: site.youtube.channelId, fetchedAt: new Date(now).toISOString(), videos: [{ id: 'aaaaaaaaaaa', title: 'Latest', publishedAt: '2026-01-01T00:00:00Z', url: 'https://untrusted.example/' }] };
+  assert.equal(validatePublishedFeed(feed, now).stale, false);
+  assert.equal(validatePublishedFeed(feed, now).videos[0].url, 'https://www.youtube.com/watch?v=aaaaaaaaaaa');
+  assert.equal(validatePublishedFeed(feed, now + 3 * 60 * 60 * 1000).stale, true);
+  assert.throws(() => validatePublishedFeed({ ...feed, channelId: 'other' }, now));
+  assert.throws(() => validatePublishedFeed({ ...feed, fetchedAt: new Date(now + 120000).toISOString() }, now));
+});

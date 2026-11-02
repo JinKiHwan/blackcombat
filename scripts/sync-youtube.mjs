@@ -9,6 +9,7 @@ try {
   await writeFile(snapshot, `${JSON.stringify(data, null, 2)}\n`);
   console.log(`YouTube: 최신 ${data.videos.length}개 갱신 (${data.fetchedAt})`);
 } catch (error) {
+  if (process.env.YOUTUBE_SYNC_STRICT === '1') throw error;
   try {
     const previous = JSON.parse(await readFile(snapshot, 'utf8'));
     if (!previous.videos?.length) throw new Error('저장된 영상 없음');
