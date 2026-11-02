@@ -1,5 +1,5 @@
-.header-music-button { display: inline-grid; place-items: center; flex: 0 0 40px; width: 40px; height: 40px; padding: 8px; color: #cba63c; background: transparent; border: 1px solid #cba63c66; border-radius: 50%; }
-.header-music-button svg { fill: currentColor; }
+.header-music-button { display: inline-grid; place-items: center; flex: 0 0 40px; width: 40px; height: 40px; padding: 0; line-height: 1; color: #cba63c; background: transparent; border: 1px solid #cba63c66; border-radius: 50%; }
+.header-music-button svg { display: block; width: 20px; height: 20px; fill: currentColor; }
 .header-music-button:hover, .header-music-button[aria-pressed='true'] { color: #edc352; border-color: #edc352; background: #cba63c14; }
 .header-music-panel { position: fixed; right: 24px; bottom: 24px; width: min(356px, calc(100vw - 32px)); background: #10100f; border: 1px solid #b69a4955; box-shadow: 0 12px 35px #000b; }
 .header-music-top { display: flex; justify-content: space-between; align-items: center; padding: 4px 8px 4px 14px; }
@@ -10,4 +10,4 @@
 .header-music-caption { padding: 10px 14px; display: flex; gap: 12px; align-items: center; }
 .header-music-caption p { margin: 0; flex: 1; font-size: 11px; line-height: 1.5; color: #9e9684; }
 .header-music-caption a { color: #c6aa62; font-size: 10px; white-space: nowrap; }
-@media (max-width: 680px) { .header-music-button { width: 34px; height: 34px; flex-basis: 34px; } .header-music-panel { bottom: 16px; right: 16px; } }
+@media (max-width: 680px) { .header-music-button { width: 34px; height: 34px; flex-basis: 34px; } .header-music-button svg { width: 18px; height: 18px; } .header-music-panel { bottom: 16px; right: 16px; } }
