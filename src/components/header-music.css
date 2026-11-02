@@ -25,6 +25,11 @@
 .header-music-caption { padding:3px 14px 12px; display:flex; align-items:center; gap:12px; }
 .header-music-caption p { margin:0; flex:1; font-size:10px; line-height:1.5; color:#8d826b; }
 .header-music-caption a { color:#b59b60; font-size:9px; white-space:nowrap; }
-.header-music-panel.is-minimized { width:min(300px,calc(100vw - 32px)); }
+.header-music-panel.is-minimized { width:min(224px,calc(100vw - 32px)); }
+.is-minimized .music-track-info { display:none; }
+.is-minimized .music-deck { justify-content:space-between; padding:6px 10px; }
+.is-minimized .music-cover { width:22px; height:28px; }
+.is-minimized .music-window-controls { align-self:center; }
+.is-minimized .music-time { display:none; }
 .is-minimized .music-controls { padding-top:0; padding-bottom:10px; justify-content:center; }
 @media(max-width:680px) { .header-music-button { width:34px; height:34px; flex-basis:34px; } .header-music-button svg { width:18px; height:18px; } .header-music-panel { bottom:16px; right:16px; } .music-controls { gap:8px; } }
