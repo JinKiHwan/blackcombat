@@ -117,7 +117,7 @@ export default function Numbering({ id, eventData }) {
           <Swiper className="numbering-stage" modules={[A11y, EffectFade]} effect="fade" fadeEffect={{ crossFade: true }} speed={550} loop={false} rewind={false} onSwiper={swiper => { stageRef.current = swiper; }} onSlideChange={swiper => { setActive(swiper.activeIndex); setText(''); setStatus(''); railRef.current?.slideTo(swiper.activeIndex); }} a11y={{ containerMessage: '경기 대진', slideLabelMessage: '{{slidesLength}}개 중 {{index}}번째 대진' }}>
           {event.matches.map((match, index) => {
             const stats = match.stats ?? [['RANKING', '—', '—'], ['RECORD', '—', '—'], ['HEIGHT', '—', '—'], ['AGE', '—', '—'], ['TEAM', '—', '—']];
-            const left = vote[index] === 0 ? 53 : vote[index] === 1 ? 51 : 52;
+            const left = 50;
             return <SwiperSlide key={index}><div className="numbering-match-content" data-match={index}>
           <Portrait winner={event.phase === 'archive' && match.winner === 0} src={match.images[0]} className="numbering-fighter numbering-fighter--left" />
           <div className="numbering-info">
