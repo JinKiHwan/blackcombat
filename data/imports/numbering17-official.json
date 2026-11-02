@@ -1,0 +1,357 @@
+{
+  "sourceUrl": "https://www.blackcombat-official.com/eventDetail.php?eventSeq=294",
+  "collectedAt": "2026-11-02T05:16:26.112Z",
+  "matches": [
+    {
+      "fighterIds": [
+        "98660587",
+        "51931259"
+      ],
+      "names": [
+        "투신",
+        "Mr. Perfect"
+      ],
+      "realNames": [
+        "김재웅",
+        "강경호"
+      ],
+      "records": [
+        "16W 8L",
+        "19W 11L"
+      ],
+      "ranks": [
+        "밴텀급 #C",
+        null
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_rankingChamp.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "65052150",
+        "53375538"
+      ],
+      "names": [
+        "The Crippler",
+        "섹시야마"
+      ],
+      "realNames": [
+        "크리스 리벤",
+        "추성훈"
+      ],
+      "records": [
+        "20W 12L",
+        "16W 7L"
+      ],
+      "ranks": [
+        null,
+        null
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "79683172",
+        "82685239"
+      ],
+      "names": [
+        "시라소니",
+        "아레스"
+      ],
+      "realNames": [
+        "방성혁",
+        "김태균"
+      ],
+      "records": [
+        "8W 0L",
+        "12W 3L"
+      ],
+      "ranks": [
+        "페더급 #C",
+        "페더급 #1"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_rankingChamp.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "77842475",
+        "71392066"
+      ],
+      "names": [
+        "싸이코",
+        "붉은매"
+      ],
+      "realNames": [
+        "Victor Hugo",
+        "지혁민"
+      ],
+      "records": [
+        "26W 8L",
+        "8W 1L"
+      ],
+      "ranks": [
+        "페더급 #2",
+        "페더급 #7"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "91010996",
+        "28865824"
+      ],
+      "names": [
+        "킹콩",
+        "플라밍고"
+      ],
+      "realNames": [
+        "오일학",
+        "박정민"
+      ],
+      "records": [
+        "6W 4L",
+        "9W 2L"
+      ],
+      "ranks": [
+        "미들급 #C",
+        "미들급 #1"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_rankingChamp.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "22363165",
+        "76220784"
+      ],
+      "names": [
+        "캡틴 코리아",
+        "영보스"
+      ],
+      "realNames": [
+        "정한국",
+        "박어진"
+      ],
+      "records": [
+        "14W 11L 2D",
+        "11W 2L 1D"
+      ],
+      "ranks": [
+        "라이트급 #C",
+        "라이트급 #2"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_rankingChamp.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "73873103",
+        "86478580"
+      ],
+      "names": [
+        "우마왕",
+        "인디언킹"
+      ],
+      "realNames": [
+        "우성훈",
+        "Gabriel Rodrigues"
+      ],
+      "records": [
+        "13W 4L",
+        "7W 1L"
+      ],
+      "ranks": [
+        "플라이급 #C",
+        "플라이급 #2"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_rankingChamp.png",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "51712256",
+        "28308426"
+      ],
+      "names": [
+        "데드샷",
+        "불주먹"
+      ],
+      "realNames": [
+        "Ortsa Gudaev",
+        "방재혁"
+      ],
+      "records": [
+        "15W 4L",
+        "17W 10L"
+      ],
+      "ranks": [
+        "페더급 #6",
+        "페더급 #10"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "95863943",
+        "41326305"
+      ],
+      "names": [
+        "수부타이",
+        "다게르"
+      ],
+      "realNames": [
+        "난딘에르덴",
+        "Ali Gadzhiev"
+      ],
+      "records": [
+        "19W 11L",
+        "5W 0L"
+      ],
+      "ranks": [
+        "라이트급 #1",
+        "라이트급 #3"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "31367195",
+        "31720294"
+      ],
+      "names": [
+        "바이퍼",
+        "아마존 키드"
+      ],
+      "realNames": [
+        "김성웅",
+        "Thomas Assis"
+      ],
+      "records": [
+        "8W 9L",
+        "12W 4L"
+      ],
+      "ranks": [
+        "플라이급 #7",
+        "플라이급 #9"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "65081168",
+        "89975978"
+      ],
+      "names": [
+        "사쿠라",
+        "곰주먹"
+      ],
+      "realNames": [
+        "황도윤",
+        "김정균"
+      ],
+      "records": [
+        "3W 6L",
+        "5W 4L"
+      ],
+      "ranks": [
+        "라이트급 #7",
+        "라이트급 #9"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "63267425",
+        "53339805"
+      ],
+      "names": [
+        "야인",
+        "머큐리"
+      ],
+      "realNames": [
+        "이도겸",
+        "Flavio Santos"
+      ],
+      "records": [
+        "11W 9L",
+        "14W 11L"
+      ],
+      "ranks": [
+        "페더급 #13",
+        "페더급 #16"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "41530580",
+        "54898276"
+      ],
+      "names": [
+        "언더독",
+        "티그로"
+      ],
+      "realNames": [
+        "박성준",
+        "신창현"
+      ],
+      "records": [
+        "7W 6L 1D",
+        "4W 1L"
+      ],
+      "ranks": [
+        "밴텀급 #5",
+        "밴텀급 #20"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_ranking.webp"
+      ],
+      "winner": -1
+    }
+  ]
+}

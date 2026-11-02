@@ -7,27 +7,24 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import AnimatedPrediction from '../components/AnimatedPrediction.jsx';
 import EventTitle from '../components/EventTitle.jsx';
 import {eventTitle} from '../utils/eventTitle.js';
-import fighterData from '../../data/imports/blackcombat-fighters.json';
+import official17 from '../../data/imports/numbering17-official.json';
+import profiles17 from '../../data/imports/numbering17-profiles.json';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/effect-fade';
 import './numbering.css';
 
-const fightersById = new Map(fighterData.fighters.map(fighter => [fighter.fighterId, fighter]));
-function createMatch(division, ...fighterIds) {
-  const fighters = fighterIds.map(id => fightersById.get(id));
-  const rankings = fighterIds.map(id => fighterData.rankings.find(row => row.fighterId === id && row.divisionKey === division));
+function createMatch(match) {
+  const profiles = match.fighterIds.map(id => profiles17.profiles[id]);
   return {
-    fighterIds, division,
-    names: fighters.map(fighter => fighter.ringName),
-    realNames: fighters.map(fighter => fighter.name),
-    images: fighters.map(fighter => fighter.profileImage?.localPath),
+    fighterIds: match.fighterIds, names: match.names, realNames: match.realNames,
+    images: profiles.map(profile => profile?.image || '/images/champ/noname.webp'),
     stats: [
-      ['RANKING', ...rankings.map(row => row?.champion ? 'CHAMPION' : row?.rank ? '#' + String(row.rank).padStart(2, '0') : '—')],
-      ['RECORD', ...rankings.map(row => row?.recordRaw ?? '—')],
-      ['HEIGHT', ...fighters.map(fighter => fighter.height ?? '—')],
-      ['AGE', ...fighters.map(fighter => fighter.age ? `${fighter.age}세` : '—')],
-      ['TEAM', ...fighters.map(fighter => fighter.team ?? '—')],
+      ['RANKING', ...match.ranks.map(rank => rank || '—')],
+      ['RECORD', ...match.records.map(record => record || '—')],
+      ['HEIGHT', ...profiles.map(profile => profile?.height || '—')],
+      ['AGE', ...profiles.map(profile => profile?.age ? profile.age + '세' : '—')],
+      ['TEAM', ...profiles.map(profile => profile?.team || '—')],
     ],
   };
 }
@@ -36,13 +33,7 @@ const events = {
     id: 17, phase: 'before', title: 'BLACK COMBAT 17: VANTABLACK',
     image: '/images/visual/vantablack.webp', date: '2026. 11. 21', venue: 'GOCHEOK SKY DOME',
     background: '/images/numbering/17bg.png', venueImage: '/images/numbering/gocheck.png',
-    matches: [
-      createMatch('feather', '79683172', '82685239'),
-      createMatch('middle', '91010996', '28865824'),
-      createMatch('light', '22363165', '76220784'),
-      createMatch('light', '65081168', '89975978'),
-      createMatch('bantam', '41530580', '54898276'),
-    ],
+    matches: official17.matches.map(createMatch),
   },
 };
 
@@ -57,7 +48,24 @@ export default function Numbering({ id, eventData }) {
   const [messages, setMessages] = useState({});
   const [text, setText] = useState('');
   const [vote, setVote] = useState(() => {
-    try { const saved = JSON.parse(localStorage.getItem('blackcombat-votes-' + id) || '{}'); return Object.fromEntries(Object.entries(saved).filter(([key, side]) => /^\d+$/.test(key) && (side === 0 || side === 1))); } catch { return {}; }
+    try {
+      if (String(id) !== '17') {
+        const saved = JSON.parse(localStorage.getItem('blackcombat-votes-' + id) || '{}');
+        return Object.fromEntries(Object.entries(saved).filter(([key, side]) => /^\d+$/.test(key) && (side === 0 || side === 1)));
+      }
+      const stored = localStorage.getItem('blackcombat-votes-by-match-17');
+      let votes;
+      if (stored) votes = JSON.parse(stored);
+      else {
+        const legacy = JSON.parse(localStorage.getItem('blackcombat-votes-17') || '{}');
+        const originalPairs = ['79683172-82685239','91010996-28865824','22363165-76220784','65081168-89975978','41530580-54898276'];
+        votes = Object.fromEntries(originalPairs.map((key,index) => [key,legacy[index]]));
+      }
+      return Object.fromEntries(event.matches.flatMap((match,index) => {
+        const side = votes[match.fighterIds.join('-')];
+        return side === 0 || side === 1 ? [[index,side]] : [];
+      }));
+    } catch { return {}; }
   });
   const [pending, setPending] = useState(null);
   const voteDialog = useRef(null);
@@ -78,7 +86,12 @@ export default function Numbering({ id, eventData }) {
     voteLock.current = true;
     const next = { ...vote, [pending.index]: pending.side };
     setVote(next);
-    try { localStorage.setItem('blackcombat-votes-' + id, JSON.stringify(next)); } catch { /* Keep the vote in memory if storage is unavailable. */ }
+    try {
+      if (String(id) === '17') {
+        const keyed = Object.fromEntries(Object.entries(next).map(([index,side]) => [event.matches[index].fighterIds.join('-'),side]));
+        localStorage.setItem('blackcombat-votes-by-match-17', JSON.stringify(keyed));
+      } else localStorage.setItem('blackcombat-votes-' + id, JSON.stringify(next));
+    } catch { /* Keep the vote in memory if storage is unavailable. */ }
     setStatus(event.matches[pending.index].names[pending.side] + ' 선수를 응원했습니다.');
     voteDialog.current.close();
   }

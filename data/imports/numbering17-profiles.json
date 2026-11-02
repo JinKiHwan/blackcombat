@@ -1,0 +1,235 @@
+{
+  "profiles": {
+    "22363165": {
+      "height": "169cm",
+      "team": "TEAM MAD",
+      "age": 34,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/22363165",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_detail.webp?v=260201193010",
+      "collectedAt": "2026-11-02T05:17:06.115Z",
+      "image": "/images/fighters/22363165.webp"
+    },
+    "28308426": {
+      "height": "177cm",
+      "team": "BLACK COMBAT OFFICIAL GYM",
+      "age": 30,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28308426",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_detail.webp?v=260901183545",
+      "collectedAt": "2026-11-02T05:17:07.020Z",
+      "image": "/images/fighters/28308426.webp"
+    },
+    "28865824": {
+      "height": "184cm",
+      "team": "TEAM MAD",
+      "age": 24,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/28865824",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_detail.webp?v=260731182601",
+      "collectedAt": "2026-11-02T05:17:05.947Z",
+      "image": "/images/fighters/28865824.webp"
+    },
+    "31367195": {
+      "height": "175cm",
+      "team": "BLACK COMBAT OFFICIAL GYM",
+      "age": 29,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31367195",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_detail.webp?v=260924030157",
+      "collectedAt": "2026-11-02T05:17:07.538Z",
+      "image": "/images/fighters/31367195.webp"
+    },
+    "31720294": {
+      "height": "170cm",
+      "team": "N/A",
+      "age": 33,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/31720294",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_detail.webp?v=260925214009",
+      "collectedAt": "2026-11-02T05:17:07.708Z",
+      "image": "/images/fighters/31720294.webp"
+    },
+    "41326305": {
+      "height": "180cm",
+      "team": "KHABIB GYM",
+      "age": 28,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41326305",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_detail.webp?v=260901184110",
+      "collectedAt": "2026-11-02T05:17:07.366Z",
+      "image": "/images/fighters/41326305.webp"
+    },
+    "41530580": {
+      "height": "172cm",
+      "team": "SSABI MMA",
+      "age": 33,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/41530580",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_detail.webp?v=260503173129",
+      "collectedAt": "2026-11-02T05:17:08.569Z",
+      "image": "/images/fighters/41530580.webp"
+    },
+    "51712256": {
+      "height": "178cm",
+      "team": "TEAM KHAMZAEV",
+      "age": 28,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51712256",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_detail.webp?v=260606210155",
+      "collectedAt": "2026-11-02T05:17:06.846Z",
+      "image": "/images/fighters/51712256.webp"
+    },
+    "51931259": {
+      "height": "176cm",
+      "team": "N/A",
+      "age": 39,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/51931259",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "collectedAt": "2026-11-02T05:17:04.570Z"
+    },
+    "53339805": {
+      "height": "167cm",
+      "team": "BRAZILIAN TKO",
+      "age": 35,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53339805",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_detail.webp?v=260727180846",
+      "collectedAt": "2026-11-02T05:17:08.396Z",
+      "image": "/images/fighters/53339805.webp"
+    },
+    "53375538": {
+      "height": "178cm",
+      "team": "HAVAS MMA",
+      "age": 51,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/53375538",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "collectedAt": "2026-11-02T05:17:04.915Z"
+    },
+    "54898276": {
+      "height": "174cm",
+      "team": "TEAM SOLID",
+      "age": null,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/54898276",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_detail.webp?v=260809210153",
+      "collectedAt": "2026-11-02T05:17:08.744Z",
+      "image": "/images/fighters/54898276.webp"
+    },
+    "63267425": {
+      "height": "170cm",
+      "team": "HAVAS MMA",
+      "age": 36,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/63267425",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_detail.webp?v=260727181045",
+      "collectedAt": "2026-11-02T05:17:08.226Z",
+      "image": "/images/fighters/63267425.webp"
+    },
+    "65052150": {
+      "height": "180cm",
+      "team": "N/A",
+      "age": 46,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/65052150",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
+      "collectedAt": "2026-11-02T05:17:04.743Z"
+    },
+    "65081168": {
+      "height": "180cm",
+      "team": "CUBE MMA",
+      "age": 30,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/65081168",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_detail.webp?v=260617230502",
+      "collectedAt": "2026-11-02T05:17:07.881Z",
+      "image": "/images/fighters/65081168.webp"
+    },
+    "71392066": {
+      "height": "176cm",
+      "team": "TEAM MAD CHUNCHEON",
+      "age": 21,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/71392066",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_detail.webp?v=260830221631",
+      "collectedAt": "2026-11-02T05:17:05.599Z",
+      "image": "/images/fighters/71392066.webp"
+    },
+    "73873103": {
+      "height": "168cm",
+      "team": "TEAM MAD",
+      "age": 34,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/73873103",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_detail.png?v=260727202026",
+      "collectedAt": "2026-11-02T05:17:06.474Z",
+      "image": "/images/fighters/73873103.png"
+    },
+    "76220784": {
+      "height": "182cm",
+      "team": "BLACK COMBAT OFFICIAL GYM",
+      "age": 24,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/76220784",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=260901183555",
+      "collectedAt": "2026-11-02T05:17:06.301Z",
+      "image": "/images/fighters/76220784.webp"
+    },
+    "77842475": {
+      "height": "171cm",
+      "team": "ASTRA FIGHT TEAM",
+      "age": 33,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/77842475",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_detail.webp?v=260727181120",
+      "collectedAt": "2026-11-02T05:17:05.430Z",
+      "image": "/images/fighters/77842475.webp"
+    },
+    "79683172": {
+      "height": "180cm",
+      "team": "TEAM MAD CHUNCHEON",
+      "age": 25,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/79683172",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=260831144957",
+      "collectedAt": "2026-11-02T05:17:05.086Z",
+      "image": "/images/fighters/79683172.webp"
+    },
+    "82685239": {
+      "height": "180cm",
+      "team": "BLACK COMBAT OFFICIAL GYM",
+      "age": 32,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/82685239",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=260727181111",
+      "collectedAt": "2026-11-02T05:17:05.257Z",
+      "image": "/images/fighters/82685239.webp"
+    },
+    "86478580": {
+      "height": "165cm",
+      "team": "TEAM BRONX",
+      "age": 25,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/86478580",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_detail.webp?v=260603193028",
+      "collectedAt": "2026-11-02T05:17:06.675Z",
+      "image": "/images/fighters/86478580.webp"
+    },
+    "89975978": {
+      "height": "178cm",
+      "team": "BLACK COMBAT GYM DAEJEON",
+      "age": 32,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/89975978",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_detail.webp?v=260908180247",
+      "collectedAt": "2026-11-02T05:17:08.053Z",
+      "image": "/images/fighters/89975978.webp"
+    },
+    "91010996": {
+      "height": "177cm",
+      "team": "HAVAS MMA",
+      "age": 24,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/91010996",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_detail.webp?v=260830223136",
+      "collectedAt": "2026-11-02T05:17:05.773Z",
+      "image": "/images/fighters/91010996.webp"
+    },
+    "95863943": {
+      "height": "178cm",
+      "team": "JEON UK JIN GYM",
+      "age": 39,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/95863943",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_detail.webp?v=260503180830",
+      "collectedAt": "2026-11-02T05:17:07.194Z",
+      "image": "/images/fighters/95863943.webp"
+    },
+    "98660587": {
+      "height": "173cm",
+      "team": "EXTREAM COMBAT",
+      "age": 33,
+      "sourceUrl": "https://www.blackcombat-official.com/fighter/98660587",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=260617234616",
+      "collectedAt": "2026-11-02T05:17:04.396Z",
+      "image": "/images/fighters/98660587.webp"
+    }
+  }
+}
