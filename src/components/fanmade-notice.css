@@ -1,4 +1,4 @@
-.fanmade-notice { width: min(520px, calc(100vw - 36px)); max-height: calc(100dvh - 40px); padding: 0; color: #eee9dd; background: #11110f url('/images/common/grunge.webp') center / 700px; border: 1px solid #b29448; box-shadow: 0 20px 100px #000b; }
+.fanmade-notice { width: min(520px, calc(100vw - 36px)); max-height: calc(100dvh - 40px); padding: 0; color: #eee9dd; background: linear-gradient(#11110fee, #11110fee), url('/images/common/grunge.webp') center / 700px; border: 1px solid #b29448; box-shadow: 0 20px 100px #000b; }
 .fanmade-notice::backdrop { background: #000b; backdrop-filter: blur(6px); }
 .fanmade-notice-content { padding: 38px 32px 26px; }
 .fanmade-notice-kicker { margin: 0 0 20px; color: #bea35e; font-size: 10px; letter-spacing: 1.8px; }
