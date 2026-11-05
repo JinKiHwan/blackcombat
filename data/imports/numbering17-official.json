@@ -1,6 +1,6 @@
 {
   "sourceUrl": "https://www.blackcombat-official.com/eventDetail.php?eventSeq=294",
-  "collectedAt": "2026-11-02T05:16:26.112Z",
+  "collectedAt": "2026-11-05T09:17:30.051Z",
   "matches": [
     {
       "fighterIds": [
@@ -52,7 +52,7 @@
       ],
       "images": [
         "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
-        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53375538/53375538_ranking.webp"
       ],
       "winner": -1
     },
@@ -193,6 +193,33 @@
     },
     {
       "fighterIds": [
+        "51253531",
+        "27796067"
+      ],
+      "names": [
+        "헌츠맨",
+        "레오파드"
+      ],
+      "realNames": [
+        "Sultan Omarov",
+        "Luan Santiago"
+      ],
+      "records": [
+        "9W 0L",
+        "24W 8L"
+      ],
+      "ranks": [
+        "웰터급 #1",
+        "웰터급 #2"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
         "51712256",
         "28308426"
       ],
@@ -269,6 +296,33 @@
       "images": [
         "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_ranking.webp",
         "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_ranking.webp"
+      ],
+      "winner": -1
+    },
+    {
+      "fighterIds": [
+        "64797565",
+        "21131458"
+      ],
+      "names": [
+        "무사",
+        "백사자"
+      ],
+      "realNames": [
+        "타케나카 다이치",
+        "Aydemir Kazbekov"
+      ],
+      "records": [
+        "18W 4L 1D",
+        "15W 2L"
+      ],
+      "ranks": [
+        "밴텀급 #2",
+        "밴텀급 #4"
+      ],
+      "images": [
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_ranking.webp",
+        "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_ranking.webp"
       ],
       "winner": -1
     },
