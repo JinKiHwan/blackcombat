@@ -78,7 +78,10 @@
       "age": 39,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/51931259",
       "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
-      "collectedAt": "2026-11-02T05:17:04.570Z"
+      "collectedAt": "2026-11-02T05:17:04.570Z",
+      "image": "/images/fighters/51931259-editorial.webp",
+      "imageKind": "ai-assisted-editorial",
+      "imageProvenance": "data/imports/editorial-fighter-images.json"
     },
     "53339805": {
       "height": "167cm",
@@ -94,8 +97,9 @@
       "team": "HAVAS MMA",
       "age": 51,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/53375538",
-      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
-      "collectedAt": "2026-11-02T05:17:04.915Z"
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53375538/53375538_detail.webp?v=261105030623",
+      "collectedAt": "2026-11-05T06:10:45.338Z",
+      "image": "/images/fighters/53375538.webp"
     },
     "54898276": {
       "height": "174cm",
@@ -121,7 +125,10 @@
       "age": 46,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/65052150",
       "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_full_blank.png",
-      "collectedAt": "2026-11-02T05:17:04.743Z"
+      "collectedAt": "2026-11-02T05:17:04.743Z",
+      "image": "/images/fighters/65052150-editorial.webp",
+      "imageKind": "ai-assisted-editorial",
+      "imageProvenance": "data/imports/editorial-fighter-images.json"
     },
     "65081168": {
       "height": "180cm",
@@ -155,8 +162,8 @@
       "team": "BLACK COMBAT OFFICIAL GYM",
       "age": 24,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/76220784",
-      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=260901183555",
-      "collectedAt": "2026-11-02T05:17:06.301Z",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=261105032845",
+      "collectedAt": "2026-11-05T06:11:54.441Z",
       "image": "/images/fighters/76220784.webp"
     },
     "77842475": {
@@ -173,8 +180,8 @@
       "team": "TEAM MAD CHUNCHEON",
       "age": 25,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/79683172",
-      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=260831144957",
-      "collectedAt": "2026-11-02T05:17:05.086Z",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=261105031823",
+      "collectedAt": "2026-11-05T06:09:41.663Z",
       "image": "/images/fighters/79683172.webp"
     },
     "82685239": {
@@ -182,8 +189,8 @@
       "team": "BLACK COMBAT OFFICIAL GYM",
       "age": 32,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/82685239",
-      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=260727181111",
-      "collectedAt": "2026-11-02T05:17:05.257Z",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=261105133442",
+      "collectedAt": "2026-11-05T06:09:41.877Z",
       "image": "/images/fighters/82685239.webp"
     },
     "86478580": {
@@ -227,8 +234,8 @@
       "team": "EXTREAM COMBAT",
       "age": 33,
       "sourceUrl": "https://www.blackcombat-official.com/fighter/98660587",
-      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=260617234616",
-      "collectedAt": "2026-11-02T05:17:04.396Z",
+      "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=261105135729",
+      "collectedAt": "2026-11-05T06:09:39.492Z",
       "image": "/images/fighters/98660587.webp"
     }
   }

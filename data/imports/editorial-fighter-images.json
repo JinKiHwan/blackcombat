@@ -1,0 +1,25 @@
+{
+  "createdAt": "2026-11-05",
+  "type": "ai-assisted-editorial",
+  "note": "공식 촬영 이미지가 없는 선수의 참고 사진 기반 AI 제작 이미지입니다. 실제 촬영 사진이 아니며, 신체·포즈·문신의 재구성 부분은 정확한 기록으로 사용하지 않습니다. 공식 컷아웃 제공 시 교체합니다.",
+  "images": [
+    {
+      "fighterId": "51931259",
+      "name": "강경호",
+      "localPath": "/images/fighters/51931259-editorial.webp",
+      "referencePage": "https://www.ufc.com/athlete/kyung-ho-kang",
+      "referenceImage": "https://www.ufc.com/images/styles/athlete_bio_full_body/s3/2025-01/1/KANG_KYUNG_HO_L_06-22.png?itok=k5EyZTyr",
+      "referenceDateNote": "현재 UFC 공식 프로필 제공 이미지. 경로는 2025-01, 실제 촬영일은 확인되지 않음.",
+      "changes": "얼굴을 참고하여 장갑·반바지·포즈를 재구성한 투명 배경 대진용 이미지"
+    },
+    {
+      "fighterId": "65052150",
+      "name": "크리스 리벤",
+      "localPath": "/images/fighters/65052150-editorial.webp",
+      "referencePage": "https://www.newmedltd.co.uk/blogs/news/episode-53-addiction-arrests-and-what-it-took-to-rebuild-ufc-fighter-chris-leben",
+      "referenceImage": "https://www.newmedltd.co.uk/cdn/shop/articles/Andy-Smith-and-Chris-Leben.jpg?v=1778766741",
+      "referenceDateNote": "2026-05-14 업데이트 인터뷰 사진의 하단 출연자",
+      "changes": "최근 얼굴·수염을 참고하여 상체·문신·장갑·반바지·포즈를 재구성한 투명 배경 대진용 이미지"
+    }
+  ]
+}
