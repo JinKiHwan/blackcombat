@@ -108,7 +108,8 @@
       "collectedAt": "2026-11-02T05:17:04.570Z",
       "image": "/images/fighters/51931259-editorial.webp",
       "imageKind": "ai-assisted-editorial",
-      "imageProvenance": "data/imports/editorial-fighter-images.json"
+      "imageProvenance": "data/imports/editorial-fighter-images.json",
+      "countryCode": "kr"
     },
     "53339805": {
       "height": "167cm",
@@ -126,7 +127,8 @@
       "sourceUrl": "https://www.blackcombat-official.com/fighter/53375538",
       "imageSource": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53375538/53375538_detail.webp?v=261105030623",
       "collectedAt": "2026-11-05T06:10:45.338Z",
-      "image": "/images/fighters/53375538.webp"
+      "image": "/images/fighters/53375538.webp",
+      "countryCode": "kr"
     },
     "54898276": {
       "height": "174cm",
@@ -164,7 +166,8 @@
       "collectedAt": "2026-11-02T05:17:04.743Z",
       "image": "/images/fighters/65052150-editorial.webp",
       "imageKind": "ai-assisted-editorial",
-      "imageProvenance": "data/imports/editorial-fighter-images.json"
+      "imageProvenance": "data/imports/editorial-fighter-images.json",
+      "countryCode": "us"
     },
     "65081168": {
       "height": "180cm",

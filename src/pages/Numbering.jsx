@@ -6,13 +6,17 @@ import { A11y, EffectFade, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import AnimatedPrediction from '../components/AnimatedPrediction.jsx';
 import EventTitle from '../components/EventTitle.jsx';
+import FighterFlag from '../components/FighterFlag.jsx';
 import {eventTitle} from '../utils/eventTitle.js';
+import fighterData from '../../data/imports/blackcombat-fighters.json';
 import official17 from '../../data/imports/numbering17-official.json';
 import profiles17 from '../../data/imports/numbering17-profiles.json';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/effect-fade';
 import './numbering.css';
+
+const fighterCountries = new Map(fighterData.fighters.map(({ fighterId, countryCode }) => [fighterId, countryCode]));
 
 function createMatch(match) {
   const profiles = match.fighterIds.map(id => profiles17.profiles[id]);
@@ -121,7 +125,18 @@ export default function Numbering({ id, eventData }) {
             return <SwiperSlide key={index}><div className="numbering-match-content" data-match={index}>
           <Portrait winner={event.phase === 'archive' && match.winner === 0} src={match.images[0]} className="numbering-fighter numbering-fighter--left" />
           <div className="numbering-info">
-            <div className="numbering-names">{match.names.map((name, i) => <div key={i}>{event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}<h3>{name}</h3><span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span></div>)}</div>
+            <div className="numbering-names">{match.names.map((name, i) => {
+              const fighterId = match.fighterIds?.[i];
+              const country = profiles17.profiles[fighterId]?.countryCode ?? fighterCountries.get(fighterId);
+              return <div key={i}>
+                {event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}
+                <h3>{name}</h3>
+                <div className="numbering-real-name">
+                  <FighterFlag code={country} />
+                  <span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span>
+                </div>
+              </div>;
+            })}</div>
             {active === index && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[index]} onVote={event.phase === 'archive' ? undefined : side => requestVote(index, side)} />}
             <dl className="numbering-stats">{stats.map(([label, a, b]) => <div key={label}><dt title={label === 'AGE' ? '공식 프로필 수집 시점 기준 나이' : undefined}>{label}</dt><dd>{a}</dd><dd>{b}</dd></div>)}</dl>
             {event.phase === 'archive' && <p className="numbering-archive-result">{match.result}</p>}

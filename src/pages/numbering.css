@@ -31,6 +31,10 @@
 .numbering-names > div:last-child { text-align: right; }
 .numbering-names h3 { margin: 0; font: 400 24px/1.2 'Song Myung', serif; }
 .numbering-names span { font-size: 13px; color: #999; }
+.numbering-names { gap: 12px; }
+.numbering-names > div { min-width: 0; overflow-wrap: anywhere; }
+.numbering-real-name { display: flex; align-items: center; gap: 6px; }
+.numbering-names > div:last-child .numbering-real-name { justify-content: flex-end; }
 .numbering-prediction { margin-top: 8px; height: 14px; background: #d5d5d5; overflow: hidden; border-radius: 3px; box-shadow: 0 0 7px #ffffff20, 0 3px 10px #eab80026; }
 .numbering-prediction > span { height: 100%; display: block; background: #eab800; clip-path: polygon(0 0, max(0px, calc(100% - var(--gauge-cut, 24px))) 0, 100% 100%, 0 100%); }
 .numbering-percent { display: flex; justify-content: space-between; color: #aaa; font-size: 13px; margin: 4px 0 30px; }
