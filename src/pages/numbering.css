@@ -162,3 +162,12 @@
   .numbering-winner-portrait > .champ-holo::before,
   .numbering-winner-portrait > .champ-holo::after { animation: none; }
 }
+
+.numbering-bout-label {
+  margin: 0 0 12px;
+  color: #dcc176;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-align: center;
+}
