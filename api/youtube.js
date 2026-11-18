@@ -1,3 +1,4 @@
+import { isYouTubeShort } from '../src/youtube-shorts.js';
 import { fetchVideoFeed } from '../scripts/youtube-feed.mjs';
 import snapshot from '../public/data/youtube.json' with { type: 'json' };
 import { fetchPublishedFeed } from '../scripts/published-youtube-feed.mjs';
@@ -17,7 +18,7 @@ export default async function youtube(request, response) {
     try { published = await fetchPublishedFeed(); } catch { /* Try the live source next. */ }
   }
   try {
-    const data = published && !published.stale ? published : await fetchVideoFeed();
+    const data = published && !published.stale && published.videos.length >= 5 ? published : await fetchVideoFeed();
     if (data.stale) {
       response.setHeader('Cache-Control', 'no-store');
       response.setHeader('Vercel-CDN-Cache-Control', 'no-store');
@@ -34,8 +35,9 @@ export default async function youtube(request, response) {
     response.setHeader('Cache-Control', 'no-store');
     response.setHeader('Vercel-CDN-Cache-Control', 'no-store');
     const fallback = published && Date.parse(published.fetchedAt) > Date.parse(snapshot.fetchedAt) ? published : snapshot;
-    if (fallback.videos?.length) {
-      response.end(JSON.stringify({ ...fallback, stale: true }));
+    const videos = fallback.videos?.filter(video => !isYouTubeShort(video));
+    if (videos?.length) {
+      response.end(JSON.stringify({ ...fallback, videos, stale: true }));
     } else {
       response.statusCode = 503;
       response.end(JSON.stringify({ error: '영상 목록을 불러오지 못했습니다.' }));

@@ -1,3 +1,4 @@
+import { isYouTubeShort } from '../src/youtube-shorts.js';
 import { site } from '../src/data.js';
 
 const TTL = 10 * 60 * 1000;
@@ -11,7 +12,7 @@ export function parsePlaylistItems(data) {
     const id = item.contentDetails?.videoId ?? snippet?.resourceId?.videoId;
     const publishedAt = item.contentDetails?.videoPublishedAt ?? snippet?.publishedAt;
     const owner = snippet?.videoOwnerChannelId ?? snippet?.channelId;
-    if (!/^[\w-]{11}$/.test(id) || !snippet?.title || owner !== site.youtube.channelId ||
+    if (!/^[\w-]{11}$/.test(id) || !snippet?.title || isYouTubeShort(snippet) || owner !== site.youtube.channelId ||
         !Number.isFinite(Date.parse(publishedAt)) || Date.parse(publishedAt) > Date.now() || seen.has(id)) return [];
     seen.add(id);
     return [{ id, title: snippet.title, publishedAt, image: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }];
@@ -47,7 +48,8 @@ export function parseVideoFeed(xml) {
     const id = tag(entry, 'yt:videoId');
     const title = decodeText(tag(entry, 'title'));
     const publishedAt = tag(entry, 'published');
-    if (!/^[\w-]{11}$/.test(id) || !title || !Number.isFinite(Date.parse(publishedAt)) || tag(entry, 'yt:channelId') !== site.youtube.channelId || seen.has(id)) return [];
+    const url = entry.match(/<link\b[^>]*\bhref=["']([^"']+)["']/i)?.[1];
+    if (!/^[\w-]{11}$/.test(id) || !title || isYouTubeShort({ title, url }) || !Number.isFinite(Date.parse(publishedAt)) || tag(entry, 'yt:channelId') !== site.youtube.channelId || seen.has(id)) return [];
     seen.add(id);
     return [{ id, title, publishedAt, image: `https://i.ytimg.com/vi/${id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${id}` }];
   });
@@ -71,6 +73,8 @@ export function parseChannelPage(html) {
     const id = modern?.contentId ?? legacy?.videoId;
     const title = modern?.metadata?.lockupMetadataViewModel?.title?.content ?? legacy?.title?.runs?.map(run => run.text).join('');
     if (!/^[\w-]{11}$/.test(id) || !title || seen.has(id) || legacy?.upcomingEventData) return [];
+    const endpoint = modern?.rendererContext?.commandContext?.onTap?.innertubeCommand ?? legacy?.navigationEndpoint;
+    if (endpoint?.reelWatchEndpoint || isYouTubeShort({ title, url: endpoint?.commandMetadata?.webCommandMetadata?.url })) return [];
     if (modern && modern.contentType !== 'LOCKUP_CONTENT_TYPE_VIDEO') return [];
     seen.add(id);
     return [{ id, title }];
@@ -102,12 +106,12 @@ export function fetchVideoFeed() {
     const failures = [];
     const sources = [
       ...(process.env.YOUTUBE_API_KEY ? [['data-api', fetchDataApiVideos]] : []),
+      ['channel', fetchChannelVideos],
       ['rss', async () => {
       const response = await fetch(`https://www.youtube.com/feeds/videos.xml?channel_id=${site.youtube.channelId}`, { signal: AbortSignal.timeout(4000) });
       if (!response.ok) throw new Error(`YouTube 피드 응답 오류: ${response.status}`);
       return parseVideoFeed(await response.text());
       }],
-      ['channel', fetchChannelVideos],
     ];
     for (const [source, fetchVideos] of sources) {
       try {

@@ -83,3 +83,19 @@ test('scheduled feed verifies channel, rejects future timestamps and marks overd
   assert.throws(() => validatePublishedFeed({ ...feed, channelId: 'other' }, now));
   assert.throws(() => validatePublishedFeed({ ...feed, fetchedAt: new Date(now + 120000).toISOString() }, now));
 });
+
+test('RSS excludes Shorts before picking the five newest videos', () => {
+  const entry = (id, day, title, path) => `<entry>
+    <yt:videoId>${id}</yt:videoId><yt:channelId>${site.youtube.channelId}</yt:channelId>
+    <title>${title}</title><published>2026-02-0${day}T00:00:00Z</published>
+    <link rel="alternate" href="https://www.youtube.com/${path}"/>
+  </entry>`;
+  const tagged = entry('aaaaaaaaaaa', 7, '하이라이트 #SHORTS', 'watch?v=aaaaaaaaaaa');
+  const untagged = entry('bbbbbbbbbbb', 6, '하이라이트', 'shorts/bbbbbbbbbbb');
+  const regular = Array.from({ length: 5 }, (_, i) => {
+    const id = String(i).repeat(11);
+    return entry(id, i + 1, '일반 영상', `watch?v=${id}`);
+  });
+  const videos = parseVideoFeed(`<feed>${tagged}${untagged}${regular.join('')}</feed>`);
+  assert.deepEqual(videos.map(video => video.id), ['44444444444', '33333333333', '22222222222', '11111111111', '00000000000']);
+});

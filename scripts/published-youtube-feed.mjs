@@ -1,3 +1,4 @@
+import { isYouTubeShort } from '../src/youtube-shorts.js';
 import { site } from '../src/data.js';
 
 const URL = 'https://raw.githubusercontent.com/JinKiHwan/blackcombat/refs/heads/codex/youtube-feed/public/data/youtube.json';
@@ -7,7 +8,7 @@ let cache;
 export function validatePublishedFeed(data, now = Date.now()) {
   const fetched = Date.parse(data.fetchedAt);
   if (data.channelId !== site.youtube.channelId || !Number.isFinite(fetched) || fetched > now + 60000) throw new Error('Invalid published feed');
-  const videos = (Array.isArray(data.videos) ? data.videos : []).filter(v => /^[\w-]{11}$/.test(v.id) && typeof v.title === 'string' && Number.isFinite(Date.parse(v.publishedAt)))
+  const videos = (Array.isArray(data.videos) ? data.videos : []).filter(v => /^[\w-]{11}$/.test(v.id) && typeof v.title === 'string' && !isYouTubeShort(v) && Number.isFinite(Date.parse(v.publishedAt)))
     .map(v => ({ id: v.id, title: v.title, publishedAt: v.publishedAt, image: `https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`, url: `https://www.youtube.com/watch?v=${v.id}` }))
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, 5);
   if (!videos.length) throw new Error('Empty published feed');

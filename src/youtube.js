@@ -1,3 +1,4 @@
+import { isYouTubeShort } from './youtube-shorts.js';
 // uploads 재생목록을 사용해 search.list의 반복 호출을 피합니다.
 export async function getLatestVideos({ apiKey, uploadsPlaylistId }, signal) {
   if (!apiKey || !uploadsPlaylistId) return [];
@@ -24,7 +25,7 @@ export async function getOfficialVideos(signal) {
   if (!response.ok) throw new Error('영상 목록을 불러오지 못했습니다.');
   const data = await response.json();
   const videos = (Array.isArray(data.videos) ? data.videos : [])
-    .filter(video => /^[\w-]{11}$/.test(video.id) && typeof video.title === 'string' && Number.isFinite(Date.parse(video.publishedAt)))
+    .filter(video => /^[\w-]{11}$/.test(video.id) && typeof video.title === 'string' && !isYouTubeShort(video) && Number.isFinite(Date.parse(video.publishedAt)))
     .map(video => ({ ...video, url: `https://www.youtube.com/watch?v=${video.id}`, image: `https://i.ytimg.com/vi/${video.id}/hqdefault.jpg` }))
     .sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt)).slice(0, 5);
   if (!videos.length) throw new Error('표시할 영상이 없습니다.');
