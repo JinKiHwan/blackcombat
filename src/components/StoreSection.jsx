@@ -42,7 +42,7 @@ export default function StoreSection() {
 
   return (
     <section id="store" className="store-section" aria-labelledby="store-title">
-      <video ref={videoRef} className="store-video" src="https://player-api.charlla.io/mp4/lx8mgdfzm83" autoPlay muted loop playsInline preload="metadata" aria-hidden="true" tabIndex={-1} />
+      <video ref={videoRef} className="store-video" src="https://player-api.charlla.io/mp4/bvamiz25do4" autoPlay muted loop playsInline preload="metadata" aria-hidden="true" tabIndex={-1} />
       <div className="store-shade" aria-hidden="true" />
       <div className="store-content container">
         <h2 id="store-title" className="section-title">BLACKCOMBAT STORE</h2>

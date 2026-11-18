@@ -6,25 +6,29 @@ import { A11y, EffectFade, FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import AnimatedPrediction from '../components/AnimatedPrediction.jsx';
 import EventTitle from '../components/EventTitle.jsx';
+import FighterFlag from '../components/FighterFlag.jsx';
 import {eventTitle} from '../utils/eventTitle.js';
-import numbering17 from '../data/numbering17.json';
 import fighterData from '../../data/imports/blackcombat-fighters.json';
+import official17 from '../../data/imports/numbering17-official.json';
+import profiles17 from '../../data/imports/numbering17-profiles.json';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/effect-fade';
 import './numbering.css';
 
-const fightersById = new Map(fighterData.fighters.map(fighter => [fighter.fighterId, fighter]));
+const fighterCountries = new Map(fighterData.fighters.map(({ fighterId, countryCode }) => [fighterId, countryCode]));
+
 function createMatch(match) {
-  const fighters = match.fighterIds.map(id => fightersById.get(id));
+  const profiles = match.fighterIds.map(id => profiles17.profiles[id]);
   return {
-    ...match,
+    fighterIds: match.fighterIds, names: match.names, realNames: match.realNames,
+    images: profiles.map(profile => profile?.image || '/images/champ/noname.webp'),
     stats: [
-      ['RANKING', ...match.ranks],
-      ['RECORD', ...match.records],
-      ['HEIGHT', ...fighters.map(fighter => fighter?.height ?? '—')],
-      ['AGE', ...fighters.map(fighter => fighter?.age ? `${fighter.age}세` : '—')],
-      ['TEAM', ...fighters.map(fighter => fighter?.team ?? '—')],
+      ['RANKING', ...match.ranks.map(rank => rank || '—')],
+      ['RECORD', ...match.records.map(record => record || '—')],
+      ['HEIGHT', ...profiles.map(profile => profile?.height || '—')],
+      ['AGE', ...profiles.map(profile => profile?.age ? profile.age + '세' : '—')],
+      ['TEAM', ...profiles.map(profile => profile?.team || '—')],
     ],
   };
 }
@@ -33,7 +37,7 @@ const events = {
     id: 17, phase: 'before', title: 'BLACK COMBAT 17: VANTABLACK',
     image: '/images/visual/vantablack.webp', date: '2026. 11. 21', venue: 'GOCHEOK SKY DOME',
     background: '/images/numbering/17bg.png', venueImage: '/images/numbering/gocheck.png',
-    matches: numbering17.matches.map(createMatch),
+    matches: official17.matches.map(createMatch),
   },
 };
 
@@ -47,18 +51,25 @@ export default function Numbering({ id, eventData }) {
   const [active, setActive] = useState(0);
   const [messages, setMessages] = useState({});
   const [text, setText] = useState('');
-  const voteStorageKey = 'blackcombat-votes-' + id;
-  const voteKey = index => event?.matches[index]?.id ?? index;
   const [vote, setVote] = useState(() => {
     try {
-      const saved = JSON.parse(localStorage.getItem(voteStorageKey) || '{}');
-      const legacyMatchIds = ['543', '547', '544', '545', '546'];
-      return Object.fromEntries(Object.entries(saved)
-        .filter(([key, side]) => /^\d+$/.test(key) && (side === 0 || side === 1))
-        .map(([key, side]) => [event === events[17] ? legacyMatchIds[key] ?? key : key, side]));
-    } catch {
-      return {};
-    }
+      if (String(id) !== '17') {
+        const saved = JSON.parse(localStorage.getItem('blackcombat-votes-' + id) || '{}');
+        return Object.fromEntries(Object.entries(saved).filter(([key, side]) => /^\d+$/.test(key) && (side === 0 || side === 1)));
+      }
+      const stored = localStorage.getItem('blackcombat-votes-by-match-17');
+      let votes;
+      if (stored) votes = JSON.parse(stored);
+      else {
+        const legacy = JSON.parse(localStorage.getItem('blackcombat-votes-17') || '{}');
+        const originalPairs = ['79683172-82685239','91010996-28865824','22363165-76220784','65081168-89975978','41530580-54898276'];
+        votes = Object.fromEntries(originalPairs.map((key,index) => [key,legacy[index]]));
+      }
+      return Object.fromEntries(event.matches.flatMap((match,index) => {
+        const side = votes[match.fighterIds.join('-')];
+        return side === 0 || side === 1 ? [[index,side]] : [];
+      }));
+    } catch { return {}; }
   });
   const [pending, setPending] = useState(null);
   const voteDialog = useRef(null);
@@ -69,17 +80,22 @@ export default function Numbering({ id, eventData }) {
   const stageRef = useRef(null);
   if (!event) return <section className="numbering-not-found"><h1>준비 중인 대회입니다.</h1><a href="/">홈으로</a></section>;
   function requestVote(index, side) {
-    if (vote[voteKey(index)] !== undefined || voteDialog.current.open) return;
+    if (vote[index] !== undefined || voteDialog.current.open) return;
     voteLock.current = false;
     setPending({ index, side });
     voteDialog.current.showModal();
   }
   function confirmVote() {
-    if (!pending || voteLock.current || vote[voteKey(pending.index)] !== undefined) return;
+    if (!pending || voteLock.current || vote[pending.index] !== undefined) return;
     voteLock.current = true;
-    const next = { ...vote, [voteKey(pending.index)]: pending.side };
+    const next = { ...vote, [pending.index]: pending.side };
     setVote(next);
-    try { localStorage.setItem(voteStorageKey, JSON.stringify(next)); } catch { /* Keep the vote in memory if storage is unavailable. */ }
+    try {
+      if (String(id) === '17') {
+        const keyed = Object.fromEntries(Object.entries(next).map(([index,side]) => [event.matches[index].fighterIds.join('-'),side]));
+        localStorage.setItem('blackcombat-votes-by-match-17', JSON.stringify(keyed));
+      } else localStorage.setItem('blackcombat-votes-' + id, JSON.stringify(next));
+    } catch { /* Keep the vote in memory if storage is unavailable. */ }
     setStatus(event.matches[pending.index].names[pending.side] + ' 선수를 응원했습니다.');
     voteDialog.current.close();
   }
@@ -105,13 +121,23 @@ export default function Numbering({ id, eventData }) {
           <Swiper className="numbering-stage" modules={[A11y, EffectFade]} effect="fade" fadeEffect={{ crossFade: true }} speed={550} loop={false} rewind={false} onSwiper={swiper => { stageRef.current = swiper; }} onSlideChange={swiper => { setActive(swiper.activeIndex); setText(''); setStatus(''); railRef.current?.slideTo(swiper.activeIndex); }} a11y={{ containerMessage: '경기 대진', slideLabelMessage: '{{slidesLength}}개 중 {{index}}번째 대진' }}>
           {event.matches.map((match, index) => {
             const stats = match.stats ?? [['RANKING', '—', '—'], ['RECORD', '—', '—'], ['HEIGHT', '—', '—'], ['AGE', '—', '—'], ['TEAM', '—', '—']];
-            const left = vote[voteKey(index)] === 0 ? 53 : vote[voteKey(index)] === 1 ? 51 : 52;
+            const left = 50;
             return <SwiperSlide key={index}><div className="numbering-match-content" data-match={index}>
           <Portrait winner={event.phase === 'archive' && match.winner === 0} src={match.images[0]} className="numbering-fighter numbering-fighter--left" />
           <div className="numbering-info">
-            {match.label && <p className="numbering-bout-label">{match.label}</p>}
-            <div className="numbering-names">{match.names.map((name, i) => <div key={i}>{event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}<h3>{name}</h3><span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span></div>)}</div>
-            {active === index && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[voteKey(index)]} onVote={event.phase === 'archive' ? undefined : side => requestVote(index, side)} />}
+            <div className="numbering-names">{match.names.map((name, i) => {
+              const fighterId = match.fighterIds?.[i];
+              const country = profiles17.profiles[fighterId]?.countryCode ?? fighterCountries.get(fighterId);
+              return <div key={i}>
+                {event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}
+                <h3>{name}</h3>
+                <div className="numbering-real-name">
+                  <FighterFlag code={country} />
+                  <span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span>
+                </div>
+              </div>;
+            })}</div>
+            {active === index && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[index]} onVote={event.phase === 'archive' ? undefined : side => requestVote(index, side)} />}
             <dl className="numbering-stats">{stats.map(([label, a, b]) => <div key={label}><dt title={label === 'AGE' ? '공식 프로필 수집 시점 기준 나이' : undefined}>{label}</dt><dd>{a}</dd><dd>{b}</dd></div>)}</dl>
             {event.phase === 'archive' && <p className="numbering-archive-result">{match.result}</p>}
             <div className="numbering-community">
