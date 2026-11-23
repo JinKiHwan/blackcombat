@@ -6,6 +6,7 @@ import Awards from './pages/Awards.jsx';
 import { usePageTransition } from './hooks/usePageTransition.js';
 import Numbering from './pages/Numbering.jsx';
 import Ranking from './pages/Ranking.jsx';
+import FighterDetail from './pages/FighterDetail.jsx';
 import Events from './pages/Events.jsx';
 import EventDetail from './pages/EventDetail.jsx';
 import RisingEmbers from './components/effects/RisingEmbers.jsx';
@@ -25,6 +26,7 @@ export default function App() {
   const path = usePageTransition();
   const numbering = path.match(/^\/numbering\/(\d+)\/?$/);
   const eventDetail = path.match(/^\/events\/(\d+)\/?$/);
+  const fighter = path.match(/^\/fighter\/(\d+)\/?$/);
   const home = path === '/' || path === '/index' || path === '/index.html';
   useHomeScrollReveal(home);
   return (
@@ -32,7 +34,7 @@ export default function App() {
       <a className="skip-link" href="#main">본문으로 이동</a>
       <Header />
       <main id="main">
-        {/^\/awards\/?$/.test(path) ? <Awards /> : /^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail key={eventDetail[1]} id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering key={numbering[1]} id={Number(numbering[1])} /> : home ? <>
+        {/^\/awards\/?$/.test(path) ? <Awards /> : /^\/doping\/?$/.test(path) ? <Doping /> : /^\/rules\/?$/.test(path) ? <Rules /> : /^\/events\/?$/.test(path) ? <Events /> : eventDetail ? <EventDetail key={eventDetail[1]} id={eventDetail[1]} /> : /^\/ranking\/?$/.test(path) ? <Ranking /> : numbering ? <Numbering key={numbering[1]} id={Number(numbering[1])} /> : fighter ? <FighterDetail key={fighter[1]} id={fighter[1]} /> : home ? <>
         <Hero />
         <Manifesto />
         <Champions />

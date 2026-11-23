@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import { champions } from '../data.js';
 import { RankingDivision } from '../pages/Ranking.jsx';
 import { flagPath } from './FighterFlag.jsx';
@@ -26,10 +26,12 @@ export default function Champions() {
   const dialog = useRef(null);
   const [division, setDivision] = useState(null);
 
-  function openRoster(champion) {
-    setDivision(champion.id);
-    dialog.current.showModal();
-  }
+  useLayoutEffect(() => {
+    if (!division) return;
+    const roster = dialog.current;
+    if (!roster.open) roster.showModal();
+    roster.scrollTop = 0;
+  }, [division]);
 
   return (
     <section id="champions" className="champ-section container" aria-labelledby="champ-title">
@@ -44,7 +46,7 @@ export default function Champions() {
             <img className="champ-portrait" src={champion.image} alt="" width="456" height="700" loading="lazy" />
             {champion.name && <HoloFoil intensity={0.35} edgeSparkle={0.8} frame={4} glare={0.5} />}
             <div className="champ-identity"><p>{champion.name ?? '–'}</p>{champion.realName && <span>{champion.realName}</span>}</div>
-            <button className="champ-roster-trigger" type="button" aria-haspopup="dialog" aria-label={`${champion.weight} ${champion.name ? champion.name + ' · ' : ''}체급 선수 목록`} onClick={() => openRoster(champion)} />
+            <button className="champ-roster-trigger" type="button" aria-haspopup="dialog" aria-label={`${champion.weight} ${champion.name ? champion.name + ' · ' : ''}체급 선수 목록`} onClick={() => setDivision(champion.id)} />
           </article>;
         })}
       </div>

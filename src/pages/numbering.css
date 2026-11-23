@@ -28,8 +28,10 @@
   letter-spacing: 1px;
 }
 .numbering-names > div:last-child .numbering-outcome { left: auto; right: 0; }
+.numbering-outcome.is-loss { color: #c98d85; }
 .numbering-names > div:last-child { text-align: right; }
 .numbering-names h3 { margin: 0; font: 400 24px/1.2 'Song Myung', serif; }
+.numbering-names h3 a:is(:hover, :focus-visible) { color: #e4bb57; text-decoration: underline; text-underline-offset: 4px; }
 .numbering-names span { font-size: 13px; color: #999; }
 .numbering-names { gap: 12px; }
 .numbering-names > div { min-width: 0; overflow-wrap: anywhere; }

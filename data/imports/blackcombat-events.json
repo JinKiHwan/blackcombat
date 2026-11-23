@@ -49,18 +49,19 @@
             "강경호"
           ],
           "records": [
-            "16W 8L",
-            "19W 11L"
+            "17W 8L",
+            "19W 12L"
           ],
           "ranks": [
             "밴텀급 #C",
-            null
+            "밴텀급 #2"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_rankingChamp.webp",
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51931259/51931259_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "투신 승리"
         },
         {
           "fighterIds": [
@@ -76,18 +77,20 @@
             "추성훈"
           ],
           "records": [
-            "20W 12L",
-            "16W 7L"
+            "21W 12L",
+            "16W 8L"
           ],
           "ranks": [
             null,
             null
           ],
           "images": [
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65052150/65052150_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53375538/53375538_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "resultSource": "https://mkbn.mk.co.kr/news/sports/12215255",
+          "result": "The Crippler 승리"
         },
         {
           "fighterIds": [
@@ -103,8 +106,8 @@
             "김태균"
           ],
           "records": [
-            "8W 0L",
-            "12W 3L"
+            "9W 0L",
+            "12W 4L"
           ],
           "ranks": [
             "페더급 #C",
@@ -114,7 +117,9 @@
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_rankingChamp.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "resultSource": "https://mkbn.mk.co.kr/news/sports/12215255",
+          "result": "시라소니 승리"
         },
         {
           "fighterIds": [
@@ -130,18 +135,20 @@
             "지혁민"
           ],
           "records": [
-            "26W 8L",
-            "8W 1L"
+            "26W 9L",
+            "9W 1L"
           ],
           "ranks": [
-            "페더급 #2",
-            "페더급 #7"
+            "페더급 #3",
+            "페더급 #2"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_ranking.webp"
           ],
-          "winner": -1
+          "winner": 1,
+          "resultSource": "https://mkbn.mk.co.kr/news/sports/12215255",
+          "result": "붉은매 승리"
         },
         {
           "fighterIds": [
@@ -157,18 +164,19 @@
             "박정민"
           ],
           "records": [
-            "6W 4L",
-            "9W 2L"
+            "6W 5L",
+            "10W 2L"
           ],
           "ranks": [
-            "미들급 #C",
-            "미들급 #1"
+            "미들급 #1",
+            "미들급 #C"
           ],
           "images": [
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_rankingChamp.webp",
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_ranking.webp"
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_ranking.webp",
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png"
           ],
-          "winner": -1
+          "winner": 1,
+          "result": "플라밍고 승리"
         },
         {
           "fighterIds": [
@@ -184,18 +192,20 @@
             "박어진"
           ],
           "records": [
-            "14W 11L 2D",
-            "11W 2L 1D"
+            "15W 11L 2D",
+            "11W 3L 1D"
           ],
           "ranks": [
             "라이트급 #C",
-            "라이트급 #2"
+            "라이트급 #3"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_rankingChamp.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "resultSource": "https://mkbn.mk.co.kr/news/sports/12215255",
+          "result": "캡틴 코리아 승리"
         },
         {
           "fighterIds": [
@@ -211,18 +221,19 @@
             "Gabriel Rodrigues"
           ],
           "records": [
-            "13W 4L",
-            "7W 1L"
+            "14W 4L",
+            "7W 2L"
           ],
           "ranks": [
             "플라이급 #C",
-            "플라이급 #2"
+            "플라이급 #1"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_rankingChamp.png",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "우마왕 승리"
         },
         {
           "fighterIds": [
@@ -238,18 +249,19 @@
             "Luan Santiago"
           ],
           "records": [
-            "9W 0L",
-            "24W 8L"
+            "10W 0L",
+            "24W 9L"
           ],
           "ranks": [
-            "웰터급 #1",
-            "웰터급 #2"
+            "웰터급 #C",
+            "웰터급 #1"
           ],
           "images": [
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_ranking.webp",
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/fighter_blank.png",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "헌츠맨 승리"
         },
         {
           "fighterIds": [
@@ -265,8 +277,8 @@
             "방재혁"
           ],
           "records": [
-            "15W 4L",
-            "17W 10L"
+            "16W 4L",
+            "17W 11L"
           ],
           "ranks": [
             "페더급 #6",
@@ -276,7 +288,9 @@
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "resultSource": "https://mkbn.mk.co.kr/news/sports/12215255",
+          "result": "데드샷 승리"
         },
         {
           "fighterIds": [
@@ -292,18 +306,19 @@
             "Ali Gadzhiev"
           ],
           "records": [
-            "19W 11L",
-            "5W 0L"
+            "19W 12L",
+            "6W 0L"
           ],
           "ranks": [
-            "라이트급 #1",
-            "라이트급 #3"
+            "라이트급 #2",
+            "라이트급 #1"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_ranking.webp"
           ],
-          "winner": -1
+          "winner": 1,
+          "result": "다게르 승리"
         },
         {
           "fighterIds": [
@@ -319,18 +334,19 @@
             "Thomas Assis"
           ],
           "records": [
-            "8W 9L",
-            "12W 4L"
+            "9W 9L",
+            "12W 5L 1D"
           ],
           "ranks": [
-            "플라이급 #7",
-            "플라이급 #9"
+            "플라이급 #6",
+            "플라이급 #8"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "바이퍼 승리"
         },
         {
           "fighterIds": [
@@ -346,18 +362,19 @@
             "Aydemir Kazbekov"
           ],
           "records": [
-            "18W 4L 1D",
-            "15W 2L"
+            "19W 4L 1D",
+            "15W 3L"
           ],
           "ranks": [
-            "밴텀급 #2",
+            "밴텀급 #1",
             "밴텀급 #4"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "무사 승리"
         },
         {
           "fighterIds": [
@@ -373,18 +390,19 @@
             "김정균"
           ],
           "records": [
-            "3W 6L",
-            "5W 4L"
+            "3W 7L",
+            "6W 4L"
           ],
           "ranks": [
-            "라이트급 #7",
-            "라이트급 #9"
+            "라이트급 #8",
+            "라이트급 #6"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_ranking.webp"
           ],
-          "winner": -1
+          "winner": 1,
+          "result": "곰주먹 승리"
         },
         {
           "fighterIds": [
@@ -400,8 +418,8 @@
             "Flavio Santos"
           ],
           "records": [
-            "11W 9L",
-            "14W 11L"
+            "12W 9L",
+            "14W 12L"
           ],
           "ranks": [
             "페더급 #13",
@@ -411,7 +429,8 @@
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_ranking.webp",
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_ranking.webp"
           ],
-          "winner": -1
+          "winner": 0,
+          "result": "야인 승리"
         },
         {
           "fighterIds": [
@@ -427,23 +446,25 @@
             "신창현"
           ],
           "records": [
-            "7W 6L 1D",
-            "4W 1L"
+            "7W 7L 1D",
+            "5W 1L"
           ],
           "ranks": [
-            "밴텀급 #5",
-            "밴텀급 #20"
+            "밴텀급 #9",
+            "밴텀급 #8"
           ],
           "images": [
             "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_ranking.webp",
-            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_ranking.webp"
+            "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_ranking.png"
           ],
-          "winner": -1
+          "winner": 1,
+          "result": "티그로 승리"
         }
       ],
       "visualSource": "https://www.blackcombat-official.com/theme/blackcombat/img/event/294/1.jpg",
       "detailStatus": "available",
-      "detailCollectedAt": "2026-11-02T05:16:26.112Z"
+      "detailCollectedAt": "2026-11-23T00:56:30.548Z",
+      "phase": "archive"
     },
     {
       "id": "285",

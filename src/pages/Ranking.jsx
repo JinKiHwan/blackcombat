@@ -33,12 +33,12 @@ export function RankingDivision({ divisionKey, query = '', showAll = false }) {
   if (query && !all.some(matches)) return null;
   return <section className="ranking-division" data-division={divisionKey} aria-labelledby={`division-${divisionKey}`}>
     <header className="ranking-division-heading"><p>{divisionLabels[divisionKey]}</p><h2 id={`division-${divisionKey}`}>{name}</h2></header>
-    {champion ? <a className="ranking-champion" href={champion.profileUrl} target="_blank" rel="noopener noreferrer" aria-label={`${champion.ringName} 챔피언 ${countryLabel(champion.countryCode)} · 공식 프로필 새 탭`}>
+    {champion ? <a className="ranking-champion" href={`/fighter/${champion.fighterId}`} aria-label={`${champion.ringName} 챔피언 ${countryLabel(champion.countryCode)} · 선수 상세 보기`}>
       <div className="ranking-champion-copy"><span>CHAMPION</span><h3>{champion.ringName}</h3><FighterName fighter={champion} /><small>{champion.recordRaw}</small></div><Portrait id={champion.fighterId} />
     </a> : <div className="ranking-champion is-vacant"><div className="ranking-champion-copy"><span>VACANT</span><h3>챔피언 공석</h3><p>새로운 왕좌의 주인을 기다립니다.</p></div></div>}
     <div className="ranking-list-labels" aria-hidden="true"><span>RANK</span><span>FIGHTER</span><span>RECORD</span></div>
     <ol className="ranking-list" id={`ranking-list-${divisionKey}`}>
-      {visible.map(row => <li key={row.fighterId} value={row.rank}><a href={row.profileUrl} target="_blank" rel="noopener noreferrer" aria-label={`${name} ${row.rank}위 ${[row.ringName, row.name, countryLabel(row.countryCode)].filter(Boolean).join(', ')}, 전적 ${row.recordRaw} · 공식 프로필 새 탭`}>
+      {visible.map(row => <li key={row.fighterId} value={row.rank}><a href={`/fighter/${row.fighterId}`} aria-label={`${name} ${row.rank}위 ${[row.ringName, row.name, countryLabel(row.countryCode)].filter(Boolean).join(', ')}, 전적 ${row.recordRaw} · 선수 상세 보기`}>
         <span className="ranking-position">{String(row.rank).padStart(2, '0')}</span><div className="ranking-row-photo"><Portrait id={row.fighterId} /></div><div className="ranking-row-name"><h3>{row.ringName}</h3><FighterName fighter={row} /></div><div className="ranking-row-record"><span>{row.recordRaw}</span><small className={row.rankChange?.startsWith('▲') ? 'up' : row.rankChange?.startsWith('▼') ? 'down' : ''}>{row.rankChange}</small></div>
       </a></li>)}
     </ol>

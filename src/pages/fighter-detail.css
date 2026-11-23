@@ -1,0 +1,76 @@
+.fighter-detail {
+  width: min(1240px, calc(100% - 80px));
+  margin-inline: auto;
+  padding: clamp(36px, 6vw, 90px) 0 90px;
+}
+.fighter-back, .fighter-official { color: #c9a65b; font-size: 12px; }
+.fighter-back { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 24px; letter-spacing: .12em; }
+.fighter-back span { color: #a7a092; letter-spacing: 0; }
+.fighter-hero {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1fr);
+  align-items: center;
+  min-height: 520px;
+  isolation: isolate;
+  border: 1px solid #c5a45045;
+  background: radial-gradient(ellipse at 22% 48%, #5b48234d, transparent 60%), #10100e;
+}
+.fighter-portrait {
+  display: grid;
+  place-items: end center;
+  position: relative;
+  align-self: stretch;
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(90deg, #10100eb8 0%, #10100e99 50%, #10100e), url('/images/common/grunge.webp') center / 480px;
+}
+.fighter-portrait img {
+  display: block;
+  width: 100%;
+  height: clamp(410px, 48vw, 620px);
+  object-fit: contain;
+  object-position: center bottom;
+  mask-image: linear-gradient(#000 74%, transparent);
+}
+.fighter-portrait figcaption { position: absolute; bottom: 12px; left: 16px; padding: 3px 6px; background: #10100ed9; font-size: 11px; color: #d1c6b3; }
+.fighter-bio { min-width: 0; padding: clamp(24px, 4vw, 58px); }
+.fighter-kicker { margin: 0 0 14px; color: #c5a45e; font-size: 11px; letter-spacing: .2em; }
+.fighter-bio h1 {
+  margin: 0;
+  color: #f4eee2;
+  font: 400 clamp(40px, 5.8vw, 82px)/1.08 'Abril Fatface', 'Song Myung', Georgia, serif;
+  overflow-wrap: anywhere;
+}
+.fighter-identity { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; margin: 14px 0 20px; color: #ddd4c4; }
+.fighter-identity span { color: #a29b8a; font-size: 12px; }
+.fighter-ranks { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px; padding: 0; list-style: none; }
+.fighter-ranks li { padding: 6px 10px; border: 1px solid #b99b514d; color: #d0bd91; font-size: 12px; }
+.fighter-ranks .is-champion { border-color: #dbb951; color: #f0cc68; background: #cfa73e1a; }
+.fighter-ranks strong { margin-left: 4px; font-weight: 600; }
+.fighter-stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 16px; margin: 0 0 22px; }
+.fighter-stats div { min-width: 0; padding: 13px 0; border-top: 1px solid #b99b5133; }
+.fighter-stats dt { color: #aa9d82; font-size: 12px; }
+.fighter-stats dd { margin: 6px 0 0; color: #eee5d3; font-size: 16px; overflow-wrap: anywhere; }
+.fighter-history { margin-top: clamp(42px, 7vw, 84px); }
+.fighter-history h2 { margin: 0 0 22px; color: #e4bb57; font: 400 clamp(29px, 4vw, 52px)/1.1 'Abril Fatface', Georgia, serif; }
+.fighter-history ol { margin: 0; padding: 0; list-style: none; border-top: 1px solid #b99b5144; }
+.fighter-history li { display: grid; grid-template-columns: 92px minmax(0, 1fr) minmax(0, 1.2fr); align-items: center; gap: 18px; padding: 18px 14px; border-bottom: 1px solid #b99b5133; background: #151410a0; }
+.fighter-result { justify-self: start; padding: 5px 9px; border: 1px solid #ae9c7055; color: #c1bba9; font-size: 12px; }
+.fighter-result.is-win { color: #88d6a5; border-color: #88d6a566; }
+.fighter-result.is-loss { color: #ef9f96; border-color: #ef9f9666; }
+.fighter-result.is-upcoming { color: #e9c46c; border-color: #e9c46c66; }
+.fighter-fight-copy p { margin: 0 0 4px; font: 400 20px/1.2 'Song Myung', serif; overflow-wrap: anywhere; }
+.fighter-fight-copy p > span { color: #b09761; font: 600 10px/1 sans-serif; }
+.fighter-fight-copy small, .fighter-source { color: #a29b8a; font-size: 12px; }
+.fighter-event { justify-self: end; color: #ddc890; text-align: right; font-size: 13px; overflow-wrap: anywhere; }
+.fighter-detail a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.fighter-history-empty { padding: 20px 0; border-top: 1px solid #b99b5144; color: #bdb29c; }
+.fighter-source { margin-top: 22px; }
+@media (max-width: 760px) {
+  .fighter-detail { width: calc(100% - 32px); padding-bottom: 54px; }
+  .fighter-hero { grid-template-columns: 1fr; min-height: auto; }
+  .fighter-portrait img { height: clamp(290px, 82vw, 430px); }
+  .fighter-bio { padding: 18px 20px 24px; }
+  .fighter-history li { grid-template-columns: auto minmax(0, 1fr); gap: 10px 14px; }
+  .fighter-event { grid-column: 2; justify-self: start; text-align: left; }
+}

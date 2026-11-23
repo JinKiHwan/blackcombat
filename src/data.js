@@ -1,3 +1,6 @@
+import fighterData from '../data/imports/blackcombat-fighters.json';
+import profiles17 from '../data/imports/numbering17-profiles.json';
+
 // 모든 이름·대진·숫자는 레이아웃 확인용 예시입니다. 공식 데이터로 교체하세요.
 export const site = {
     assets: {
@@ -71,15 +74,18 @@ export const matches = [
     }
 ];
 
-// 첨부 디자인 기준의 표시 데이터입니다. 추후 랭킹 공급자 연결 시 이 구조로 매핑합니다.
+// 메인 카드와 랭킹 페이지가 같은 공식 챔피언 데이터를 사용합니다.
 export const champions = [
-    { id: 'fly', weight: 'FLY', name: '우마왕', realName: '우성훈', countryCode: 'kr', image: '/images/champ/champ_fly.webp' },
-    { id: 'bantam', weight: 'BANTAM', name: '투신', realName: '김재웅', countryCode: 'kr', image: '/images/fighters/98660587.webp' },
-    { id: 'feather', weight: 'FEATHER', name: '시라소니', realName: '방성혁', countryCode: 'kr', image: '/images/fighters/79683172.webp' },
-    { id: 'light', weight: 'LIGHT', name: '캡틴 코리아', realName: '정한국', countryCode: 'kr', image: '/images/champ/champ_light.webp' },
-    { id: 'welter', weight: 'WELTER', name: null, realName: null, image: '/images/champ/noname.webp' },
-    // 제공 파일명은 heavy지만 첨부 디자인의 MIDDLE 카드 이미지로 사용합니다.
-    { id: 'middle', weight: 'MIDDLE', name: '킹콩', realName: '오일학', countryCode: 'kr', image: '/images/champ/champ_heavy.webp' },
-    { id: 'heavy', weight: 'HEAVY', name: null, realName: null, image: '/images/champ/noname.webp' },
-    { id: 'underground', weight: 'UNDERGROUND', name: '검정', realName: '박평화', countryCode: 'kr', image: '/images/champ/champ_underground.webp' }
-];
+    ['fly', 'FLY'], ['bantam', 'BANTAM'], ['feather', 'FEATHER'], ['light', 'LIGHT'],
+    ['welter', 'WELTER'], ['middle', 'MIDDLE'], ['heavy', 'HEAVY'], ['underground', 'UNDERGROUND'],
+].map(([id, weight]) => {
+    const champion = fighterData.rankings.find(row => row.divisionKey === id && row.champion);
+    const fighter = fighterData.fighters.find(row => row.fighterId === champion?.fighterId);
+    return {
+        id, weight,
+        name: champion?.ringName ?? null,
+        realName: champion?.name ?? null,
+        countryCode: champion?.countryCode,
+        image: profiles17.profiles[champion?.fighterId]?.image ?? fighter?.profileImage?.localPath ?? '/images/champ/noname.webp',
+    };
+});

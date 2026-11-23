@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import AnimatedPrediction from '../components/AnimatedPrediction.jsx';
 import EventTitle from '../components/EventTitle.jsx';
 import FighterFlag from '../components/FighterFlag.jsx';
+import { fighterHref } from '../data/fighterProfiles.js';
 import {eventTitle} from '../utils/eventTitle.js';
 import fighterData from '../../data/imports/blackcombat-fighters.json';
 import official17 from '../../data/imports/numbering17-official.json';
@@ -22,6 +23,8 @@ function createMatch(match) {
   const profiles = match.fighterIds.map(id => profiles17.profiles[id]);
   return {
     fighterIds: match.fighterIds, names: match.names, realNames: match.realNames,
+    winner: match.winner,
+    result: match.result ?? (match.winner >= 0 ? match.names[match.winner] + ' 승리' : '결과 정보 미등록'),
     images: profiles.map(profile => profile?.image || '/images/champ/noname.webp'),
     stats: [
       ['RANKING', ...match.ranks.map(rank => rank || '—')],
@@ -34,7 +37,7 @@ function createMatch(match) {
 }
 const events = {
   17: {
-    id: 17, phase: 'before', title: 'BLACK COMBAT 17: VANTABLACK',
+    id: 17, phase: official17.phase ?? 'before', title: 'BLACK COMBAT 17: VANTABLACK',
     image: '/images/visual/vantablack.webp', date: '2026. 11. 21', venue: 'GOCHEOK SKY DOME',
     background: '/images/numbering/17bg.png', venueImage: '/images/numbering/gocheck.png',
     matches: official17.matches.map(createMatch),
@@ -115,7 +118,7 @@ export default function Numbering({ id, eventData }) {
       <a className="event-back" href="/events">← EVENTS · 이벤트 목록</a><header className={`numbering-hero${event.phase === 'archive' ? ' is-archive' : ''}`}><h1 className="sr-only">{eventTitle(event.title)}</h1><img src={event.image} alt={`${event.title} · ${event.date} · ${event.venue}`} width="1920" height="880" fetchPriority="high" /></header>
       <div className="numbering-event-body" style={{ '--event-background': `url("${event.background || event.image || ''}")` }}>
       <section id="fight-card" className="numbering-card" aria-labelledby="numbering-fight-title">
-        <h2 id="numbering-fight-title"><EventTitle title={event.title} /><br />FIGHT CARD</h2>
+        <h2 id="numbering-fight-title"><EventTitle title={event.title} /><br />{event.phase === 'archive' ? 'FIGHT RESULTS' : 'FIGHT CARD'}</h2>
         <div className="numbering-match">
           <button className="numbering-arrow numbering-arrow--prev" disabled={active === 0} onClick={() => stageRef.current?.slidePrev()} aria-label="이전 대진"><img src="/images/common/swiper-arrow.webp" alt="" /></button>
           <Swiper className="numbering-stage" modules={[A11y, EffectFade]} effect="fade" fadeEffect={{ crossFade: true }} speed={550} loop={false} rewind={false} onSwiper={swiper => { stageRef.current = swiper; }} onSlideChange={swiper => { setActive(swiper.activeIndex); setText(''); setStatus(''); railRef.current?.slideTo(swiper.activeIndex); }} a11y={{ containerMessage: '경기 대진', slideLabelMessage: '{{slidesLength}}개 중 {{index}}번째 대진' }}>
@@ -128,16 +131,17 @@ export default function Numbering({ id, eventData }) {
             <div className="numbering-names">{match.names.map((name, i) => {
               const fighterId = match.fighterIds?.[i];
               const country = profiles17.profiles[fighterId]?.countryCode ?? fighterCountries.get(fighterId);
+              const profileLink = fighterHref(fighterId);
               return <div key={i}>
-                {event.phase === 'archive' && match.winner === i && <strong className="numbering-outcome is-win">WIN</strong>}
-                <h3>{name}</h3>
+                {event.phase === 'archive' && match.winner >= 0 && <strong className={`numbering-outcome ${match.winner === i ? 'is-win' : 'is-loss'}`}>{match.winner === i ? 'WIN' : 'LOSS'}</strong>}
+                <h3>{profileLink ? <a href={profileLink}>{name}</a> : name}</h3>
                 <div className="numbering-real-name">
                   <FighterFlag code={country} />
                   <span>{match.realNames?.[i] ?? '선수 정보 준비 중'}</span>
                 </div>
               </div>;
             })}</div>
-            {active === index && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[index]} onVote={event.phase === 'archive' ? undefined : side => requestVote(index, side)} />}
+            {active === index && event.phase !== 'archive' && <AnimatedPrediction key={index} left={left} names={match.names} selected={vote[index]} onVote={side => requestVote(index, side)} />}
             <dl className="numbering-stats">{stats.map(([label, a, b]) => <div key={label}><dt title={label === 'AGE' ? '공식 프로필 수집 시점 기준 나이' : undefined}>{label}</dt><dd>{a}</dd><dd>{b}</dd></div>)}</dl>
             {event.phase === 'archive' && <p className="numbering-archive-result">{match.result}</p>}
             <div className="numbering-community">

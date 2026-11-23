@@ -18,7 +18,7 @@ export function usePageTransition() {
       const anchor = event.target.closest?.('a[href]');
       if (!anchor || anchor.hasAttribute('download') || (anchor.target && anchor.target !== '_self')) return;
       const next = new URL(anchor.href, location.href);
-      if (next.origin !== location.origin || !/^\/(?:index(?:\.html)?|events(?:\/\d+)?|numbering\/\d+|ranking|rules|doping|awards)?\/?$/.test(next.pathname)) return;
+      if (next.origin !== location.origin || !/^\/(?:index(?:\.html)?|events(?:\/\d+)?|numbering\/\d+|fighter\/\d+|ranking|rules|doping|awards)?\/?$/.test(next.pathname)) return;
       if (next.pathname === location.pathname && next.search === location.search) return;
       event.preventDefault();
       if (navigating) return;

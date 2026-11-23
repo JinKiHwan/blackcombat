@@ -1,14 +1,14 @@
 {
   "metadata": {
     "sourceUrl": "https://www.blackcombat-official.com/ranking.php?type=fighter",
-    "collectedAt": "2026-10-27T03:20:06.034Z",
+    "collectedAt": "2026-11-23T00:55:58.614Z",
     "scope": "Official FIGHTER ranking page including initially hidden rows; excludes SEMI-PRO and unranked fighters.",
     "recordNote": "Three source record values are preserved verbatim. Record scope and field meanings have not been independently verified.",
     "entryCount": 174,
     "uniqueFighterCount": 168,
     "countsByDivision": {
-      "플라이급": 23,
-      "밴텀급": 30,
+      "플라이급": 22,
+      "밴텀급": 31,
       "페더급": 30,
       "라이트급": 29,
       "웰터급": 23,
@@ -31,13 +31,13 @@
       "recordsByDivision": [
         {
           "division": "fly",
-          "recordRaw": "13 / 4 / 0"
+          "recordRaw": "14 / 4 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_detail.png?v=260727202026",
-        "localPath": "/images/fighters/73873103.png"
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/73873103/73873103_detail.webp?v=261121191050",
+        "localPath": "/images/fighters/73873103.webp"
       },
       "height": "168cm",
       "team": "TEAM MAD",
@@ -51,37 +51,6 @@
       "ageCollectedAt": "2026-10-27T09:46:00.319Z"
     },
     {
-      "fighterId": "71657127",
-      "ringName": "탱크",
-      "name": "코마키네 타카히로",
-      "countryCode": "jp",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/71657127",
-      "divisions": [
-        "fly"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "fly",
-          "recordRaw": "19 / 6 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71657127/71657127_detail.png?v=260727201950",
-        "localPath": "/images/fighters/71657127.png"
-      },
-      "height": "164cm",
-      "team": "FIGHT BASE TORITSUDAI",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:10.846Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/71657127"
-      },
-      "age": 35,
-      "ageSource": "https://www.blackcombat-official.com/fighter/71657127",
-      "ageCollectedAt": "2026-10-27T09:46:00.566Z"
-    },
-    {
       "fighterId": "86478580",
       "ringName": "인디언킹",
       "name": "Gabriel Rodrigues",
@@ -93,12 +62,12 @@
       "recordsByDivision": [
         {
           "division": "fly",
-          "recordRaw": "7 / 1 / 0"
+          "recordRaw": "7 / 2 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_detail.webp?v=260603193028",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/86478580/86478580_detail.webp?v=261121191059",
         "localPath": "/images/fighters/86478580.webp"
       },
       "height": "165cm",
@@ -248,12 +217,12 @@
       "recordsByDivision": [
         {
           "division": "fly",
-          "recordRaw": "8 / 9 / 0"
+          "recordRaw": "9 / 9 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_detail.webp?v=260924030157",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31367195/31367195_detail.webp?v=261121155354",
         "localPath": "/images/fighters/31367195.webp"
       },
       "height": "175cm",
@@ -310,12 +279,12 @@
       "recordsByDivision": [
         {
           "division": "fly",
-          "recordRaw": "12 / 4 / 0"
+          "recordRaw": "12 / 5 / 1"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_detail.webp?v=260925214009",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/31720294/31720294_detail.webp?v=261121155402",
         "localPath": "/images/fighters/31720294.webp"
       },
       "height": "170cm",
@@ -749,12 +718,12 @@
       "recordsByDivision": [
         {
           "division": "bantam",
-          "recordRaw": "16 / 8 / 0"
+          "recordRaw": "17 / 8 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=261105135729",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/98660587/98660587_detail.webp?v=261122213113",
         "localPath": "/images/fighters/98660587.webp"
       },
       "height": "173cm",
@@ -769,37 +738,6 @@
       "ageCollectedAt": "2026-10-27T09:46:05.959Z"
     },
     {
-      "fighterId": "39588679",
-      "ringName": "펜리르",
-      "name": "Daniiar Toichubek",
-      "countryCode": "kg",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/39588679",
-      "divisions": [
-        "bantam"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "bantam",
-          "recordRaw": "12 / 0 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39588679/39588679_detail.webp?v=260729104337",
-        "localPath": "/images/fighters/39588679.webp"
-      },
-      "height": "175cm",
-      "team": "IHLAS",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:19.442Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/39588679"
-      },
-      "age": 24,
-      "ageSource": "https://www.blackcombat-official.com/fighter/39588679",
-      "ageCollectedAt": "2026-10-27T09:46:06.192Z"
-    },
-    {
       "fighterId": "64797565",
       "ringName": "무사",
       "name": "타케나카 다이치",
@@ -811,12 +749,12 @@
       "recordsByDivision": [
         {
           "division": "bantam",
-          "recordRaw": "18 / 4 / 1"
+          "recordRaw": "19 / 4 / 1"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_detail.webp?v=260901183615",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64797565/64797565_detail.webp?v=261121153511",
         "localPath": "/images/fighters/64797565.webp"
       },
       "height": "168cm",
@@ -831,97 +769,28 @@
       "ageCollectedAt": "2026-10-27T09:46:06.427Z"
     },
     {
-      "fighterId": "37864698",
-      "ringName": "빡세",
-      "name": "이진세",
+      "fighterId": "51931259",
+      "ringName": "Mr. Perfect",
+      "name": "강경호",
       "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/37864698",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51931259",
       "divisions": [
         "bantam"
       ],
       "recordsByDivision": [
         {
           "division": "bantam",
-          "recordRaw": "7 / 6 / 0"
+          "recordRaw": "19 / 12 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37864698/37864698_detail.webp?v=260830221342",
-        "localPath": "/images/fighters/37864698.webp"
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51931259/51931259_detail.webp?v=261122213121",
+        "localPath": "/images/fighters/51931259.webp"
       },
-      "height": "175cm",
-      "team": "스웰즈 코리아",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:20.193Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/37864698"
-      },
-      "age": 31,
-      "ageSource": "https://www.blackcombat-official.com/fighter/37864698",
-      "ageCollectedAt": "2026-10-27T09:46:06.672Z"
-    },
-    {
-      "fighterId": "21131458",
-      "ringName": "백사자",
-      "name": "Aydemir Kazbekov",
-      "countryCode": "ru",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/21131458",
-      "divisions": [
-        "bantam"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "bantam",
-          "recordRaw": "15 / 2 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_detail.webp?v=260901183631",
-        "localPath": "/images/fighters/21131458.webp"
-      },
-      "height": "167cm",
+      "height": "176cm",
       "team": "N/A",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:20.563Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/21131458"
-      },
-      "age": 29,
-      "ageSource": "https://www.blackcombat-official.com/fighter/21131458",
-      "ageCollectedAt": "2026-10-27T09:46:06.905Z"
-    },
-    {
-      "fighterId": "41530580",
-      "ringName": "언더독",
-      "name": "박성준",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/41530580",
-      "divisions": [
-        "bantam"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "bantam",
-          "recordRaw": "7 / 6 / 1"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_detail.webp?v=260503173129",
-        "localPath": "/images/fighters/41530580.webp"
-      },
-      "height": "172cm",
-      "team": "SSABI MMA",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:20.939Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/41530580"
-      },
-      "age": 33,
-      "ageSource": "https://www.blackcombat-official.com/fighter/41530580",
-      "ageCollectedAt": "2026-10-27T09:46:07.148Z"
+      "age": 39
     },
     {
       "fighterId": "89602277",
@@ -955,35 +824,97 @@
       "ageCollectedAt": "2026-10-27T09:46:07.379Z"
     },
     {
-      "fighterId": "83543030",
-      "ringName": "불도저",
-      "name": "정경열",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/83543030",
+      "fighterId": "21131458",
+      "ringName": "백사자",
+      "name": "Aydemir Kazbekov",
+      "countryCode": "ru",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/21131458",
       "divisions": [
         "bantam"
       ],
       "recordsByDivision": [
         {
           "division": "bantam",
-          "recordRaw": "5 / 4 / 0"
+          "recordRaw": "15 / 3 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/83543030/83543030_detail.webp?v=260907154937",
-        "localPath": "/images/fighters/83543030.webp"
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/21131458/21131458_detail.webp?v=261121153520",
+        "localPath": "/images/fighters/21131458.webp"
       },
-      "height": "174cm",
-      "team": "TEAM MAD",
+      "height": "167cm",
+      "team": "N/A",
       "profileDetails": {
         "status": "collected",
-        "collectedAt": "2026-10-27T06:20:21.688Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/83543030"
+        "collectedAt": "2026-10-27T06:20:20.563Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/21131458"
       },
-      "age": 34,
-      "ageSource": "https://www.blackcombat-official.com/fighter/83543030",
-      "ageCollectedAt": "2026-10-27T09:46:07.618Z"
+      "age": 29,
+      "ageSource": "https://www.blackcombat-official.com/fighter/21131458",
+      "ageCollectedAt": "2026-10-27T09:46:06.905Z"
+    },
+    {
+      "fighterId": "39588679",
+      "ringName": "펜리르",
+      "name": "Daniiar Toichubek",
+      "countryCode": "kg",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39588679",
+      "divisions": [
+        "bantam"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "bantam",
+          "recordRaw": "12 / 0 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/39588679/39588679_detail.webp?v=260729104337",
+        "localPath": "/images/fighters/39588679.webp"
+      },
+      "height": "175cm",
+      "team": "IHLAS",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:19.442Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/39588679"
+      },
+      "age": 24,
+      "ageSource": "https://www.blackcombat-official.com/fighter/39588679",
+      "ageCollectedAt": "2026-10-27T09:46:06.192Z"
+    },
+    {
+      "fighterId": "37864698",
+      "ringName": "빡세",
+      "name": "이진세",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37864698",
+      "divisions": [
+        "bantam"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "bantam",
+          "recordRaw": "7 / 6 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/37864698/37864698_detail.webp?v=260830221342",
+        "localPath": "/images/fighters/37864698.webp"
+      },
+      "height": "175cm",
+      "team": "스웰즈 코리아",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:20.193Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/37864698"
+      },
+      "age": 31,
+      "ageSource": "https://www.blackcombat-official.com/fighter/37864698",
+      "ageCollectedAt": "2026-10-27T09:46:06.672Z"
     },
     {
       "fighterId": "19848079",
@@ -1017,6 +948,67 @@
       "ageCollectedAt": "2026-10-27T09:46:07.863Z"
     },
     {
+      "fighterId": "54898276",
+      "ringName": "티그로",
+      "name": "신창현",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/54898276",
+      "divisions": [
+        "bantam"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "bantam",
+          "recordRaw": "5 / 1 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_detail.webp?v=261121134155",
+        "localPath": "/images/fighters/54898276.webp"
+      },
+      "height": "174cm",
+      "team": "TEAM SOLID",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:26.542Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/54898276"
+      },
+      "age": null,
+      "ageSource": "https://www.blackcombat-official.com/fighter/54898276"
+    },
+    {
+      "fighterId": "41530580",
+      "ringName": "언더독",
+      "name": "박성준",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41530580",
+      "divisions": [
+        "bantam"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "bantam",
+          "recordRaw": "7 / 7 / 1"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41530580/41530580_detail.webp?v=261121134256",
+        "localPath": "/images/fighters/41530580.webp"
+      },
+      "height": "172cm",
+      "team": "SSABI MMA",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:20.939Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/41530580"
+      },
+      "age": 33,
+      "ageSource": "https://www.blackcombat-official.com/fighter/41530580",
+      "ageCollectedAt": "2026-10-27T09:46:07.148Z"
+    },
+    {
       "fighterId": "48634737",
       "ringName": "보오르추",
       "name": "Bat-Itgelt",
@@ -1046,6 +1038,37 @@
       "age": 24,
       "ageSource": "https://www.blackcombat-official.com/fighter/48634737",
       "ageCollectedAt": "2026-10-27T09:46:08.109Z"
+    },
+    {
+      "fighterId": "83543030",
+      "ringName": "불도저",
+      "name": "정경열",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/83543030",
+      "divisions": [
+        "bantam"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "bantam",
+          "recordRaw": "5 / 4 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/83543030/83543030_detail.webp?v=260907154937",
+        "localPath": "/images/fighters/83543030.webp"
+      },
+      "height": "174cm",
+      "team": "TEAM MAD",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:21.688Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/83543030"
+      },
+      "age": 34,
+      "ageSource": "https://www.blackcombat-official.com/fighter/83543030",
+      "ageCollectedAt": "2026-10-27T09:46:07.618Z"
     },
     {
       "fighterId": "59174431",
@@ -1358,36 +1381,6 @@
       "ageCollectedAt": "2026-10-27T09:46:10.502Z"
     },
     {
-      "fighterId": "54898276",
-      "ringName": "티그로",
-      "name": "신창현",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/54898276",
-      "divisions": [
-        "bantam"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "bantam",
-          "recordRaw": "4 / 1 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/54898276/54898276_detail.webp?v=260809210153",
-        "localPath": "/images/fighters/54898276.webp"
-      },
-      "height": "174cm",
-      "team": "TEAM SOLID",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:26.542Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/54898276"
-      },
-      "age": null,
-      "ageSource": "https://www.blackcombat-official.com/fighter/54898276"
-    },
-    {
       "fighterId": "66714345",
       "ringName": "몽크",
       "name": "Maicon Bruno",
@@ -1683,12 +1676,12 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "8 / 0 / 0"
+          "recordRaw": "9 / 0 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=261105031823",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/79683172/79683172_detail.webp?v=261123025058",
         "localPath": "/images/fighters/79683172.webp"
       },
       "height": "180cm",
@@ -1714,12 +1707,12 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "12 / 3 / 0"
+          "recordRaw": "12 / 4 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=261105133442",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/82685239/82685239_detail.webp?v=261123025103",
         "localPath": "/images/fighters/82685239.webp"
       },
       "height": "180cm",
@@ -1734,6 +1727,37 @@
       "ageCollectedAt": "2026-10-27T09:46:13.867Z"
     },
     {
+      "fighterId": "71392066",
+      "ringName": "붉은매",
+      "name": "지혁민",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71392066",
+      "divisions": [
+        "feather"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "feather",
+          "recordRaw": "9 / 1 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_detail.webp?v=261123025027",
+        "localPath": "/images/fighters/71392066.webp"
+      },
+      "height": "176cm",
+      "team": "TEAM MAD CHUNCHEON",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:32.900Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/71392066"
+      },
+      "age": 21,
+      "ageSource": "https://www.blackcombat-official.com/fighter/71392066",
+      "ageCollectedAt": "2026-10-27T09:46:15.268Z"
+    },
+    {
       "fighterId": "77842475",
       "ringName": "싸이코",
       "name": "Victor Hugo",
@@ -1745,12 +1769,12 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "26 / 8 / 0"
+          "recordRaw": "26 / 9 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_detail.webp?v=260727181120",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/77842475/77842475_detail.webp?v=261123025032",
         "localPath": "/images/fighters/77842475.webp"
       },
       "height": "171cm",
@@ -1827,6 +1851,37 @@
       "ageCollectedAt": "2026-10-27T09:46:14.563Z"
     },
     {
+      "fighterId": "51712256",
+      "ringName": "데드샷",
+      "name": "Ortsa Gudaev",
+      "countryCode": "ru",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51712256",
+      "divisions": [
+        "feather"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "feather",
+          "recordRaw": "16 / 4 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_detail.webp?v=261121165828",
+        "localPath": "/images/fighters/51712256.webp"
+      },
+      "height": "178cm",
+      "team": "TEAM KHAMZAEV",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:32.531Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/51712256"
+      },
+      "age": 28,
+      "ageSource": "https://www.blackcombat-official.com/fighter/51712256",
+      "ageCollectedAt": "2026-10-27T09:46:15.033Z"
+    },
+    {
       "fighterId": "34145632",
       "ringName": "락스톤",
       "name": "Lucas Bento",
@@ -1856,68 +1911,6 @@
       "age": 28,
       "ageSource": "https://www.blackcombat-official.com/fighter/34145632",
       "ageCollectedAt": "2026-10-27T09:46:14.799Z"
-    },
-    {
-      "fighterId": "51712256",
-      "ringName": "데드샷",
-      "name": "Ortsa Gudaev",
-      "countryCode": "ru",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/51712256",
-      "divisions": [
-        "feather"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "feather",
-          "recordRaw": "15 / 4 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51712256/51712256_detail.webp?v=260606210155",
-        "localPath": "/images/fighters/51712256.webp"
-      },
-      "height": "178cm",
-      "team": "TEAM KHAMZAEV",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:32.531Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/51712256"
-      },
-      "age": 28,
-      "ageSource": "https://www.blackcombat-official.com/fighter/51712256",
-      "ageCollectedAt": "2026-10-27T09:46:15.033Z"
-    },
-    {
-      "fighterId": "71392066",
-      "ringName": "붉은매",
-      "name": "지혁민",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/71392066",
-      "divisions": [
-        "feather"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "feather",
-          "recordRaw": "8 / 1 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/71392066/71392066_detail.webp?v=260830221631",
-        "localPath": "/images/fighters/71392066.webp"
-      },
-      "height": "176cm",
-      "team": "TEAM MAD CHUNCHEON",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:32.900Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/71392066"
-      },
-      "age": 21,
-      "ageSource": "https://www.blackcombat-official.com/fighter/71392066",
-      "ageCollectedAt": "2026-10-27T09:46:15.268Z"
     },
     {
       "fighterId": "62550126",
@@ -1993,12 +1986,12 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "17 / 10 / 0"
+          "recordRaw": "17 / 11 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_detail.webp?v=260901183545",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28308426/28308426_detail.webp?v=261121165814",
         "localPath": "/images/fighters/28308426.webp"
       },
       "height": "177cm",
@@ -2086,13 +2079,13 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "11 / 9 / 0"
+          "recordRaw": "12 / 9 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_detail.webp?v=260727181045",
-        "localPath": "/images/fighters/63267425.webp"
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/63267425/63267425_detail.png?v=261121142755",
+        "localPath": "/images/fighters/63267425.png"
       },
       "height": "170cm",
       "team": "HAVAS MMA",
@@ -2179,12 +2172,12 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "14 / 11 / 0"
+          "recordRaw": "14 / 12 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_detail.webp?v=260727180846",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/53339805/53339805_detail.webp?v=261121142746",
         "localPath": "/images/fighters/53339805.webp"
       },
       "height": "167cm",
@@ -2385,37 +2378,6 @@
       "ageCollectedAt": "2026-10-27T09:46:18.850Z"
     },
     {
-      "fighterId": "64326511",
-      "ringName": "아이언 힙",
-      "name": "미야히라 슈타로",
-      "countryCode": "jp",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/64326511",
-      "divisions": [
-        "feather"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "feather",
-          "recordRaw": "4 / 5 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64326511/64326511_detail.webp?v=250904132837",
-        "localPath": "/images/fighters/64326511.webp"
-      },
-      "height": "170cm",
-      "team": "N/A",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:38.872Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/64326511"
-      },
-      "age": 30,
-      "ageSource": "https://www.blackcombat-official.com/fighter/64326511",
-      "ageCollectedAt": "2026-10-27T09:46:19.085Z"
-    },
-    {
       "fighterId": "31606646",
       "ringName": "피니셔",
       "name": "황준호",
@@ -2427,7 +2389,7 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "5 / 3 / 0"
+          "recordRaw": "6 / 3 / 0"
         }
       ],
       "profileImage": {
@@ -2458,7 +2420,7 @@
       "recordsByDivision": [
         {
           "division": "feather",
-          "recordRaw": "5 / 5 / 1"
+          "recordRaw": "6 / 5 / 1"
         }
       ],
       "profileImage": {
@@ -2476,6 +2438,37 @@
       "age": 33,
       "ageSource": "https://www.blackcombat-official.com/fighter/51243766",
       "ageCollectedAt": "2026-10-27T09:46:19.550Z"
+    },
+    {
+      "fighterId": "64326511",
+      "ringName": "아이언 힙",
+      "name": "미야히라 슈타로",
+      "countryCode": "jp",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64326511",
+      "divisions": [
+        "feather"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "feather",
+          "recordRaw": "4 / 5 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/64326511/64326511_detail.webp?v=250904132837",
+        "localPath": "/images/fighters/64326511.webp"
+      },
+      "height": "170cm",
+      "team": "N/A",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:38.872Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/64326511"
+      },
+      "age": 30,
+      "ageSource": "https://www.blackcombat-official.com/fighter/64326511",
+      "ageCollectedAt": "2026-10-27T09:46:19.085Z"
     },
     {
       "fighterId": "69457329",
@@ -2582,12 +2575,12 @@
       "recordsByDivision": [
         {
           "division": "light",
-          "recordRaw": "14 / 11 / 2"
+          "recordRaw": "15 / 11 / 2"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_detail.webp?v=260201193010",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/22363165/22363165_detail.webp?v=261121202711",
         "localPath": "/images/fighters/22363165.webp"
       },
       "height": "169cm",
@@ -2602,6 +2595,37 @@
       "ageCollectedAt": "2026-10-27T09:46:20.481Z"
     },
     {
+      "fighterId": "41326305",
+      "ringName": "다게르",
+      "name": "Ali Gadzhiev",
+      "countryCode": "ru",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41326305",
+      "divisions": [
+        "light"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "light",
+          "recordRaw": "6 / 0 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_detail.webp?v=261121162155",
+        "localPath": "/images/fighters/41326305.webp"
+      },
+      "height": "180cm",
+      "team": "KHABIB GYM",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:42.241Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/41326305"
+      },
+      "age": 28,
+      "ageSource": "https://www.blackcombat-official.com/fighter/41326305",
+      "ageCollectedAt": "2026-10-27T09:46:21.206Z"
+    },
+    {
       "fighterId": "95863943",
       "ringName": "수부타이",
       "name": "난딘에르덴",
@@ -2613,12 +2637,12 @@
       "recordsByDivision": [
         {
           "division": "light",
-          "recordRaw": "19 / 11 / 0"
+          "recordRaw": "19 / 12 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_detail.webp?v=260503180830",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/95863943/95863943_detail.webp?v=261121162136",
         "localPath": "/images/fighters/95863943.webp"
       },
       "height": "178cm",
@@ -2644,12 +2668,12 @@
       "recordsByDivision": [
         {
           "division": "light",
-          "recordRaw": "11 / 2 / 1"
+          "recordRaw": "11 / 3 / 1"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=261105032845",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/76220784/76220784_detail.webp?v=261121202720",
         "localPath": "/images/fighters/76220784.webp"
       },
       "height": "182cm",
@@ -2662,37 +2686,6 @@
       "age": 24,
       "ageSource": "https://www.blackcombat-official.com/fighter/76220784",
       "ageCollectedAt": "2026-10-27T09:46:20.950Z"
-    },
-    {
-      "fighterId": "41326305",
-      "ringName": "다게르",
-      "name": "Ali Gadzhiev",
-      "countryCode": "ru",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/41326305",
-      "divisions": [
-        "light"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "light",
-          "recordRaw": "5 / 0 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/41326305/41326305_detail.webp?v=260901184110",
-        "localPath": "/images/fighters/41326305.webp"
-      },
-      "height": "180cm",
-      "team": "KHABIB GYM",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:42.241Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/41326305"
-      },
-      "age": 28,
-      "ageSource": "https://www.blackcombat-official.com/fighter/41326305",
-      "ageCollectedAt": "2026-10-27T09:46:21.206Z"
     },
     {
       "fighterId": "32056354",
@@ -2757,6 +2750,37 @@
       "ageCollectedAt": "2026-10-27T09:46:21.711Z"
     },
     {
+      "fighterId": "89975978",
+      "ringName": "곰주먹",
+      "name": "김정균",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89975978",
+      "divisions": [
+        "light"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "light",
+          "recordRaw": "6 / 4 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_detail.webp?v=261121150650",
+        "localPath": "/images/fighters/89975978.webp"
+      },
+      "height": "178cm",
+      "team": "BLACK COMBAT GYM DAEJEON",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:44.480Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/89975978"
+      },
+      "age": 32,
+      "ageSource": "https://www.blackcombat-official.com/fighter/89975978",
+      "ageCollectedAt": "2026-10-27T09:46:22.895Z"
+    },
+    {
       "fighterId": "37054476",
       "ringName": "피에로",
       "name": "이송하",
@@ -2799,12 +2823,12 @@
       "recordsByDivision": [
         {
           "division": "light",
-          "recordRaw": "3 / 6 / 0"
+          "recordRaw": "3 / 7 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_detail.webp?v=260617230502",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/65081168/65081168_detail.webp?v=261121150639",
         "localPath": "/images/fighters/65081168.webp"
       },
       "height": "180cm",
@@ -2848,37 +2872,6 @@
       "age": 33,
       "ageSource": "https://www.blackcombat-official.com/fighter/14674653",
       "ageCollectedAt": "2026-10-27T09:46:22.649Z"
-    },
-    {
-      "fighterId": "89975978",
-      "ringName": "곰주먹",
-      "name": "김정균",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/89975978",
-      "divisions": [
-        "light"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "light",
-          "recordRaw": "5 / 4 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/89975978/89975978_detail.webp?v=260908180247",
-        "localPath": "/images/fighters/89975978.webp"
-      },
-      "height": "178cm",
-      "team": "BLACK COMBAT GYM DAEJEON",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:44.480Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/89975978"
-      },
-      "age": 32,
-      "ageSource": "https://www.blackcombat-official.com/fighter/89975978",
-      "ageCollectedAt": "2026-10-27T09:46:22.895Z"
     },
     {
       "fighterId": "51940035",
@@ -3486,12 +3479,12 @@
       "recordsByDivision": [
         {
           "division": "welter",
-          "recordRaw": "9 / 0 / 0"
+          "recordRaw": "10 / 0 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_detail.webp?v=260814010637",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/51253531/51253531_detail.webp?v=261121191010",
         "localPath": "/images/fighters/51253531.webp"
       },
       "height": "183cm",
@@ -3517,12 +3510,12 @@
       "recordsByDivision": [
         {
           "division": "welter",
-          "recordRaw": "24 / 8 / 0"
+          "recordRaw": "24 / 9 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_detail.webp?v=260727180218",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/27796067/27796067_detail.webp?v=261121191022",
         "localPath": "/images/fighters/27796067.webp"
       },
       "height": "181cm",
@@ -3549,16 +3542,16 @@
       "recordsByDivision": [
         {
           "division": "welter",
-          "recordRaw": "6 / 4 / 0"
+          "recordRaw": "6 / 5 / 0"
         },
         {
           "division": "middle",
-          "recordRaw": "6 / 4 / 0"
+          "recordRaw": "6 / 5 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_detail.webp?v=260830223136",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/91010996/91010996_detail.webp?v=261121200424",
         "localPath": "/images/fighters/91010996.webp"
       },
       "height": "177cm",
@@ -3635,6 +3628,68 @@
       "ageCollectedAt": "2026-10-27T09:46:28.687Z"
     },
     {
+      "fighterId": "42162303",
+      "ringName": "엄지장군",
+      "name": "여동주",
+      "countryCode": "kr",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/42162303",
+      "divisions": [
+        "welter"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "welter",
+          "recordRaw": "5 / 1 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42162303/42162303_detail.webp?v=260606210226",
+        "localPath": "/images/fighters/42162303.webp"
+      },
+      "height": "188cm",
+      "team": "TEAM MAD",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:54.616Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/42162303"
+      },
+      "age": 30,
+      "ageSource": "https://www.blackcombat-official.com/fighter/42162303",
+      "ageCollectedAt": "2026-10-27T09:46:29.642Z"
+    },
+    {
+      "fighterId": "48217777",
+      "ringName": "젠틀맨",
+      "name": "Fabricio Azevedo",
+      "countryCode": "br",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/48217777",
+      "divisions": [
+        "welter"
+      ],
+      "recordsByDivision": [
+        {
+          "division": "welter",
+          "recordRaw": "12 / 4 / 0"
+        }
+      ],
+      "profileImage": {
+        "status": "downloaded",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48217777/48217777_detail.webp?v=260617191001",
+        "localPath": "/images/fighters/48217777.webp"
+      },
+      "height": "182cm",
+      "team": "FIGHTING NERDS",
+      "profileDetails": {
+        "status": "collected",
+        "collectedAt": "2026-10-27T06:20:54.988Z",
+        "sourceUrl": "https://www.blackcombat-official.com/fighter/48217777"
+      },
+      "age": 34,
+      "ageSource": "https://www.blackcombat-official.com/fighter/48217777",
+      "ageCollectedAt": "2026-10-27T09:46:29.892Z"
+    },
+    {
       "fighterId": "58100688",
       "ringName": "코리안 갱스터",
       "name": "박원식",
@@ -3700,68 +3755,6 @@
       "age": 30,
       "ageSource": "https://www.blackcombat-official.com/fighter/51523231",
       "ageCollectedAt": "2026-10-27T09:46:29.166Z"
-    },
-    {
-      "fighterId": "42162303",
-      "ringName": "엄지장군",
-      "name": "여동주",
-      "countryCode": "kr",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/42162303",
-      "divisions": [
-        "welter"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "welter",
-          "recordRaw": "5 / 1 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/42162303/42162303_detail.webp?v=260606210226",
-        "localPath": "/images/fighters/42162303.webp"
-      },
-      "height": "188cm",
-      "team": "TEAM MAD",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:54.616Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/42162303"
-      },
-      "age": 30,
-      "ageSource": "https://www.blackcombat-official.com/fighter/42162303",
-      "ageCollectedAt": "2026-10-27T09:46:29.642Z"
-    },
-    {
-      "fighterId": "48217777",
-      "ringName": "젠틀맨",
-      "name": "Fabricio Azevedo",
-      "countryCode": "br",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/48217777",
-      "divisions": [
-        "welter"
-      ],
-      "recordsByDivision": [
-        {
-          "division": "welter",
-          "recordRaw": "12 / 4 / 0"
-        }
-      ],
-      "profileImage": {
-        "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/48217777/48217777_detail.webp?v=260617191001",
-        "localPath": "/images/fighters/48217777.webp"
-      },
-      "height": "182cm",
-      "team": "FIGHTING NERDS",
-      "profileDetails": {
-        "status": "collected",
-        "collectedAt": "2026-10-27T06:20:54.988Z",
-        "sourceUrl": "https://www.blackcombat-official.com/fighter/48217777"
-      },
-      "age": 34,
-      "ageSource": "https://www.blackcombat-official.com/fighter/48217777",
-      "ageCollectedAt": "2026-10-27T09:46:29.892Z"
     },
     {
       "fighterId": "11198227",
@@ -4177,12 +4170,12 @@
       "recordsByDivision": [
         {
           "division": "middle",
-          "recordRaw": "9 / 2 / 0"
+          "recordRaw": "10 / 2 / 0"
         }
       ],
       "profileImage": {
         "status": "downloaded",
-        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_detail.webp?v=260731182601",
+        "sourceUrl": "https://www.blackcombat-official.com/theme/blackcombat/img/fighter_new/28865824/28865824_detail.webp?v=261121200409",
         "localPath": "/images/fighters/28865824.webp"
       },
       "height": "184cm",
@@ -5259,34 +5252,21 @@
       "ringName": "우마왕",
       "name": "우성훈",
       "countryCode": "kr",
-      "recordRaw": "13 / 4 / 0",
+      "recordRaw": "14 / 4 / 0",
       "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/73873103"
-    },
-    {
-      "fighterId": "71657127",
-      "divisionKey": "fly",
-      "division": "플라이급",
-      "champion": false,
-      "rank": 1,
-      "ringName": "탱크",
-      "name": "코마키네 타카히로",
-      "countryCode": "jp",
-      "recordRaw": "19 / 6 / 0",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/71657127"
     },
     {
       "fighterId": "86478580",
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 2,
+      "rank": 1,
       "ringName": "인디언킹",
       "name": "Gabriel Rodrigues",
       "countryCode": "br",
-      "recordRaw": "7 / 1 / 0",
-      "rankChange": "-",
+      "recordRaw": "7 / 2 / 0",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/86478580"
     },
     {
@@ -5294,12 +5274,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 3,
+      "rank": 2,
       "ringName": "보로클",
       "name": "Bayanduuren",
       "countryCode": "mn",
       "recordRaw": "5 / 2 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/33169982"
     },
     {
@@ -5307,12 +5287,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 4,
+      "rank": 3,
       "ringName": "윤방관",
       "name": "윤호영",
       "countryCode": "kr",
       "recordRaw": "7 / 6 / 1",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/70398446"
     },
     {
@@ -5320,12 +5300,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 5,
+      "rank": 4,
       "ringName": "크로커다일",
       "name": "Elias Da Cruz",
       "countryCode": "br",
       "recordRaw": "18 / 4 / 1",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/88941727"
     },
     {
@@ -5333,12 +5313,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 6,
+      "rank": 5,
       "ringName": "김관장",
       "name": "김성재",
       "countryCode": "kr",
       "recordRaw": "9 / 10 / 1",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/77552285"
     },
     {
@@ -5346,12 +5326,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 7,
+      "rank": 6,
       "ringName": "바이퍼",
       "name": "김성웅",
       "countryCode": "kr",
-      "recordRaw": "8 / 9 / 0",
-      "rankChange": "-",
+      "recordRaw": "9 / 9 / 0",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/31367195"
     },
     {
@@ -5359,12 +5339,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 8,
+      "rank": 7,
       "ringName": "앤쵸비",
       "name": "박태호",
       "countryCode": "kr",
       "recordRaw": "9 / 7 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/92865695"
     },
     {
@@ -5372,12 +5352,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 9,
+      "rank": 8,
       "ringName": "아마존 키드",
       "name": "Thomas Assis",
       "countryCode": "br",
-      "recordRaw": "12 / 4 / 0",
-      "rankChange": "-",
+      "recordRaw": "12 / 5 / 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/31720294"
     },
     {
@@ -5385,12 +5365,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 10,
+      "rank": 9,
       "ringName": "투견",
       "name": "정원희",
       "countryCode": "kr",
       "recordRaw": "10 / 9 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/27904723"
     },
     {
@@ -5398,12 +5378,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 11,
+      "rank": 10,
       "ringName": "부기맨",
       "name": "Rangel dos Santos",
       "countryCode": "br",
       "recordRaw": "12 / 6 / 1",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/71736058"
     },
     {
@@ -5411,12 +5391,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 12,
+      "rank": 11,
       "ringName": "닌자",
       "name": "Yamasaki Sora",
       "countryCode": "jp",
       "recordRaw": "8 / 2 / 0",
-      "rankChange": "▲ 5",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/69534617"
     },
     {
@@ -5424,12 +5404,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 13,
+      "rank": 12,
       "ringName": "스나이퍼",
       "name": "Isiah Torres",
       "countryCode": "us",
       "recordRaw": "9 / 5 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/92748764"
     },
     {
@@ -5437,12 +5417,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 14,
+      "rank": 13,
       "ringName": "스탄 바키",
       "name": "Bagylan Zhakansha",
       "countryCode": "kz",
       "recordRaw": "7 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/21461249"
     },
     {
@@ -5450,12 +5430,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 15,
+      "rank": 14,
       "ringName": "미스터 초크",
       "name": "이민주",
       "countryCode": "kr",
       "recordRaw": "5 / 5 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/81252890"
     },
     {
@@ -5463,12 +5443,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 16,
+      "rank": 15,
       "ringName": "캡틴 히어로",
       "name": "이영웅",
       "countryCode": "kr",
       "recordRaw": "4 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51533588"
     },
     {
@@ -5476,12 +5456,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 17,
+      "rank": 16,
       "ringName": "핏불",
       "name": "Tiago Xavier",
       "countryCode": "br",
       "recordRaw": "17 / 12 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/30038332"
     },
     {
@@ -5489,12 +5469,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 18,
+      "rank": 17,
       "ringName": "메탈 리",
       "name": "핫토리 슈토",
       "countryCode": "jp",
       "recordRaw": "2 / 1 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/43792974"
     },
     {
@@ -5502,12 +5482,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 19,
+      "rank": 18,
       "ringName": "매드독",
       "name": "김민우",
       "countryCode": "kr",
       "recordRaw": "2 / 2 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/43483071"
     },
     {
@@ -5515,12 +5495,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 20,
+      "rank": 19,
       "ringName": "조커",
       "name": "정도한",
       "countryCode": "kr",
       "recordRaw": "2 / 9 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/82156223"
     },
     {
@@ -5528,12 +5508,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 21,
+      "rank": 20,
       "ringName": "도깨비발",
       "name": "이선하",
       "countryCode": "kr",
       "recordRaw": "2 / 3 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51837721"
     },
     {
@@ -5541,12 +5521,12 @@
       "divisionKey": "fly",
       "division": "플라이급",
       "champion": false,
-      "rank": 22,
+      "rank": 21,
       "ringName": "백구",
       "name": "Erkhembayar",
       "countryCode": "mn",
       "recordRaw": "3 / 1 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/18063338"
     },
     {
@@ -5558,48 +5538,48 @@
       "ringName": "투신",
       "name": "김재웅",
       "countryCode": "kr",
-      "recordRaw": "16 / 8 / 0",
+      "recordRaw": "17 / 8 / 0",
       "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/98660587"
-    },
-    {
-      "fighterId": "39588679",
-      "divisionKey": "bantam",
-      "division": "밴텀급",
-      "champion": false,
-      "rank": 1,
-      "ringName": "펜리르",
-      "name": "Daniiar Toichubek",
-      "countryCode": "kg",
-      "recordRaw": "12 / 0 / 0",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/39588679"
     },
     {
       "fighterId": "64797565",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 2,
+      "rank": 1,
       "ringName": "무사",
       "name": "타케나카 다이치",
       "countryCode": "jp",
-      "recordRaw": "18 / 4 / 1",
-      "rankChange": "-",
+      "recordRaw": "19 / 4 / 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/64797565"
     },
     {
-      "fighterId": "37864698",
+      "fighterId": "51931259",
+      "divisionKey": "bantam",
+      "division": "밴텀급",
+      "champion": false,
+      "rank": 2,
+      "ringName": "Mr. Perfect",
+      "name": "강경호",
+      "countryCode": "kr",
+      "recordRaw": "19 / 12 / 0",
+      "rankChange": "New",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51931259"
+    },
+    {
+      "fighterId": "89602277",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
       "rank": 3,
-      "ringName": "빡세",
-      "name": "이진세",
-      "countryCode": "kr",
-      "recordRaw": "7 / 6 / 0",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/37864698"
+      "ringName": "쿠르드 이글",
+      "name": "Ruslan Amuyev",
+      "countryCode": "kur",
+      "recordRaw": "12 / 0 / 0",
+      "rankChange": "▲ 3",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89602277"
     },
     {
       "fighterId": "21131458",
@@ -5610,68 +5590,81 @@
       "ringName": "백사자",
       "name": "Aydemir Kazbekov",
       "countryCode": "ru",
-      "recordRaw": "15 / 2 / 0",
-      "rankChange": "▼ 1",
+      "recordRaw": "15 / 3 / 0",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/21131458"
     },
     {
-      "fighterId": "41530580",
+      "fighterId": "39588679",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
       "rank": 5,
-      "ringName": "언더독",
-      "name": "박성준",
-      "countryCode": "kr",
-      "recordRaw": "7 / 6 / 1",
-      "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/41530580"
+      "ringName": "펜리르",
+      "name": "Daniiar Toichubek",
+      "countryCode": "kg",
+      "recordRaw": "12 / 0 / 0",
+      "rankChange": "▼ 4",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/39588679"
     },
     {
-      "fighterId": "89602277",
+      "fighterId": "37864698",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
       "rank": 6,
-      "ringName": "쿠르드 이글",
-      "name": "Ruslan Amuyev",
-      "countryCode": "kur",
-      "recordRaw": "12 / 0 / 0",
-      "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/89602277"
-    },
-    {
-      "fighterId": "83543030",
-      "divisionKey": "bantam",
-      "division": "밴텀급",
-      "champion": false,
-      "rank": 7,
-      "ringName": "불도저",
-      "name": "정경열",
+      "ringName": "빡세",
+      "name": "이진세",
       "countryCode": "kr",
-      "recordRaw": "5 / 4 / 0",
-      "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/83543030"
+      "recordRaw": "7 / 6 / 0",
+      "rankChange": "▼ 3",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/37864698"
     },
     {
       "fighterId": "19848079",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 8,
+      "rank": 7,
       "ringName": "골든보이",
       "name": "Matheus Correia",
       "countryCode": "br",
       "recordRaw": "12 / 0 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/19848079"
+    },
+    {
+      "fighterId": "54898276",
+      "divisionKey": "bantam",
+      "division": "밴텀급",
+      "champion": false,
+      "rank": 8,
+      "ringName": "티그로",
+      "name": "신창현",
+      "countryCode": "kr",
+      "recordRaw": "5 / 1 / 0",
+      "rankChange": "▲ 12",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/54898276"
+    },
+    {
+      "fighterId": "41530580",
+      "divisionKey": "bantam",
+      "division": "밴텀급",
+      "champion": false,
+      "rank": 9,
+      "ringName": "언더독",
+      "name": "박성준",
+      "countryCode": "kr",
+      "recordRaw": "7 / 7 / 1",
+      "rankChange": "▼ 4",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41530580"
     },
     {
       "fighterId": "48634737",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 9,
+      "rank": 10,
       "ringName": "보오르추",
       "name": "Bat-Itgelt",
       "countryCode": "mn",
@@ -5680,16 +5673,29 @@
       "profileUrl": "https://www.blackcombat-official.com/fighter/48634737"
     },
     {
+      "fighterId": "83543030",
+      "divisionKey": "bantam",
+      "division": "밴텀급",
+      "champion": false,
+      "rank": 11,
+      "ringName": "불도저",
+      "name": "정경열",
+      "countryCode": "kr",
+      "recordRaw": "5 / 4 / 0",
+      "rankChange": "▼ 4",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/83543030"
+    },
+    {
       "fighterId": "59174431",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 10,
+      "rank": 12,
       "ringName": "빅마우스",
       "name": "김동규",
       "countryCode": "kr",
       "recordRaw": "10 / 8 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/59174431"
     },
     {
@@ -5697,12 +5703,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 11,
+      "rank": 13,
       "ringName": "LG",
       "name": "Lake Gee",
       "countryCode": "us",
       "recordRaw": "10 / 0 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/78727207"
     },
     {
@@ -5710,12 +5716,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 12,
+      "rank": 14,
       "ringName": "피카츄",
       "name": "Mukai Rukiya",
       "countryCode": "jp",
       "recordRaw": "6 / 3 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/12138256"
     },
     {
@@ -5723,12 +5729,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 13,
+      "rank": 15,
       "ringName": "아이언 홀스",
       "name": "Felipe Gheno",
       "countryCode": "br",
       "recordRaw": "11 / 5 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/94299435"
     },
     {
@@ -5736,12 +5742,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 14,
+      "rank": 16,
       "ringName": "구아라",
       "name": "Marcelo Guarilha",
       "countryCode": "br",
       "recordRaw": "25 / 12 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/75006829"
     },
     {
@@ -5749,12 +5755,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 15,
+      "rank": 17,
       "ringName": "스컬",
       "name": "Ruslan Sariyev",
       "countryCode": "kz",
       "recordRaw": "17 / 5 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/98413196"
     },
     {
@@ -5762,12 +5768,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 16,
+      "rank": 18,
       "ringName": "잉카",
       "name": "Miguel Meza",
       "countryCode": "pe",
       "recordRaw": "8 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/99424846"
     },
     {
@@ -5775,12 +5781,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 17,
+      "rank": 19,
       "ringName": "홀리 비스트",
       "name": "김대환",
       "countryCode": "kr",
       "recordRaw": "15 / 12 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/16538110"
     },
     {
@@ -5788,12 +5794,12 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 18,
+      "rank": 20,
       "ringName": "찐홍이",
       "name": "홍종태",
       "countryCode": "kr",
       "recordRaw": "6 / 6 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51495836"
     },
     {
@@ -5801,33 +5807,20 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 19,
+      "rank": 21,
       "ringName": "해적왕",
       "name": "이강남",
       "countryCode": "kr",
       "recordRaw": "4 / 3 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▼ 2",
       "profileUrl": "https://www.blackcombat-official.com/fighter/69153225"
-    },
-    {
-      "fighterId": "54898276",
-      "divisionKey": "bantam",
-      "division": "밴텀급",
-      "champion": false,
-      "rank": 20,
-      "ringName": "티그로",
-      "name": "신창현",
-      "countryCode": "kr",
-      "recordRaw": "4 / 1 / 0",
-      "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/54898276"
     },
     {
       "fighterId": "66714345",
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 21,
+      "rank": 22,
       "ringName": "몽크",
       "name": "Maicon Bruno",
       "countryCode": "br",
@@ -5840,7 +5833,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 22,
+      "rank": 23,
       "ringName": "엘로우 몽키",
       "name": "임정민",
       "countryCode": "kr",
@@ -5853,7 +5846,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 23,
+      "rank": 24,
       "ringName": "도미네이터",
       "name": "비탈리 미로뉴크",
       "countryCode": "ru",
@@ -5866,7 +5859,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 24,
+      "rank": 25,
       "ringName": "프리즌",
       "name": "최은빈",
       "countryCode": "kr",
@@ -5879,7 +5872,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 25,
+      "rank": 26,
       "ringName": "리바이",
       "name": "김유찬",
       "countryCode": "kr",
@@ -5892,7 +5885,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 26,
+      "rank": 27,
       "ringName": "스패로우",
       "name": "Paula Cunha",
       "countryCode": "br",
@@ -5905,7 +5898,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 27,
+      "rank": 28,
       "ringName": "카우보이",
       "name": "Diogenes Neto",
       "countryCode": "br",
@@ -5918,7 +5911,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 28,
+      "rank": 29,
       "ringName": "체크메이트",
       "name": "이환현",
       "countryCode": "kr",
@@ -5931,7 +5924,7 @@
       "divisionKey": "bantam",
       "division": "밴텀급",
       "champion": false,
-      "rank": 29,
+      "rank": 30,
       "ringName": "매드카우",
       "name": "이성원",
       "countryCode": "kr",
@@ -5948,7 +5941,7 @@
       "ringName": "시라소니",
       "name": "방성혁",
       "countryCode": "kr",
-      "recordRaw": "8 / 0 / 0",
+      "recordRaw": "9 / 0 / 0",
       "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/79683172"
     },
@@ -5961,21 +5954,34 @@
       "ringName": "아레스",
       "name": "김태균",
       "countryCode": "kr",
-      "recordRaw": "12 / 3 / 0",
+      "recordRaw": "12 / 4 / 0",
       "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/82685239"
+    },
+    {
+      "fighterId": "71392066",
+      "divisionKey": "feather",
+      "division": "페더급",
+      "champion": false,
+      "rank": 2,
+      "ringName": "붉은매",
+      "name": "지혁민",
+      "countryCode": "kr",
+      "recordRaw": "9 / 1 / 0",
+      "rankChange": "▲ 5",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/71392066"
     },
     {
       "fighterId": "77842475",
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
-      "rank": 2,
+      "rank": 3,
       "ringName": "싸이코",
       "name": "Victor Hugo",
       "countryCode": "br",
-      "recordRaw": "26 / 8 / 0",
-      "rankChange": "-",
+      "recordRaw": "26 / 9 / 0",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/77842475"
     },
     {
@@ -5983,12 +5989,12 @@
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
-      "rank": 3,
+      "rank": 4,
       "ringName": "울프킹",
       "name": "Adilet Nurmatov",
       "countryCode": "kg",
       "recordRaw": "14 / 3 / 0",
-      "rankChange": "-",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/37050120"
     },
     {
@@ -5996,26 +6002,13 @@
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
-      "rank": 4,
+      "rank": 5,
       "ringName": "코리안 모아이",
       "name": "김민우",
       "countryCode": "kr",
       "recordRaw": "13 / 2 / 0",
-      "rankChange": "▲ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/50893031"
-    },
-    {
-      "fighterId": "34145632",
-      "divisionKey": "feather",
-      "division": "페더급",
-      "champion": false,
-      "rank": 5,
-      "ringName": "락스톤",
-      "name": "Lucas Bento",
-      "countryCode": "br",
-      "recordRaw": "9 / 7 / 0",
       "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/34145632"
+      "profileUrl": "https://www.blackcombat-official.com/fighter/50893031"
     },
     {
       "fighterId": "51712256",
@@ -6026,22 +6019,22 @@
       "ringName": "데드샷",
       "name": "Ortsa Gudaev",
       "countryCode": "ru",
-      "recordRaw": "15 / 4 / 0",
+      "recordRaw": "16 / 4 / 0",
       "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51712256"
     },
     {
-      "fighterId": "71392066",
+      "fighterId": "34145632",
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
       "rank": 7,
-      "ringName": "붉은매",
-      "name": "지혁민",
-      "countryCode": "kr",
-      "recordRaw": "8 / 1 / 0",
-      "rankChange": "▲ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/71392066"
+      "ringName": "락스톤",
+      "name": "Lucas Bento",
+      "countryCode": "br",
+      "recordRaw": "9 / 7 / 0",
+      "rankChange": "▼ 2",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/34145632"
     },
     {
       "fighterId": "62550126",
@@ -6053,7 +6046,7 @@
       "name": "Ismail Kelemetov",
       "countryCode": "ru",
       "recordRaw": "11 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/62550126"
     },
     {
@@ -6078,8 +6071,8 @@
       "ringName": "불주먹",
       "name": "방재혁",
       "countryCode": "kr",
-      "recordRaw": "17 / 10 / 0",
-      "rankChange": "▲ 5",
+      "recordRaw": "17 / 11 / 0",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/28308426"
     },
     {
@@ -6092,7 +6085,7 @@
       "name": "Felipe Pereira",
       "countryCode": "br",
       "recordRaw": "10 / 3 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/61891168"
     },
     {
@@ -6105,7 +6098,7 @@
       "name": "Leonardo Diniz",
       "countryCode": "br",
       "recordRaw": "16 / 4 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/35516338"
     },
     {
@@ -6117,8 +6110,8 @@
       "ringName": "야인",
       "name": "이도겸",
       "countryCode": "kr",
-      "recordRaw": "11 / 9 / 0",
-      "rankChange": "▼ 1",
+      "recordRaw": "12 / 9 / 0",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/63267425"
     },
     {
@@ -6131,7 +6124,7 @@
       "name": "손유찬",
       "countryCode": "kr",
       "recordRaw": "3 / 5 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/69610658"
     },
     {
@@ -6144,7 +6137,7 @@
       "name": "신승민",
       "countryCode": "kr",
       "recordRaw": "14 / 8 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/74943577"
     },
     {
@@ -6156,7 +6149,7 @@
       "ringName": "머큐리",
       "name": "Flavio Santos",
       "countryCode": "br",
-      "recordRaw": "14 / 11 / 0",
+      "recordRaw": "14 / 12 / 0",
       "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/53339805"
     },
@@ -6183,7 +6176,7 @@
       "name": "Toma Mitsuhiro",
       "countryCode": "jp",
       "recordRaw": "17 / 12 / 2",
-      "rankChange": "▲ 3",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/73185034"
     },
     {
@@ -6196,7 +6189,7 @@
       "name": "Daniel McElhaney",
       "countryCode": "us",
       "recordRaw": "9 / 4 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/88590651"
     },
     {
@@ -6209,7 +6202,7 @@
       "name": "박상현",
       "countryCode": "kr",
       "recordRaw": "9 / 7 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/84586763"
     },
     {
@@ -6222,7 +6215,7 @@
       "name": "남의철",
       "countryCode": "kr",
       "recordRaw": "21 / 10 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/63918145"
     },
     {
@@ -6239,29 +6232,16 @@
       "profileUrl": "https://www.blackcombat-official.com/fighter/85172995"
     },
     {
-      "fighterId": "64326511",
-      "divisionKey": "feather",
-      "division": "페더급",
-      "champion": false,
-      "rank": 23,
-      "ringName": "아이언 힙",
-      "name": "미야히라 슈타로",
-      "countryCode": "jp",
-      "recordRaw": "4 / 5 / 0",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/64326511"
-    },
-    {
       "fighterId": "31606646",
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
-      "rank": 24,
+      "rank": 23,
       "ringName": "피니셔",
       "name": "황준호",
       "countryCode": "kr",
-      "recordRaw": "5 / 3 / 0",
-      "rankChange": "-",
+      "recordRaw": "6 / 3 / 0",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/31606646"
     },
     {
@@ -6269,13 +6249,26 @@
       "divisionKey": "feather",
       "division": "페더급",
       "champion": false,
-      "rank": 25,
+      "rank": 24,
       "ringName": "사이보그",
       "name": "허선행",
       "countryCode": "kr",
-      "recordRaw": "5 / 5 / 1",
-      "rankChange": "-",
+      "recordRaw": "6 / 5 / 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51243766"
+    },
+    {
+      "fighterId": "64326511",
+      "divisionKey": "feather",
+      "division": "페더급",
+      "champion": false,
+      "rank": 25,
+      "ringName": "아이언 힙",
+      "name": "미야히라 슈타로",
+      "countryCode": "jp",
+      "recordRaw": "4 / 5 / 0",
+      "rankChange": "▼ 2",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/64326511"
     },
     {
       "fighterId": "69457329",
@@ -6338,21 +6331,34 @@
       "ringName": "캡틴 코리아",
       "name": "정한국",
       "countryCode": "kr",
-      "recordRaw": "14 / 11 / 2",
+      "recordRaw": "15 / 11 / 2",
       "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/22363165"
+    },
+    {
+      "fighterId": "41326305",
+      "divisionKey": "light",
+      "division": "라이트급",
+      "champion": false,
+      "rank": 1,
+      "ringName": "다게르",
+      "name": "Ali Gadzhiev",
+      "countryCode": "ru",
+      "recordRaw": "6 / 0 / 0",
+      "rankChange": "▲ 2",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/41326305"
     },
     {
       "fighterId": "95863943",
       "divisionKey": "light",
       "division": "라이트급",
       "champion": false,
-      "rank": 1,
+      "rank": 2,
       "ringName": "수부타이",
       "name": "난딘에르덴",
       "countryCode": "mn",
-      "recordRaw": "19 / 11 / 0",
-      "rankChange": "-",
+      "recordRaw": "19 / 12 / 0",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/95863943"
     },
     {
@@ -6360,26 +6366,13 @@
       "divisionKey": "light",
       "division": "라이트급",
       "champion": false,
-      "rank": 2,
+      "rank": 3,
       "ringName": "영보스",
       "name": "박어진",
       "countryCode": "kr",
-      "recordRaw": "11 / 2 / 1",
-      "rankChange": "▲ 3",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/76220784"
-    },
-    {
-      "fighterId": "41326305",
-      "divisionKey": "light",
-      "division": "라이트급",
-      "champion": false,
-      "rank": 3,
-      "ringName": "다게르",
-      "name": "Ali Gadzhiev",
-      "countryCode": "ru",
-      "recordRaw": "5 / 0 / 0",
+      "recordRaw": "11 / 3 / 1",
       "rankChange": "▼ 1",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/41326305"
+      "profileUrl": "https://www.blackcombat-official.com/fighter/76220784"
     },
     {
       "fighterId": "32056354",
@@ -6391,7 +6384,7 @@
       "name": "문기범",
       "countryCode": "kr",
       "recordRaw": "14 / 9 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/32056354"
     },
     {
@@ -6404,20 +6397,33 @@
       "name": "Chuka Willis",
       "countryCode": "us",
       "recordRaw": "18 / 7 / 0",
-      "rankChange": "▲ 6",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/29363216"
+    },
+    {
+      "fighterId": "89975978",
+      "divisionKey": "light",
+      "division": "라이트급",
+      "champion": false,
+      "rank": 6,
+      "ringName": "곰주먹",
+      "name": "김정균",
+      "countryCode": "kr",
+      "recordRaw": "6 / 4 / 0",
+      "rankChange": "▲ 3",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/89975978"
     },
     {
       "fighterId": "37054476",
       "divisionKey": "light",
       "division": "라이트급",
       "champion": false,
-      "rank": 6,
+      "rank": 7,
       "ringName": "피에로",
       "name": "이송하",
       "countryCode": "kr",
       "recordRaw": "4 / 5 / 0",
-      "rankChange": "New",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/37054476"
     },
     {
@@ -6425,12 +6431,12 @@
       "divisionKey": "light",
       "division": "라이트급",
       "champion": false,
-      "rank": 7,
+      "rank": 8,
       "ringName": "사쿠라",
       "name": "황도윤",
       "countryCode": "kr",
-      "recordRaw": "3 / 6 / 0",
-      "rankChange": "▼ 2",
+      "recordRaw": "3 / 7 / 0",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/65081168"
     },
     {
@@ -6438,26 +6444,13 @@
       "divisionKey": "light",
       "division": "라이트급",
       "champion": false,
-      "rank": 8,
+      "rank": 9,
       "ringName": "헌터",
       "name": "박종헌",
       "countryCode": "kr",
       "recordRaw": "7 / 6 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "▼ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/14674653"
-    },
-    {
-      "fighterId": "89975978",
-      "divisionKey": "light",
-      "division": "라이트급",
-      "champion": false,
-      "rank": 9,
-      "ringName": "곰주먹",
-      "name": "김정균",
-      "countryCode": "kr",
-      "recordRaw": "5 / 4 / 0",
-      "rankChange": "▼ 2",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/89975978"
     },
     {
       "fighterId": "51940035",
@@ -6469,7 +6462,7 @@
       "name": "이영훈",
       "countryCode": "kr",
       "recordRaw": "8 / 5 / 1",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/51940035"
     },
     {
@@ -6482,7 +6475,7 @@
       "name": "Yamamoto Takuya",
       "countryCode": "jp",
       "recordRaw": "11 / 4 / 1",
-      "rankChange": "▲ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/14307481"
     },
     {
@@ -6495,7 +6488,7 @@
       "name": "정용완",
       "countryCode": "kr",
       "recordRaw": "5 / 2 / 0",
-      "rankChange": "▼ 3",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/25058160"
     },
     {
@@ -6508,7 +6501,7 @@
       "name": "Bruno Itamar",
       "countryCode": "br",
       "recordRaw": "5 / 0 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/37418531"
     },
     {
@@ -6521,7 +6514,7 @@
       "name": "정영제",
       "countryCode": "kr",
       "recordRaw": "6 / 6 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/32699714"
     },
     {
@@ -6534,7 +6527,7 @@
       "name": "Youssef Barakat",
       "countryCode": "eg",
       "recordRaw": "9 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/58305359"
     },
     {
@@ -6547,7 +6540,7 @@
       "name": "오수환",
       "countryCode": "kr",
       "recordRaw": "8 / 2 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/93859694"
     },
     {
@@ -6560,7 +6553,7 @@
       "name": "Deberson Batista",
       "countryCode": "br",
       "recordRaw": "14 / 6 / 2",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/50151784"
     },
     {
@@ -6573,7 +6566,7 @@
       "name": "Gantumur",
       "countryCode": "mn",
       "recordRaw": "4 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/70806645"
     },
     {
@@ -6586,7 +6579,7 @@
       "name": "장근영",
       "countryCode": "kr",
       "recordRaw": "3 / 5 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/38266375"
     },
     {
@@ -6599,7 +6592,7 @@
       "name": "윤다원",
       "countryCode": "kr",
       "recordRaw": "5 / 9 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/93566249"
     },
     {
@@ -6612,7 +6605,7 @@
       "name": "전현우",
       "countryCode": "kr",
       "recordRaw": "2 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/34176555"
     },
     {
@@ -6625,7 +6618,7 @@
       "name": "최지수",
       "countryCode": "kr",
       "recordRaw": "3 / 3 / 1",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/31777288"
     },
     {
@@ -6638,7 +6631,7 @@
       "name": "이성은",
       "countryCode": "kr",
       "recordRaw": "2 / 0 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/42447555"
     },
     {
@@ -6651,7 +6644,7 @@
       "name": "김성윤",
       "countryCode": "kr",
       "recordRaw": "3 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/95796168"
     },
     {
@@ -6664,7 +6657,7 @@
       "name": "손민",
       "countryCode": "kr",
       "recordRaw": "5 / 3 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/73557323"
     },
     {
@@ -6677,7 +6670,7 @@
       "name": "Azizbek Norov",
       "countryCode": "uz",
       "recordRaw": "7 / 4 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/38215319"
     },
     {
@@ -6690,7 +6683,7 @@
       "name": "이환성",
       "countryCode": "kr",
       "recordRaw": "2 / 6 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/68103858"
     },
     {
@@ -6703,20 +6696,20 @@
       "name": "김상윤",
       "countryCode": "kr",
       "recordRaw": "0 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/82197006"
     },
     {
       "fighterId": "51253531",
       "divisionKey": "welter",
       "division": "웰터급",
-      "champion": false,
-      "rank": 1,
+      "champion": true,
+      "rank": null,
       "ringName": "헌츠맨",
       "name": "Sultan Omarov",
       "countryCode": "bh",
-      "recordRaw": "9 / 0 / 0",
-      "rankChange": "-",
+      "recordRaw": "10 / 0 / 0",
+      "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/51253531"
     },
     {
@@ -6724,12 +6717,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 2,
+      "rank": 1,
       "ringName": "레오파드",
       "name": "Luan Santiago",
       "countryCode": "br",
-      "recordRaw": "24 / 8 / 0",
-      "rankChange": "-",
+      "recordRaw": "24 / 9 / 0",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/27796067"
     },
     {
@@ -6737,12 +6730,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 3,
+      "rank": 2,
       "ringName": "킹콩",
       "name": "오일학",
       "countryCode": "kr",
-      "recordRaw": "6 / 4 / 0",
-      "rankChange": "-",
+      "recordRaw": "6 / 5 / 0",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/91010996"
     },
     {
@@ -6750,12 +6743,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 4,
+      "rank": 3,
       "ringName": "동백",
       "name": "진태호",
       "countryCode": "kr",
       "recordRaw": "13 / 9 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/11943234"
     },
     {
@@ -6763,51 +6756,25 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 5,
+      "rank": 4,
       "ringName": "사무라이",
       "name": "Patrick Kelvin",
       "countryCode": "br",
       "recordRaw": "10 / 3 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/34473780"
-    },
-    {
-      "fighterId": "58100688",
-      "divisionKey": "welter",
-      "division": "웰터급",
-      "champion": false,
-      "rank": 6,
-      "ringName": "코리안 갱스터",
-      "name": "박원식",
-      "countryCode": "kr",
-      "recordRaw": "16 / 9 / 1",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/58100688"
-    },
-    {
-      "fighterId": "51523231",
-      "divisionKey": "welter",
-      "division": "웰터급",
-      "champion": false,
-      "rank": 7,
-      "ringName": "바이킹",
-      "name": "Lucas Marques",
-      "countryCode": "br",
-      "recordRaw": "19 / 6 / 0",
-      "rankChange": "-",
-      "profileUrl": "https://www.blackcombat-official.com/fighter/51523231"
     },
     {
       "fighterId": "42162303",
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 8,
+      "rank": 5,
       "ringName": "엄지장군",
       "name": "여동주",
       "countryCode": "kr",
       "recordRaw": "5 / 1 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 3",
       "profileUrl": "https://www.blackcombat-official.com/fighter/42162303"
     },
     {
@@ -6815,25 +6782,51 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 9,
+      "rank": 6,
       "ringName": "젠틀맨",
       "name": "Fabricio Azevedo",
       "countryCode": "br",
       "recordRaw": "12 / 4 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 3",
       "profileUrl": "https://www.blackcombat-official.com/fighter/48217777"
+    },
+    {
+      "fighterId": "58100688",
+      "divisionKey": "welter",
+      "division": "웰터급",
+      "champion": false,
+      "rank": 7,
+      "ringName": "코리안 갱스터",
+      "name": "박원식",
+      "countryCode": "kr",
+      "recordRaw": "16 / 9 / 1",
+      "rankChange": "▼ 1",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/58100688"
+    },
+    {
+      "fighterId": "51523231",
+      "divisionKey": "welter",
+      "division": "웰터급",
+      "champion": false,
+      "rank": 8,
+      "ringName": "바이킹",
+      "name": "Lucas Marques",
+      "countryCode": "br",
+      "recordRaw": "19 / 6 / 0",
+      "rankChange": "▼ 1",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/51523231"
     },
     {
       "fighterId": "11198227",
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 10,
+      "rank": 9,
       "ringName": "블랙맘바",
       "name": "김율",
       "countryCode": "kr",
       "recordRaw": "9 / 9 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/11198227"
     },
     {
@@ -6841,12 +6834,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 11,
+      "rank": 10,
       "ringName": "너드",
       "name": "Sander Silva",
       "countryCode": "br",
       "recordRaw": "4 / 0 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/40677542"
     },
     {
@@ -6854,12 +6847,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 12,
+      "rank": 11,
       "ringName": "쿠빌라이",
       "name": "뷰렌저릭",
       "countryCode": "mn",
       "recordRaw": "16 / 20 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/60298370"
     },
     {
@@ -6867,12 +6860,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 13,
+      "rank": 12,
       "ringName": "블랙리스트",
       "name": "박찬솔",
       "countryCode": "kr",
       "recordRaw": "5 / 2 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/72706256"
     },
     {
@@ -6880,12 +6873,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 14,
+      "rank": 13,
       "ringName": "박조교",
       "name": "박지환",
       "countryCode": "kr",
       "recordRaw": "3 / 1 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/41137884"
     },
     {
@@ -6893,12 +6886,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 15,
+      "rank": 14,
       "ringName": "방탄",
       "name": "김민석",
       "countryCode": "kr",
       "recordRaw": "6 / 4 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/95230129"
     },
     {
@@ -6906,12 +6899,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 16,
+      "rank": 15,
       "ringName": "갓균",
       "name": "김연균",
       "countryCode": "kr",
       "recordRaw": "3 / 3 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/57104443"
     },
     {
@@ -6919,12 +6912,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 17,
+      "rank": 16,
       "ringName": "니카",
       "name": "Gilberto Macedo",
       "countryCode": "br",
       "recordRaw": "3 / 2 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/79279699"
     },
     {
@@ -6932,12 +6925,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 18,
+      "rank": 17,
       "ringName": "스톤골렘",
       "name": "손민",
       "countryCode": "kr",
       "recordRaw": "5 / 3 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/73557323"
     },
     {
@@ -6945,12 +6938,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 19,
+      "rank": 18,
       "ringName": "오니",
       "name": "Tanaka Yu",
       "countryCode": "jp",
       "recordRaw": "7 / 6 / 0",
-      "rankChange": "-",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/43145922"
     },
     {
@@ -6958,12 +6951,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 20,
+      "rank": 19,
       "ringName": "건슬링거",
       "name": "Miles Hunsinger",
       "countryCode": "us",
       "recordRaw": "7 / 3 / 0",
-      "rankChange": "New",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/18336025"
     },
     {
@@ -6971,12 +6964,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 21,
+      "rank": 20,
       "ringName": "로꼬",
       "name": "Otacilio Oliveira",
       "countryCode": "br",
       "recordRaw": "7 / 9 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/64788066"
     },
     {
@@ -6984,12 +6977,12 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 22,
+      "rank": 21,
       "ringName": "그레네이드",
       "name": "이설호",
       "countryCode": "kr",
       "recordRaw": "4 / 9 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/40717069"
     },
     {
@@ -6997,39 +6990,39 @@
       "divisionKey": "welter",
       "division": "웰터급",
       "champion": false,
-      "rank": 23,
+      "rank": 22,
       "ringName": "청드래곤",
       "name": "이청수",
       "countryCode": "kr",
       "recordRaw": "1 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "▲ 1",
       "profileUrl": "https://www.blackcombat-official.com/fighter/17117825"
-    },
-    {
-      "fighterId": "91010996",
-      "divisionKey": "middle",
-      "division": "미들급",
-      "champion": true,
-      "rank": null,
-      "ringName": "킹콩",
-      "name": "오일학",
-      "countryCode": "kr",
-      "recordRaw": "6 / 4 / 0",
-      "rankChange": null,
-      "profileUrl": "https://www.blackcombat-official.com/fighter/91010996"
     },
     {
       "fighterId": "28865824",
       "divisionKey": "middle",
       "division": "미들급",
-      "champion": false,
-      "rank": 1,
+      "champion": true,
+      "rank": null,
       "ringName": "플라밍고",
       "name": "박정민",
       "countryCode": "kr",
-      "recordRaw": "9 / 2 / 0",
-      "rankChange": "▲ 2",
+      "recordRaw": "10 / 2 / 0",
+      "rankChange": null,
       "profileUrl": "https://www.blackcombat-official.com/fighter/28865824"
+    },
+    {
+      "fighterId": "91010996",
+      "divisionKey": "middle",
+      "division": "미들급",
+      "champion": false,
+      "rank": 1,
+      "ringName": "킹콩",
+      "name": "오일학",
+      "countryCode": "kr",
+      "recordRaw": "6 / 5 / 0",
+      "rankChange": "▼ 1",
+      "profileUrl": "https://www.blackcombat-official.com/fighter/91010996"
     },
     {
       "fighterId": "23743038",
@@ -7041,7 +7034,7 @@
       "name": "차정환",
       "countryCode": "kr",
       "recordRaw": "15 / 5 / 3",
-      "rankChange": "New",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/23743038"
     },
     {
@@ -7054,7 +7047,7 @@
       "name": "Eduardo Garvon",
       "countryCode": "br",
       "recordRaw": "17 / 6 / 1",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/46333839"
     },
     {
@@ -7067,7 +7060,7 @@
       "name": "함자트 차파노프",
       "countryCode": "ru",
       "recordRaw": "17 / 5 / 0",
-      "rankChange": "New",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/99123036"
     },
     {
@@ -7080,7 +7073,7 @@
       "name": "Dylan O'Sullivan",
       "countryCode": "us",
       "recordRaw": "7 / 3 / 0",
-      "rankChange": "▲ 5",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/73762798"
     },
     {
@@ -7093,7 +7086,7 @@
       "name": "Sato Ryutaro",
       "countryCode": "jp",
       "recordRaw": "10 / 3 / 0",
-      "rankChange": "▼ 4",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/53287506"
     },
     {
@@ -7106,7 +7099,7 @@
       "name": "Lucas Paredes",
       "countryCode": "br",
       "recordRaw": "5 / 2 / 1",
-      "rankChange": "▼ 3",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/39306363"
     },
     {
@@ -7119,7 +7112,7 @@
       "name": "최순태",
       "countryCode": "kr",
       "recordRaw": "4 / 2 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/27274064"
     },
     {
@@ -7132,7 +7125,7 @@
       "name": "Marcos Vinicius",
       "countryCode": "br",
       "recordRaw": "6 / 2 / 1",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/71953510"
     },
     {
@@ -7145,7 +7138,7 @@
       "name": "Khusan Urakov",
       "countryCode": "uz",
       "recordRaw": "6 / 2 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/60922090"
     },
     {
@@ -7158,7 +7151,7 @@
       "name": "최재현",
       "countryCode": "kr",
       "recordRaw": "5 / 6 / 0",
-      "rankChange": "▼ 2",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/42401461"
     },
     {
@@ -7171,7 +7164,7 @@
       "name": "홍희원",
       "countryCode": "kr",
       "recordRaw": "3 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/15335910"
     },
     {
@@ -7184,7 +7177,7 @@
       "name": "전호철",
       "countryCode": "kr",
       "recordRaw": "3 / 4 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/98498348"
     },
     {
@@ -7197,7 +7190,7 @@
       "name": "박성운",
       "countryCode": "kr",
       "recordRaw": "0 / 1 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/56124513"
     },
     {
@@ -7210,7 +7203,7 @@
       "name": "Gantulga",
       "countryCode": "mn",
       "recordRaw": "0 / 2 / 0",
-      "rankChange": "▼ 1",
+      "rankChange": "-",
       "profileUrl": "https://www.blackcombat-official.com/fighter/91192457"
     },
     {

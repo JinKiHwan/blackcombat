@@ -3,6 +3,7 @@
   "rewrites": [
     { "source": "/events/:path*", "destination": "/index.html" },
     { "source": "/numbering/:path*", "destination": "/index.html" },
+    { "source": "/fighter/:id", "destination": "/index.html" },
     { "source": "/ranking", "destination": "/index.html" },
     { "source": "/ranking/", "destination": "/index.html" },
     { "source": "/rules", "destination": "/index.html" },
