@@ -1,6 +1,6 @@
-import roster from '../../data/imports/blackcombat-fighters.json';
+import roster from '../../data/imports/blackcombat-fighters.json' with { type: 'json' };
 import numbering from '../../data/imports/numbering17-official.json';
-import numberingProfiles from '../../data/imports/numbering17-profiles.json';
+import numberingProfiles from '../../data/imports/numbering17-profiles.json' with { type: 'json' };
 
 const rankedFighters = new Map(roster.fighters.map(fighter => [fighter.fighterId, fighter]));
 const numberingFighters = new Map(numbering.matches.flatMap(match =>

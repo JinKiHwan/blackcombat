@@ -1,5 +1,5 @@
-import fighterData from '../data/imports/blackcombat-fighters.json';
-import profiles17 from '../data/imports/numbering17-profiles.json';
+import fighterData from '../data/imports/blackcombat-fighters.json' with { type: 'json' };
+import profiles17 from '../data/imports/numbering17-profiles.json' with { type: 'json' };
 
 // 모든 이름·대진·숫자는 레이아웃 확인용 예시입니다. 공식 데이터로 교체하세요.
 export const site = {

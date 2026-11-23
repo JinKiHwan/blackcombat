@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import dataset from '../../data/imports/blackcombat-fighters.json';
+import dataset from '../../data/imports/blackcombat-fighters.json' with { type: 'json' };
 import FighterFlag, { countryLabel } from '../components/FighterFlag.jsx';
 import './ranking.css';
 

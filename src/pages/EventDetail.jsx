@@ -1,5 +1,5 @@
 import catalog from '../../data/imports/blackcombat-events.json';
-import fighters from '../../data/imports/blackcombat-fighters.json';
+import fighters from '../../data/imports/blackcombat-fighters.json' with { type: 'json' };
 import Numbering from './Numbering.jsx';
 import './events.css';
 import ages from '../../data/imports/blackcombat-profile-ages.json';
